@@ -1,0 +1,44 @@
+\documentclass[a4paper, 11pt, draft]{book}
+%\documentclass[a4paper, 11pt, draft]{book}
+
+% Packages used
+\usepackage{graphicx}
+\usepackage{booktabs} % Good looking tables
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage[sorting=none]{biblatex}
+\usepackage{lscape}
+
+% Define new command for typesetting mathematical units in mathmode - see 
+% http://termos.vemod.net/typesetting-units-in-latex
+\newcommand{\unit}[1]{\ensuremath{\, \mathrm{#1}}}
+
+% Some macros
+\newcommand{\degC}{^{\circ}C}
+\newcommand{\deg}{^{\circ}}
+
+% Prefix equation/figure numbers with section number
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+
+% Try the Biblatex package
+\bibliography{journals,bibliography}
+
+\begin{document}
+
+% Pages from here ...
+\input{misc\title.tex}
+\input{misc\declaration.tex}
+\input{misc\summary.tex}
+\input{misc\acknowledgements.tex}
+\input{misc\tableoofcontents.tex}
+% ... to here are not numbered
+
+% Main content here
+
+% Bibliography
+\input{misc\bibliography.tex}
+
+% Appendix here
+
+\end{document}
