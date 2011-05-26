@@ -8,14 +8,15 @@
 \usepackage{amsmath}
 \usepackage[sorting=none]{biblatex}
 \usepackage{lscape}
+\usepackage{units}
+
+% Define some macros
+\input{macros.tex}
 
 % Define new command for typesetting mathematical units in mathmode - see 
 % http://termos.vemod.net/typesetting-units-in-latex
 \newcommand{\unit}[1]{\ensuremath{\, \mathrm{#1}}}
 
-% Some macros
-\newcommand{\degC}{^{\circ}C}
-\newcommand{\deg}{^{\circ}}
 
 % Prefix equation/figure numbers with section number
 \numberwithin{equation}{section}
