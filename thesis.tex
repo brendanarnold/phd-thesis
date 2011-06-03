@@ -11,12 +11,7 @@
 \usepackage{units}
 
 % Define some macros
-\input{macros.tex}
-
-% Define new command for typesetting mathematical units in mathmode - see 
-% http://termos.vemod.net/typesetting-units-in-latex
-\newcommand{\unit}[1]{\ensuremath{\, \mathrm{#1}}}
-
+\input{Misc/macros.tex}
 
 % Prefix equation/figure numbers with section number
 \numberwithin{equation}{section}
@@ -28,17 +23,22 @@
 \begin{document}
 
 % Pages from here ...
-\input{misc\title.tex}
-\input{misc\declaration.tex}
-\input{misc\summary.tex}
-\input{misc\acknowledgements.tex}
-\input{misc\tableoofcontents.tex}
+\input{Misc/title.tex}
+\input{Misc/declaration.tex}
+\input{Misc/summary.tex}
+\input{Misc/acknowledgements.tex}
+\input{Misc/tableofcontents.tex}
 % ... to here are not numbered
 
 % Main content here
+\input{Chapter1-Introduction/main.tex}
+\input{Chapter2-ExperimentalTechnique/main.tex}
+\input{Chapter3-dHvABaFe2P2/main.tex}
+\input{Chapter4-HallBSCO/main.tex}
+\input{Chapter5-MagnetoresistanceBSCO/main.tex}
 
 % Bibliography
-\input{misc\bibliography.tex}
+\input{Misc/bibliography.tex}
 
 % Appendix here
 
