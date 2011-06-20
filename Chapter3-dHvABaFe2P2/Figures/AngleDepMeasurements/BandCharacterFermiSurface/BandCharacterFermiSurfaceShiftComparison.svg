@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 "
+   sodipodi:docname="BandCharacterFermiSurfaceShiftComparison.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="340.51641"
+     inkscape:cy="815.6091"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="923"
+     inkscape:window-height="830"
+     inkscape:window-x="84"
+     inkscape:window-y="51"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <image
+       y="114.1979"
+       x="217.88342"
+       id="image3004"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/BandCharacterFermiSurface/Band1_Shifted.png"
+       height="120.9"
+       width="127.5" />
+    <image
+       y="114.1979"
+       x="94.340248"
+       id="image2993"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/BandCharacterFermiSurface/Band1_UnShifted.png"
+       height="120.9"
+       width="127.5" />
+    <image
+       y="114.1979"
+       x="492.74646"
+       id="image3026"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/BandCharacterFermiSurface/Band2_Shifted.png"
+       height="120.9"
+       width="127.5" />
+    <image
+       y="251.38477"
+       x="492.74646"
+       id="image3070"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/BandCharacterFermiSurface/Band4_Shifted.png"
+       height="115.5"
+       width="126" />
+    <image
+       y="114.1979"
+       x="367.18295"
+       id="image3015"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/BandCharacterFermiSurface/Band2_UnShifted.png"
+       height="120.9"
+       width="127.5" />
+    <image
+       y="251.38477"
+       x="217.88342"
+       id="image3048"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/BandCharacterFermiSurface/Band3_Shifted.png"
+       height="115.5"
+       width="126" />
+    <image
+       y="251.38477"
+       x="94.340248"
+       id="image3037"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/BandCharacterFermiSurface/Band3_UnShifted.png"
+       height="115.5"
+       width="126" />
+    <image
+       y="251.38477"
+       x="367.18295"
+       id="image3059"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/BandCharacterFermiSurface/Band4_UnShifted.png"
+       height="115.5"
+       width="126" />
+    <g
+       transform="matrix(0.62757367,0,0,0.62757367,113.18052,-129.58123)"
+       id="g3081">
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         id="rect3083"
+         width="77.781715"
+         height="11.11164"
+         x="130.30968"
+         y="453.34174" />
+      <path
+         sodipodi:type="star"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         id="path3085"
+         sodipodi:sides="3"
+         sodipodi:cx="268.70059"
+         sodipodi:cy="437.17929"
+         sodipodi:r1="27.737841"
+         sodipodi:r2="13.868921"
+         sodipodi:arg1="2.0943951"
+         sodipodi:arg2="3.1415927"
+         inkscape:flatsided="false"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 254.83167,461.20097 0,-24.02168 0,-24.02167 20.80338,12.01083 20.80338,12.01084 -20.80338,12.01084 z"
+         inkscape:transform-center-x="-6.9344596"
+         transform="matrix(1,0,0,0.51640531,-49.497475,233.13586)" />
+    </g>
+    <g
+       transform="matrix(0.62757367,0,0,0.62757367,384.91155,-131.60153)"
+       id="g3087">
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         id="rect3089"
+         width="77.781715"
+         height="11.11164"
+         x="130.30968"
+         y="453.34174" />
+      <path
+         sodipodi:type="star"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         id="path3091"
+         sodipodi:sides="3"
+         sodipodi:cx="268.70059"
+         sodipodi:cy="437.17929"
+         sodipodi:r1="27.737841"
+         sodipodi:r2="13.868921"
+         sodipodi:arg1="2.0943951"
+         sodipodi:arg2="3.1415927"
+         inkscape:flatsided="false"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 254.83167,461.20097 0,-24.02168 0,-24.02167 20.80338,12.01083 20.80338,12.01084 -20.80338,12.01084 z"
+         inkscape:transform-center-x="-6.9344596"
+         transform="matrix(1,0,0,0.51640531,-49.497475,233.13586)" />
+    </g>
+    <g
+       transform="matrix(0.62757367,0,0,0.62757367,390.97247,2.7690609)"
+       id="g3093">
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         id="rect3095"
+         width="77.781715"
+         height="11.11164"
+         x="130.30968"
+         y="453.34174" />
+      <path
+         sodipodi:type="star"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         id="path3097"
+         sodipodi:sides="3"
+         sodipodi:cx="268.70059"
+         sodipodi:cy="437.17929"
+         sodipodi:r1="27.737841"
+         sodipodi:r2="13.868921"
+         sodipodi:arg1="2.0943951"
+         sodipodi:arg2="3.1415927"
+         inkscape:flatsided="false"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 254.83167,461.20097 0,-24.02168 0,-24.02167 20.80338,12.01083 20.80338,12.01084 -20.80338,12.01084 z"
+         inkscape:transform-center-x="-6.9344596"
+         transform="matrix(1,0,0,0.51640531,-49.497475,233.13586)" />
+    </g>
+    <g
+       id="g3077"
+       transform="matrix(0.62757367,0,0,0.62757367,112.17036,4.789366)">
+      <rect
+         y="453.34174"
+         x="130.30968"
+         height="11.11164"
+         width="77.781715"
+         id="rect3073"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <path
+         transform="matrix(1,0,0,0.51640531,-49.497475,233.13586)"
+         inkscape:transform-center-x="-6.9344596"
+         d="m 254.83167,461.20097 0,-24.02168 0,-24.02167 20.80338,12.01083 20.80338,12.01084 -20.80338,12.01084 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="3.1415927"
+         sodipodi:arg1="2.0943951"
+         sodipodi:r2="13.868921"
+         sodipodi:r1="27.737841"
+         sodipodi:cy="437.17929"
+         sodipodi:cx="268.70059"
+         sodipodi:sides="3"
+         id="path3075"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         sodipodi:type="star" />
+    </g>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3103"
+       y="112.36218"
+       x="272.14285"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         style="font-size:10px"
+         y="112.36218"
+         x="272.14285"
+         id="tspan3105"
+         sodipodi:role="line">Shifted</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3107"
+       y="253.79076"
+       x="275"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         style="font-size:10px"
+         y="253.79076"
+         x="275"
+         id="tspan3109"
+         sodipodi:role="line">Shifted</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3111"
+       y="108.79076"
+       x="546.42853"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         style="font-size:10px"
+         y="108.79076"
+         x="546.42853"
+         id="tspan3113"
+         sodipodi:role="line">Shifted</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3115"
+       y="251.6479"
+       x="547.85712"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         style="font-size:10px"
+         y="251.6479"
+         x="547.85712"
+         id="tspan3117"
+         sodipodi:role="line">Shifted</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3119"
+       y="251.6479"
+       x="420.71426"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         style="font-size:10px"
+         y="251.6479"
+         x="420.71426"
+         id="tspan3121"
+         sodipodi:role="line">Unshifted</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3123"
+       y="111.6479"
+       x="418.57141"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         style="font-size:10px"
+         y="111.6479"
+         x="418.57141"
+         id="tspan3125"
+         sodipodi:role="line">Unshifted</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3127"
+       y="253.79076"
+       x="146.42857"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         style="font-size:10px"
+         y="253.79076"
+         x="146.42857"
+         id="tspan3129"
+         sodipodi:role="line">Unshifted</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="143.57143"
+       y="112.36218"
+       id="text3099"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3101"
+         x="143.57143"
+         y="112.36218"
+         style="font-size:10px">Unshifted</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3135"
+       y="119.50504"
+       x="211.42856"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         style="font-size:10px;font-style:oblique;-inkscape-font-specification:Arial Oblique"
+         y="119.50504"
+         x="211.42856"
+         id="tspan3137"
+         sodipodi:role="line">Band 1</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3139"
+       y="120.21932"
+       x="490"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         style="font-size:10px;font-style:oblique;-inkscape-font-specification:Arial Oblique"
+         y="120.21932"
+         x="490"
+         id="tspan3141"
+         sodipodi:role="line">Band 2</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3143"
+       y="258.07648"
+       x="488.57141"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         style="font-size:10px;font-style:oblique;-inkscape-font-specification:Arial Oblique"
+         y="258.07648"
+         x="488.57141"
+         id="tspan3145"
+         sodipodi:role="line">Band 4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="214.28571"
+       y="261.64789"
+       id="text3131"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3133"
+         x="214.28571"
+         y="261.64789"
+         style="font-size:10px;font-style:oblique;-inkscape-font-specification:Arial Oblique">Band 3</tspan></text>
+  </g>
+</svg>
