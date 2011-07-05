@@ -2,22 +2,67 @@
 \section{Angle dependent measurements}
     \label{Sec:3:AngleDependentMeasurements}
 
+\subsection{Preliminary measurements}
+
+Preliminary measurements showed very strong dHvA oscillations which begin at relatively low field.  An example of the raw data can be seen in \fig~\ref{Fig:3:RawOscillations}. Since is is not clear from the raw oscillations where the oscillations begin, Fourier transforms were taken with small field windows -- the interval where a clear signal is present marks the onset of oscillations. A FFT of the data between $6\unit{T}$ and $7\unit{T}$ is shown in the inset of the figure. This clearly shows the electron peaks at $1370\unit{T}$, $2175\unit{T}$ and $2343\unit{T}$, whereas below $6\unit{T}$ there was no appreciable signal. For subsequent measurements the field was ramped between $6\unit{T}$ and the dafe maximum of $18\unit{T}$ unless otherwise stated.
+
+\begin{figure}[h!]
+    \begin{center}
+        \includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/RawOscillations/RawOscillations}
+        \caption{An example of the torque data taken with field aligned at $9\degree$ from the $[001]$ direction. Inset shows a FFT of the data between $6\unit{T}$ and $8\unit{T}$}
+        \label{Fig:3:RawOscillations}
+    \end{center}
+\end{figure}
+
+
+ \Fig~\ref{Fig:3:RawOscillationSamples} shows some example Fourier transforms of data taken at various sweep rates. Since there is little difference between the sweeps at $0.05\unit{T/min.}$ and $0.1\unit{T/min.}$, subsequent sweeps were performed at $0.1\unit{T/min.}$.
+
+\begin{figure}[h!]
+    \begin{center}
+        \includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/SweepRateComparison/SweepRateComparison}
+        \caption{FFTs showing the peak from the smaller branch of band $3$ shifted arbitrarily for comparison with the $B$ field at $10\degree$ from $[001]$ int the $[110]$ direction. Sweeps were performed at, A: $0.05\unit{T/min.}$, B: $0.1\unit{T/min.}$ and C: $0.2\unit{T/min.}$}
+        \label{Fig:3:ComparisonSweepRates}
+    \end{center}
+\end{figure}
+
+Measurements were taken at one degree intervals from the $B || c$-axis ($[001]$) down to $B || [100]$ and from $B || c$-axis down to $B || [110]$. \Fig~\ref{Fig:3:FFTExamples} shows three example FFTs which show all the bands identified the next section. They also show first and second harmonics\footnote{Third harmonics were also identified in other FFTs, these are marked in \fig~\ref{Fig:3:AngleSweepMeasured}.}.
+
+\begin{figure}[h!]
+    \begin{center}
+        %\includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/FFTExamples/FFTExamples}
+        \includegraphics[scale=0.7]{Misc/TODO}
+        \caption{}
+        \label{Fig:3:FFTExamples}
+    \end{center}
+\end{figure}
+
+The highlighted, low frequency region in \fig~\ref{Fig:3:FFTExamples} shows some Fourier weight which contains low-frequency noise and background from the cantilever but, according to later analysis, likely contains signal from the minimum of band $1$.
+
+
+TODO: Example FFT
+TODO: Low frequency noise investigation
+
 
 \subsection{Mapping the Fermi surface with DFT calculations}
     \label{Sec:3:MappingFermiSurfaceDFTCalulations}
+
+DFT calculations were performed using WIEN2k~\cite{Blaha2001} using the Generalised Gradient Approximation (GGA). This code was then processed using MATLAB code\footnote{Main body of code developed by Dr. Ed Yelland, School of Physics \& Astronomy, room 162, University of St Andrews, North Haugh, St Andrews KY16 9SS} to render a simulation of angle dependant dHvA measurements which is shown in \fig~\ref{Fig:3:ComparisonRotationPlotUnshiftedDFT}. 
+
 
 \begin{figure}[h!]
     \begin{center}
         \includegraphics[scale=0.7]{Misc/TODO}
         \caption{dHvA frequencies nultipled by angle of the $B$ field. Solid lines are DFT calculations, open circles are measured data. $B$ field directed along (a) $[001]\rightarrow[100]$ and (b) $[001]\rightarrow[110]$.}
-        \label{Fig:3:ComparisonRotationPlotMeasuredDFT}
+        \label{Fig:3:ComparisonRotationPlotUnshiftedDFT}
     \end{center}
 \end{figure}
+
+For the $[110]$ direction it became apparent from the fact that the DFT and the measured curves were qualitatively different that the field was not perfectly aligned with the $[110]$ axis of the sample. By assuming that the measurements were taken from the $c$-axis direction down to a vector rotated $10\deg$ within the $ab$-plane from the $[110]$ direction, the DFT data matches much better. This is within the estimated error for alignment from the microscope images.
 
 
 \subsubsection{Rigidly shifting the calculated DFT energies}
 
-As is shown in \fig~\ref{Fig:3:ComparisonRotationPlotMeasuredDFT}, the rotation plots from the DFT calculations match up qualitatively with the data but do not match up quantitatively -- the electron bands overestimating the size of the measured extremal orbits by around TODO and the hole orbits overestimating the extremal orbits by around TODO. 
+As is shown in \fig~\ref{Fig:3:ComparisonRotationPlotUnshiftedDFT}, the rotation plots from the DFT calculations match up qualitatively with the data but do not match up quantitatively -- the electron bands overestimating the size of the measured extremal orbits by around TODO and the hole orbits overestimating the extremal orbits by around TODO. 
 
 \begin{figure}[h!]
     \begin{center}
@@ -90,9 +135,22 @@ Note that these scalings ensure that the energy shift applied varies between $-0
 
 The second and third panels of \fig~\ref{Fig:3:Band2DCharacterRigidComparison} show the rotation plots calculated with the energy shifts applied proportional to \DzTwo and \DxzDyz orbital character respecitvely. We observe a much better alignment of the measured and calculated data for all angles.
 
+Using the rigid energy shifts for bands $1$, $3$ and $4$ and using shifts scaled to \DzTwo orbital character for band $2$, as well as incorporating the corrections discussed in section~\ref{Sec:3:MappingFermiSurfaceDFTCalulations}, \fig~\ref{Fig:3:FinalRotPlot} shows the measured rotation plot for all bands along with corrected DFT data. \Fig~\ref{Fig:3:DFTCorrectedUnitCell} shows the unit cell for \BaFeP from the corrected DFT calculations.
 
-
-
+\begin{figure}[h!]
+    \begin{center}
+        \includegraphics[scale=0.7]{Misc/TODO}
+        \caption{dHvA frequencies for band 2 multipled by the cosine of the angle of the $B$ field. Open circles are measured data, solid lines represent DFT calculation shifted rigidly or scaled with the \DzTwo orbital character. $B$ field directed along (a) $[001]\rightarrow[110]$ and (b) $[001]\rightarrow[110]$.}
+        \label{Fig:3:FinalRotPlot}
+    \end{center}
+\end{figure}
+\begin{figure}[h!]
+    \begin{center}
+        \includegraphics[scale=0.7]{Misc/TODO}
+        \caption{Fermi surface in the first Brillouin of \BaFeP as determined by DFT calculations corrected by either rigid energy shifts (bands 1, 3, 4) or shifts proprtional to \DzTwo character (band 2)}
+        \label{Fig:3:DFTCorrectedUnitCell}
+    \end{center}
+\end{figure}
 
 
 \subsection{Susceptibility calculations}
