@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 "
+   sodipodi:docname="LowFreqFFT.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="385.47732"
+     inkscape:cy="801.55769"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="968"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <image
+       y="109.21934"
+       x="122.21429"
+       id="image2993"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/LowFreqFFT/FFT_LowFreq_O2B.png"
+       height="194.85713"
+       width="259.24261" />
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="126.84591"
+       y="286.21674"
+       id="text3103"
+       sodipodi:linespacing="100%"
+       transform="matrix(0.99999936,-0.00113529,0.00113529,0.99999936,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3105"
+         x="126.84591"
+         y="286.21674"
+         style="font-size:8px">Angle [001]→[110]</tspan></text>
+    <text
+       transform="matrix(0.99999936,-0.00113529,0.00113529,0.99999936,0,0)"
+       sodipodi:linespacing="100%"
+       id="text3085"
+       y="280.8179"
+       x="404.70935"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         style="font-size:8px"
+         y="280.8179"
+         x="404.70935"
+         id="tspan3087"
+         sodipodi:role="line">Angle [001]→[110]</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3097"
+       y="285.2193"
+       x="314.28574"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         style="font-size:8px"
+         y="285.2193"
+         x="314.28574"
+         id="tspan3099"
+         sodipodi:role="line">dHvA Freq. (<tspan
+   id="tspan3101"
+   style="font-size:8px;font-style:italic">T</tspan>)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="570"
+       y="279.505"
+       id="text3000"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3002"
+         x="570"
+         y="279.505"
+         style="font-size:8px">dHvA Freq. (<tspan
+   style="font-size:8px;font-style:italic"
+   id="tspan3004">T</tspan>)</tspan></text>
+    <text
+       transform="matrix(0,-1,1,0,0,0)"
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="-230.44284"
+       y="112.18671"
+       id="text3093"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3095"
+         x="-230.44284"
+         y="112.18671"
+         style="font-size:8px">FFT Amp (a.u.)</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3089"
+       y="389.32956"
+       x="-222.58569"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         style="font-size:8px"
+         y="389.32956"
+         x="-222.58569"
+         id="tspan3091"
+         sodipodi:role="line">FFT Amp (a.u.)</tspan></text>
+    <image
+       y="111.29009"
+       x="394.28574"
+       id="image3059"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/LowFreqFFT/FFT_LowFreq_BareCant_O2B.png"
+       height="180.14354"
+       width="238.39218" />
+    <text
+       sodipodi:linespacing="100%"
+       id="text3111"
+       y="136.6479"
+       x="125.7143"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         style="font-size:10px"
+         y="136.6479"
+         x="125.7143"
+         id="tspan3113"
+         sodipodi:role="line">(a.)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="399.28574"
+       y="136.6479"
+       id="text3107"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3109"
+         x="399.28574"
+         y="136.6479"
+         style="font-size:10px">(b.)</tspan></text>
+  </g>
+</svg>
