@@ -2,8 +2,6 @@
 \section{Angle dependent measurements}
     \label{Sec:3:AngleDependentMeasurements}
 
-\subsection{Preliminary measurements}
-
 Preliminary measurements showed very strong dHvA oscillations which begin at relatively low field.  An example of the raw data can be seen in \fig~\ref{Fig:3:RawOscillations}. Since is is not clear from the raw torque data where the oscillations begin, Fourier transforms were taken over a small field range, for example \unit[1]{T} -- the interval where a clear signal is present marks the onset of oscillations. A FFT of the data between \unit[6]{T} and \unit[7]{T} is shown in the inset of the figure. This clearly shows the electron peaks at \unit[1370]{T}, \unit[2175]{T} and \unit[2343]{T}, whereas below \unit[6]{T} there was no appreciable signal. For subsequent measurements the field was ramped between \unit[6]{T} and the safe maximum of $\unit[18]{T}$ unless otherwise stated.
 %%
 \begin{figure}[h!]
@@ -36,25 +34,21 @@ Measurements were taken at one degree intervals from $H || [001]$ down to $H || 
 \end{figure}
 
 The low frequency region in \fig~\ref{Fig:3:FFTExamples} shows noise from the cantilever, but according to DFT fits performed in the next section, this region also likely contains signal from the minimum of band $1$. Given that the signal from electron bands is generally small due to high scattering rate, we were not able to extract a convincing Fourier peak.
+
+\Fig~\ref{Fig:3:AngleSweepMeasured} shows the set of peak data after having the angle determined as described in section~\ref{Sec:2:DeterminingAngle}. The Points marked in grey are the harmonics which were identified by overlaying the measured data on itself after doubling and tripling of the frequency.
 %%
 \begin{figure}[h!]
     \begin{center}
         \includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/AngleSweepMeasured/AngleSweepMeasured}
-        \caption{Peaks identified by varying the field range, window type and background polynomial. Left panel shows data taken with the field parrallel to $[001]$ down to $[110]$, the right panels shows $[001]$ to $[100]$.}
+        \caption{Peaks identified by varying the field range, window type and background polynomial. Left panel shows data taken with the field parrallel to $[001]$ down to $[110]$, the right panels shows $[001]$ to $[100]$. Points marked in grey are harmonics.}
         \label{Fig:3:AngleSweepMeasured}
     \end{center}
 \end{figure}
 
-\subsection{Mapping the Fermi surface with DFT calculations}
-    \label{Sec:3:MappingFermiSurfaceDFTCalulations}
-
-DFT calculations were performed using WIEN2k~\cite{Blaha2001} using the Generalised Gradient Approximation (GGA). This code was then processed using MATLAB code\footnote{Main body of code developed by Dr. Ed Yelland, University of St Andrews, eay1@st-and.ac.uk} to render a simulation of angle dependant dHvA measurements which is shown in \fig~\ref{Fig:3:ComparisonRotationPlotUnshiftedDFT}. 
-%%
-\begin{figure}[h!]
     \begin{center}
         \includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/AngleSweepMeasuredUnshifted/AngleSweepMeasuredUnshifted}
-        \caption{dHvA frequencies multipled by $\cos(\theta)$. Solid lines are DFT calculations, open circles are measured data. $H$ field directed along (a) $[001]\rightarrow[100]$ and (b) $[001]\rightarrow[110]$.}
-        \label{Fig:3:ComparisonRotationPlotUnshiftedDFT}
+        \caption{dHvA frequencies multipled by $\cos(\theta)$. Solid lines are DFT calculations, open circles are measured data. $H$ field directed along $[001]\rightarrow[100]$.}
+        \label{Fig:3:AngleSweepUnshifted}
     \end{center}
 \end{figure}
 
@@ -67,13 +61,13 @@ As is shown in \fig~\ref{Fig:3:ComparisonRotationPlotUnshiftedDFT}, the rotation
 
 \begin{figure}[h!]
     \begin{center}
-        \includegraphics[scale=0.7]{Misc/TODO}
-        \caption{dHvA frequencies multipled by $\cos(\theta)$. Solid lines are rigidly shifted DFT calculations, open circles are measured data. $H$ field directed along (a) $[001]\rightarrow[100]$ and (b) $[001]\rightarrow[110]$.}
-        \label{Fig:3:ComparisonRotationPlotMeasuredShiftedDFT}
+        \includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/AngleSweepRigidShift/AngleSweepRigidShift}
+        \caption{dHvA frequencies multipled by $\cos(\theta)$. Solid lines are rigidly shifted DFT calculations, open circles are measured data. $H$ field directed along $[001]$ towards (a) $[001]\rightarrow[100]$ and (b) $[001]\rightarrow[110]$.}
+        \label{Fig:3:AngleSweepRigidShift}
     \end{center}
 \end{figure}
 
-In order to obtain the correct shape of Fermi surface, the DFT calculations need to be tweaked. One technique is to apply small band-specific rigid energy shifts, which, in most cases is enough to bring the DFT in line with the experimental data. \fig~\ref{Fig:3:ComparisonRotationPlotMeasuredShiftedDFT} shows the rotation plots which rotate towards both the 100 and 110 directions along with appropriately shifted calculations. Table~\ref{Table:3:EnergyShifts} lists those energy shifts.
+In order to obtain the correct shape of Fermi surface, the DFT calculations need to be tweaked. One technique is to apply small band-specific rigid energy shifts, which, in most cases is enough to bring the DFT in line with the experimental data. \fig~\ref{Fig:3:AngleSweepRigidShift} shows the rotation plots which rotate towards both the 100 and 110 directions along with appropriately shifted calculations. Table~\ref{Table:3:EnergyShifts} lists those energy shifts.
 
 \medskip
 
@@ -101,7 +95,7 @@ Band $2$ in this case has two separate shifts specified in two different regions
 %%
 \begin{figure}[h!]
     \begin{center}
-        \includegraphics[scale=0.7]{Misc/TODO}
+        \includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/BandCharacterPlot/Band2_110Slice_BandCharacter}
         \caption{Partial $d$-orbital character of the hole band $2$ across slices in the 110 direction. Solid lines show the Fermi surface in the plane.}
         \label{Fig:3:Band2DCharacter}
     \end{center}
@@ -109,7 +103,7 @@ Band $2$ in this case has two separate shifts specified in two different regions
 %%
 \begin{figure}[h!]
     \begin{center}
-        \includegraphics[scale=0.7]{Misc/TODO}
+        \includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/BandCharacterVsKz/BandCharacterVsKz}
         \caption{Partial $d$-orbital characters of the hole band $2$ along the Fermi surface in the 110 slice vs. \kz}
         \label{Fig:3:Band2DCharacterVsKz}
     \end{center}
@@ -128,31 +122,36 @@ Note that these scalings ensure that the energy shift applied varies between $-0
 
 \begin{figure}[h!]
     \begin{center}
-        \includegraphics[scale=0.7]{Misc/TODO}
+        \includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/BandCharacterRotPlot/Band2_110_RotPlot_Comparison}
         \caption{dHvA frequencies for band 2 multipled by the cosine of the angle of the $H$ field. $H$ field directed along $[001]\rightarrow[110]$. Open circles are measured data, solid lines represent (a) rigidly shifted DFT calculations, (b) DFT calculations shifted proportional to \DzTwo orbital character, (c) DFT calculations shifted proportional to \DxzDyz orbital character.}
         \label{Fig:3:Band2DCharacterRigidComparison}
     \end{center}
 \end{figure}
 
-The second and third panels of \fig~\ref{Fig:3:Band2DCharacterRigidComparison} show the rotation plots calculated with the energy shifts applied proportional to \DzTwo and \DxzDyz orbital character respecitvely. We observe a much better alignment of the measured and calculated data for all angles.
-
-Using the rigid energy shifts for bands $1$, $3$ and $4$ and using shifts scaled to \DzTwo orbital character for band $2$, as well as incorporating the corrections discussed in section~\ref{Sec:3:MappingFermiSurfaceDFTCalulations}, \fig~\ref{Fig:3:FinalRotPlot} shows the measured rotation plot for all bands along with corrected DFT data. \Fig~\ref{Fig:3:DFTCorrectedUnitCell} shows the unit cell for \BaFeP from the corrected DFT calculations.
-
+The second and third panels of \fig~\ref{Fig:3:Band2DCharacterRigidComparison} show the rotation plots calculated with the energy shifts applied proportional to \DzTwo and \DxzDyz orbital character respecitvely. We observe a much better alignment of the measured and calculated data for all angles. \Fig~\ref{Fig:3:BandCharacterFSShiftComparison} shows the Fermi surfaces before and after shifting using the rigid energy shifts for bands $1$, $3$ and $4$ and using shifts scaled to \DzTwo orbital character for band $2$, as well as incorporating the corrections discussed in section~\ref{Sec:3:MappingFermiSurfaceDFTCalulations}. \Fig~\ref{Fig:3:FullBandCharacterFermiSurface} shows the assembled unit cell for \BaFeP from the corrected DFT calculations.
+%%
 \begin{figure}[h!]
     \begin{center}
-        \includegraphics[scale=0.7]{Misc/TODO}
-        \caption{dHvA frequencies for band 2 multipled by the cosine of the angle of the $H$ field. Open circles are measured data, solid lines represent DFT calculation shifted rigidly or scaled with the \DzTwo orbital character. $H$ field directed along (a) $[001]\rightarrow[110]$ and (b) $[001]\rightarrow[110]$.}
-        \label{Fig:3:FinalRotPlot}
+        \includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/BandCharacterFermiSurface/BandCharacterFermiSurfaceShiftComparison}
+        \caption{Comparison of Fermi surfaces according to DFT calculations both before and after shift corrections are applied. Rigid shifts are applied to bands 1, 3, 4 and shifts proprtional to \DzTwo character are applied to band 2.}
+        \label{Fig:3:BandCharacterFSShiftComparison}
     \end{center}
 \end{figure}
+%%
 \begin{figure}[h!]
     \begin{center}
-        \includegraphics[scale=0.7]{Misc/TODO}
-        \caption{Fermi surface in the first Brillouin of \BaFeP as determined by DFT calculations corrected by either rigid energy shifts (bands 1, 3, 4) or shifts proprtional to \DzTwo character (band 2)}
-        \label{Fig:3:DFTCorrectedUnitCell}
+        \includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/BandCharacterFermiSurface/FullBandCharacterFermiSurface}
+        \caption{Fully assembled Fermi surface in the first Brillouin of \BaFeP as determined by DFT calculations corrected by either rigid energy shifts (bands 1, 3, 4) or shifts proprtional to \DzTwo character (band 2)}
+        \label{Fig:3:FullBandCharacterFermiSurface}
     \end{center}
 \end{figure}
+
+
+\subsection{Tight binding model fits}
 
 
 \subsection{Susceptibility calculations}
 \label{Sec:SubsceptibilityCalculation}
+
+
+
