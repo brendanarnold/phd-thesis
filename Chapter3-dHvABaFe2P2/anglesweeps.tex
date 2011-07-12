@@ -2,18 +2,18 @@
 \section{Angle dependent measurements}
     \label{Sec:3:AngleDependentMeasurements}
 
-Preliminary measurements showed very strong dHvA oscillations which begin at relatively low field.  An example of the raw data can be seen in \fig~\ref{Fig:3:RawOscillations}. Since is is not clear from the raw torque data where the oscillations begin, Fourier transforms were taken over a small field range, for example \unit[1]{T} -- the interval where a clear signal is present marks the onset of oscillations. A FFT of the data between \unit[6]{T} and \unit[7]{T} is shown in the inset of the figure. This clearly shows the electron peaks at \unit[1370]{T}, \unit[2175]{T} and \unit[2343]{T}, whereas below \unit[6]{T} there was no appreciable signal. For subsequent measurements the field was ramped between \unit[6]{T} and the safe maximum of $\unit[18]{T}$ unless otherwise stated.
+Preliminary measurements showed very strong dHvA oscillations which begin at relatively low field.  An example of the raw data can be seen in \fig~\ref{Fig:3:RawOscillations}. Since is is not clear from the raw torque data where the oscillations begin, Fourier transforms were taken with small field intervals, for example over a \unit[1]{T} range -- the interval where a clear signal is present marks the onset of oscillations. A FFT of the data between \unit[6]{T} and \unit[7]{T} is shown in the inset of the figure. This clearly shows the electron peaks at \unit[1370]{T}, \unit[2175]{T} and \unit[2343]{T}, whereas below \unit[6]{T} there was no appreciable signal. For subsequent measurements the field was ramped between \unit[6]{T} and the safe maximum of $\unit[18]{T}$ unless otherwise stated.
 %%
 \begin{figure}[h!]
     \begin{center}
         \includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/RawOscillations/RawOscillations}
-        \caption{An example of the torque data taken with field aligned at \unit[9]{\degree} from the $[001]$ direction. Inset shows a FFT of the data between \unit[6]{T} and \unit[8]{T}}
+        \caption{An example of the torque data taken with field aligned at \unit[9]{\degree} from the $[001]$ direction. Inset shows a FFT of the data between \unit[6]{T} and \unit[7]{T}}
         \label{Fig:3:RawOscillations}
     \end{center}
 \end{figure}
 
 
- \Fig~\ref{Fig:3:ComparisonSweepRates} shows some example Fourier transforms of data taken at various sweep rates. Since there is little difference between the sweeps at \unit[0.05]{T/min.} and \unit[0.1]{T/min.}, subsequent sweeps were performed at \unit[0.1]{T/min.}.
+ \Fig~\ref{Fig:3:ComparisonSweepRates} shows some example Fourier transforms of data taken at various sweep rates, the frequencies have been shifted for ease of comparison. Since there is little difference in amplitude between the sweeps at \unit[0.05]{T/min.} and \unit[0.1]{T/min.}, subsequent sweeps were performed at \unit[0.1]{T/min.}.
 %%
 \begin{figure}[h!]
     \begin{center}
@@ -23,17 +23,17 @@ Preliminary measurements showed very strong dHvA oscillations which begin at rel
     \end{center}
 \end{figure}
 
-Measurements were taken at one degree intervals from $H || [001]$ down to $H || [100]$ and from $H || [001]$ down to $H || [110]$. \Fig~\ref{Fig:3:FFTExamples} shows three example FFTs which show all the bands identified the next section. They also show first and second harmonics\footnote{Third harmonics were also identified in other FFTs, these are marked in \fig~\ref{Fig:3:AngleSweepMeasured}.}.
+Measurements were taken at one degree intervals from $H \parallel [001]$ down to $H \parallel [100]$ and from $H \parallel [001]$ down to $H \parallel [110]$. \Fig~\ref{Fig:3:FFTExamples} shows three example FFTs which show peaks from all the principal bands identified the next section. They also show first and second harmonics\footnote{Third harmonics were also identified in other FFTs, these are shown in \fig~\ref{Fig:3:AngleSweepMeasured}.}.
 %%
 \begin{figure}[h!]
     \begin{center}
         \includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/FFTExamples/FFTExamples}
-        \caption{FFT after a polynomial background was subtracted at various labeled angles. Peak identification is explained in the next section.}
+        \caption{FFT after a second order polynomial background was subtracted at various labeled angles. The labels for peak identification are explained in the next section.}
         \label{Fig:3:FFTExamples}
     \end{center}
 \end{figure}
 
-The low frequency region in \fig~\ref{Fig:3:FFTExamples} shows noise from the cantilever, but according to DFT fits performed in the next section, this region also likely contains signal from the minimum of band $1$. Given that the signal from electron bands is generally small due to high scattering rate, we were not able to extract a convincing Fourier peak.
+The low frequency region in \fig~\ref{Fig:3:FFTExamples} shows noise from the cantilever, but according to DFT fits performed in the next section, this region also likely contains signal from the minimum of band $1$. Given that the signal from electron bands is generally small due to high scattering rate, we were not able to extract a convincing Fourier peak. A strong, angle dependant peak is present in the very low frequency region ($\sim$\unit[10]{T}), but this is due to $R_{\Gamma}$, the torque term in equation\ref{Eqn:2:OscillationAmp} and can be removed by removing with a fitted second order polynomial.
 
 \Fig~\ref{Fig:3:AngleSweepMeasured} shows the set of peak data after having the angle determined as described in section~\ref{Sec:2:DeterminingAngle}. The Points marked in grey are the harmonics which were identified by overlaying the measured data on itself after doubling and tripling of the frequency.
 %%
@@ -44,7 +44,7 @@ The low frequency region in \fig~\ref{Fig:3:FFTExamples} shows noise from the ca
         \label{Fig:3:AngleSweepMeasured}
     \end{center}
 \end{figure}
-
+\begin{figure}
     \begin{center}
         \includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/AngleSweepMeasuredUnshifted/AngleSweepMeasuredUnshifted}
         \caption{dHvA frequencies multipled by $\cos(\theta)$. Solid lines are DFT calculations, open circles are measured data. $H$ field directed along $[001]\rightarrow[100]$.}
