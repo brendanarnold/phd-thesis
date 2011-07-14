@@ -25,16 +25,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="389.38856"
-     inkscape:cy="745.53471"
+     inkscape:zoom="2.8"
+     inkscape:cx="438.81905"
+     inkscape:cy="630.2492"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1242"
      inkscape:window-height="909"
-     inkscape:window-x="-163"
-     inkscape:window-y="63"
+     inkscape:window-x="16"
+     inkscape:window-y="21"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
@@ -53,15 +53,15 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       y="177.82172"
-       x="212.47853"
+       y="211.38699"
+       x="205.64206"
        height="6.5554624"
-       width="141.65498"
+       width="146.20067"
        id="rect18971"
        style="opacity:0.49775786;fill:#fffe00;fill-opacity:1;stroke:none" />
     <rect
-       y="163.57071"
-       x="214.75868"
+       y="200.68945"
+       x="205.94524"
        height="7.9805617"
        width="146.2153"
        id="rect18975"
@@ -69,10 +69,17 @@
     <rect
        style="opacity:0.49775786;fill:#fffe00;fill-opacity:1;stroke:none"
        id="rect18201"
-       width="128.54405"
-       height="10.830764"
-       x="225.01939"
-       y="147.60959" />
+       width="130.6869"
+       height="9.0450506"
+       x="222.0143"
+       y="189.60579" />
+    <rect
+       style="opacity:0.49775786;fill:#fffe00;fill-opacity:1;stroke:none"
+       id="rect18201-4"
+       width="99.765213"
+       height="38.850712"
+       x="248.05638"
+       y="131.99371" />
     <image
        y="102.90716"
        x="156.05325"
@@ -84,7 +91,7 @@
        y="209.06561"
        x="431.17575"
        height="8.5335522"
-       width="157.15002"
+       width="148.22145"
        id="rect18971-1"
        style="opacity:0.49775786;fill:#fffe00;fill-opacity:1;stroke:none" />
     <rect
@@ -93,6 +100,13 @@
        height="7.8741889"
        width="135.06136"
        id="rect18971-1-7"
+       style="opacity:0.49775786;fill:#fffe00;fill-opacity:1;stroke:none" />
+    <rect
+       y="113.21334"
+       x="470.49454"
+       height="56.254726"
+       width="115.78001"
+       id="rect18971-1-7-1"
        style="opacity:0.49775786;fill:#fffe00;fill-opacity:1;stroke:none" />
     <image
        y="102.95388"
@@ -203,16 +217,16 @@
    style="font-size:7.20034742px;font-style:italic;baseline-shift:sub">e</tspan>)</tspan></text>
     <rect
        y="413.13852"
-       x="265.08212"
+       x="269.01068"
        height="6.5554624"
-       width="80.993576"
+       width="79.922142"
        id="rect18971-5"
        style="opacity:0.49775786;fill:#fffe00;fill-opacity:1;stroke:none" />
     <rect
        y="359.65536"
        x="244.87132"
        height="39.890499"
-       width="107.25755"
+       width="103.32898"
        id="rect18971-5-5"
        style="opacity:0.49775786;fill:#fffe00;fill-opacity:1;stroke:none" />
     <image
@@ -274,16 +288,16 @@
          style="font-size:12.92351818px">DELTA</tspan></text>
     <rect
        y="402.13773"
-       x="485.99234"
+       x="493.49234"
        height="33.131153"
-       width="91.250862"
+       width="83.750862"
        id="rect18971-5-6"
        style="opacity:0.49775786;fill:#fffe00;fill-opacity:1;stroke:none" />
     <rect
        y="357.35989"
-       x="490.76556"
+       x="494.33701"
        height="21.009323"
-       width="86.200096"
+       width="82.62867"
        id="rect18971-5-6-8"
        style="opacity:0.49775786;fill:#fffe00;fill-opacity:1;stroke:none" />
     <image

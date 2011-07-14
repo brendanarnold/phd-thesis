@@ -26,15 +26,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="372.16781"
-     inkscape:cy="776.05888"
+     inkscape:cx="356.52269"
+     inkscape:cy="705.54888"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1111"
-     inkscape:window-height="796"
-     inkscape:window-x="53"
-     inkscape:window-y="31"
+     inkscape:window-width="1109"
+     inkscape:window-height="907"
+     inkscape:window-x="48"
+     inkscape:window-y="59"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -53,231 +53,223 @@
      inkscape:groupmode="layer"
      id="layer1">
     <image
-       y="90.938721"
-       x="83.451981"
-       id="image3070"
-       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/Mass/SimpleLKFits/LKFits/Peak_28deg_ffreq=920_B=12-18T.png"
-       height="126"
-       width="123.6" />
-    <image
-       y="90.938721"
-       x="214.0509"
-       id="image3081"
-       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/Mass/SimpleLKFits/LKFits/Peak_12deg_ffreq=1195_B=12-18T.png"
-       height="125.7"
-       width="123.6" />
-    <image
-       y="90.938721"
-       x="344.70078"
+       y="88.390038"
+       x="165.72983"
        id="image3092"
-       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/Mass/SimpleLKFits/LKFits/Peak_12deg_ffreq=1285_B=12-18T.png"
-       height="125.7"
-       width="123.6" />
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/Mass/SimpleLKFits/Fits/Alpha1.png"
+       height="133.9295"
+       width="140.00269" />
     <image
-       y="224.04585"
-       x="474.88611"
+       y="88.390038"
+       x="310.02475"
        id="image3103"
-       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/Mass/SimpleLKFits/LKFits/Peak_12deg_ffreq=1370_B=12-18T.png"
-       height="125.7"
-       width="127.5" />
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/Mass/SimpleLKFits/Fits/Alpha2.png"
+       height="133.9295"
+       width="140.00269" />
     <image
-       y="224.00453"
-       x="85.551971"
+       y="88.390038"
+       x="454.57977"
        id="image3114"
-       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/Mass/SimpleLKFits/LKFits/Peak_12deg_ffreq=2183_B=15-18T.png"
-       height="126.9"
-       width="121.5" />
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/Mass/SimpleLKFits/Fits/Alpha3.png"
+       height="133.9295"
+       width="140.00269" />
     <image
-       y="224.00453"
-       x="216.75092"
+       y="221.21461"
+       x="165.72983"
        id="image3125"
-       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/Mass/SimpleLKFits/LKFits/Peak_12deg_ffreq=2353_B=15-18T.png"
-       height="125.7"
-       width="120.9" />
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/Mass/SimpleLKFits/Fits/Beta1.png"
+       height="133.9295"
+       width="140.00269" />
     <image
-       y="224.00453"
-       x="345.00076"
+       y="221.21461"
+       x="310.02475"
        id="image3136"
-       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/Mass/SimpleLKFits/LKFits/Peak_46deg_ffreq=4500_B=16-18T.png"
-       height="125.7"
-       width="123.3" />
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/Mass/SimpleLKFits/Fits/Beta2.png"
+       height="133.9295"
+       width="140.00269" />
+    <image
+       y="221.21461"
+       x="454.57977"
+       id="image3147"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/Mass/SimpleLKFits/Fits/Beta3.png"
+       height="133.9295"
+       width="140.00269" />
     <text
        sodipodi:linespacing="100%"
-       id="text3145"
-       y="365.21933"
-       x="114.99998"
+       id="text3195"
+       y="500.93359"
+       x="350"
        style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
        xml:space="preserve"><tspan
-         style="font-size:10px"
-         y="365.21933"
-         x="114.99998"
-         id="tspan3147"
+         style="font-size:12px"
+         y="500.93359"
+         x="350"
+         id="tspan3197"
          sodipodi:role="line">Temperature (<tspan
-   id="tspan3149"
-   style="font-size:10px;font-style:italic">K</tspan>)</tspan></text>
-    <text
-       sodipodi:linespacing="100%"
-       id="text3151"
-       y="365.21933"
-       x="246.42856"
-       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
-       xml:space="preserve"><tspan
-         style="font-size:10px"
-         y="365.21933"
-         x="246.42856"
-         id="tspan3153"
-         sodipodi:role="line">Temperature (<tspan
-   id="tspan3155"
-   style="font-size:10px;font-style:italic">K</tspan>)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
-       x="371.42856"
-       y="365.21933"
-       id="text3139"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan3141"
-         x="371.42856"
-         y="365.21933"
-         style="font-size:10px">Temperature (<tspan
-   style="font-size:10px;font-style:italic"
-   id="tspan3143">K</tspan>)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
-       x="509.43091"
-       y="365.21933"
-       id="text3139-1"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan3141-7"
-         x="509.43091"
-         y="365.21933"
-         style="font-size:10px">Temperature (<tspan
-   style="font-size:10px;font-style:italic"
-   id="tspan3143-4">K</tspan>)</tspan></text>
+   id="tspan3199"
+   style="font-size:12px;font-style:oblique;-inkscape-font-specification:Arial Oblique">K</tspan>)</tspan></text>
     <text
        transform="matrix(0,-1,1,0,0,0)"
        sodipodi:linespacing="100%"
-       id="text3185"
-       y="73.840294"
-       x="-333.62695"
+       id="text3209"
+       y="151.08331"
+       x="-346.53088"
        style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
        xml:space="preserve"><tspan
-         style="font-size:10px"
-         y="73.840294"
-         x="-333.62695"
-         id="tspan3187"
+         style="font-size:12px"
+         y="151.08331"
+         x="-346.53088"
+         id="tspan3211"
          sodipodi:role="line">FFT Amplitude (a. u.)</tspan></text>
     <text
-       xml:space="preserve"
-       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
-       x="-195.05553"
-       y="73.840294"
-       id="text3181"
        sodipodi:linespacing="100%"
-       transform="matrix(0,-1,1,0,0,0)"><tspan
-         sodipodi:role="line"
-         id="tspan3183"
-         x="-195.05553"
-         y="73.840294"
-         style="font-size:10px">FFT Amplitude (a. u.)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
-       x="156.62978"
-       y="115.21933"
-       id="text3201"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan3203"
-         x="156.62978"
-         y="115.21933"
-         style="font-size:10px">γ<tspan
-   id="tspan3205"
-   style="font-size:65.00091553%;baseline-shift:sub">1</tspan>(θ=28°)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
-       x="283.42859"
-       y="115.21933"
-       id="text3207"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan3209"
-         x="283.42859"
-         y="115.21933"
-         style="font-size:10px">α<tspan
-   id="tspan3211"
-   style="font-size:65.00091553%;baseline-shift:sub">1</tspan>(θ=12°)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
-       x="418.42859"
-       y="115.21933"
-       id="text3219"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan3221"
-         x="418.42859"
-         y="115.21933"
-         style="font-size:10px">δ(θ=12°)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
-       x="416.28574"
-       y="248.79076"
-       id="text3225"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan3227"
-         x="416.28574"
-         y="248.79076"
-         style="font-size:10px">β<tspan
-   id="tspan3229"
-   style="font-size:65.00091553%;baseline-shift:sub">2</tspan>(θ=12°)</tspan></text>
-    <text
-       sodipodi:linespacing="100%"
-       id="text3193"
-       y="248.79076"
-       x="287.14288"
+       id="text3010"
+       y="114.43554"
+       x="279.30719"
        style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
        xml:space="preserve"><tspan
-         style="font-size:10px"
-         y="248.79076"
-         x="287.14288"
-         id="tspan3195"
+         y="114.43554"
+         x="279.30719"
+         id="tspan3012"
+         sodipodi:role="line">α<tspan
+   id="tspan3014"
+   style="font-size:65.00091553%;baseline-shift:sub">1</tspan></tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3016"
+       y="113.93047"
+       x="425.7793"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         y="113.93047"
+         x="425.7793"
+         id="tspan3018"
+         sodipodi:role="line">α<tspan
+   id="tspan3020"
+   style="font-size:65.00091553%;baseline-shift:sub">2</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="568.21082"
+       y="111.40508"
+       id="text3004"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3006"
+         x="568.21082"
+         y="111.40508">α<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan3008">3</tspan></tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3028"
+       y="246.76552"
+       x="283.34778"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         y="246.76552"
+         x="283.34778"
+         id="tspan3030"
          sodipodi:role="line">β<tspan
-   style="font-size:65.00091553%;baseline-shift:sub"
-   id="tspan3199">1</tspan>(θ=12°)</tspan></text>
+   id="tspan3032"
+   style="font-size:65.00091553%;baseline-shift:sub">1</tspan></tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3034"
+       y="246.26045"
+       x="429.31482"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         y="246.26045"
+         x="429.31482"
+         id="tspan3036"
+         sodipodi:role="line">β<tspan
+   id="tspan3038"
+   style="font-size:65.00091553%;baseline-shift:sub">2</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
-       x="551.28571"
-       y="248.79076"
-       id="text3189"
+       x="573.76666"
+       y="246.26045"
+       id="text3022"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
-         id="tspan3191"
-         x="551.28571"
-         y="248.79076"
-         style="font-size:10px">γ<tspan
+         id="tspan3024"
+         x="573.76666"
+         y="246.26045">β<tspan
    style="font-size:65.00091553%;baseline-shift:sub"
-   id="tspan3197">2</tspan>(θ=12°)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
-       x="155.84853"
-       y="248.79076"
-       id="text3207-0"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan3209-9"
-         x="155.84853"
-         y="248.79076"
-         style="font-size:10px">α<tspan
-   id="tspan3211-4"
-   style="font-size:65.00091553%;baseline-shift:sub">2</tspan>(θ=12°)</tspan></text>
+   id="tspan3026">3</tspan></tspan></text>
+    <g
+       id="g3058"
+       transform="translate(-14.007202,-7.1428702)">
+      <image
+         width="140.00269"
+         height="133.9295"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/Mass/SimpleLKFits/Fits/Delta1.png"
+         id="image3158"
+         x="468.58698"
+         y="361.17831" />
+      <text
+         sodipodi:linespacing="100%"
+         id="text3040"
+         y="387.66693"
+         x="585.69983"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         xml:space="preserve"><tspan
+           y="387.66693"
+           x="585.69983"
+           id="tspan3042"
+           sodipodi:role="line">δ<tspan
+   id="tspan3044"
+   style="font-size:65.00091553%;baseline-shift:sub">1</tspan></tspan></text>
+    </g>
+    <g
+       id="g3070"
+       transform="translate(2.1336517,-3.5714285)">
+      <image
+         width="140.00269"
+         height="133.9295"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/Mass/SimpleLKFits/Fits/Gamma1.png"
+         id="image3169"
+         x="163.59618"
+         y="357.60687" />
+      <text
+         xml:space="preserve"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         x="283.89639"
+         y="381.06503"
+         id="text3052"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan3054"
+           x="283.89639"
+           y="381.06503">γ<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan3056">1</tspan></tspan></text>
+    </g>
+    <g
+       id="g3064"
+       transform="translate(-16.697906,-3.5714285)">
+      <image
+         width="140.00269"
+         height="133.9295"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/Mass/SimpleLKFits/Fits/Gamma2.png"
+         id="image3180"
+         x="326.72266"
+         y="357.60687" />
+      <text
+         sodipodi:linespacing="100%"
+         id="text3046"
+         y="381.06503"
+         x="446.91968"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         xml:space="preserve"><tspan
+           y="381.06503"
+           x="446.91968"
+           id="tspan3048"
+           sodipodi:role="line">γ<tspan
+   id="tspan3050"
+   style="font-size:65.00091553%;baseline-shift:sub">2</tspan></tspan></text>
+    </g>
   </g>
 </svg>
