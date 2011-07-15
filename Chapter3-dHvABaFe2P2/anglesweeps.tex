@@ -44,6 +44,39 @@ The low frequency region in \fig~\ref{Fig:3:FFTExamples} shows noise from the ca
         \label{Fig:3:AngleSweepMeasured}
     \end{center}
 \end{figure}
+%%
+\Fig\ref{Fig:3:SubstitutionComparison} shows the measured rotation data which has been matched up to corresponding orbits in the DFT calculations (see next section). Superimposed is the data from the $x=0.63$ data in the \BaFeAsP series multiplied by amounts commensurate to the expected shifts in the Shishido paper\cite{Shishido2010}. We can see that while the size of the areas changes between the two values, the overall shape of the $x=0.63$ data matches reasonably well with the data for $x=1$ for bands 2, 3 and 4 at least. Assuming that nothing exotic happens in the intermediary, we can extrapolate the shape of these Fermi surfaces across the range by applying the known electron Fermi surface areas and the compensation condition. This is explored further in the next section.
+%%
+\begin{figure}
+    \begin{center}
+        \includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/SubstitutionComparison/SusbtituionComparison}
+        \caption{dHvA data taken with the field rotating from $[001]\rightarrow[100]$. Overlayed in black squares is data from BaFe$_2$As$_{0.37}$P$_{0.63}$\cite{Analytis2010c} with the $\alpha$ and $\gamma$ frequencies multiplied by $1.33$ and $\beta$ frequencies multiplied by $1.19$ commensurate with known shifts from literature. Data is colour coded according to the bands identified from DFT calculations detailed later.}
+        \label{Fig:3:SubstitutionComparison}
+    \end{center}
+\end{figure}
+%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Rigidly shifting the calculated DFT energies}
+
+\Fig\ref{Fig:3:AngleSweepMeasuredUnshifted} shows the DFT calculations performed using the augmented plane wave method plus local orbits method method as implemented in the WIEN2k package\cite{Blaha2001}. The calculations were processed into rotation plots using the MATLAB code originally written by Ed Yelland. Results are shown superimposed over the measured data. By factoring the frequency with $\cos{\theta}$ it becomes clearer which of the orbits is a maximal extrema and which is a minimal extrema. Using this knowledge as well as clues from the fourier amplitude of the measured data, it was possible to separate out individual bands which have been colour coded and labeled --- according to literature convention --- as specified in Table\ref{Table:3:BandNaming}. Minimal extrema are sub-labeled $1$, maxima are sub-labeled $2$.
+%%
+\begin{center}
+    \begin{tabular}[!h]{llll}
+\toprule
+Band #  & Label & Colour    & Type \\
+\midrule
+1   & $\delta$  & Orange    & hole \\
+2   & $\gamma$  & Red   & hole \\
+3   & $\beta$   & Blue  & electron \\
+4   & $\alpha$  & Green & electron \\
+\bottomrule
+    \label{Table:3:BandNaming}
+    \end{tabular}
+\end{center}
+%%
+As with previous DFT calculations in the \BaFeAsP series, the calculated values are consistently higher than the measured values. The exception in this case is $\gamma_2$ which is not much different from the calculated values.
+%%
 \begin{figure}
     \begin{center}
         \includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/AngleSweepMeasuredUnshifted/AngleSweepMeasuredUnshifted}
@@ -54,10 +87,7 @@ The low frequency region in \fig~\ref{Fig:3:FFTExamples} shows noise from the ca
 
 For the $[110]$ direction it became apparent from the fact that the DFT and the measured curves were qualitatively different that the field was not perfectly aligned with the $[110]$ axis of the sample. By assuming that the measurements were taken from the $c$-axis direction down to a vector rotated \unit[10]{\degree} within the $ab$-plane from the $[110]$ direction, the DFT data matches much better. This is within the estimated error for alignment from the microscope images.
 
-
-\subsubsection{Rigidly shifting the calculated DFT energies}
-
-As is shown in \fig~\ref{Fig:3:ComparisonRotationPlotUnshiftedDFT}, the rotation plots from the DFT calculations match up qualitatively with the data but do not match up quantitatively -- the electron bands overestimating the size of the measured extremal orbits by around TODO and the hole orbits overestimating the extremal orbits by around TODO. 
+As is shown in \fig~\ref{Fig:3:ComparisonRotationPlotUnshiftedDFT}, the rotation plots from the DFT calculations match up qualitatively with the data but do not match up quantitatively -- the electron bands overestimating the size of the measured extremal orbits. 
 
 \begin{figure}[h!]
     \begin{center}
@@ -88,10 +118,11 @@ Band    & \multicolumn{2}{l}{Energy Shift (\unit{Ry})} \\
 
 Band $2$ in this case has two separate shifts specified in two different regions of the Brillouin zone. The rotation plot for the wider orbit located at the edge of the Brillouin zone was calculated with no energy shift and the narrow part of the Fermi surface around the $\Gamma$ point was calculated with a shift of $0.0038\unit{Ry}$. This provides a reasonable match for the rotation plot where we can apply the shift to the two regions discretely, however is proves problematic when we wish to study intermediate areas since it is not clear how the Fermi surface varies between the two regions.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Shifting the DFT calculations proptional to orbital character}
 \label{Sec:ShiftingDFTPropToOrbitalCharacter}
 
-\Fig~\ref{Fig:3:Band2DCharacter} shows the strength of various d-orbital band characters taken on a 110 cut through the \BaFeP Brillouin zone with the band $2$ Fermi surface superimposed. Band characters for the other bands can be found in Appendix~\ref{TODO}.
+\Fig~\ref{Fig:3:Band2DCharacter} shows the strength of various d-orbital band characters taken on a 110 cut through the \BaFeP Brillouin zone with the band $2$ Fermi surface superimposed. Band characters for the other bands can be found in Appendix~\ref{Appendix:BandCharacter110Slices}.
 %%
 \begin{figure}[h!]
     \begin{center}
@@ -146,12 +177,22 @@ The second and third panels of \fig~\ref{Fig:3:Band2DCharacterRigidComparison} s
     \end{center}
 \end{figure}
 
+As can be seens from \fig\ref{Fig:3:ZSlices}
+\begin{figure}[h!]
+    \begin{center}
+        \includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/ZSlices/ZSlices}
+        \caption{Cross sections of the corrected Fermi surface in the $ab$ plane (panels 1, 2 and 3) and in the $[110]$ plane (panel 4). Slcies are coloured according to the predominant orbital character of the surface.}
+        \label{Fig:3:FullBandCharacterFermiSurface}
+    \end{center}
+\end{figure}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Tight binding model fits}
+    \label{Sec:3:TightBindingFits}
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Susceptibility calculations}
-\label{Sec:SubsceptibilityCalculation}
+    \label{Sec:3:SubsceptibilityCalculation}
 
 
 
