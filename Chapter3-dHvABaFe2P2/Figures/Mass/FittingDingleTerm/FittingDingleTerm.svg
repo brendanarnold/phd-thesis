@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 "
+   sodipodi:docname="FittingDingleTerm.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path3899"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart-7"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3899-4"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="325.5987"
+     inkscape:cy="707.47238"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1070"
+     inkscape:window-height="825"
+     inkscape:window-x="110"
+     inkscape:window-y="145"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <image
+       y="127.6291"
+       x="392.31824"
+       id="image3015"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/Mass/FittingDingleTerm/FilteredLargeElectronOnly.png"
+       height="116.59181"
+       width="231.9939" />
+    <image
+       y="261.32236"
+       x="388.93539"
+       id="image2993"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/Mass/FittingDingleTerm/FFT.png"
+       height="117.25555"
+       width="241.05838" />
+    <image
+       y="261.32236"
+       x="153.85719"
+       id="image3004"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/Mass/FittingDingleTerm/FilteredSmallElectronOnly.png"
+       height="117.18666"
+       width="231.9939" />
+    <image
+       y="127.6291"
+       x="153.85719"
+       id="image3059"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/Mass/FittingDingleTerm/UnfilteredRaw.png"
+       height="117.18666"
+       width="231.9939" />
+    <text
+       sodipodi:linespacing="100%"
+       id="text3068"
+       y="391.72244"
+       x="242.4366"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         y="391.72244"
+         x="242.4366"
+         id="tspan3070"
+         sodipodi:role="line">Field (<tspan
+   id="tspan3072"
+   style="font-style:italic">T</tspan>)</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3074"
+       y="254.34169"
+       x="241.42645"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         y="254.34169"
+         x="241.42645"
+         id="tspan3076"
+         sodipodi:role="line">Field (<tspan
+   id="tspan3078"
+   style="font-style:italic">T</tspan>)</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3080"
+       y="255.35184"
+       x="490.93417"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         y="255.35184"
+         x="490.93417"
+         id="tspan3082"
+         sodipodi:role="line">Field (<tspan
+   id="tspan3084"
+   style="font-style:italic">T</tspan>)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="462.6499"
+       y="392.73257"
+       id="text3062"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3064"
+         x="462.6499"
+         y="392.73257">dHvA Frequency (<tspan
+   style="font-style:italic"
+   id="tspan3086">kT</tspan>)</tspan></text>
+    <text
+       transform="matrix(0,-1,1,0,0,0)"
+       sodipodi:linespacing="100%"
+       id="text3092"
+       y="153.28374"
+       x="-327.77573"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         y="153.28374"
+         x="-327.77573"
+         id="tspan3094"
+         sodipodi:role="line">Torque</tspan></text>
+    <text
+       transform="matrix(0,-1,1,0,0,0)"
+       sodipodi:linespacing="100%"
+       id="text3096"
+       y="153.28374"
+       x="-194.44115"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         y="153.28374"
+         x="-194.44115"
+         id="tspan3098"
+         sodipodi:role="line">Torque</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="-194.44115"
+       y="393.22437"
+       id="text3088"
+       sodipodi:linespacing="100%"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3090"
+         x="-194.44115"
+         y="393.22437">Torque</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="-348.47104"
+       y="393.22437"
+       id="text3100"
+       sodipodi:linespacing="100%"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3102"
+         x="-348.47104"
+         y="393.22437">FFT Amplitude</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.88575524;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3.54302097, 3.54302097;stroke-dashoffset:0"
+       id="rect3104"
+       width="56.825764"
+       height="70.666504"
+       x="444.42218"
+       y="276.10406" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.9316569;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3.72662764, 3.72662764;stroke-dashoffset:0"
+       id="rect3104-1"
+       width="56.825764"
+       height="78.18045"
+       x="523.13043"
+       y="269.07318" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart)"
+       d="m 537.53783,218.10513 12.81088,47.81091"
+       id="path3894"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart)"
+       d="m 371.11265,345.89841 c 5.44643,3.21429 14.04511,10.85662 32.28731,10.49544 23.75,-0.17857 37.92447,-23.35254 37.92447,-23.35254"
+       id="path3894-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="173"
+       y="150.36218"
+       id="text4364"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan4366"
+         x="173"
+         y="150.36218">Unfiltered</tspan></text>
+  </g>
+</svg>

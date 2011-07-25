@@ -4,7 +4,7 @@
 
 \subsubsection{Basic LK formula fitting}
 
-A series of field sweeps were taken with $H$ at \unit[12]{\degree}, \unit[28]{\degree} and \unit[46]{\degree} from $[001]$ in the $[110]$ direction. These were performed at a variety of temperatures from base ($\approx\unit[0.3]{K}$) to above \unit[2]{K}. \Fig~\ref{Fig:3:ExampleLKFits} shows the Fourier amplitude of various peaks as a function of temperature along with fits to equation~\ref{Eqn:2:TempTermOscillationAmp}. The field range for the FFT was was necessarily large enough that individual peaks did not overlap and also could be observed across a reasonable range of temperatures but also small enough so that the $B$ dependent Dingle factor did not play too large a role and so an average $B$ field can be assumed. The results from these fits are shown in table \ref{Table:3:SimpleLKFitResults} along with the fit ranges. All FFTs in the plot were taken over an interval of \unit[12--18]{T} with the exception of the $\gamma_2$ fit which was taken between \unit[16-18]{T} so as to attain an appreciable peak. The standard deviationw as calculated by randomly varying the temperature values by the estimated error (\unit[0.06]{K}) 1000 times and then taking the standard deviation of the fitted $m^*$ values.
+A series of field sweeps were taken with $H$ at \unit[12]{\degree}, \unit[28]{\degree} and \unit[46]{\degree} from $[001]$ in the $[110]$ direction. These were performed at a variety of temperatures from base ($\approx\unit[0.3]{K}$) to above \unit[2]{K}. \Fig~\ref{Fig:3:ExampleLKFits} shows the Fourier amplitude of various peaks as a function of temperature along with fits to equation~\ref{Eqn:2:TempTermOscillationAmp}. The field range for the FFT was was necessarily large enough that individual peaks did not overlap and also could be observed across a reasonable range of temperatures but also small enough so that the $B$ dependent Dingle factor did not play too large a role and so an average $B$ field can be assumed. The results from these fits are shown in table \ref{Table:3:RetroFittedLKResults} along with the fit ranges. All FFTs in the plot were taken over an interval of \unit[12--18]{T} with the exception of the $\gamma_2$ fit which was taken between \unit[16-18]{T} so as to attain an appreciable peak. The standard deviationw as calculated by randomly varying the temperature values by the estimated error (\unit[0.06]{K}) 1000 times and then taking the standard deviation of the fitted $m^*$ values.
 %%
 \begin{figure}[h!]
     \begin{center}
@@ -14,37 +14,6 @@ A series of field sweeps were taken with $H$ at \unit[12]{\degree}, \unit[28]{\d
     \end{center}
 \end{figure}
 %%
-\begin{center}
-    \begin{tabular}[!h]{llll}
-\toprule
-Angle	& dHvA Freq. (\unit{T})	& Label & $m^*$ & Error $m^*$  & Lower Field Limit \\
-\midrule
-12	 & 1195	 & $\alpha_1$	 & 1.71	 & 0.03	 & 12.0\\
-12	 & 1195	 & $\alpha_1$	 & 1.49	 & 0.02	 & 8.0\\
-28	 & 1270	 & $\alpha_1$	 & 1.64	 & 0.02	 & 12.0\\
-46	 & 1540	 & $\alpha_1$	 & 1.86	 & 0.03	 & 12.0\\
-12	 & 1370	 & $\alpha_2$	 & 1.54	 & 0.02	 & 12.0\\
-28	 & 1526	 & $\alpha_2$	 & 1.69	 & 0.02	 & 12.0\\
-46	 & 2030	 & $\alpha_2$	 & 2.49	 & 0.05	 & 12.0\\
-28	 & 1370	 & $\alpha_3$	 & 1.85	 & 0.03	 & 12.0\\
-46	 & 1930	 & $\alpha_3$	 & 2.87	 & 0.07	 & 12.0\\
-12	 & 2176	 & $\beta_1$	 & 1.61	 & 0.02	 & 12.0\\
-12	 & 2353	 & $\beta_2$	 & 1.56	 & 0.03	 & 12.0\\
-12	 & 2353	 & $\beta_2$	 & 1.30	 & 0.02	 & 6.0\\
-28	 & 2603	 & $\beta_2$	 & 1.73	 & 0.02	 & 12.0\\
-46	 & 3335	 & $\beta_2$	 & 2.59	 & 0.06	 & 12.0\\
-28	 & 2472	 & $\beta_3$	 & 1.58	 & 0.02	 & 12.0\\
-46	 & 2972	 & $\beta_3$	 & 1.82	 & 0.03	 & 12.0\\
-46	 & 1320	 & $\gamma_1$	 & 2.13	 & 0.05	 & 12.0\\
-28	 & 920	 & $\gamma_1$	 & 2.19	 & 0.03	 & 12.0\\
-46	 & 4500	 & $\gamma_2$	 & 3.31	 & 0.08	 & 16.0\\
-12	 & 1285	 & $\delta_1$	 & 1.54	 & 0.02	 & 12.0\\
-28	 & 1370	 & $\delta_1$	 & 1.85	 & 0.03	 & 12.0\\
-46	 & 1630	 & $\delta_1$	 & 2.22	 & 0.04	 & 12.0\\
-\bottomrule
-    \label{Table:3:SimpleLKFitResults}
-    \end{tabular}
-\end{center}
 Table \ref{Table:3:SimpleLKFitResults} also shows some results taken with a different field range. These fits give quite different values for the effective mass, indicating that the average field approximation is not a valid one.
 
 \subsubsection{Retrofitting ansatz LK formulae}
@@ -53,11 +22,42 @@ The measurements presented in the previous section were further refined using th
 %%
 \begin{figure}[h!]
     \begin{center}
-        \includegraphics[scale=0.7]{Misc/TODO}
-        \caption{}
-        \label{Fig:3:RetrofittedLKFits}
+        \includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/Mass/FittingDingleTerm/FittingDingleTerm}
+        \caption{Top left panel shows torque data for data taken at \unit[12]{\degree} towards the $[110]$ direction at \unit[0.35]{K} with a polynomial background subtracted. Bottom right shows the FFT and the two filter windows to produce the filtered torque plots in the top right and bottom left. Filtered plots are fitted to extract the Dingle term for each frequency.}
+        \label{Fig:3:DingleTermExtractionFits}
     \end{center}
 \end{figure}
+\begin{center}
+    \begin{tabular}[!h]{llll}
+\toprule
+Angle	& dHvA Freq. (\unit{T})	& Label & $m^*$ & Retrofitted $m^*$	& $\alpha$	& Lower Field Limit \\
+\midrule
+12	 & 1195	 & $\alpha_1$	 & 1.71(3)	& 1.75	& 58.681	& 12.0\\
+12	 & 1195	 & $\alpha_1$	 & 1.49(2)	& 1.69	& 58.681	& 8.0\\
+28	 & 1270	 & $\alpha_1$	 & 1.64(2)	& 1.68	& 59.602	& 12.0\\
+46	 & 1540	 & $\alpha_1$	 & 1.86(3)	& 1.90	& 48.794	& 12.0\\
+12	 & 1370	 & $\alpha_2$	 & 1.54(2)	& 1.58	& 45.989	& 12.0\\
+28	 & 1526	 & $\alpha_2$	 & 1.69(2)	& 1.74	& 72.351	& 12.0\\
+46	 & 2030	 & $\alpha_2$	 & 2.49(5)	& 2.56	& 61.058	& 12.0\\
+28	 & 1370	 & $\alpha_3$	 & 1.85(3)	& 1.93	& 115.490	& 12.0\\
+46	 & 1930	 & $\alpha_3$	 & 2.87(7)	& 3.04	& 149.390	& 12.0\\
+12	 & 2176	 & $\beta_1$	 & 1.61(2)	& 1.65	& 51.119	& 12.0\\
+12	 & 2353	 & $\beta_2$	 & 1.56(3)	& 1.62	& 102.360	& 12.0\\
+12	 & 2353	 & $\beta_2$	 & 1.30(2)	& 1.87	& 102.360	& 6.0\\
+28	 & 2603	 & $\beta_2$	 & 1.73(2)	& 1.76	& 34.082	& 12.0\\
+46	 & 3335	 & $\beta_2$	 & 2.59(6)	& 2.69	& 94.572	& 12.0\\
+28	 & 2472	 & $\beta_3$	 & 1.58(2)	& 1.61	& 48.807	& 12.0\\
+46	 & 2972	 & $\beta_3$	 & 1.82(3)	& 1.86	& 40.033	& 12.0\\
+46	 & 1320	 & $\gamma_1$	 & 2.13(5)	& 2.22	& 104.380	& 12.0\\
+28	 & 920	 & $\gamma_1$	 & 2.19(3)	& 2.30	& 129.820	& 12.0\\
+46	 & 4500	 & $\gamma_2$	 & 3.31(8)	& 3.32	& 91.057	& 16.0\\
+12	 & 1285	 & $\delta_1$	 & 1.54(2)	& 1.64	& 173.000	& 12.0\\
+28	 & 1370	 & $\delta_1$	 & 1.85(3)	& 1.93	& 115.490	& 12.0\\
+46	 & 1630	 & $\delta_1$	 & 2.22(4)	& 2.33	& 126.020	& 12.0\\
+\bottomrule
+    \label{Table:3:RetroFittedLKResults}
+    \end{tabular}
+\end{center}
 %%
 Table\ref{Tab:3:DingleTerms} lists the extracted Dingle terms for each peak of the Fermi surface.
 
@@ -106,24 +106,33 @@ Angle	& dHvA Freq. (\unit{T})	& Label	 & Upper Limit	& Lower	Limit	& Average $m^
     \caption{}
 \end{center}
 
-\subsection{Effective mass results}
-
-Table~\ref{Table:3:EffectiveMasses} lists the results of the effective mass investigations.
-%%
-\medskip
-%%TODO
 \begin{center}
-    \begin{tabular}[h!]{llr}
+    \begin{tabular}[!h]{llllllll}
 \toprule
-Band    & \multicolumn{2}{l}{Energy Shift (\unit{Ry})} \\
+Angle	& dHvA Freq. (\unit{T})	& Label	 & $m_b$	& Ordinary LK Fit $m^*/m_b$	& Retrofitted $m^*/m_b$	& Microfitted $m^*/m_b$ \\
 \midrule
-1       &       & -0.0083      \\
-2       & Wide  & 0.0          \\
-        & Narrow & -0.0038     \\
-3       &       & 0.0043       \\
-4       &       & 0.0050        \\
+12	& 1210	& $\alpha_1$	& 1.04	& 1.64	& 1.68 & 1.68	\\
+28	& 1269	& $\alpha_1$	& 0.90	& 1.83	& 1.88 & 1.92	\\
+46	& 1532	& $\alpha_1$	& 1.00	& 1.86	& 1.90 & 1.92	\\
+12	& 1372	& $\alpha_2$	& 0.84	& 1.83	& 1.88 & 1.86	\\
+28	& 1530	& $\alpha_2$	& 0.93	& 1.81	& 1.87 & 1.88	\\
+46	& 2017	& $\alpha_2$	& 1.83	& 1.36	& 1.40 & 1.40	\\
+28	& 1365	& $\alpha_3$	& 1.18	& 1.56	& 1.63 & 1.67	\\
+46	& 1930	& $\alpha_3$	& 1.00	& 2.87	& 3.04 & 2.75	\\
+12	& 2180	& $\beta_1$ 	& 0.98	& 1.64	& 1.68 & 1.66	\\
+12	& 2350	& $\beta_2$ 	& 0.86	& 1.81	& 1.88 & 1.82	\\
+28	& 2605	& $\beta_2$ 	& 1.03	& 1.68	& 1.71 & 1.76	\\
+46	& 3347	& $\beta_2$ 	& 1.80	& 1.44	& 1.50 & 1.59	\\
+46	& 3381	& $\beta_2$ 	& 1.80	& 0.88	& 0.90 & 1.55	\\
+28	& 2475	& $\beta_3$ 	& 0.93	& 1.95	& 2.00 & 1.71	\\
+46	& 2970	& $\beta_3$ 	& 1.03	& 2.07	& 2.15 & 1.80	\\
+12	& 1270	& $\delta$  	& -0.91	& -2.41	& -2.53& -1.88	 \\
+46	& 1626	& $\delta$  	& -1.10	& -3.00	& -3.01& -1.96	 \\
+28	& 912	& $\gamma_1$	& -1.49	& -1.03	& -1.10& -1.46	 \\
+46	& 1320	& $\gamma_1$	& -2.04	& -0.91	& -0.95& -0.98	 \\
+46	& 4497	& $\gamma_2$	& -1.89	& -1.17	& -1.23& -1.75	 \\
 \bottomrule
-    \label{Table:3:EnergyShifts}
     \end{tabular}
+    \label{Table:3:EffectiveMassResults}
+    \caption{}
 \end{center}
-
