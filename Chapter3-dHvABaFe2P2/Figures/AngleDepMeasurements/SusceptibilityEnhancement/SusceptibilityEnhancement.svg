@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 "
+   sodipodi:docname="SusceptibilityEnhancement.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="284.67456"
+     inkscape:cy="901.23425"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1096"
+     inkscape:window-height="899"
+     inkscape:window-x="22"
+     inkscape:window-y="29"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <image
+       y="103.31274"
+       x="160.85051"
+       id="image3004"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/SusceptibilityEnhancement/main.png"
+       height="153.02193"
+       width="259.07672" />
+    <image
+       y="121.6458"
+       x="429.1806"
+       id="image2993"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures//AngleDepMeasurements/SusceptibilityEnhancement/x0_158K_DELTA=1e-6_Band=1-4_z=0,25.png"
+       height="122.06648"
+       width="161.62703" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="path3007"
+       sodipodi:cx="319.96582"
+       sodipodi:cy="90.949493"
+       sodipodi:rx="4.2931485"
+       sodipodi:ry="4.2931485"
+       d="m 324.25897,90.949493 a 4.2931485,4.2931485 0 1 1 -8.5863,0 4.2931485,4.2931485 0 1 1 8.5863,0 z"
+       transform="matrix(0.70588237,0,0,0.70588237,128.22562,63.061499)" />
+    <g
+       id="g4227"
+       transform="matrix(-0.62990345,-0.16878212,0.10788107,-0.40261762,612.90076,338.04347)">
+      <rect
+         y="324.86221"
+         x="356.42856"
+         height="20"
+         width="60"
+         id="rect4223"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <path
+         transform="matrix(0.78078819,0,0,0.60765779,72.999644,142.88268)"
+         inkscape:transform-center-x="-6.3603515"
+         d="m 437.27931,287.71482 24.4382,14.1094 24.4382,14.1094 -24.4382,14.10941 -24.4382,14.1094 -1e-5,-28.2188 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="-1.0471976"
+         sodipodi:arg1="-2.0943951"
+         sodipodi:r2="16.292137"
+         sodipodi:r1="32.58427"
+         sodipodi:cy="315.93362"
+         sodipodi:cx="453.57144"
+         sodipodi:sides="3"
+         id="path4225"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         sodipodi:type="star" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="189.40359"
+       y="105.84925"
+       id="text4231"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan4233"
+         x="189.40359"
+         y="105.84925"
+         style="font-size:10px">x10<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan4237">7</tspan></tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4257"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Arial;font-style:normal;font-weight:normal;font-size:10px;-inkscape-font-specification:Arial;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;line-height:100%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion4259"><rect
+           id="rect4261"
+           width="17.857143"
+           height="31.428572"
+           x="261.42856"
+           y="183.79076" /></flowRegion><flowPara
+         id="flowPara4263" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="282.85715"
+       y="265.21933"
+       id="text4265"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan4267"
+         x="282.85715"
+         y="265.21933">q<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan4273">z</tspan> (<tspan
+   style="font-style:italic"
+   id="tspan4271">π</tspan>)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="-187.97827"
+       y="155.78647"
+       id="text4275"
+       sodipodi:linespacing="100%"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan4277"
+         x="-187.97827"
+         y="155.78647">χ<tspan
+   style="font-size:6.50009155px;baseline-shift:sub"
+   id="tspan4279">0</tspan> (a. u.)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="-195.39304"
+       y="424.01648"
+       id="text4275-1"
+       sodipodi:linespacing="100%"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan4277-7"
+         x="-195.39304"
+         y="424.01648">χ<tspan
+   style="font-size:6.50009155px;baseline-shift:sub"
+   id="tspan4279-4">0</tspan> (a. u.)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="536.89612"
+       y="241.20967"
+       id="text4305"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan4307"
+         x="536.89612"
+         y="241.20967">q<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan4311">x</tspan> (<tspan
+   style="font-style:italic"
+   id="tspan4309">π</tspan>)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="455.21292"
+       y="237.91617"
+       id="text4305-0"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan4307-9"
+         x="455.21292"
+         y="237.91617">q<tspan
+   style="font-size:6.50009155px;baseline-shift:sub"
+   id="tspan4311-4">y</tspan> (<tspan
+   style="font-style:italic"
+   id="tspan4309-8">π</tspan>)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="537.40118"
+       y="164.94315"
+       id="text4340"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan4342"
+         x="537.40118"
+         y="164.94315">q<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan4346">z</tspan> = 1.5</tspan></text>
+  </g>
+</svg>

@@ -234,5 +234,35 @@ As can be seens from \fig\ref{Fig:3:ZSlices}
 \subsection{Susceptibility calculations}
     \label{Sec:3:SubsceptibilityCalculation}
 
+To verify that we do get enhanced susceptibility, leading to a spin-density wave state, the $q$-dependant susceptibility -- described in section \ref{Sec:1:NestingSusceptibility} -- was calculated. Since the Lindhard function takes the sum over all energies in the Brillouin zone, there may be some concern that the rather crude adjustments to the DFT calculations performed in the previous section -- which have only been verified to be correct for energies at the Fermi surface -- may give erroneous results. However the nature of the Lindhard function means that far greater weight is given to energies that are near the Fermi surface and so it is unlikely to cause problems.
 
+\begin{figure}[h!]
+    \begin{center}
+        \includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/SusceptibilityTempSmearing/SusceptibilityTempSmearing}
+        \caption{Figure shows the Fermi distribution plotted at various temepratures using a contrived free electron distribution of energies scaled to the results of band 1 DFT calculations. An arbitrary Fermi energy of \unit[0.6]{Ry} is shown. The vertical lines shown the distribution of points in the model and are to illustrate the amount of smearing over points in the model that occur.}
+        \label{Fig:3:SusceptibilityTempSmearing}
+    \end{center}
+\end{figure}
+
+Applying a temeprature smearing to the function is useful to gloss over the finite element size in the calculation which can cause significant spikes in the results. \Figure\ref{Fig:3:SusceptibilityTempSmearing} shows the smearing at particular temperatures. The choice of temperature depends on the granularity of your model as well as the expected fine detail of the results. For our calculations a temperature of \unit[158]{K} was used which corresponds to \unit[1]{mRy} which was the smearing used in a similar investigation into LaFeAsO using a comparable number of data points\cite{Mazin2008}.
+
+Calculations were performed in MATLAB using a $93\times93\times93$ grid of energy values that covered the first Brillouin zone. A small $\delta$ of $10^{-6}$ was included in order to obtain the imaginary component of the susceptbility.
+
+\begin{figure}[h!]
+    \begin{center}
+        \includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/SusceptibilityEnhancement/SusceptibilityEnhancement}
+        \caption{Left panel shows the maximum $q$ dependant susceptibility in each plane perpendicular to $q_z$ between bands $1$ and $4$. Results where calculated with \unit[1]{mRy} of temperature smearing and $\delta=1\times10^{-6}$. Right panel shows the susceptibility in the plane at $q_z=1.5$ which is typical of all the $q_z$ planes for this band combination.}
+        \label{Fig:3:SusceptbilityEnhancement}
+    \end{center}
+\end{figure}
+
+\Figure\ref{Fig:3:FullSusceptibility} shows the total susceptibility coupling across various band combinations.
+
+\begin{figure}[h!]
+    \begin{center}
+        \includegraphics[scale=0.7]{Misc/TODO}
+        \caption{}
+        \label{Fig:3:FullSusceptibility}
+    \end{center}
+\end{figure}
 
