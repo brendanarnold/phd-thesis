@@ -8,3 +8,5 @@ syntax: glob
 thesis-blx.bib
 thesis.run.xml
 .eps
+*.blg
+*.bbl

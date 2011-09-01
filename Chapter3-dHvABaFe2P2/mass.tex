@@ -8,7 +8,7 @@ A series of field sweeps were taken with $H$ at \unit[12]{\degree}, \unit[28]{\d
 %%
 \begin{figure}[h!]
     \begin{center}
-        \includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/Mass/SimpleLKFits/SimpleLKFits}
+        \includegraphics[scale=0.9]{Chapter3-dHvABaFe2P2/Figures/Mass/SimpleLKFits/SimpleLKFits}
         \caption{Fits to the temperature dependant part of the \LK formula. }
         \label{Fig:3:SimpleLKFits}
     \end{center}
@@ -22,15 +22,18 @@ The measurements presented in the previous section were further refined using th
 %%
 \begin{figure}[h!]
     \begin{center}
-        \includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/Mass/FittingDingleTerm/FittingDingleTerm}
+        \includegraphics[scale=0.9]{Chapter3-dHvABaFe2P2/Figures/Mass/FittingDingleTerm/FittingDingleTerm}
         \caption{Top left panel shows torque data for data taken at \unit[12]{\degree} towards the $[110]$ direction at \unit[0.35]{K} with a polynomial background subtracted. Bottom right shows the FFT and the two filter windows to produce the filtered torque plots in the top right and bottom left. Filtered plots are fitted to extract the Dingle term for each frequency.}
         \label{Fig:3:DingleTermExtractionFits}
     \end{center}
 \end{figure}
-\begin{center}
-    \begin{tabular}[!h]{llll}
+%%%%%
+\begin{table}
+    \begin{center}
+        \caption{Details of the calculations for the retrofitted masses. $m^*$ values are given in terms of electron rest mass, $m_e$}
+        \begin{tabular}[!h]{rrrrrrr}
 \toprule
-Angle	& dHvA Freq. (\unit{T})	& Label & $m^*$ & Retrofitted $m^*$	& $\alpha$	& Lower Field Limit \\
+Angle	& Freq. (\unit[]{T})	& Label & $m^*$ & $m^*_{\textrm{retro}}$	& $\alpha$	& Field Lim. (\unit[]{T}) \\
 \midrule
 12	 & 1195	 & $\alpha_1$	 & 1.71(3)	& 1.75	& 58.681	& 12.0\\
 12	 & 1195	 & $\alpha_1$	 & 1.49(2)	& 1.69	& 58.681	& 8.0\\
@@ -55,17 +58,19 @@ Angle	& dHvA Freq. (\unit{T})	& Label & $m^*$ & Retrofitted $m^*$	& $\alpha$	& L
 28	 & 1370	 & $\delta_1$	 & 1.85(3)	& 1.93	& 115.490	& 12.0\\
 46	 & 1630	 & $\delta_1$	 & 2.22(4)	& 2.33	& 126.020	& 12.0\\
 \bottomrule
-    \label{Table:3:RetroFittedLKResults}
-    \end{tabular}
-\end{center}
+        \label{Table:3:RetroFittedLKResults}
+        \end{tabular}
+    \end{center}
+\end{table}
 %%
-Table\ref{Tab:3:DingleTerms} lists the extracted Dingle terms for each peak of the Fermi surface.
+Table\ref{Tab:3:RetroFittedLKResults} lists the extracted Dingle terms for each peak of the Fermi surface and the subsequent results of the retrofitted calculations for the effective masses. The various field limits were chosen in order to either obtain a clearly delimited peak in the lower field cases or to obtain a signal from a weak peak in the higher field cases.
+
 
 \subsubsection{`Microfitting' the LK formula}
 
 A second attempt at refining the LK fits was performed by applying the microfit technique desribed in section~\ref{Sec:2:LKMicrofitting}. $1.5$ oscillations were fit at a time Filtering the data beforehand is not always straightforward due to close proximity of neighbouring peaks. The stronger peaks from the $\alpha$ and $\beta$ Fermi surfaces show banding of the masses and a clear trending of the results to one of a few values which have been highlighted in yellow. Data in these regions were averaged to give the values in table \ref{Table:3:MicroFitResults}.
 
-All filtered using function $\textit{F_{\textrm{filt}}}(x) = \textit{F}(x)/2 (\tanh{\pi(x - x_{\textrm{low}})/w} + \tanh{-\pi(x - x_{\textrm{high}})/w}$ where $\textit{F}$ is the Fourier transform of the torque data, $x$ is the dHvA frequency, $x_{\textrm{low}}$ and $x_{\textrm{high}}$ are the lower and upper limits of the filter range respectively and $w$ determines the trail off slope of the filter function. For all measurements $w=10$.
+All filtered using function $\textit{F}_{\textrm{filt}}(x) = \textit{F}(x) \times 1/2 [\tanh{(\pi(x - x_{\textrm{low}})/w)} + \tanh{(-\pi(x - x_{\textrm{high}})/w})]$ where $\textit{F}$ is the Fourier transform of the torque data, $x$ is the dHvA frequency, $x_{\textrm{low}}$ and $x_{\textrm{high}}$ are the lower and upper limits of the filter range respectively and $w$ determines the trail off slope of the filter function. For all measurements $w=10$.
 %%
 \begin{figure}[h!]
     \begin{center}
@@ -75,10 +80,13 @@ All filtered using function $\textit{F_{\textrm{filt}}}(x) = \textit{F}(x)/2 (\t
     \end{center}
 \end{figure}
 %%
-\begin{center}
-    \begin{tabular}[!h]{llllllll}
+\begin{table}
+    \begin{center}
+        \caption{Details of the parameters used for the microfits. Effective masses given as a multiple of electron rest mass, $m_e$}
+        \begin{tabular}[!h]{rrrrrrrr}
 \toprule
-Angle	& dHvA Freq. (\unit{T})	& Label	 & Upper Limit	& Lower	Limit	& Average $m^*_T$	& Stdev $m^*_T$	& Filter Width\\
+Angle	& Freq. (\unit{T})	& Label	 & \multicolumn{2}{l}{Field (\unit[]{T})}  & \multicolumn{2}{l}{$m^*_{\textrm{microfit}}$}  & Filt. Width\\
+        &                   &       & Max. & Min. & Mean & Stdev.   &   \\
 \midrule
 12	& 1210	& $\alpha_1$	& 17.0	& 11.0	& 1.75	& 0.03 &	1100--1240\\
 28	& 1269	& $\alpha_1$	& 17.0	& 11.0	& 1.72	& 0.02 &	1200--1310\\
@@ -101,15 +109,17 @@ Angle	& dHvA Freq. (\unit{T})	& Label	 & Upper Limit	& Lower	Limit	& Average $m^
 46	& 1320	& $\gamma_1$	& 16.8	& 11.3	& 2.00	& 0.37 &	1270--1370\\
 46	& 4497	& $\gamma_2$	& 16.8	& 12.2	& 3.31	& 0.13 &	4400--4600\\
 \bottomrule
-    \end{tabular}
-    \label{Table:3:MicroFitResults}
-    \caption{}
-\end{center}
+        \end{tabular}
+        \label{Table:3:MicroFitResults}
+    \end{center}
+\end{table}
 
-\begin{center}
-    \begin{tabular}[!h]{llllllll}
+\begin{table}
+    \begin{center}
+        \caption{Summarised comparison of the three effective mass calculation techniques, further corrected by band mass, $m_b$, as found from DFT calculations.}
+        \begin{tabular}[!h]{rrrrrrrr}
 \toprule
-Angle	& dHvA Freq. (\unit{T})	& Label	 & $m_b$	& Ordinary LK Fit $m^*/m_b$	& Retrofitted $m^*/m_b$	& Microfitted $m^*/m_b$ \\
+Angle	& Freq. (\unit{T})	& Label	 & $m_b$	& $m^*/m_b$	& $m^*_{\textrm{retro}}/m_b$	& $m^*_{\textrm{microfit}}/m_b$ \\
 \midrule
 12	& 1210	& $\alpha_1$	& 1.04	& 1.64	& 1.68 & 1.68	\\
 28	& 1269	& $\alpha_1$	& 0.90	& 1.83	& 1.88 & 1.92	\\
@@ -132,7 +142,7 @@ Angle	& dHvA Freq. (\unit{T})	& Label	 & $m_b$	& Ordinary LK Fit $m^*/m_b$	& Ret
 46	& 1320	& $\gamma_1$	& -2.04	& -0.91	& -0.95& -0.98	 \\
 46	& 4497	& $\gamma_2$	& -1.89	& -1.17	& -1.23& -1.75	 \\
 \bottomrule
-    \end{tabular}
-    \label{Table:3:EffectiveMassResults}
-    \caption{}
-\end{center}
+        \end{tabular}
+        \label{Table:3:EffectiveMassResults}
+    \end{center}
+\end{table}

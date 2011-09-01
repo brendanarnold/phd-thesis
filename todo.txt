@@ -1,0 +1,49 @@
+
+
+File: .\Chapter1-Introduction\nesting.tex
+
+Line: 8
+TODO: Cite He3 superfluidity discovery Oscheroff, Richardson. Leggett 1972
+
+Line: 12
+TODO: What other pairing mechanisms are there, negative U?, CDW?
+
+Line: 16
+TODO: What actually is the cause of the attraction in the nesting picture?
+
+Line: 22
+TODO:
+
+
+
+File: .\Chapter2-ExperimentalTechnique\dhva.tex
+
+Line: 30
+One of the primary field-dependant contributions to the oscillation amplitude is the Dingle term scattering (equation \ref{Eqn:2:DingleTermOscillationAmp}). This has an exponential dependance with temperature. The Dingle factor, $\alpha$, can be determined by fitting a simplified version of equation \ref{Eqn:2:OscillationAmp} to oscillations which have been filtered to reduce the number of fitting parameters. Once we have the Dingle term, a series of ansatz data TODO...
+
+Line: 40
+TODO: Angle correction
+
+Line: 42
+TODO: Temperature correction
+
+
+
+File: .\Chapter3-dHvABaFe2P2\series.tex
+
+Line: 18
+Structurally, the unit cell of the series is tetragonal ($I4/mmm$) for most of the phase diagram, aside from an orthorhombic phase below the $T_s$ line as shown in \fig\ref{Fig:3:PhaseDiagram}. The unit cell $a$ axis shrinks slightly less as pressure is applied compared with the $c$ axis ($\sim3\%$ c.f. $\sim4.5\%$ respectively). Interestingly though the $c$ axis shrinking largely occurs in the Fe-Pnictide plane leading to some theories of the superconductivity emerging from the tetrahedral bond angle between the Fe and the pnictigen. %TODO: ref
+
+Line: 30
+The \BaFePAs series has been previously measured by members of the group at Bristol using dHvA oscillations\cite{Shishido2010}. As suggested in the Shishido reference, since dHvA has been observed across such a large range of substitutions, it implies that the material is not prone to disorder as is the case in many charge doped series (TODO ref). The electron surfaces have been characterised for x ranging from $0.41$ to $1$ and have clearly shown that the DFT calculations consistently overestimate the size of the surfaces. Moreover, dHvA measurements on the material with $x=0.63$ have been performed where one of the hole surface extrema was observed\cite{Analytis2010c} however DFT calculations as well as comparisons with \SrFeP\cite{Analytis2009} and considerations of compensated Fermi surface volumes give evidence for two hole as well as two electron fermi surfaces for materials towards the P end of the series, (towards the As end of the series, there appears an extra, pinched off, hole surface around the $\Gamma$ point). If the electron Fermi surfaces are oversized in the DFT calculations, then the hole Fermi surface volumes should also be oversized in order to remain compensated. What is not clear though is whether the geometry is altered -- DFT calculations show the larger of the hole pockets undergoing significant changes, specifically in that it becomes much more three dimensional as P substitution becomes more complete. This thesis presents data which elucidates the shape of the outer hole surface.
+
+
+
+File: .\Chapter3-dHvABaFe2P2\susceptibility.tex
+
+Line: 13
+        \includegraphics[scale=0.9]{Misc/TODO}
+
+Line: 43
+        \includegraphics[scale=0.7]{Misc/TODO}
+

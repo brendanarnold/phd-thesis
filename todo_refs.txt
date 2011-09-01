@@ -1,0 +1,4 @@
+series.txt
+
+ o Ref for tetragonal height and superconductivity in BaFeAsP
+ o Ref for disorder in charge doped series
