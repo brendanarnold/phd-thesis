@@ -25,17 +25,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="280.12555"
-     inkscape:cy="924.82652"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="297.98567"
+     inkscape:cy="880.97263"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="915"
-     inkscape:window-height="772"
-     inkscape:window-x="88"
-     inkscape:window-y="116"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1280"
+     inkscape:window-height="968"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -52,6 +52,27 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <rect
+       style="fill:#ffcfcf;fill-opacity:1;stroke:none"
+       id="rect3810-1-7-0"
+       width="32.442055"
+       height="38.805405"
+       x="209.043"
+       y="153.72075" />
+    <rect
+       style="fill:#cfd5ff;fill-opacity:1;stroke:none"
+       id="rect3810-1-7-0-9"
+       width="32.442055"
+       height="38.805405"
+       x="177.56468"
+       y="153.81662" />
+    <rect
+       style="fill:#cfffd5;fill-opacity:1;stroke:none"
+       id="rect3810-1-7-0-9-4"
+       width="32.442055"
+       height="38.805405"
+       x="145.56467"
+       y="153.74518" />
     <image
        y="105.57646"
        x="137.92857"
@@ -59,25 +80,6 @@
        xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/RawOscillations/Main.png"
        height="162.56465"
        width="474.35532" />
-    <image
-       y="60.448112"
-       x="216.8394"
-       id="image3004"
-       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/RawOscillations/Inset.png"
-       height="97.285713"
-       width="156.84839" />
-    <rect
-       style="fill:none;stroke:#070000;stroke-width:0.73144305;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.46288613, 0.73144306;stroke-dashoffset:0"
-       id="rect3007"
-       width="39.74353"
-       height="47.857227"
-       x="146.42857"
-       y="159.50505" />
-    <path
-       style="fill:#5aa02c;fill-opacity:1;stroke:#447821;stroke-width:0.33639562;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
-       d="m 203.24254,144.9096 0.95308,1.65077 -15.8378,9.14395 2.23133,3.86477 15.8378,-9.14396 0.95869,1.6605 2.27409,-3.7082 2.2741,-3.70821 -4.34845,0.11534 -4.34284,0.12504 z"
-       id="rect3777"
-       inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
@@ -106,38 +108,217 @@
          y="126.89704"
          style="font-size:16px">Torque (arb. units)</tspan></text>
     <text
-       xml:space="preserve"
-       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
-       x="263.24011"
-       y="163.13206"
-       id="text3802"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan3804"
-         x="263.24011"
-         y="163.13206"
-         style="font-size:10px">dHvA Freq. (<tspan
-   style="font-size:10px;font-style:italic"
-   id="tspan3806">T</tspan>)</tspan></text>
-    <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:none"
-       id="rect3812"
-       width="14.285714"
-       height="80.35714"
-       x="211.07143"
-       y="63.433609" />
+       transform="matrix(0,-1,1,0,0,0)"
+       sodipodi:linespacing="100%"
+       id="text3872"
+       y="155.72276"
+       x="-105.28651"
+       style="font-size:12.18757629px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         style="font-size:6.77087545px"
+         y="155.72276"
+         x="-105.28651"
+         id="tspan3874"
+         sodipodi:role="line">FFT Amp. (a. u.)</tspan></text>
+    <text
+       transform="matrix(0,-1,1,0,0,0)"
+       sodipodi:linespacing="100%"
+       id="text3876"
+       y="304.21518"
+       x="-105.28651"
+       style="font-size:12.18757629px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         style="font-size:6.77087545px"
+         y="304.21518"
+         x="-105.28651"
+         id="tspan3878"
+         sodipodi:role="line">FFT Amp. (a. u.)</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
-       x="-138.56683"
-       y="222.84854"
+       style="font-size:12.18757629px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="-105.28651"
+       y="451.69745"
        id="text3808"
        sodipodi:linespacing="100%"
        transform="matrix(0,-1,1,0,0,0)"><tspan
          sodipodi:role="line"
          id="tspan3810"
-         x="-138.56683"
-         y="222.84854"
-         style="font-size:10px">FFT Amp. (a. u.)</tspan></text>
+         x="-105.28651"
+         y="451.69745"
+         style="font-size:6.77087545px">FFT Amp. (a. u.)</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path3771"
+       d="m 178.09524,153.79075 c 0,2.85714 0,41.07143 0,41.07143"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 3;stroke-dashoffset:0"
+       sodipodi:nodetypes="cc" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3773"
+       d="m 209.76191,153.79075 c 0,2.85714 0,41.25 0,41.25"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 3;stroke-dashoffset:0"
+       sodipodi:nodetypes="cc" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3775"
+       d="m 241.42858,153.79075 c 0,2.85714 0,40.71428 0,40.71428"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 3;stroke-dashoffset:0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 3;stroke-dashoffset:0"
+       d="m 146.42857,153.79075 c 0,2.85714 0,41.25 0,41.25"
+       id="path3001"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="fill:#cfffd5;fill-opacity:1;stroke:none"
+       id="rect3810"
+       width="124.36594"
+       height="74.972755"
+       x="161.32483"
+       y="45.138245" />
+    <image
+       y="43.181343"
+       x="148.37903"
+       id="image3785"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/RawOscillations/BaFe2P2_00828a_1_4-5T_fft.png"
+       height="93.037979"
+       width="150" />
+    <rect
+       style="fill:#cfd5ff;fill-opacity:1;stroke:none"
+       id="rect3810-1"
+       width="124.36594"
+       height="74.972755"
+       x="309.30063"
+       y="45.12936" />
+    <image
+       y="43.181351"
+       x="296.40381"
+       id="image3796"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/RawOscillations/BaFe2P2_00828a_1_5-6T_fft.png"
+       height="93.037971"
+       width="150" />
+    <rect
+       style="fill:#ffcfcf;fill-opacity:1;stroke:none"
+       id="rect3810-1-7"
+       width="124.36594"
+       height="74.972755"
+       x="457.3511"
+       y="45.160931" />
+    <text
+       sodipodi:linespacing="100%"
+       id="text3880"
+       y="39.434841"
+       x="495.34891"
+       style="font-size:12.86119747px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         style="font-size:7.14510965px"
+         y="39.434841"
+         x="495.34891"
+         id="tspan3882"
+         sodipodi:role="line">dHvA Freq. (<tspan
+   id="tspan3884"
+   style="font-size:7.14510965px;font-style:italic">T</tspan>)</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3886"
+       y="39.434841"
+       x="345.34128"
+       style="font-size:12.86119747px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         style="font-size:7.14510965px"
+         y="39.434841"
+         x="345.34128"
+         id="tspan3888"
+         sodipodi:role="line">dHvA Freq. (<tspan
+   id="tspan3890"
+   style="font-size:7.14510965px;font-style:italic">T</tspan>)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12.86119747px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="202.40468"
+       y="39.434841"
+       id="text3802"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3804"
+         x="202.40468"
+         y="39.434841"
+         style="font-size:7.14510965px">dHvA Freq. (<tspan
+   style="font-size:7.14510965px;font-style:italic"
+   id="tspan3806">T</tspan>)</tspan></text>
+    <image
+       y="43.181351"
+       x="444.42856"
+       id="image3807"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/RawOscillations/BaFe2P2_00828a_1_6-7T_fft.png"
+       height="93.037971"
+       width="150" />
+    <text
+       sodipodi:linespacing="100%"
+       id="text3868"
+       y="60.392384"
+       x="169.70564"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         y="60.392384"
+         x="169.70564"
+         id="tspan3870"
+         sodipodi:role="line">A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="158.08888"
+       y="164.56017"
+       id="text3848"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3850"
+         x="158.08888"
+         y="164.56017">A</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3864"
+       y="59.382233"
+       x="317.1879"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         y="59.382233"
+         x="317.1879"
+         id="tspan3866"
+         sodipodi:role="line">B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="190.89851"
+       y="164.56017"
+       id="text3852"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3854"
+         x="190.89851"
+         y="164.56017">B</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3860"
+       y="58.877155"
+       x="464.67017"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         y="58.877155"
+         x="464.67017"
+         id="tspan3862"
+         sodipodi:role="line">C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="221.72849"
+       y="164.4381"
+       id="text3856"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3858"
+         x="221.72849"
+         y="164.4381">C</tspan></text>
   </g>
 </svg>

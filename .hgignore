@@ -10,3 +10,4 @@ thesis.run.xml
 .eps
 *.blg
 *.bbl
+*.orig

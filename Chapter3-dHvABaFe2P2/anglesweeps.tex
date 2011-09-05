@@ -2,28 +2,33 @@
 \section{Angle dependent measurements}
     \label{Sec:3:AngleDependentMeasurements}
 
-Preliminary measurements showed very strong dHvA oscillations which begin at relatively low field.  An example of the raw data can be seen in \fig~\ref{Fig:3:RawOscillations}. Since is is not clear from the raw torque data where the oscillations begin, Fourier transforms were taken with small field intervals, for example over a \unit[1]{T} range -- the interval where a clear signal is present marks the onset of oscillations. A FFT of the data between \unit[6]{T} and \unit[7]{T} is shown in the inset of the figure. This clearly shows the electron peaks at \unit[1370]{T}, \unit[2175]{T} and \unit[2343]{T}, whereas below \unit[6]{T} there was no appreciable signal. For subsequent measurements the field was ramped between \unit[6]{T} and the safe maximum of $\unit[18]{T}$ unless otherwise stated.
+\subsection{Determining experimental parameters}
+
+Preliminary measurements showed very strong dHvA oscillations which begin at relatively low field.  An example of the raw data can be seen in \fig~\ref{Fig:3:RawOscillations}. Since is is not clear from the raw torque data where the oscillations begin, Fourier transforms were taken with small field intervals, for example over a \unit[1]{T} range -- the interval where a clear signal is present marks the onset of oscillations. A FFT of the data for the ranges \unit[4-5]{T}, \unit[5-6]{T} and \unit[6-7]{T} are shown in the insets of the figure. The range \unit[6-7]{T} clearly shows the electron peaks at around \unit[1500]{T} and \unit[2450]{T}, with the higher frequency peak dissappearing in the \unit[5-6]{T} range and both peaks gone for the \unit[4-5]{T} range. Further refinement suggests the onset of appreciable oscillations is around \unit[5.6]{T} for the strongest electron peak. The field was ramped between \unit[6]{T} and the safe maximum of \unit[18]{T} for the vast majority of measurements bar some sweeps where the magnet was ramped to or from \unit[0]{T} following or preceding shutdown of the magnet.
 %%
 \begin{figure}[h!]
     \begin{center}
         \includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/RawOscillations/RawOscillations}
-        \caption{An example of the torque data taken with field aligned at \unit[9]{\degree} from the $[001]$ direction. Inset shows a FFT of the data between \unit[6]{T} and \unit[7]{T}}
+        \caption{An example of the torque data taken with field aligned at \unit[26]{\degree} on the reverse side of the $[001]$ to $[100]$ angle sweep detailed later. Insets show a FFTs of the data between \unit[4-5]{T}, \unit[5-6]{T} and \unit[6-7]{T} respectively. These intervals are marked on the main plot as A, B and C.}
         \label{Fig:3:RawOscillations}
     \end{center}
 \end{figure}
 
-
- \Fig\ref{Fig:3:ComparisonSweepRates} shows some example Fourier transforms of data taken at various sweep rates, the frequencies have been shifted for ease of comparison. Since there is little difference in amplitude between the sweeps at \unit[0.05]{T/min.} and \unit[0.1]{T/min.}, subsequent sweeps were performed at \unit[0.1]{T/min.}
+ \Fig\ref{Fig:3:ComparisonSweepRates} shows some example Fourier transforms of data taken at various field sweep rates and plotted with the frequencies shifted arbitrarily for ease of comparison. The difference in amplitude between the sweeps at \unit[0.05]{T/min.} and \unit[0.1]{T/min.} is less than \unit[1]{\%} whereas the difference when sweeping at \unit[0.2]{T/min.} is nearly \unit[5]{\%}. Unless otherwise stated, subsequent sweeps were performed at \unit[0.1]{T/min.}.
 %%
 \begin{figure}[h!]
     \begin{center}
         \includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/SweepRateComparison/SweepRateComparison}
-        \caption{FFTs showing the peak from the smaller branch of band $3$ shifted arbitrarily for comparison with the $H$ field at \unit[10]{\degree} from $[001]$ in the $[110]$ direction. Sweeps were performed at, A: \unit[0.05]{T/min.}, B: \unit[0.1]{T/min.} and C: \unit[0.2]{T/min.}}
+        \caption{FFTs showing the peak from the smaller branch of band $3$ taken at, A: \unit[0.05]{T/min.}, B: \unit[0.1]{T/min.} and C: \unit[0.2]{T/min.}. The peaks are arbitrarily shifted in frequency for ease of comparison. Measurements taken with $H$ at \unit[10]{\degree} from $[001]$ in the $[110]$ direction.}
         \label{Fig:3:ComparisonSweepRates}
     \end{center}
 \end{figure}
 
-Measurements were taken at one degree intervals from $H\parallel[001]$ down to $H\parallel[100]$ and from $H\parallel[001]$ down to $H\parallel[110]$. \Fig~\ref{Fig:3:FFTExamples} shows three example FFTs which show peaks from all the principal bands identified the next section. They also show first and second harmonics\footnote{Third harmonics were also identified in other FFTs, these are shown in \fig~\ref{Fig:3:AngleSweepMeasured}.}.
+In order to make a reasonable determination of the Fermi surface of a material, an appropriate number of angle sweeps need to be made to adequately constrain the shape of the Fermi surface. Given that \BaFeP is a tetragonal system, any sweep from the azimuthal direction $[001]$ down the the polar plane effectively expands to four due to the fourfold symetry. Measurements were taken at one degree intervals from $H\parallel[001]$ down to $H\parallel[100]$ and from $H\parallel[001]$ down to $H\parallel[110]$ which, in this system, effectively amount to eight sweeps.
+
+The magnetic field was alternatively ramped up and then down meaning subsequent measurements were generally performed with the magnetic field ramping in opposite directions. Although in theory this should not affect the results in any way, subsequent FFT peaks appeared to alternately be shifted by up to $\pm\sim$\unit[21]{T} with the magnitude of the shifts being roughly proprtional to frequency. Assuming that the shifts were an artefact of the measurements, a linear correction was applied of $F_{\textrm{corr.} = 3 + 10 * F_{\textrm{meas.}} / 8000$ for the sweep in the $[100]$ direction and $F_{\textrm{corr.} = 0 + 21 * F_{\textrm{meas.}} / 8000$ and  $F_{\textrm{corr.} = 0 + 18 * F_{\textrm{meas.}} / 8000$ for the two sets of measurements performed to complete the sweep in the $[110]$ direction.
+
+\Fig~\ref{Fig:3:FFTExamples} shows three example FFTs which show peaks from all the principal bands identified the next section. They also show first and second harmonics\footnote{Third harmonics were also identified in other FFTs, these are shown in \fig~\ref{Fig:3:AngleSweepMeasured}.}.
 %%
 \begin{figure}[h!]
     \begin{center}
