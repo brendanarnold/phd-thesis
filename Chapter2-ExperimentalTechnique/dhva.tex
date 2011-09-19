@@ -16,6 +16,20 @@ X                 &= \frac{2\pi^2k_Bm^*_{\textrm{therm}}T}{e\hbar B\cos{\theta}}
 
 \subsection{Mapping the Fermi surface}
 
+\subsubsection{Background removal}
+% TODO: Removal of background should not be done against 1/B as a rule.
+% Include investigation as to low frequency peak
+Previous standard practice was to remove a background polynomial fitted to the field or inverse field from the raw data before taking the FFT. \Fig\ref{Fig:2:BackgroundSubtraction} shows raw torque data taken over a range of angles\footnote{See section\ref{Sec:3:AngleDependentMeasurements} for full details} and a strong $H^2$ component can be observed as a result of the $R_{\Gamma}$ term in equation\ref{}. Subtracting a second order polynomial fitted to the \textit{inverse} field leaves a large artificial angle-dependant oscillation in $1\H$ in the residual which may be misconstrued as a signal from a low frequency Fermi surface orbit. For this reason it is recommended to subtract a second order polynomial fitted to field rather than inverse field for torque measurements.
+\begin{figure}[h!]
+    \begin{center}
+        \includegraphics[scale=0.7]{Misc/TODO}
+        \caption{Left panel shows the angle dependance of the raw torque signal  clearly showing a positive $H^2$ component for $\theta>0$ and a $-H^2$ component for $\theta<0$. Centre panel shows the FFT vs. angle for data with the 2nd order polynomial fitted to $1/H$ removed. A strong angle dependant peak at low frequency is seen. Right panel shows the same data but with a second order polynomial fitted to $H$ removed.}
+        \label{Fig:2:BackgroundSubstraction}
+    \end{center}
+\end{figure}
+
+
+
 \subsection{Measuring the spin mass}
 
 \subsection{Measuring the band mass}
