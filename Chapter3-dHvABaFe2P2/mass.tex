@@ -4,7 +4,7 @@
 \subsection{Temperature correction}
 
 Effective mass measurements on particular extremal orbits rely on accurate temperature determination at all stages of the field sweep. On the Yellow magnet system, temperature from base of $\approx$\unit[0.3]{K} to $\approx$\unit[2]{K} is controlled by adjusting the He$^3$ sorbtion pump temperature and can be considered to be independant of field effect since the thermometer regulating the sorb temperature is outside of the strong field core. However if we consider \fig\ref{Fig:3:TemperatureCorrection}, it is evident that there are magnetic field effects on the RuOx, which is mounted in the base of the magnet but thermally linked with the sample, and the Cernox thermometer that sits on the sample stage.
-\begin{figure}[h!]
+\begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.9]{Chapter3-dHvABaFe2P2/Figures/Mass/TemperatureCorrection/TemperatureCorrection}
         \caption{Some example temperature readings (squares) set using the sorbtion pump heater. Also shown are corrections (circles) by interpolating to known values. RuOx thermometer is shown in blue, Cernox stage thermometer is shown in red. Second order polynomial fits to the data are shown as lines extrapolated to zero to get a rough estimate of the zero field temperature value.}
@@ -17,7 +17,7 @@ Readings from both thermometers were taken with field sweeps from zero field up 
 
 A series of field sweeps were taken with $H$ at \unit[12]{\degree}, \unit[28]{\degree} and \unit[46]{\degree} from $[001]$ in the $[110]$ direction. These were performed at a variety of temperatures from base ($\approx\unit[0.3]{K}$) to above \unit[2]{K}. \Fig~\ref{Fig:3:ExampleLKFits} shows the Fourier amplitude of various peaks as a function of temperature along with fits to equation~\ref{Eqn:2:TempTermOscillationAmp}. The field range for the FFT was was necessarily large enough that individual peaks did not overlap and also could be observed across a reasonable range of temperatures but also small enough so that the $B$ dependent Dingle factor did not play too large a role and so an average $B$ field can be assumed. The results from these fits are shown in table \ref{Table:3:RetroFittedLKResults} along with the fit ranges. All FFTs in the plot were taken over an interval of \unit[12--18]{T} with the exception of the $\gamma_2$ fit which was taken between \unit[16-18]{T} so as to attain an appreciable peak. The standard deviationw as calculated by randomly varying the temperature values by the estimated error (\unit[0.06]{K}) 1000 times and then taking the standard deviation of the fitted $m^*$ values.
 %%
-\begin{figure}[h!]
+\begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.9]{Chapter3-dHvABaFe2P2/Figures/Mass/SimpleLKFits/SimpleLKFits}
         \caption{Fits to the temperature dependant part of the \LK formula. }
@@ -31,7 +31,7 @@ Table \ref{Table:3:SimpleLKFitResults} also shows some results taken with a diff
 
 The measurements presented in the previous section were further refined using the the ansatz LK formulae as described in section~\ref{Sec:2:LKRetrofitting}. \Fig~\ref{Fig:3:DingleTermExtractionFits} shows some sample fits used to extract the Dingle terms used in the ansatz fit functions.
 %%
-\begin{figure}[h!]
+\begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.9]{Chapter3-dHvABaFe2P2/Figures/Mass/FittingDingleTerm/FittingDingleTerm}
         \caption{Top left panel shows torque data for data taken at \unit[12]{\degree} towards the $[110]$ direction at \unit[0.35]{K} with a polynomial background subtracted. Bottom right shows the FFT and the two filter windows to produce the filtered torque plots in the top right and bottom left. Filtered plots are fitted to extract the Dingle term for each frequency.}
@@ -39,10 +39,11 @@ The measurements presented in the previous section were further refined using th
     \end{center}
 \end{figure}
 %%%%%
-\begin{table}
+\begin{sidewaystable}
     \begin{center}
         \caption{Details of the calculations for the retrofitted masses. $m^*$ values are given in terms of electron rest mass, $m_e$}
-        \begin{tabular}[!h]{rrrrrrr}
+{\small
+        \begin{tabular}[htbp]{rrrrrrr}
 \toprule
 Angle	& Freq. (\unit[]{T})	& Label & $m^*$ & $m^*_{\textrm{retro}}$	& $\alpha$	& Field Lim. (\unit[]{T}) \\
 \midrule
@@ -71,8 +72,9 @@ Angle	& Freq. (\unit[]{T})	& Label & $m^*$ & $m^*_{\textrm{retro}}$	& $\alpha$	&
 \bottomrule
         \label{Table:3:RetroFittedLKResults}
         \end{tabular}
+}
     \end{center}
-\end{table}
+\end{sidewaystable}
 %%
 Table\ref{Tab:3:RetroFittedLKResults} lists the extracted Dingle terms for each peak of the Fermi surface and the subsequent results of the retrofitted calculations for the effective masses. The various field limits were chosen in order to either obtain a clearly delimited peak in the lower field cases or to obtain a signal from a weak peak in the higher field cases.
 
@@ -83,7 +85,7 @@ A second attempt at refining the LK fits was performed by applying the microfit 
 
 All filtered using function $\textit{F}_{\textrm{filt}}(x) = \textit{F}(x) \times 1/2 [\tanh{(\pi(x - x_{\textrm{low}})/w)} + \tanh{(-\pi(x - x_{\textrm{high}})/w})]$ where $\textit{F}$ is the Fourier transform of the torque data, $x$ is the dHvA frequency, $x_{\textrm{low}}$ and $x_{\textrm{high}}$ are the lower and upper limits of the filter range respectively and $w$ determines the trail off slope of the filter function. For all measurements $w=10$.
 %%
-\begin{figure}[h!]
+\begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/Mass/MicroFits/MicroFits}
         \caption{Effective temperature dependant masses extracted from fits to between one and three dHvA oscillations in the measured data. See Appendix\ref{Appendix:MicroFitParams} for a full list of parameters for each set of fits.}
@@ -94,7 +96,8 @@ All filtered using function $\textit{F}_{\textrm{filt}}(x) = \textit{F}(x) \time
 \begin{table}
     \begin{center}
         \caption{Details of the parameters used for the microfits. Effective masses given as a multiple of electron rest mass, $m_e$}
-        \begin{tabular}[!h]{rrrrrrrr}
+{\small
+        \begin{tabular}[htbp]{rrrrrrrr}
 \toprule
 Angle	& Freq. (\unit{T})	& Label	 & \multicolumn{2}{l}{Field (\unit[]{T})}  & \multicolumn{2}{l}{$m^*_{\textrm{microfit}}$}  & Filt. Width\\
         &                   &       & Max. & Min. & Mean & Stdev.   &   \\
@@ -121,6 +124,7 @@ Angle	& Freq. (\unit{T})	& Label	 & \multicolumn{2}{l}{Field (\unit[]{T})}  & \m
 46	& 4497	& $\gamma_2$	& 16.8	& 12.2	& 3.31	& 0.13 &	4400--4600\\
 \bottomrule
         \end{tabular}
+}
         \label{Table:3:MicroFitResults}
     \end{center}
 \end{table}
@@ -128,7 +132,8 @@ Angle	& Freq. (\unit{T})	& Label	 & \multicolumn{2}{l}{Field (\unit[]{T})}  & \m
 \begin{table}
     \begin{center}
         \caption{Summarised comparison of the three effective mass calculation techniques, further corrected by band mass, $m_b$, as found from DFT calculations.}
-        \begin{tabular}[!h]{rrrrrrrr}
+{\small
+        \begin{tabular}[htbp]{rrrrrrrr}
 \toprule
 Angle	& Freq. (\unit{T})	& Label	 & $m_b$	& $m^*/m_b$	& $m^*_{\textrm{retro}}/m_b$	& $m^*_{\textrm{microfit}}/m_b$ \\
 \midrule
@@ -154,6 +159,7 @@ Angle	& Freq. (\unit{T})	& Label	 & $m_b$	& $m^*/m_b$	& $m^*_{\textrm{retro}}/m_
 46	& 4497	& $\gamma_2$	& -1.89	& -1.17	& -1.23& -1.75	 \\
 \bottomrule
         \end{tabular}
+}
         \label{Table:3:EffectiveMassResults}
     \end{center}
 \end{table}

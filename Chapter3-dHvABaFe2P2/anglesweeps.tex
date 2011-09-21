@@ -6,7 +6,7 @@
 
 Preliminary measurements showed very strong dHvA oscillations which begin at relatively low field.  An example of the raw data can be seen in \fig~\ref{Fig:3:RawOscillations}. Since it is not clear from the raw torque data where the oscillations begin, Fourier transforms were taken with small (\unit[1]{T}) field intervals --- the interval where a clear signal is present marks the onset of oscillations. A FFT of the data for the ranges \unit[4-5]{T}, \unit[5-6]{T} and \unit[6-7]{T} are shown in the insets of the figure. The range \unit[6-7]{T} clearly shows the electron peaks at around \unit[1500]{T} and \unit[2450]{T}, with the higher frequency peak disappearing in the \unit[5-6]{T} range and both peaks disappearing in the \unit[4-5]{T} range. Further refinement suggests the onset of appreciable oscillations is around \unit[5.6]{T} for the strongest electron peak. The field was ramped between \unit[6]{T} and the safe maximum of \unit[18]{T} for the vast majority of measurements bar some sweeps where the magnet was ramped to or from \unit[0]{T} following or preceding shut-down of the magnet.
 %%
-\begin{figure}[h!]
+\begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/RawOscillations/RawOscillations}
         \caption{An example of the torque data taken with field aligned at \unit[26]{\degree} on the reverse side of the $[001]$ to $[100]$ angle sweep detailed later. Insets show a FFTs of the data between \unit[4-5]{T}, \unit[5-6]{T} and \unit[6-7]{T} respectively. These intervals are marked on the main plot as A, B and C.}
@@ -16,7 +16,7 @@ Preliminary measurements showed very strong dHvA oscillations which begin at rel
 
  \Fig\ref{Fig:3:ComparisonSweepRates} shows some example Fourier transforms of data taken at various field sweep rates and plotted with the frequencies shifted arbitrarily for ease of comparison. The difference in amplitude between the sweeps at \unit[0.05]{T/min.} and \unit[0.1]{T/min.} is less than \unit[1]{\%} whereas the difference when sweeping at \unit[0.2]{T/min.} is nearly \unit[5]{\%}. Unless otherwise stated, subsequent sweeps were performed at \unit[0.1]{T/min.}.
 %%
-\begin{figure}[h!]
+\begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/SweepRateComparison/SweepRateComparison}
         \caption{FFTs showing the peak from the smaller branch of band $3$ taken at, A: \unit[0.05]{T/min.}, B: \unit[0.1]{T/min.} and C: \unit[0.2]{T/min.}. The peaks are arbitrarily shifted in frequency for ease of comparison. Measurements taken with $H$ at \unit[10]{\degree} from $[001]$ in the $[110]$ direction.}
@@ -29,7 +29,7 @@ In order to make a reasonable determination of the Fermi surface of a material, 
 The magnetic field was alternatively ramped up and then down meaning subsequent measurements were generally performed with the magnetic field ramping in opposite directions. Although in theory this should not affect the results in any way, subsequent FFT peaks appeared to alternately be shifted by up to $\sim\pm$\unit[21]{T} with the magnitude of the shifts being roughly proportional to frequency. Assuming that the shifts were an artefact of the measurements, a linear correction determined by visual inspection was applied of $F_{\textrm{corr.}} = 3 + \frac{10}{8000} F_{\textrm{meas.}}$ for the sweep in the $[100]$ direction and $F_{\textrm{corr.}} = 0 + \frac{21}{8000}  F_{\textrm{meas.}}$ and  $F_{\textrm{corr.}} = 0 + \frac{18}{8000} F_{\textrm{meas.}}$ for the two sets of measurements performed to complete the sweep in the $[110]$ direction.
 
 %%
-\begin{figure}[h!]
+\begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/FFTExamples/FFTExamples}
         \caption{FFT after a second order polynomial background was subtracted at various labelled angles. The labels for peak identification are explained in the next section.}
@@ -41,7 +41,7 @@ The magnetic field was alternatively ramped up and then down meaning subsequent 
 
 \Fig~\ref{Fig:3:AngleSweepMeasured} shows the set of peak data after having the angle determined as described in section~\ref{Sec:2:DeterminingAngle}. The points marked in grey are the harmonics which were identified by overlaying the measured data on itself after doubling and tripling of the frequency. Signal can be observed up to relatively high angles for the torque technique ($R_T \propto \sin{\theta}$) with peak observed almost up to $80\degree$  in the $[110]$ direction which, along with the observation of third harmonics, and the onset of oscillations in relatively low field is further testament to the quality of the crystal.
 %%
-\begin{figure}[h!]
+\begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.9]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/AngleSweepMeasured/AngleSweepMeasured}
         \caption{Peaks identified by varying the field range, window type and background polynomial. Left panel shows data taken with the field parallel to $[001]$ down to $[110]$, the right panels shows $[001]$ to $[100]$. Points marked in grey are harmonics.}
@@ -71,7 +71,7 @@ The magnetic field was alternatively ramped up and then down meaning subsequent 
 \begin{table}
     \begin{center}
         \caption{A summary of the Fermi surface labelling used.}
-        \begin{tabular}[!h]{llll}
+        \begin{tabular}[htbp]{llll}
 \toprule
 Band Num.  & Label & Colour    & Type \\
 \midrule
@@ -99,7 +99,7 @@ For the $[110]$ direction it became apparent from the fact that the DFT and the 
 
 As is shown in \fig~\ref{Fig:3:AngleSweepMeasuredUnshifted}, the rotation plots from the DFT calculations match up qualitatively with the data but do not match up quantitatively -- the electron bands overestimating the size of the measured extremal orbits. 
 
-\begin{figure}[h!]
+\begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.9]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/AngleSweepRigidShift/AngleSweepRigidShift}
         \caption{dHvA frequencies multiplied by $\cos(\theta)$. Solid lines are rigidly shifted DFT calculations, open circles are measured data. $H$ field directed along $[001]$ towards (a) $[001]\rightarrow[100]$ and (b) $[001]\rightarrow[110]$.}
@@ -111,15 +111,15 @@ In order to obtain the correct shape of Fermi surface, the DFT calculations need
 \begin{table}
     \begin{center}
         \caption{Rigid energy shifts required to match the DFT calculations with the measured data.}
-        \begin{tabular}[h!]{llr}
+        \begin{tabular}[htbp]{llr}
 \toprule
-Band    & \multicolumn{2}{l}{Energy Shift (\unit{Ry})} \\
+Band    & \multicolumn{2}{l}{Energy Shift (\unit{mRy})} \\
 \midrule
-1       &       & -0.0083      \\
-2       & Wide  & 0.0          \\
-        & Narrow & -0.0038     \\
-3       &       & 0.0043       \\
-4       &       & 0.0050        \\
+1       &       & -83      \\
+2       & Wide  & 0          \\
+        & Narrow & -38     \\
+3       &       & 43       \\
+4       &       & 50        \\
 \bottomrule
         \label{Table:3:EnergyShifts}
         \end{tabular}
@@ -128,18 +128,16 @@ Band    & \multicolumn{2}{l}{Energy Shift (\unit{Ry})} \\
 
 Band $2$ in this case has two separate shifts specified in two different regions of the Brillouin zone. The rotation plot for the wider orbit located at the edge of the Brillouin zone was calculated with no energy shift and the narrow part of the Fermi surface around the $\Gamma$ point was calculated with a shift of $0.0038\unit{Ry}$. This provides a reasonable match for the rotation plot where we can apply the shift to the two regions discretely, however is proves problematic when we wish to study intermediate areas since it is not clear how the Fermi surface varies between the two regions. A technique for applying appropriate energy shifts throughout the Brillouin zone is explored in the next section.
 
-\paragraph{Significance of rigid energy corrections to APW-lo DFT calculations}
-
-In the first place, these shifts were applied as they conveniently and effectively corrected the Fermi surface energies, however the question arises as to whether there is any physical significance to be attached to them. The technique of rigid energy corrections has been applied to previous measurements on LaFePO and SrFe$_2$P$_2$ both of which are highly two dimensional systems that exhibit relatively strong nesting characteristics. This is in contrast with measurements on CaFe$_2$P$_2$ which has a highly three dimensional Fermi surface and no nesting vector. Furthermore the bulbous area of the three dimensional hole surface in \BaFeP which does not nest requires no shifting of the Fermi surface to match DFT calculations, whereas the nested neck portion does require a shift. This makes the spin-density-wave fluctuations that are associated with the nesting phenomena an obvious candidate for the cause of the discrepancy between DFT calculation and experiment.
+In the first place, these shifts were applied as they conveniently and effectively corrected the Fermi surface energies, however the question arises as to whether there is any physical significance to be attached to them. The technique of rigid energy corrections has been applied to previous measurements on LaFePO\cite{Carrington2009} and SrFe$_2$P$_2$\cite{Analytis2009} both of which are highly two dimensional systems that exhibit relatively strong nesting characteristics. This is in contrast with measurements on CaFe$_2$P$_2$\cite{Coldea2009} which has a highly three dimensional Fermi surface and no nesting vector. Furthermore the bulbous area of the three dimensional hole surface in \BaFeP which does not nest requires no shifting of the Fermi surface to match DFT calculations, whereas the nested neck portion does require a shift. This correlation between nesting and shifts in calculated energy make the spin-density-wave fluctuations that are associated with the nesting phenomena an obvious candidate for the cause of the discrepancy between DFT calculation and experiment.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Shifting the DFT calculations proportional to orbital character}
 \label{Sec:ShiftingDFTPropToOrbitalCharacter}
 
-\Fig~\ref{Fig:3:Band2DCharacter} shows the strength of various d-orbital band characters taken on a 110 cut through the \BaFeP Brillouin zone with the band $2$ Fermi surface superimposed. Band characters for the other bands can be found in Appendix~\ref{Appendix:BandCharacter110Slices}.
+\Fig~\ref{Fig:3:Band2DCharacter} shows the strength of various d-orbital band characters taken on a 110 cut through the \BaFeP Brillouin zone with the band $2$ Fermi surface superimposed. Band characters for the other bands presented in a similar way can be found in Appendix~\ref{Appendix:BandCharacter110Slices}.
 %%
-\begin{figure}[h!]
+\begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/BandCharacterPlot/Band2_110Slice_BandCharacter}
         \caption{Partial $d$-orbital character of the hole band $2$ across slices in the 110 direction. Solid lines show the Fermi surface in the plane.}
@@ -147,7 +145,7 @@ In the first place, these shifts were applied as they conveniently and effective
     \end{center}
 \end{figure}
 %%
-\begin{figure}[h!]
+\begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.9]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/BandCharacterVsKz/BandCharacterVsKz}
         \caption{Partial $d$-orbital characters of the hole band $2$ along the Fermi surface in the 110 slice vs. \kz}
@@ -155,18 +153,18 @@ In the first place, these shifts were applied as they conveniently and effective
     \end{center}
 \end{figure}
 
-Band $2$ has very little \Dxy and \DxTwoyTwo character close to the Fermi level but shows a significant amount of \DzTwo character at the wide region of the Fermi surface and \DxzDyz character at the narrow region. \Fig~\ref{Fig:3:Band2DCharacterVsKz} shows the orbital character for each of the $d$-orbitals as a function of \kz along the Fermi surface. Evidently, energy shifts could be applied which are scaled to either the \DzTwo and \DxzDyz orbital character in order that we obtain a smooth energy shift transition between the narrow and wide regions discussed previously.
+Band $2$ has very little basel-plane \Dxy and \DxTwoyTwo character close to the Fermi level but shows a significant amount of \DzTwo character at the wide region of the Fermi surface and \DxzDyz character at the narrow region. \Fig~\ref{Fig:3:Band2DCharacterVsKz} shows the orbital character for each of the $d$-orbitals as a function of \kz traced along the Fermi surface. Evidently, energy shifts could be applied which are scaled to either the \DzTwo and \DxzDyz orbital character in order that we obtain a smooth energy shift transition between the narrow and wide regions discussed previously. 
 
-Energy shifts were applied across the full three dimensional Brillouin zone for band $2$ using the following two scalings,
+Energy shifts were applied across the full three dimensional Brillouin zone for band $2$ using the following two scalings which were determined by trial and error fitting of the data,
 %%
 \begin{align*}
 \textrm{\DzTwo:}\quad \Delta\epsilon &= 0.002 - 0.0052 \left(1 - \frac{\epsilon - 0.033}{0.2205 - 0.033}\right) \\
 \textrm{\DxzDyz:}\quad \Delta\epsilon &= 0.002 - 0.0052 \left(\frac{\epsilon - 0.0946}{0.3135 - 0.0946}\right)
 \end{align*}
 %%
-Note that these scalings ensure that the energy shift applied varies between $-0.0032\unit{Ry}$ and $0.002\unit{Ry}$ which are slightly different to the values applied when rigidly shifting the band. This is due to the fact that the Fermi surface area measured in one region is affected more and more by the size of the Fermi surface in the opposite region as the azimuthal angle gets higher and the calculated area deviates from the measured area. This is what results in the crossing of the calculated rotation plot with the measured rotation plot shown in the first panel of \fig~\ref{Fig:3:Band2DCharacterRigidComparison}. A rigid shift was therefore chosen which best lines up along the length of the curve -- one which will be slightly lower than if we were to match the plots exactly at the 001 direction.
+Note that these scalings ensure that the energy shift applied varies between \unit[-32]{mRy} and \unit[2]{mRy} which are slightly different to the values applied when rigidly shifting the band. This is due to the fact that the Fermi surface area measured in the narrow region is affected more and more by the size of the Fermi surface in the wide region (and vice-versa) as the azimuthal angle gets higher. The calculated area deviates from the measured area which results in the crossing of the calculated rotation plot with the measured rotation plot shown in the first panel of \fig~\ref{Fig:3:Band2DCharacterRigidComparison}. So when the rigid shifts were being determined, values were chosen which best lines up along the full length of the curve -- one which will be slightly lower than if we were to match the plots exactly at $\theta=0^\circ$.
 
-\begin{figure}[h!]
+\begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.8]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/BandCharacterRotPlot/Band2_110_RotPlot_Comparison}
         \caption{dHvA frequencies for band 2 multiplied by the cosine of the angle of the $H$ field. $H$ field directed along $[001]\rightarrow[110]$. Open circles are measured data, solid lines represent (a) rigidly shifted DFT calculations, (b) DFT calculations shifted proportional to \DzTwo orbital character, (c) DFT calculations shifted proportional to \DxzDyz orbital character.}
@@ -174,9 +172,9 @@ Note that these scalings ensure that the energy shift applied varies between $-0
     \end{center}
 \end{figure}
 
-The second and third panels of \fig~\ref{Fig:3:Band2DCharacterRigidComparison} show the rotation plots calculated with the energy shifts applied proportional to \DzTwo and \DxzDyz orbital character respectively. We observe a much better alignment of the measured and calculated data for all angles. \Fig~\ref{Fig:3:BandCharacterFSShiftComparison} shows the Fermi surfaces before and after shifting using the rigid energy shifts for bands $1$, $3$ and $4$ and using shifts scaled to \DzTwo orbital character for band $2$, as well as incorporating the corrections discussed in section~\ref{Sec:3:MappingFermiSurfaceDFTCalulations}. \Fig~\ref{Fig:3:FullBandCharacterFermiSurface} shows the assembled unit cell for \BaFeP from the corrected DFT calculations.
+The second and third panels of \fig~\ref{Fig:3:Band2DCharacterRigidComparison} show the rotation plots calculated with the energy shifts applied proportional to \DzTwo and \DxzDyz orbital character respectively. We observe a much better alignment of the measured and calculated data for all angles. \Fig~\ref{Fig:3:BandCharacterFSShiftComparison} shows the Fermi surfaces before and after shifting using the rigid energy shifts for bands $1$, $3$ and $4$ and using shifts scaled to \DzTwo orbital character for band $2$, as well as incorporating the corrections discussed in section~\ref{Sec:3:MappingFermiSurfaceDFTCalulations}. \Fig~\ref{Fig:3:FullBandCharacterFermiSurface} shows the assembled unit cell for \BaFeP from the corrected DFT calculations. 
 %%
-\begin{figure}[h!]
+\begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/BandCharacterFermiSurface/BandCharacterFermiSurfaceShiftComparison}
         \caption{Comparison of Fermi surfaces according to DFT calculations both before and after shift corrections are applied. Rigid shifts are applied to bands 1, 3, 4 and shifts proportional to \DzTwo character are applied to band 2.}
@@ -184,7 +182,7 @@ The second and third panels of \fig~\ref{Fig:3:Band2DCharacterRigidComparison} s
     \end{center}
 \end{figure}
 %%
-\begin{figure}[h!]
+\begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.7]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/BandCharacterFermiSurface/FullBandCharacterFermiSurface}
         \caption{Fully assembled Fermi surface in the first Brillouin of \BaFeP as determined by DFT calculations corrected by either rigid energy shifts (bands 1, 3, 4) or shifts proportional to \DzTwo character (band 2)}
@@ -192,22 +190,29 @@ The second and third panels of \fig~\ref{Fig:3:Band2DCharacterRigidComparison} s
     \end{center}
 \end{figure}
 
-As can be seen from \fig\ref{Fig:3:ZSlices}
-\begin{figure}[h!]
+The final corrections show the DFT calculations being adjusted in size only for the electron and inner hole surfaces with overall shrinking of volume, the outer hole surface is adjusted in shape as well. Volume calculations give the following values for each of the surfaces as a percentage of the Brillouin zone ....
+
+%TODO Calculate volumes of the Fermi surfaces
+
+An interesting condition can be seen from \fig\ref{Fig:3:ZSlices} where we observe cross sections of the final corrected Fermi surfaces showing the basel-plane at the bottom of the unit cell ($\kz=0$), quarter of the way up, ($\kz=0.25$) and halfway up ($\kz=0.5$). The inner hole surface at $\kz=0.5$ directly matches the size and shape of the inner electron surface at $\kz=0.25$. Moreover both surface share similar predominant \DxzDyz orbital character. Both surfaces have different \kz dispersions which mean nesting along the vector of $q=(\pi, \pi, \pi/2)$ is only partial thus providing the right conditions necessary for possible pair forming spin-density-wave fluctuations.
+
+%TODO Does non-z orbital character preclude nesting with a z component?
+
+\begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.9]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/ZSlices/ZSlices}
         \caption{Cross sections of the corrected Fermi surface in the $ab$ plane (panels 1, 2 and 3) and in the $[110]$ plane (panel 4). Slices are coloured according to the predominant orbital character of the surface.}
-        \label{Fig:3:FullBandCharacterFermiSurface}
+        \label{Fig:3:ZSlices}
     \end{center}
 \end{figure}
 
 \clearpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Tight binding model fits}
+\subsection{Harmonic parametrisation of the Fermi surface}
     \label{Sec:3:TightBindingFits}
 
-A second method for determining a suitable model for the Fermi surface is to use a harmonic function expansion as described by Bergemann et al\cite{Bergemann2000}. The expansion is as described as,
+An analytic form for the Fermi surface can be obtained using a harmonic expansion of sin and cosine functions as described by Bergemann et al\cite{Bergemann2000}. Primarily this was done so as to provide a convenient way to reconstruct the Fermi surface without necessitating DFT calculations however the coefficients also bear some relation to the tight binding model hopping integrals, although for strongly correlated systems the tight binding model is generally a poor one to use as it entirely ignores electron correlations. The expansion is as described as,
 \begin{equation}
 \label{Eqn:3:HarmonicExpansion}
 k_F(\phi, \kappa) = \sum_{\substack{\mu,\nu \geq 0 \\ \mu \textrm{even}}}
@@ -219,13 +224,13 @@ k_F(\phi, \kappa) = \sum_{\substack{\mu,\nu \geq 0 \\ \mu \textrm{even}}}
 \end{equation}
 where $k_F$ is the Fermi surface in k-space, $\kappa = ck_z/2$, $c$ is the unit cell height and $\phi$ is the polar angle.
 
-The two dimensional fits were performed using a least square fitting routine using MATLAB on the DFT data shifted as described in the previous section. Residuals are shown in figure\ref{Fig:3:TightBindingResiduals}. The number of terms for the fits were increased until the residuals ceased to change appreciably. Fit results are presented in table\ref{Table:3:HarmonicParams}.
+The two dimensional fits were performed using a least square fitting routine using MATLAB on the DFT data shifted as described in the previous section. Residuals are shown in figure\ref{Fig:3:TightBindingResiduals}. The number of terms for the fits were increased until the residuals ceased to change appreciably. Fit parameters are presented in table\ref{Table:3:HarmonicParams}. Due to the skewed nature of the \kz dispersion of the outer hole surface $20$ terms were necessary to obtain a reasonable fit to the corrected DFT data however electron surfaces could be fitted well with $9$ terms and the inner hole surface with $10$ terms. The final analytical function was then used to create a false energy dispersion on a discrete grid of $k$-points. Extremal orbits were then calculated as a check of how well it matches the original data. The results of this are presented in \fig\ref{Fig:3:TightBindingFitRotationPlot}. The analytical function deviates from the measured data at higher angles implying that the 
 
-\begin{figure}[h!]
+\begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.9]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/TightBindingFits/TightBindingFits}
         \caption{Rotation plots for the tight-binding fits calculated from the c-axis down towards $[100]$. As can be seen from the highlighted areas, although the fit residuals are correct to $\sim4\%$, the rotation plot breaks down for high angles in the case of the electron bands.}
-        \label{Fig:3:FullBandCharacterFermiSurface}
+        \label{Fig:3:TightBindingFitRotationPlot}
     \end{center}
 \end{figure}
 
@@ -233,7 +238,8 @@ The two dimensional fits were performed using a least square fitting routine usi
     \caption{Harmonic expansion fit parameters performed on the shifted DFT Fermi surfaces}
     \label{Table:3:HarmonicParams}
     \begin{center}
-    \begin{tabular}[h!]{lrrrr}
+{\small
+    \begin{tabular}[htbp]{lrrrr}
 \toprule
 Factor	& $\alpha$	& $\beta$	& $\gamma$	& $\delta$	\\
 \midrule
@@ -262,6 +268,7 @@ $k_{180}$	& 0		& 0		& -1.07753e$^{-3}$	& 0		\\
 $k_{184}$	& 0		& 0		& -4.92181e$^{-4}$	& 0		\\
 \bottomrule
     \end{tabular}
+}
     \end{center}
 \end{table}
 
