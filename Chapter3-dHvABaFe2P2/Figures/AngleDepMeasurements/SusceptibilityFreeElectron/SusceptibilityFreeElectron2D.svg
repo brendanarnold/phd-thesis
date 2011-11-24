@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 "
+   sodipodi:docname="New document 1">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="366.86128"
+     inkscape:cy="929.70895"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1112"
+     inkscape:window-height="822"
+     inkscape:window-x="5"
+     inkscape:window-y="69"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <image
+       y="68.219307"
+       x="157.14287"
+       id="image2993"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/SusceptibilityFreeElectron/FreeElectron_2D_500x500pts_FS=0,09.png"
+       height="194"
+       width="255.65892" />
+    <image
+       y="64.219315"
+       x="429.21429"
+       id="image3004"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/SusceptibilityFreeElectron/FreeElectron_2D_500x500pts_FS=0,09_XYSlice.png"
+       height="86.81636"
+       width="113.43777" />
+    <image
+       y="155.89932"
+       x="429.33685"
+       id="image3015"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/SusceptibilityFreeElectron/FreeElectron_2D_500x500pts_FS=0,09_XSlice.png"
+       height="86.748558"
+       width="113.34918" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="200.71429"
+       y="243.79076"
+       id="text3018"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3020"
+         x="200.71429"
+         y="243.79076">q<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan3022">x</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="345.43979"
+       y="256.8707"
+       id="text3018-1"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3020-7"
+         x="345.43979"
+         y="256.8707">q<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan3022-4">y</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       x="-168.02016"
+       y="150.11406"
+       id="text3048"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       sodipodi:linespacing="100%"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3050"
+         x="-168.02016"
+         y="150.11406">χ<tspan
+   style="font-size:6.50009155px;baseline-shift:sub"
+   id="tspan3054">0</tspan> (a.u.)</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.87664473;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.53475934;stroke-dasharray:3.50657895, 3.50657895;stroke-dashoffset:0"
+       d="m 310,147.23569 0,97.21051"
+       id="path3056"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="311.42856"
+       y="147.71933"
+       id="text3826"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3828"
+         x="311.42856"
+         y="147.71933">2k<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan3830">F</tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.74422657;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.53475934;stroke-dasharray:2.97690631, 2.97690631;stroke-dashoffset:0"
+       d="m 469.42858,73.778058 0,70.060992"
+       id="path3056-0"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.74422657;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.53475934;stroke-dasharray:2.97690631, 2.97690631;stroke-dashoffset:0"
+       d="m 469.52985,165.51365 0,70.06099"
+       id="path3056-0-9"
+       inkscape:connector-curvature="0" />
+    <text
+       sodipodi:linespacing="100%"
+       id="text3936"
+       y="174.06"
+       x="472.39151"
+       style="font-size:5.72400379px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         y="174.06"
+         x="472.39151"
+         id="tspan3938"
+         sodipodi:role="line">2k<tspan
+   id="tspan3940"
+   style="font-size:3.72065496px;baseline-shift:sub">F</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.72400379px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="473.1058"
+       y="82.631424"
+       id="text3826-4"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3828-8"
+         x="473.1058"
+         y="82.631424">2k<tspan
+   style="font-size:3.72065496px;baseline-shift:sub"
+   id="tspan3830-8">F</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       x="-171.69501"
+       y="421.80121"
+       id="text3048-2"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       sodipodi:linespacing="100%"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3050-4"
+         x="-171.69501"
+         y="421.80121">χ<tspan
+   style="font-size:6.50009155px;baseline-shift:sub"
+   id="tspan3054-5">0</tspan> (a.u.)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="486.89352"
+       y="254.34166"
+       id="text3922"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3924"
+         x="486.89352"
+         y="254.34166">q</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3930"
+       y="84.684349"
+       x="509.33624"
+       style="font-size:11.61741734px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         style="font-size:6.9704504px"
+         y="84.684349"
+         x="509.33624"
+         id="tspan3932"
+         sodipodi:role="line">diagonal</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.67103672px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="511.85956"
+       y="175.2121"
+       id="text3926"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3928"
+         x="511.85956"
+         y="175.2121"
+         style="font-size:7.00262213px">q<tspan
+   style="font-size:4.55176878px;baseline-shift:sub"
+   id="tspan3934">y</tspan> = 0</tspan></text>
+  </g>
+</svg>

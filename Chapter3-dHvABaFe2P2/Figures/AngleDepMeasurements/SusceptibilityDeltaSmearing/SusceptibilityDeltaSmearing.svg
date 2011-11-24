@@ -67,9 +67,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="335.76347"
-     inkscape:cy="883.06114"
+     inkscape:zoom="1.979899"
+     inkscape:cx="318.88493"
+     inkscape:cy="902.14842"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -86,7 +86,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -105,7 +105,7 @@
        y="57.362183"
        x="215.64284"
        id="image3004"
-       xlink:href="file:///C:/PhD/Results/2011/SusceptibilityCalculation/TemperatureEffects/filename.png"
+       xlink:href="file:///C:/PhD/Results/2011/SusceptibilityCalculation/DeltaEffects/main.png"
        height="156.09259"
        width="293.67511" />
     <text
@@ -133,23 +133,42 @@
          id="tspan3015"
          x="-170.30464"
          y="205.61597">Fermi Distribution</tspan></text>
+    <rect
+       style="opacity:0.82959643;fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect3790"
+       width="46.74934"
+       height="32.820766"
+       x="263.94678"
+       y="77.023224" />
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
-       x="261.46185"
-       y="102.81793"
+       x="265.39041"
+       y="87.460785"
        id="text2992"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan2994"
-         x="261.46185"
-         y="102.81793"
-         style="font-size:10px;font-style:italic">Base of fitted </tspan><tspan
+         x="265.39041"
+         y="87.460785"
+         style="font-size:10px;font-style:italic">Base of </tspan><tspan
          sodipodi:role="line"
-         x="261.46185"
-         y="112.81793"
+         x="265.39041"
+         y="97.460785"
+         style="font-size:10px;font-style:italic"
+         id="tspan3002">fitted </tspan><tspan
+         sodipodi:role="line"
+         x="265.39041"
+         y="107.46078"
          style="font-size:10px;font-style:italic"
          id="tspan2996">dispersion</tspan></text>
+    <rect
+       style="opacity:0.82959643;fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect3790-1"
+       width="53.892197"
+       height="9.2493382"
+       x="369.12534"
+       y="113.80894" />
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
@@ -164,7 +183,7 @@
          id="tspan2996-4">Fermi level</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.37271419px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
-       d="m 277.5419,116.75966 -23.47611,13.55395"
+       d="m 271.8165,110.73826 -19.16817,19.16817"
        id="path4422-4"
        inkscape:connector-curvature="0" />
     <path
