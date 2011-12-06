@@ -5,11 +5,11 @@
 
 \subsubsection{Landau levels}
 
-For a free electron gas, the solution to the Hamiltonian is a series of plane waves whose wavenumbers, $\vect{k}$, form a uniform grid in k-space with spacing dependant on the real space unit cell dimensions. When a field is applied, the momentum operator is modified into the canonical momentum operator $\op{p} = -i\hbar\nabla + e\op{A}$, where $\Nabla \cross \vect{A} = \vect{B}$. By chosing an appropriate value for $\vect{A}$ it is possible to solve the simpliefied Schr\:odinger equation to obtain eigenvalues\footnote{A derivation using the Landau guage can be found in ref. \cite{Blundell2001} pages 148--149},
+For a free electron gas, the solution to the Hamiltonian is a series of plane waves whose wavenumbers, $\vect{k}$, form a uniform grid in k-space with spacing dependant on the real space unit cell dimensions. When a field is applied, the momentum operator is modified into the canonical momentum operator $\op{p} = -i\hbar\nabla + e\op{A}$, where $\nabla \times \vect{A} = \vect{B}$. By chosing an appropriate value for $\vect{A}$ it is possible to solve the simpliefied Schr\:odinger equation to obtain eigenvalues\footnote{A derivation using the Landau guage can be found in ref. \cite{Blundell2001} pages 148--149},
 %%
 $$E=(l+1/2)\hbar\omega_c + \frac{\hbar^2 k^2_z}{2m_e}$$
 %%
-where $\omega_c = \frac{eB}{m_e}$ is the \textit{cyclotron frequency}} and $l$ is a quantum number which defines a particular \textit{Landau level}.
+where $\omega_c = \frac{eB}{m_e}$ is the \textit{cyclotron frequency} and $l$ is a quantum number which defines a particular \textit{Landau level}.
 
 The field re-distributes the grid of $\vect{k}$ vectors into degenerate, discrete rings with each ring corresponding to a Landau level. In the process of grouping the uniform grid into discrete energy levels, some of the k-vectors on the grid are shifted up in energy to meet the closest Landau level and others are moved down in energy and for most levels, the resulting increase in energy for an electron matches and cancels a similar downshift in energy for another electron. If however, the closest Landau level lies just above the Fermi energy, then the electrons in that case are all shifted down to the next level resulting in a net decrease in total energy of the k-states in the system.
 
@@ -35,7 +35,7 @@ X                 &= \frac{2\pi^2k_Bm^*_{\textrm{therm}}T}{e\hbar B\cos{\theta}}
 \subsubsection{Background removal}
 % TODO: Removal of background should not be done against 1/B as a rule.
 % Include investigation as to low frequency peak
-Previous standard practice was to remove a background polynomial fitted to the field or inverse field from the raw data before taking the FFT. \Fig\ref{Fig:2:BackgroundSubtraction} shows raw torque data taken over a range of angles\footnote{See section\ref{Sec:3:AngleDependentMeasurements} for full details} and a strong $H^2$ component can be observed as a result of the $R_{\Gamma}$ term in equation\ref{}. Subtracting a second order polynomial fitted to the \textit{inverse} field leaves a large artificial angle-dependant oscillation in $1\H$ in the residual which may be misconstrued as a signal from a low frequency Fermi surface orbit. For this reason it is recommended to subtract a second order polynomial fitted to field rather than inverse field for torque measurements.
+Previous standard practice was to remove a background polynomial fitted to the field or inverse field from the raw data before taking the FFT. \Fig\ref{Fig:2:BackgroundSubtraction} shows raw torque data taken over a range of angles\footnote{See section\ref{Sec:3:AngleDependentMeasurements} for full details} and a strong $H^2$ component can be observed as a result of the $R_{\Gamma}$ term in equation\ref{}. Subtracting a second order polynomial fitted to the \textit{inverse} field leaves a large artificial angle-dependant oscillation in $1/H$ in the residual which may be misconstrued as a signal from a low frequency Fermi surface orbit. For this reason it is recommended to subtract a second order polynomial fitted to field rather than inverse field for torque measurements.
 \begin{figure}[h!]
     \begin{center}
         \includegraphics[scale=0.7]{Misc/TODO}
@@ -67,9 +67,32 @@ One of the primary field-dependant contributions to the oscillation amplitude is
 
 \subsection{Method}
 
-TODO: Angle correction
+Two separate arcs of extremal area were mapped for the angle dependent measurements. One goes along the arc from $B\parallel c$ towards the $a$ axis, the other goes along the arc from $B\parallel c$ towards the $110$ direction. The former we call the $100$ arc, the latter the $110$ arc. In fact, measurements start further back beyond the $B\parallel c$ direction in order to ensure that the minima was reached and to correctly align the crystal as described below.
 
-TODO: Temperature correction
+\subsubsection{Angle correction}
+    \label{Sec:2:AngleCorrection}
+
+To perform angle dependent measurements, we need to first of all measure accurately the angle between subsequent measurements and second we need to determine the angle of the field compared to the basel planes of the crystal. A further problem is that of aligning the basel plane with respect to the arc of rotation, something that is discussed, briefly here, but in more detail in the results in section~\ref{Sec:3:DFTShifts}.
+
+In order to tackle the first problem, the sample platform is subject to a weak oscillating magnetic field from a large coil mounted inside of the yellow cryostat.\footnote{An upper bound on the strength is $\sim$\unit[500]{Gauss}, based on \unit[2.2]{mV} after $\times100$ amplification measured across a coil of $\sim140$ turns with an average area of \unit[3.36]{$mm^2$} per loop} A voltage is induced in a smaller coil which is mounted on the rotating portion of the sample platform\footnote{In fact there are two small coils, each perpendicular to one another although only one is measured at a time} which is proportional to the sine of the angle between the coil and the AC field. By monitoring this voltage, accurate determination of the angle between the sample platform and the field can be made and therefore the angle between subsequent measurements.
+
+The correct angle between the large DC field and the crystal planes in the sample were determined using a post-measurement correction. Since the frequency of the quantum oscillations are field dependent with turning points at the $H\parallel [001]$ direction for approximately two dimensional samples, an even termed polynomial up to fourth order was fitted to the peaks. From the minima of the fits an angular offset was obtained which gave the final correction to the above coil measurements.
+
+The basel angle was aligned on the cantilever by eye. This was coupled with XRD measurements which determined how the visual features corresponded to the crystal axes. This leads to an estimated error in basel plane alignment of around \unit[5]{\%} although we found evidence for greater misalignment in one case, detailed in the results.
+
+\subsubsection{Temperature correction}
+    \label{Sec:2:TemepratureCorrection}
+
+Effective mass measurements on particular extremal orbits rely on accurate temperature determination at all stages of the field sweep. On the Yellow magnet system, temperature from base of $\approx$\unit[0.3]{K} to $\approx$\unit[2]{K} is controlled by adjusting the He$^3$ sorbtion pump temperature and can be considered to be independant of field effect since the thermometer regulating the sorb temperature is outside of the strong field core. However if we consider \fig\ref{Fig:2:TemperatureCorrection}, it is evident that there are magnetic field effects on the RuOx, which is mounted in the base of the magnet but thermally linked with the sample, and the Cernox thermometer that sits on the sample stage.
+\begin{figure}[htbp]
+    \begin{center}
+        \includegraphics[scale=0.9]{Chapter3-dHvABaFe2P2/Figures/Mass/TemperatureCorrection/TemperatureCorrection}
+        \caption{Some example temperature readings (squares) set using the sorbtion pump heater. Also shown are corrections (circles) by interpolating to known values. RuOx thermometer is shown in blue, Cernox stage thermometer is shown in red. Second order polynomial fits to the data are shown as lines extrapolated to zero to get a rough estimate of the zero field temperature value.}
+        \label{Fig:2:TemperatureCorrection}
+    \end{center}
+\end{figure}
+Readings from both thermometers were taken with field sweeps from zero field up to \unit[18]{T} at steady temperatures \unit[0.30]{K}, \unit[0.53]{K}, \unit[0.64]{K}, \unit[1.06]{K} and \unit[1.34]{K}. By interpolating between this data\footnote{Performed using multiquadric radial basis functions from the Scipy Python library.}, the two thermometers can be correctied to agree within $\sim$\unit[0.01]{K}. This interpolation is however limited to temepratures below approximately \unit[1.45]{K} as is shown in the figure for readings at around \unit[1.6]{K}. In these cases, the less reliable method of extrapolating the readings back to zero field using a second order polynomial fit are used as demonstrated with the solid lines in \fig\ref{Fig:2:TemperatureCorrection}. In these cases the temeprature is taken to be the mean of the two extrapolated values with the differences defining the error.
+
 
 \subsection{Yellow Magnet}
 

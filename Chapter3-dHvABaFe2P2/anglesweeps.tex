@@ -39,7 +39,7 @@ The magnetic field was alternatively ramped up and then down meaning subsequent 
 %%
 \Fig~\ref{Fig:3:FFTExamples} shows three example FFTs which show peaks from all the principal bands identified the next section. They also show first and second harmonics\footnote{Third harmonics were also identified in other FFTs, these are shown in \fig~\ref{Fig:3:AngleSweepMeasured}.}. The low frequency region in \fig~\ref{Fig:3:FFTExamples} shows noise from the cantilever, but according to DFT fits performed in the next section, this region also likely contains signal from the minimum of band $1$. Given that the signal from electron bands is generally small due to high scattering rate, we were not able to extract a convincing Fourier peak.
 
-\Fig~\ref{Fig:3:AngleSweepMeasured} shows the set of peak data after having the angle determined as described in section~\ref{Sec:2:DeterminingAngle}. The points marked in grey are the harmonics which were identified by overlaying the measured data on itself after doubling and tripling of the frequency. Signal can be observed up to relatively high angles for the torque technique ($R_T \propto \sin{\theta}$) with peak observed almost up to $80\degree$  in the $[110]$ direction which, along with the observation of third harmonics, and the onset of oscillations in relatively low field is further testament to the quality of the crystal.
+\Fig~\ref{Fig:3:AngleSweepMeasured} shows the set of peak data after having the angle determined as described in section~\ref{Sec:2:AngleCorrection}. The points marked in grey are the harmonics which were identified by overlaying the measured data on itself after doubling and tripling of the frequency. Signal can be observed up to relatively high angles for the torque technique ($R_T \propto \sin{\theta}$) with peak observed almost up to $80\degree$  in the $[110]$ direction which, along with the observation of third harmonics, and the onset of oscillations in relatively low field is further testament to the quality of the crystal.
 %%
 \begin{figure}[htbp]
     \begin{center}
@@ -65,6 +65,7 @@ The magnetic field was alternatively ramped up and then down meaning subsequent 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Rigidly shifting the calculated DFT energies}
+    \label{Sec:3:DFTShifts}
 
 \Fig\ref{Fig:3:AngleSweepMeasuredUnshifted} shows the DFT calculations performed using the augmented plane wave method plus local orbits method method as implemented in the WIEN2k package\cite{Blaha2001}. The unit cell used was that measured by Rotter et al. which are listed in table~\ref{Table:3:LatticeParams}. The calculations were processed into rotation plots using the MATLAB code originally written by Dr. Ed Yelland. Results are shown superimposed over the measured data. By factoring the frequency with $\cos{\theta}$ it becomes clearer which of the orbits is a maximal extrema and which is a minimal extrema. Using this knowledge as well as clues from the Fourier amplitude of the measured data, it was possible to separate out individual bands which have been colour coded and labelled --- according to literature convention --- as specified in table~\ref{Table:3:BandNaming}. Minimal extrema are sub-labelled $1$, maxima are sub-labelled $2$.
 %%
