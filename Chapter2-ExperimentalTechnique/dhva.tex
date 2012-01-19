@@ -1,32 +1,48 @@
 
 \section{\ac{DHvA} torque oscillation}
 
-In this section the phenomenon of \ac{dHvA} oscillations is described along with its measurement by the torque method. For decades, \ac{dhVa} has provided the principle method of characterising the Fermiology of a material with only relatively recent competition from techniques such as positron anihillation and \ac{ARPES} in particular. Whilst \ac{ARPES} can provide direct maps of Fermi surfaces within the Brillouin zone, \ac{DhVa} has some advantages such as the fact that it ignores surface effects such as crystal reconstruction, can determine cross-sectional areas with a relatively high resolution and also provides useful secondary measurements such as effect mass of the quasiparticle carriers. Some criticisms include the fact that \ac{dHvA} cannot locate particular cross-sectional orbits within the Brillouin zone (thus relies on secondary knowledge such as \ac{DFT} calculations) and also that the high magnetic fields could potentially affect the Fermi surface, for example by splitting the energy levels --- appendix\ref{Appendix:FermilogyTechniques} contains a more complete table of comparison for the three techniques.
+In this section the phenomenon of \ac{dHvA} oscillations is described along with its measurement by the torque method. For decades, \ac{dHvA} has provided the principle method of characterising the Fermiology of a material with only relatively recent competition from techniques such as positron annihilation and \ac{ARPES} in particular. Whilst \ac{ARPES} can provide direct maps of Fermi surfaces within the Brillouin zone, \ac{DHvA} has some advantages such as the fact that it ignores surface effects such as crystal reconstruction, can determine cross-sectional areas with a relatively high resolution and also provides useful secondary measurements such as effective masses of the quasiparticle carriers.  Some disadvantages of the technique include the fact that \ac{dHvA} cannot locate particular cross-sectional orbits within the Brillouin zone (thus relies on secondary knowledge such as \ac{DFT} calculations) and also that the high magnetic fields could potentially affect the Fermi surface, for example by splitting the energy levels. Regardless \ac{dHvA} continues to be a reliable technique for Fermi surface characterisation. A more detailed comparison of all three techniques can be found in appendix~\ref{Appendix:FermilogyTechniques}.
 
 \subsection{Theory}
 
 \subsubsection{Overview}
 
-For metals, the majority of the interesting physics occurs at the Fermi level and, provided Fermi liquid theory holds true, the electrons at the Fermi level can be modelled to a high degree of accuracy with the Sommerfeld model --- that is a Fermi gas of non-interacting electrons in an infinite box. When a magnetic field is applied, the electrons have their usual grid pattern distribution of plane wave k-vectors rearranged such that the electrons move around orbital and helical paths. These rearranged k-vectors form a set of concentric tubes, known as Landau tubes, whose cross-sectional area perpedicular to $\vect{H}$ is given by the Onsager relation: 
+For metals, the majority of the interesting physics occurs at the Fermi level and, provided Fermi liquid theory holds true, the electrons at the Fermi level can be modelled to a high degree of accuracy with the Sommerfeld model --- that is a Fermi gas of non-interacting electrons in an infinite box. When a magnetic field is applied, the electrons have their usual grid pattern distribution of plane wave k-vectors rearranged such that the electrons move around orbital and helical paths. These rearranged k-vectors form a set of concentric tubes, known as Landau tubes, whose cross-sectional area, $a$, perpedicular to the field is given by the Onsager relation:\footnote{A neat derivation of this is given on pg. 32 of Schoenberg\cite{Schoenberg1984}} 
 %%
 \begin{equation}
-\textit{Area}_{k_{\perp\vect{H}}} = (r + 1/2)2\pi e H/\hbar
+\label{Eqn:2:Onsager}
+\textit{a}_{k_{\perp}} = (r + 1/2)\frac{2\pi e H}{\hbar}
 \end{equation}
 %%
 where $r$ is a quantisation number that sets apart each tube. We can see from the relation that as $\vect{H}$ increases, so does the cross-sectional area of the tubes. As the magnetic field is ramped, successive tubes periodically pass the Fermi surface causing a spike in the \ac{DOS} at the Fermi level and also oscillations in the thermodynamic Landau potential ($\Omega$) which, for geometric reasons explained in the next section, are far stronger at the maximumal and minimal (extremal) areas of Fermi surface. Thermodynamic quantities such as magnetic susceptibility ($\chi = \delta\Omega/\delta H$) and heat capacity ($C_{V} = \delta^2\Omega/\delta T^2|_{V}$) or quantities that depend on the \ac{DOS} at the Fermi level such as electrical resistance all oscillate as the field is ramped. Oscillations in the susceptibility are known as \ac{dHvA} oscillations, oscillations in the resistivity are known as Shubnikov-de Haas oscillations.
 
- We can relate the `frequency' $F$ (measured in $tesla$\footnote{n.b. that it is \textit{tesla} and not \textit{tesla$^{-1}$} as the oscillations are actually periodic in $1/H$ and \textit{not} $H$ so their frequency counterpart is measured in \textit{tesla}.}) that the tubes pass the Fermi level with to the extremal Fermi surface area using the following application of the Onsager relation,
+ We can relate the `frequency' $F$ (measured in $tesla$\footnote{n.b. that it is \textit{tesla} and not \textit{tesla$^{-1}$} as the oscillations are actually periodic in $1/H$ and \textit{not} $H$ so their frequency counterpart is measured in \textit{tesla}.}) that the tubes pass the Fermi surface to the extremal Fermi surface area using the following application of the Onsager relation,
 %%
 \begin{equation}
-\textit{Area}_{k_{\perp\vect{H}}} = F 2\pi e /\hbar
+\textit{a}_{k_{\perp}} = \frac{2\pi e }{\hbar}F
 \end{equation}
 %%
-By varying the direction of the field we can obtain a series of maximal and minimal Fermi surface areas in a variety of orientations in order to build a profile of the Fermi surface topology and size. In practice, there are many possible variations that might fit the model based on areas of cross-sectional slices alone and so typically ab-initio \ac{DFT} calculations --- described in section\ref{Sec:2:dft} --- are employed to provide a basis which can be tweaked based on the constraints from the measurements. 
+By varying the direction of the field we can obtain a series of maximal and minimal Fermi surface areas in a variety of orientations in order to build a profile of the Fermi surface topology and size. In practice, there are many possible variations that might fit the model based on areas of cross-sectional slices alone and so typically ab-initio \ac{DFT} calculations --- described in section~\ref{Sec:2:dft} --- are employed to provide a basis which can be tweaked based on the constraints from the measurements. 
 
-A more detailed analysis of this process follows, beginning with the formation of Landau tubes.
-
+A more detailed analysis of this process follows, beginning with the mathematical foundation for oscillations in the magnetisation.
 
 \subsubsection{Oscillations in magnetisation}
+
+We begin by calculating the degeneracy of the Landau tubes i.e. the number of electron states per tube. Because the states under a magnetic field are a one-to-one rearrangement of the states with no field, we can use the Sommerfeld number of states per unit k-space ($V/4\pi^3$) to determine the degeneracy. From the Onsager relation (eqn.\ref{Eqn:2:Onsager}) we see that the additional area for successive tubes is $\Delta a_{k_{\perp}}  = 2\pi e H/\hbar$ which we can convert to a volume for each tube by integrating over $k_{\perp}$. This gives a degeneracy per tube therefore of,
+
+\begin{equation}
+D_{\textrm{tube}} = d k_{\perp}\left(\frac{2\pi e H}{\hbar}\right)\left(\frac{V}{4 \pi^3}\right) = \frac{eHVdk_{\perp}}{\hbar 2\pi^2}
+\end{equation}
+
+An interesting aside is that the degeneracy of each of the tubes increases proportional to $H$, wheras the number of levels $r$ below the Fermi surface is proprtional to $1/H$ and so the number of states below the Fermi surface remains \textit{approximately} the same with small fluctuations due to the discrete nature of $r$. This changes when the last Landau tube passes the Fermi surface at which point we have magnetic breakdown.
+
+We continue with the Landau thermodynamic potential, $\Omega$.
+
+\begin{align}
+\Omega &= U - TS - N\mu \\
+\end{align}
+
+
 
 The solution for the Hamiltonian for a free electron gas confined to an infinte box is a series of plane waves whose wavenumbers, $\vect{k}$, form a uniform grid in k-space with spacing dependant on the real space unit cell dimensions. When a field is applied, the momentum operator is modified into the canonical momentum operator $\op{p} = -i\hbar\nabla + e\op{A}$, where $\nabla \times \vect{A} = \vect{B}$. By chosing an appropriate value for $\vect{A}$ it is possible to solve the simpliefied Schr\"odinger equation to obtain eigenvalues\footnote{A derivation using the Landau guage can be found in ref. \cite{Blundell2001} pages 148--149},
 %%
