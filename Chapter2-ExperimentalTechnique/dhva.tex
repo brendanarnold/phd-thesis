@@ -7,16 +7,16 @@ In this section the phenomenon of \ac{dHvA} oscillations is described along with
 
 \subsubsection{Overview}
 
-For metals, the majority of the interesting physics occurs at the Fermi level and, provided Fermi liquid theory holds true, the electrons at the Fermi level can be modelled to a high degree of accuracy with the Sommerfeld model --- that is a Fermi gas of non-interacting electrons in an infinite box. When a magnetic field is applied, the electrons have their usual grid pattern distribution of plane wave k-vectors rearranged such that the electrons move around orbital and helical paths. These rearranged k-vectors form a set of concentric tubes, known as Landau tubes, whose cross-sectional area, $a$, perpedicular to the field is given by the Onsager relation:\footnote{A neat derivation of this is given on pg. 32 of Schoenberg\cite{Schoenberg1984}} 
+For metals, the majority of the interesting physics occurs at the Fermi level and, provided Fermi liquid theory holds true, the electrons at the Fermi level can be modelled to a high degree of accuracy with the Sommerfeld model --- that is a Fermi gas of non-interacting electrons in an infinite box. When a magnetic field is applied, the electrons have their usual grid pattern distribution of plane wave k-vectors rearranged such that the electrons move around orbital and helical paths. These rearranged k-vectors form a set of concentric tubes, known as Landau tubes, whose cross-sectional area, $a$, perpedicular to the field is given by the Onsager relation:\footnote{Derivations of the Onsager relation are given in several textbooks including pg. 32 of Schoenberg\cite{Schoenberg1984} and pg. 272 of Ashcroft \& Mermin\cite{Ashcroft1976}.} 
 %%
 \begin{equation}
 \label{Eqn:2:Onsager}
-\textit{a}_{k_{\perp}} = (r + 1/2)\frac{2\pi e H}{\hbar}
+\textit{a}_{k_{\perp}} = (r + 1/2)\frac{2\pi e B}{\hbar}
 \end{equation}
 %%
-where $r$ is a quantisation number that sets apart each tube. We can see from the relation that as $\vect{H}$ increases, so does the cross-sectional area of the tubes. As the magnetic field is ramped, successive tubes periodically pass the Fermi surface causing a spike in the \ac{DOS} at the Fermi level and also oscillations in the thermodynamic Landau potential ($\Omega$) which, for geometric reasons explained in the next section, are far stronger at the maximumal and minimal (extremal) areas of Fermi surface. Thermodynamic quantities such as magnetic susceptibility ($\chi = \delta\Omega/\delta H$) and heat capacity ($C_{V} = \delta^2\Omega/\delta T^2|_{V}$) or quantities that depend on the \ac{DOS} at the Fermi level such as electrical resistance all oscillate as the field is ramped. Oscillations in the susceptibility are known as \ac{dHvA} oscillations, oscillations in the resistivity are known as Shubnikov-de Haas oscillations.
+where $r$ is a quantisation number that sets apart each tube. We can see from the relation that as $\vect{B}$ increases, so does the cross-sectional area of the tubes. As the magnetic field is ramped, successive tubes periodically pass the Fermi surface causing a spike in the \ac{DOS} at the Fermi level and also oscillations in the energy o the ssytem, $E$, which, for geometric reasons explained in the next section, are far stronger at the maximumal and minimal (extremal) areas of Fermi surface. Thermodynamic quantities such as magnetic susceptibility ($\chi = \delta E/\delta B$) and heat capacity ($C_{V} = \delta^2E/\delta T^2|_{V}$) or quantities that depend on the \ac{DOS} at the Fermi level such as electrical resistance all oscillate as the field is ramped. Oscillations in the susceptibility are known as \ac{dHvA} oscillations, oscillations in the resistivity are known as Shubnikov-de Haas oscillations.
 
- We can relate the `frequency' $F$ (measured in $tesla$\footnote{n.b. that it is \textit{tesla} and not \textit{tesla$^{-1}$} as the oscillations are actually periodic in $1/H$ and \textit{not} $H$ so their frequency counterpart is measured in \textit{tesla}.}) that the tubes pass the Fermi surface to the extremal Fermi surface area using the following application of the Onsager relation,
+ We can relate the `frequency' $F$ (measured in $tesla$\footnote{n.b. that it is \textit{tesla} and not \textit{tesla$^{-1}$} because, as we shall see later, the oscillations are actually periodic in $1/B$ and \textit{not} $B$ so their frequency counterpart is measured in \textit{tesla}.}) that the tubes pass the Fermi surface to the extremal Fermi surface area using the following application of the Onsager relation,
 %%
 \begin{equation}
 \textit{a}_{k_{\perp}} = \frac{2\pi e }{\hbar}F
@@ -28,31 +28,44 @@ A more detailed analysis of this process follows, beginning with the mathematica
 
 \subsubsection{Oscillations in magnetisation}
 
-We begin by calculating the degeneracy of the Landau tubes i.e. the number of electron states per tube. Because the states under a magnetic field are a one-to-one rearrangement of the states with no field, we can use the Sommerfeld number of states per unit k-space ($V/4\pi^3$) to determine the degeneracy. From the Onsager relation (eqn.\ref{Eqn:2:Onsager}) we see that the additional area for successive tubes is $\Delta a_{k_{\perp}}  = 2\pi e H/\hbar$ which we can convert to a volume for each tube by integrating over $k_{\perp}$. This gives a degeneracy per tube therefore of,
+We begin by calculating the degeneracy of the Landau tubes i.e. the number of electron states per tube. Because the states under a magnetic field are a one-to-one rearrangement of the states with no field, we can use the Sommerfeld number of states per unit k-space ($V/4\pi^3$) to determine the degeneracy. From the Onsager relation (eqn.\ref{Eqn:2:Onsager}) we see that the additional area for successive tubes is $\Delta a_{k_{\perp}}  = 2\pi e B/\hbar$ which we can convert to a volume by integrating over $k_{\perp}$. This gives a degeneracy per tube therefore of,
 
 \begin{equation}
-D_{\textrm{tube}} = d k_{\perp}\left(\frac{2\pi e H}{\hbar}\right)\left(\frac{V}{4 \pi^3}\right) = \frac{eHVdk_{\perp}}{\hbar 2\pi^2}
+D_{\textrm{tube}} = d k_{\perp}\left(\frac{2\pi e B}{\hbar}\right)\left(\frac{V}{4 \pi^3}\right) = \frac{eBVdk_{\perp}}{\hbar 2\pi^2}
 \end{equation}
 
-An interesting aside is that the degeneracy of each of the tubes increases proportional to $H$, wheras the number of levels $r$ below the Fermi surface is proprtional to $1/H$ and so the number of states below the Fermi surface remains \textit{approximately} the same with small fluctuations due to the discrete nature of $r$. This changes when the last Landau tube passes the Fermi surface at which point we have magnetic breakdown.
-
-We continue with the Landau thermodynamic potential, $\Omega$.
-
-\begin{align}
-\Omega &= U - TS - N\mu \\
-\end{align}
-
-
-
-The solution for the Hamiltonian for a free electron gas confined to an infinte box is a series of plane waves whose wavenumbers, $\vect{k}$, form a uniform grid in k-space with spacing dependant on the real space unit cell dimensions. When a field is applied, the momentum operator is modified into the canonical momentum operator $\op{p} = -i\hbar\nabla + e\op{A}$, where $\nabla \times \vect{A} = \vect{B}$. By chosing an appropriate value for $\vect{A}$ it is possible to solve the simpliefied Schr\"odinger equation to obtain eigenvalues\footnote{A derivation using the Landau guage can be found in ref. \cite{Blundell2001} pages 148--149},
+We continue by writing an expression for the energy of the system, $E$ by summing the energies of the states that lie beneath the cross-sectional area defined by the Fermi surface ($a_{k_\perp F}$) for a given $k_\perp$. To do this, we use the Onsager equation to determine $R_\perp$ --- the number of Landau tubes below the Fermi surface at this cross-sectional slice. We then multiply this by the degeneracy of the tubes, $D$ and the energy for states on that particular Landau tube, $\epsilon_r$,
 %%
-$$E=(r+1/2)\hbar\omega_c + \frac{\hbar^2 k^2_z}{2m_e}$$
+\begin{equation}
+\label{Eqn:2:OscillateE}
+E = D\sum_{r}^{R_\perp}\epsilon_r = \frac{eBVdk_\perp}{\hbar 2 \pi^2}\sum_{r}^{R_\perp}\epsilon_r
+\end{equation}
+ where,
+\begin{equation}
+R_\perp = \textrm{floor}\left[\frac{a_{k_\perp F}\hbar}{2\pi e B} - \frac{1}{2}\right]
+\end{equation}
 %%
-where $\omega_c = \frac{eB}{m_e}$ is the \textit{cyclotron frequency} and $r$ is a quantum number which defines a particular \textit{Landau level}.
-
-The field re-distributes the grid of $\vect{k}$ vectors into degenerate, discrete rings with each ring corresponding to a Landau level. In the process of grouping the uniform grid into discrete energy levels, some of the k-vectors on the grid are shifted up in energy to meet the closest Landau level and others are moved down in energy and for most levels, the resulting increase in energy for an electron matches and cancels a similar downshift in energy for another electron. If however, the closest Landau level lies just above the Fermi energy, then the electrons in that case are all shifted down to the next level resulting in a net decrease in total energy of the k-states in the system.
-
-By considering the degeneracy of the Landau levels
+To complete the above equation, we need an expression for the energies of each of the Landau tubes. The procedure for the free electron case is to insert the canonical momentum (i.e momentum of a free electron in a magnetic field) into the non-interacting Schr\"odinger equation and solve to obtain the following eigenvalues for the energies on the Landau tubes. Full derivations can be found in several textbooks\footnote{See for examples pg. 32ff. in Schoenberg\cite{Schoenberg1984} or pg. 148ff. in Blundell\cite{Blundell2001}.} and so will  not be repeated here. Below is the expression for the energy eigenvalues,
+%%
+\begin{equation}
+\epsilon_r=(r+1/2) \hbar \omega_c + \frac{\hbar^2 k_\perp^2}{2m_0}
+\end{equation}
+%%
+where,
+%%
+\begin{equation}
+\omega_c = \frac{eB}{m_0}
+\end{equation}
+%%
+and is known as the \textit{cyclotron frequency}. By substituting the above into equation\ref{Eqn:2:OscillateE} and plotting as a function of field, we obtain the energy oscillations shown in \fig\ref{Fig:2:EnergyOscillations}.
+%%
+\begin{figure}[htbp]
+    \begin{center}
+        \includegraphics[scale=0.9]{Misc/TODO}
+        \caption{}
+        \label{Fig:2:EnergyOscillations}
+    \end{center}
+\end{figure
 
 
 Originally \ac{dHvA} measurements were used to measure the Fermi surfaces of elemental metals and so the initial assumption of a free-electron gas is justified based on the fact that elemental metals have a Fermi surface and are considered materials that adhere to Fermi liquid theory. The fact that oscillations have been observed in cuprates and pnictides which have demonstrated non-Fermi liquid behaviour is therefore remarkable and moreover implies the presence of a Fermi surface, at least in the prescence of a strong magnetic field.
