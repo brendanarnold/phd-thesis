@@ -24,7 +24,7 @@ where $r$ is a quantisation number that sets apart each tube. We can see from th
 %%
 By varying the direction of the field we can obtain a series of maximal and minimal Fermi surface areas in a variety of orientations in order to build a profile of the Fermi surface topology and size. In practice, there are many possible variations that might fit the model based on areas of cross-sectional slices alone and so typically ab-initio \ac{DFT} calculations --- described in section~\ref{Sec:2:dft} --- are employed to provide a basis which can be tweaked based on the constraints from the measurements. 
 
-A more detailed analysis of this process follows, beginning with the mathematical foundation for oscillations in the magnetisation.
+A more detailed analysis of this process follows, beginning with an illustrative mathematical treatment for oscillations in the magnetisation.
 
 \subsubsection{Oscillations in magnetisation}
 
@@ -57,31 +57,44 @@ where,
 \omega_c = \frac{eB}{m_0}
 \end{equation}
 %%
-and is known as the \textit{cyclotron frequency}. By substituting the above into equation\ref{Eqn:2:OscillateE} and plotting as a function of field, we obtain the energy oscillations shown in \fig\ref{Fig:2:EnergyOscillations}.
+and is known as the \textit{cyclotron frequency}. The summation term in equation\ref{Eqn:2:OscillateE} can now be written,
+%%
+\begin{align*}
+\sum_r^{R_\perp}\epsilon_r &= \sum_r^{R_\perp}\left( (r+1/2) \hbar \omega_c + \frac{\hbar^2 k_\perp^2}{2m_0} \right) \\
+    &= \frac{\hbar eB}{m_0}\sum_r^{R_\perp}r + \frac{\hbar eB}{2m_0}\sum_r^{R_\perp}1 + \frac{\hbar^2 k_\perp^2}{2m_0}\sum_r^{R_\perp}1 \\
+    &= \frac{\hbar eB}{2 m_0} R_\perp(R_\perp + 1) + \frac{\hbar eB}{2m_0}R_\perp + \frac{\hbar^2 k_\perp^2}{2m_0}R_\perp \\
+    &= \frac{\hbar eB}{2m_0}R_\perp^2 + \left(\frac{\hbar eB}{m_0} + \frac{\hbar^2 k_\perp^2}{2m_0}\right)R_\perp
+\end{align*}
+%%
+which can be expanded out and finally substituted back into equation\ref{Eqn:2:OscillateE} to finally obtain,
+%%
+\begin{equation}
+E = \frac{eB^2Vdk_\perp}{4\pi^2m_0}\left[e R_\perp^2 + \left(2e + \frac{\hbar k_\perp^2}{B}\right)R_\perp\right]
+\end{equation}
+%%
+Key to the above relation is that, although $R_\perp$ is inversely proprtional to $B$, it remains discrete. This gives rise to the saw-tooth like function shown in \fig\ref{Fig:2:EnergyOscillations} for some typical experimental parameters. Also plotted is the fuction against $1/B$ where we can clearly see that the oscillations are periodic in inverse field hence the frequency being measured in tesla$^{-1}$.
 %%
 \begin{figure}[htbp]
     \begin{center}
-        \includegraphics[scale=0.9]{Misc/TODO}
-        \caption{}
+        \includegraphics[scale=0.9]{Chapter2-ExperimentalTechnique/Figures/TheoreticalOscillations/TheoreticalOscillations}
+        \caption{Theoretical energy oscillations for a Fermi surface orbit which is 5\% of a \unit[5]{\AA} cubic Brillouin zone between \unit[1--18]{T}. Kinetic energy term is taken to be for an electron at a level half the size of the Fermi surface.}
         \label{Fig:2:EnergyOscillations}
     \end{center}
-\end{figure
+\end{figure}
+
+The above is not a rigourous derivation but is nonetheless illustrative of the origin of the oscillation in the system energy and how any thermodynamic value which depends on the energy of the system oscillates as a function of field. To continue we need to include correction factors to the oscillation amplitude due to finite electron scattering rates, $R_D$, temperature, $R_T$, Zeeman splitting of spins, $R_s$, doping, $R_{\textrm{dop}}$, mosaicity, $R_{\textrm{mos}}$, warping of the Fermi surface, $R_{\textrm{warp}}$ as well as adjustments due to the fact that the parameter measured was torque of the sample in a field and not the energy or magnetisation directly, $R_{\Gamma}$. For this, we turn to a more solid foundation put forward by Lifschitz and Kosevitch and presented by Schoenberg.
+
+\subsubsection{Lifschitz-Kosevich equation}
+
+The derivation for the full expression for the Landau thermodynamic potential begins in a similar way to the previous section but frames the sawtooth-like function above as a more mathematically manageable Fourier decomposition\footnote{Also, conveniently for later generations of \ac{dHvA} experimentalists, this also allows for further information to be gleaned from the higher harmonics that appear during the now routine Fourier analysis}. For this reason the equation below fetures higher harmonics which are denoted as $p$.
+
+\subsubsection{Extracting the effective mass from the temperature}
+%TODO
 
 
 Originally \ac{dHvA} measurements were used to measure the Fermi surfaces of elemental metals and so the initial assumption of a free-electron gas is justified based on the fact that elemental metals have a Fermi surface and are considered materials that adhere to Fermi liquid theory. The fact that oscillations have been observed in cuprates and pnictides which have demonstrated non-Fermi liquid behaviour is therefore remarkable and moreover implies the presence of a Fermi surface, at least in the prescence of a strong magnetic field.
 
 
-
-\begin{equation}
-A(B,\phi,\theta,T)=A_0R_{\Gamma}R_TR_DR_{\textrm{mos}}R_{\textrm{dop}}R_sR_{\textrm{warp}}
-\label{Eqn:2:OscilllationAmp}
-\end{equation}
-
-\begin{align}
-R_T(B, \theta, T) &= \frac{X}/{\sinh{X}} \\
-X                 &= \frac{2\pi^2k_Bm^*_{\textrm{therm}}T}{e\hbar B\cos{\theta}} \\
-\label{Eqn:2:TempTermOscillationAmp}
-\end{align}
 
 \subsection{Mapping the Fermi surface}
 

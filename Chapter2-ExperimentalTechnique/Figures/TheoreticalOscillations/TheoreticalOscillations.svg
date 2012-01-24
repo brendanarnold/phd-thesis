@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 "
+   sodipodi:docname="New document 1">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="451.27637"
+     inkscape:cy="919.43413"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1023"
+     inkscape:window-height="821"
+     inkscape:window-x="110"
+     inkscape:window-y="145"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <image
+       y="82.732758"
+       x="210.38037"
+       id="image2993"
+       xlink:href="file:///C:/PhD/Results/2012/dHvAOscillationTheory/EnergyOscilllationVsB.png"
+       height="90.482689"
+       width="309.21152" />
+    <image
+       y="196.71548"
+       x="208.82458"
+       id="image3004"
+       xlink:href="file:///C:/PhD/Results/2012/dHvAOscillationTheory/EnergyOscilllationVsInvB.png"
+       height="90.482689"
+       width="307.34204" />
+    <text
+       sodipodi:linespacing="100%"
+       id="text3011"
+       y="186.36217"
+       x="355.71426"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="font-size:12px"
+         y="186.36217"
+         x="355.71426"
+         id="tspan3013"
+         sodipodi:role="line">B (<tspan
+   style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'"
+   id="tspan3017">T</tspan>)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="348.42859"
+       y="300.93359"
+       id="text3007"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3009"
+         x="348.42859"
+         y="300.93359"
+         style="font-size:12px">1/B (<tspan
+   style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'"
+   id="tspan3015">T<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan3019">-1</tspan></tspan>)</tspan></text>
+    <text
+       transform="matrix(0,-1,1,0,0,0)"
+       sodipodi:linespacing="100%"
+       id="text3029"
+       y="201.58592"
+       x="-142.17079"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="font-size:12px"
+         y="201.58592"
+         x="-142.17079"
+         id="tspan3031"
+         sodipodi:role="line">E (<tspan
+   id="tspan3033"
+   style="font-size:12px;font-style:italic">a.u.</tspan>)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="-257.8851"
+       y="200.15735"
+       id="text3023"
+       sodipodi:linespacing="100%"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3025"
+         x="-257.8851"
+         y="200.15735"
+         style="font-size:12px">E (<tspan
+   style="font-size:12px;font-style:italic"
+   id="tspan3027">a.u.</tspan>)</tspan></text>
+  </g>
+</svg>
