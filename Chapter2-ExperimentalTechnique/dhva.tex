@@ -83,29 +83,25 @@ Key to the above relation is that, although $R_\perp$ is inversely proprtional t
     \end{center}
 \end{figure}
 
-Next we consider why we only observe frequencies almost entirely from the extremal orbits (i.e. the maximum and minimum Fermi surface orbits). Let us define $R^\prime$, which is the continuous conterpart to $R_\perp$. $R^\prime$ at these extremal orbits is also therefore at a minimum or a minimum. We can model the surrounding $R^\prime$ values using a polynomial expansion i.e. $R^\prime = R^\prime_{\textrm{ext}} + p_2 k_\perp^2 + p_3 k_\perp^3 + p_4 k_\perp^4 \ldots$ Note that the $p_1$ term cannot be included since this would preclude $R^\prime$ from being at a turning point. Usually, only the second order expansion is required and so we continue with that. We now note the integration of equation \ref{Eqn:2:OscIllustration} over all orbits perpendicular to $\vect{B}$ is as follows (with unimportant scaling factors ommitted),
-%%
-\begin{align*}
-E &= \ldots \int_{-\infty}^{\infty}\left[\ldots R^{\prime 2} + \ldots R^\prime\right]dk_\perp \\
-  &= \ldots \int_{-\infty}^{\infty}\left[\ldots(R^{\prime 2}_{\textrm{ext}} + 2p_2 R^\prime_{\textrm{ext}} k_\perp^2 + p_2^2 k_\perp^4) + \ldots (R^\prime_{\textrm{ext}} + p_2 k_\perp^2) \right]dk_\perp \\
- &= \ldots\left[\ldots(R^{\prime 2}_{\textrm{ext}} + R^\prime_{\textrm{ext}})k_\perp + \left(\frac{2}{3}p_2R^\prime_{\textrm{ext}} + \frac{1}{3}p_2\right) k_\perp^3 + \left(\frac{1}{5}p_2^2 \right) k_\perp^5  \right]^{\infty}_{-\infty} \\
-\end{align*}
+The above is not a rigourous derivation but is nonetheless illustrative of the origin of the oscillation in the system energy and how any thermodynamic value which depends on the energy of the system oscillates as a function of field. To continue we need to include correction factors to the oscillation amplitude due to finite electron scattering rates ($A_D$), temperature ($A_T$), Zeeman splitting of spins ($A_s$), doping ($A_{\textrm{dop}}$), mosaicity ($A_{\textrm{mos}}$), warping of the Fermi surface ($A_{\textrm{warp}}$) as well as adjustments due to the fact that the parameter measured was torque of the sample in a field and not the energy or magnetisation directly ($A_{\Gamma}$). For this, we turn to a more solid foundation that was put forward by Lifschitz and Kosevitch and presented by Schoenberg.
 
+\subsubsection{\ac{LK} equation}
 
-
-The above is not a rigourous derivation but is nonetheless illustrative of the origin of the oscillation in the system energy and how any thermodynamic value which depends on the energy of the system oscillates as a function of field. To continue we need to include correction factors to the oscillation amplitude due to finite electron scattering rates, $R_D$, temperature, $R_T$, Zeeman splitting of spins, $R_s$, doping, $R_{\textrm{dop}}$, mosaicity, $R_{\textrm{mos}}$, warping of the Fermi surface, $R_{\textrm{warp}}$ as well as adjustments due to the fact that the parameter measured was torque of the sample in a field and not the energy or magnetisation directly, $R_{\Gamma}$. For this, we turn to a more solid foundation that was put forward by Lifschitz and Kosevitch and presented by Schoenberg.
-
-\subsubsection{Lifschitz-Kosevich equation}
-
-The derivation for the full expression for the Landau thermodynamic potential, $\Omega$\footnote{Formally defined as the energy in a open system that is in thermal contact with its surroundings}, begins in a similar way to the previous illustrative example but frames the sawtooth-like function above as a more mathematically manageable Fourier decomposition\footnote{Also, conveniently for later generations of \ac{dHvA} experimentalists, this also allows for further information to be gleaned from the higher harmonics that appear during the now routine Fourier analysis}. For this reason the equation below features higher harmonics which are denoted as $p$.
+The derivation for the full expression for the Landau thermodynamic potential, $\Omega$\footnote{Formally defined as the energy in a open system that is in thermal contact with its surroundings}, begins in a similar way to the previous illustrative example but frames the sawtooth-like function above as a more mathematically manageable Fourier decomposition which also conveniently makes the technique highly amenable to Fourier analysis. For this reason the equation below features higher harmonics which are denoted with the identifier $p$.
 %%
 \begin{equation}
-\Omega = \left(\frac{e}{2\pi\hbar}\right)^{3/2}\frac{e\hbar B^{5/2}}{m_0 \pi^2}\left| \frac{\partial^2 a_{\textrm{ext}}}{\partial k^2_\perp}\right|^{-1/2}\sum_{p=1}^{\infty}p^{-5/2}R_T R_D R_s R_{\textrm{mos}} R_{\textrm{dop}} R_{\textrm{warp}} \cos\left[2\pi\left(\frac{F}{B} - \gamma\right)\pm\frac{\pi}{4}\right]
+\Omega = \left(\frac{e}{2\pi\hbar}\right)^{\frac{3}{2}}\frac{e\hbar B^{\frac{5}{2}}}{m_0 \pi^2}\left| \frac{\partial^2 a_{\textrm{ext}}}{\partial k^2_\perp}\right|^{-\frac{1}{2}}\sum_{p=1}^{\infty}p^{-\frac{5}{2}}A\cos\left[2\pi\left(\frac{F}{B} - \gamma\right)\pm\frac{\pi}{4}\right]
 \end{equation}
-
-The above equation and derivatives of it are known as the Lifshitz-Kosevitch equation. $a_{\textrm{ext}}$ is (one of) the extremal Fermi surface orbit area(s) perpendicular to a particular field direction. Only the extremal (i.e. the largest and smallest) magnetically induced orbits contribute significantly to the system energy since ...
+where,
+\begin{equation}
+A = A_T A_D A_s A_{\textrm{mos}} A_{\textrm{dop}} A_{\textrm{warp}} 
+\end{equation}
+The above equation and derivatives of it are known as the \ac{LK} equation. $a_{\textrm{ext}}$ is (one of) the extremal Fermi surface orbit area(s) perpendicular to a particular field direction. Only the extremal (i.e. the largest and smallest) magnetically induced orbits contribute significantly to oscillations in the system energy since the orbits which are not at turning points rapidly shift phase and therefore contribute little to the integral over $dk_\perp$.
 
 TODO
+
+The modifications to the \ac{LK} listed towards the end of the previous section can be manifest by convolving an appropriate phase distribution function with the cosine oscillatory term. It can be shown\footnote{See for example, Schoenberg pg 57--59.\cite{Schoenberg1984}} that this convolution results in a relatively simple multiplication factor, hence the various $A$ factors listed in the equation.
+
 
 \subsubsection{Extracting the effective mass from the temperature}
 
