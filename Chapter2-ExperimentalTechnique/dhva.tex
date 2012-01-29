@@ -1,7 +1,9 @@
 
-\section{\ac{DHvA} torque oscillation}
+\section{De Haas-van Alphen torque oscillation}
 
-In this section the phenomenon of \ac{dHvA} oscillations is described along with its measurement by the torque method. For decades, \ac{dHvA} has provided the principle method of characterising the Fermiology of a material with only relatively recent competition from techniques such as positron annihilation and \ac{ARPES} in particular. Whilst \ac{ARPES} can provide direct maps of Fermi surfaces within the Brillouin zone, \ac{DHvA} has some advantages such as the fact that it ignores surface effects such as crystal reconstruction, can determine cross-sectional areas with a relatively high resolution and also provides useful secondary measurements such as effective masses of the quasiparticle carriers.  Some disadvantages of the technique include the fact that \ac{dHvA} cannot locate particular cross-sectional orbits within the Brillouin zone (thus relies on secondary knowledge such as \ac{DFT} calculations) and also that the high magnetic fields could potentially affect the Fermi surface, for example by splitting the energy levels. Regardless \ac{dHvA} continues to be a reliable technique for Fermi surface characterisation. A more detailed comparison of all three techniques can be found in appendix~\ref{Appendix:FermilogyTechniques}.
+In this section the phenomenon of \ac{dHvA} oscillations is described along with its measurement by the torque method. For decades, \ac{dHvA} has provided the principle method of characterising the Fermiology of a material with only relatively recent competition from techniques such as positron annihilation and \ac{ARPES} in particular. Whilst \ac{ARPES} can provide direct maps of Fermi surfaces within the Brillouin zone, \ac{dHvA} has some advantages such as the fact that it ignores surface effects such as crystal reconstruction, can determine cross-sectional areas with a relatively high resolution and also provides useful secondary measurements such as effective masses of the quasiparticle carriers.  Some disadvantages of the technique include the fact that \ac{dHvA} cannot locate particular cross-sectional orbits within the Brillouin zone (thus relies on secondary knowledge such as \ac{DFT} calculations) and also that the high magnetic fields could potentially affect the Fermi surface, for example by splitting the energy levels. Regardless \ac{dHvA} continues to be a reliable technique for Fermi surface characterisation. A more detailed comparison of all three techniques can be found in appendix~\ref{Appendix:FermilogyTechniques}.
+
+
 
 \subsection{Theory}
 
@@ -85,7 +87,7 @@ Key to the above relation is that, although $R_\perp$ is inversely proprtional t
 
 The above is not a rigourous derivation but is nonetheless illustrative of the origin of the oscillation in the system energy and how any thermodynamic value which depends on the energy of the system oscillates as a function of field. To continue we need to include correction factors to the oscillation amplitude due to finite electron scattering rates ($A_D$), temperature ($A_T$), Zeeman splitting of spins ($A_s$), doping ($A_{\textrm{dop}}$), mosaicity ($A_{\textrm{mos}}$), warping of the Fermi surface ($A_{\textrm{warp}}$) as well as adjustments due to the fact that the parameter measured was torque of the sample in a field and not the energy or magnetisation directly ($A_{\Gamma}$). For this, we turn to a more solid foundation that was put forward by Lifschitz and Kosevitch and presented by Schoenberg.
 
-\subsubsection{\ac{LK} equation}
+\subsubsection{\acl{LK} equation}
 
 The derivation for the full expression for the Landau thermodynamic potential, $\Omega$\footnote{Formally defined as the energy in a open system that is in thermal contact with its surroundings}, begins in a similar way to the previous illustrative example but frames the sawtooth-like function above as a more mathematically manageable Fourier decomposition which also conveniently makes the technique highly amenable to Fourier analysis. For this reason the equation below features higher harmonics which are denoted with the identifier $p$.
 %%
@@ -96,17 +98,16 @@ where,
 \begin{equation}
 A = A_T A_D A_s A_{\textrm{mos}} A_{\textrm{dop}} A_{\textrm{warp}} 
 \end{equation}
-The above equation and derivatives of it are known as the \ac{LK} equation. $a_{\textrm{ext}}$ is (one of) the extremal Fermi surface orbit area(s) perpendicular to a particular field direction. Only the extremal (i.e. the largest and smallest) magnetically induced orbits contribute significantly to oscillations in the system energy since the orbits which are not at turning points rapidly shift phase and therefore contribute little to the integral over $dk_\perp$.
+The above equation and derivatives of it are known as the \ac{LK} equation. We no longer have the integral over $k_\perp$ and instead have the parameter $a_{\textrm{ext}}$ which is (one of) the extremal Fermi surface orbit area(s) perpendicular to a particular field direction. Only the extremal (i.e. the largest and smallest) magnetically induced orbits contribute significantly to oscillations in the system energy. The reason for this is that when performing the integral over $k_\perp$ to attain the \ac{LK} equation, $F$ varies as a function of $a_{k_\perp}$ and hence as a function of $k_\perp$. This leads to a blurring of the phase in the cosine term for a given $B$ which reduces the overall amplitude significantly. Regions where $dF/dk_\perp$ is small (i.e. turning points) therefore have more orbits across the integration that are closely in phase and are therfore stronger
 
 TODO
 
-The modifications to the \ac{LK} listed towards the end of the previous section can be manifest by convolving an appropriate phase distribution function with the cosine oscillatory term. It can be shown\footnote{See for example, Schoenberg pg 57--59.\cite{Schoenberg1984}} that this convolution results in a relatively simple multiplication factor, hence the various $A$ factors listed in the equation.
+The modifications to the \ac{LK} equation listed towards the end of the previous section can be manifest by convolving an appropriate phase distribution function with the cosine oscillatory term. It can be shown\footnote{See for example, Schoenberg pg 57--59.\cite{Schoenberg1984}} that this convolution results in a relatively simple multiplication factor, hence the various $A$ factors listed in the equation.
 
 
 \subsubsection{Extracting the effective mass from the temperature}
 
-
-One possible way to introduce temperature effects is to consider that the Fermi energy $\mu$ may be smeared according to the Fermi distribution $f(\epsilon) = 1/(1+\exp((\epsilon-\mu)/kT))$.
+The temperature effects on the \ac{LK} equation are One possible way to introduce temperature effects is to consider that the Fermi energy $\mu$ may be smeared according to the Fermi distribution $f(\epsilon) = 1/(1+\exp((\epsilon-\mu)/kT))$.
 
 
 
