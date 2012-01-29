@@ -98,9 +98,19 @@ where,
 \begin{equation}
 A = A_T A_D A_s A_{\textrm{mos}} A_{\textrm{dop}} A_{\textrm{warp}} 
 \end{equation}
-The above equation and derivatives of it are known as the \ac{LK} equation. We no longer have the integral over $k_\perp$ and instead have the parameter $a_{\textrm{ext}}$ which is (one of) the extremal Fermi surface orbit area(s) perpendicular to a particular field direction. Only the extremal (i.e. the largest and smallest) magnetically induced orbits contribute significantly to oscillations in the system energy. The reason for this is that when performing the integral over $k_\perp$ to attain the \ac{LK} equation, $F$ varies as a function of $a_{k_\perp}$ and hence as a function of $k_\perp$. This leads to a blurring of the phase in the cosine term for a given $B$ which reduces the overall amplitude significantly. Regions where $dF/dk_\perp$ is small (i.e. turning points) therefore have more orbits across the integration that are closely in phase and are therfore stronger
+%%
+The above equation and derivatives of it are known as the \ac{LK} equation. To attain the above equation, it was necessary to perform an integral over $k_\perp$\footnote{Similar to the integral in the toy equation from the previous section} which results in a parameter for an extremal Fermi surface orbit area perpendicular to the field given by $a_{\textrm{ext}}$. Only the extremal (i.e. the largest and smallest) magnetically induced orbits contribute significantly to oscillations in the system energy. This is because $F$ represents a phase factor in the \ac{LK} equation and at the extremal points $dF/dk_\perp=0$ meaning more orbits near extrema are in phase. However it is not immediately clear how much stronger the oscillations from the extremal orbits will be in comparison to other orbits. Figure~\ref{Fig:2:ExtremalPhases} shows examples of the strengths of the oscillations after integrating over a distribution of phases shown in the insets.
+%%
+\begin{figure}[htbp]
+    \begin{center}
+        \includegraphics[scale=0.9]{Misc/TODO}
+        \caption{The sum of 1000 cosines each with a phase taken along the lines shown in the insets. Left, middle and right panels phase distributions are scaled to $\sim1$, $\approx10$ and $\approx100$ Landau tube `wavelengths'}
+        \label{Fig:2:ExtremalPhases}
+    \end{center}
+\end{figure}
+%%
+The panels each show the phases from the distributions taken over a range of scales, and it is clear that the phase cancellation is more acute for longer scales. This makes sense if we consider that the Landau tubes passing the Fermi surface are a oscillatory measurement probe like any other and so will be wavelength limited. That is, if the difference between the outermost and innermost orbits are of the order of the Landau tube spacing as is passes the Fermi surface, then the oscillations will be difficult to pick out. Interestingly this also places a limit on the maximum field that can be used to probe a Fermi surface since, according to the Onsager relation, the larger the field the larger the spacing between tubes. In practice this means that that the field limit is .... TODO 
 
-TODO
 
 The modifications to the \ac{LK} equation listed towards the end of the previous section can be manifest by convolving an appropriate phase distribution function with the cosine oscillatory term. It can be shown\footnote{See for example, Schoenberg pg 57--59.\cite{Schoenberg1984}} that this convolution results in a relatively simple multiplication factor, hence the various $A$ factors listed in the equation.
 
