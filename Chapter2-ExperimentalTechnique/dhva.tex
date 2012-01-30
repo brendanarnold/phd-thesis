@@ -50,13 +50,7 @@ R_\perp = \textrm{floor}\left[\frac{a_{k_\perp F}\hbar}{2\pi e B} - \frac{1}{2}\
 To complete the above equation, we need an expression for the energies of each of the Landau tubes. The procedure for the free electron case is to insert the canonical momentum (i.e momentum of a free electron in a magnetic field) into the non-interacting Schr\"odinger equation and solve to obtain the following eigenvalues for the energies on the Landau tubes. Full derivations can be found in several textbooks\footnote{See for examples pg. 32ff. in Schoenberg\cite{Schoenberg1984} or pg. 148ff. in Blundell\cite{Blundell2001}.} and so will  not be repeated here. Below is the expression for the energy eigenvalues,
 %%
 \begin{equation}
-\epsilon_r=(r+1/2) \hbar \omega_c + \frac{\hbar^2 k^2}{2m_0}
-\end{equation}
-%%
-where,
-%%
-\begin{equation}
-\omega_c = \frac{eB}{m_0}
+\epsilon_r=(r+1/2) \hbar \omega_c + \frac{\hbar^2 k^2}{2m_0} \textrm{\hspace{0.2cm}where,\hspace{0.2cm}} \omega_c = \frac{eB}{m_0}
 \end{equation}
 %%
 and is known as the \textit{cyclotron frequency}. The summation term in equation\ref{Eqn:2:OscillateE} can now be written,
@@ -72,7 +66,7 @@ which can be expanded out and finally substituted back into equation\ref{Eqn:2:O
 %%
 \begin{equation}
 \label{Eqn:2:OscIllustration}
-E = \frac{eB^2Vdk_\perp}{4\pi^2m_0}\left[e R_\perp^2 + \left(2e + \frac{\hbar k^2}{B}\right)R_\perp\right]
+E = \frac{e^2Vdk_\perp}{4\pi^2m_0}B^2\left[R_\perp^2 + 2R_\perp + \frac{\hbar k^2}{e}\frac{1}{B}R_\perp\right]
 \end{equation}
 %%
 Key to the above relation is that, although $R_\perp$ is inversely proprtional to $B$, it remains discrete. This gives rise to the saw-tooth like function shown in \fig\ref{Fig:2:EnergyOscillations} for some typical experimental parameters. Also plotted is the fuction against $1/B$ where we can clearly see that the oscillations are periodic in inverse field hence the frequency being measured in tesla$^{-1}$.
@@ -92,36 +86,60 @@ The above is not a rigourous derivation but is nonetheless illustrative of the o
 The derivation for the full expression for the Landau thermodynamic potential, $\Omega$\footnote{Formally defined as the energy in a open system that is in thermal contact with its surroundings}, begins in a similar way to the previous illustrative example but frames the sawtooth-like function above as a more mathematically manageable Fourier decomposition which also conveniently makes the technique highly amenable to Fourier analysis. For this reason the equation below features higher harmonics which are denoted with the identifier $p$.
 %%
 \begin{equation}
-\Omega = \left(\frac{e}{2\pi\hbar}\right)^{\frac{3}{2}}\frac{e\hbar B^{\frac{5}{2}}}{m_0 \pi^2}\left| \frac{\partial^2 a_{\textrm{ext}}}{\partial k^2_\perp}\right|^{-\frac{1}{2}}\sum_{p=1}^{\infty}p^{-\frac{5}{2}}A\cos\left[2\pi\left(\frac{F}{B} - \gamma\right)\pm\frac{\pi}{4}\right]
+\Omega = \left(\frac{e}{2\pi\hbar}\right)^{\frac{3}{2}}\frac{e\hbar B^{\frac{5}{2}}}{m_0 \pi^2}\left| \frac{\partial^2 a_{\textrm{ext}}}{\partial k^2_\perp}\right|^{-\frac{1}{2}}\sum_{p=1}^{\infty}p^{-\frac{5}{2}}A_{\textrm{tot}}\cos\left[2\pi p\left(\frac{F}{B} - \gamma\right)\pm\frac{\pi}{4}\right]
 \end{equation}
 where,
 \begin{equation}
-A = A_T A_D A_s A_{\textrm{mos}} A_{\textrm{dop}} A_{\textrm{warp}} 
+A_{\textrm{tot}} = A_T A_D A_s A_{\textrm{mos}} A_{\textrm{dop}} A_{\textrm{warp}} 
 \end{equation}
 %%
-The above equation and derivatives of it are known as the \ac{LK} equation. To attain the above equation, it was necessary to perform an integral over $k_\perp$\footnote{Similar to the integral in the toy equation from the previous section} which results in a parameter for an extremal Fermi surface orbit area perpendicular to the field given by $a_{\textrm{ext}}$. Only the extremal (i.e. the largest and smallest) magnetically induced orbits contribute significantly to oscillations in the system energy. This is because $F$ represents a phase factor in the \ac{LK} equation and at the extremal points $dF/dk_\perp=0$ meaning more orbits near extrema are in phase. However it is not immediately clear how much stronger the oscillations from the extremal orbits will be in comparison to other orbits. Figure~\ref{Fig:2:ExtremalPhases} shows examples of the strengths of the oscillations after integrating over a distribution of phases shown in the insets.
+The above equation and derivatives of it are known as the \ac{LK} equation. To attain the above equation, it was necessary to perform an integral over $k_\perp$\footnote{Similar to the integral in the toy equation from the previous section} which results in a parameter for an extremal Fermi surface orbit area perpendicular to the field given by $a_{\textrm{ext}}$. 
+
+Only the extremal (i.e. the largest and smallest) magnetically induced orbits contribute significantly to oscillations in the system energy. This is because $F$ represents a phase factor in the \ac{LK} equation and at the extremal points $dF/dk_\perp=0$ meaning more orbits near extrema are in phase. However it is not immediately clear how much stronger the oscillations from the extremal orbits will be in comparison to other orbits. Figure~\ref{Fig:2:ExtremalPhases} shows examples of the strengths of the oscillations after integrating over a distribution of phases shown in the insets.
 %%
 \begin{figure}[htbp]
     \begin{center}
-        \includegraphics[scale=0.9]{Misc/TODO}
-        \caption{The sum of 1000 cosines each with a phase taken along the lines shown in the insets. Left, middle and right panels phase distributions are scaled to $\sim1$, $\approx10$ and $\approx100$ Landau tube `wavelengths'}
+        \includegraphics[scale=0.8]{Chapter2-ExperimentalTechnique/Figures/ExtremalPhases/ExtremalPhases}
+        \caption{The sum of 1000 cosines with phase dispersions shown in the insets. Dashed line represents an extremal dispersion, solid lines a spread of linear dispersions and dotted line represent a non-extremal inflection point. Top left, top right and bottom left panels have phase distributions that are scaled from $0$ to $\sim1$, $\approx10$ and $\approx100$ Landau tube `wavelengths' respectively.}
         \label{Fig:2:ExtremalPhases}
     \end{center}
 \end{figure}
 %%
-The panels each show the phases from the distributions taken over a range of scales, and it is clear that the phase cancellation is more acute for longer scales. This makes sense if we consider that the Landau tubes passing the Fermi surface are a oscillatory measurement probe like any other and so will be wavelength limited. That is, if the difference between the outermost and innermost orbits are of the order of the Landau tube spacing as is passes the Fermi surface, then the oscillations will be difficult to pick out. Interestingly this also places a limit on the maximum field that can be used to probe a Fermi surface since, according to the Onsager relation, the larger the field the larger the spacing between tubes. In practice this means that that the field limit is .... TODO 
+The panels each show the phases from the distributions taken over a range of scales, and it is clear that the phase cancellation is more acute for longer scales. This makes sense if we consider that the Landau tubes passing the Fermi surface are a oscillatory measurement probe like any other and so will be wavelength limited. That is, if the difference between the outermost and innermost orbits are of the order of the Landau tube spacing as is passes the Fermi surface, then the oscillations will be difficult to pick out. Interestingly this also places a limit on the maximum field that can be used to probe a Fermi surface since, according to the Onsager relation, the larger the field the larger the spacing between tubes. In practice this is simply $\Delta a_{k_\perp}$ which means that in terms of $F$, the resolutions is simply the field (i.e. $\sigma_F \sim \unit[18]{T}$ for the Yellow magnet at Bristol). 
 
+A final point is that it is not strictly extremal points that contribute significantly to the oscillations, but also inflected stationary points as shown in the last panel of figure~\ref{Fig:2:ExtremalPhases} so on could imagine a pathological stepped Fermi surface that would feature several strong orbital oscillations which would not be at turning points.
 
-The modifications to the \ac{LK} equation listed towards the end of the previous section can be manifest by convolving an appropriate phase distribution function with the cosine oscillatory term. It can be shown\footnote{See for example, Schoenberg pg 57--59.\cite{Schoenberg1984}} that this convolution results in a relatively simple multiplication factor, hence the various $A$ factors listed in the equation.
+Variations in the phases can also be put into practice to model the various effects on the \ac{LK} equation listed towards the end of the previous section. These can be manifest by convolving an appropriate phase distribution function with the cosine oscillatory term. It can be shown\footnote{See for example, Schoenberg pg 57--59.\cite{Schoenberg1984}} that this convolution results in a relatively simple multiplication factor --- hence the various $A$ factors listed in the \ac{LK} equation which we expand upon below.
 
+\subsubsection{Attenuation due to temperature}
 
-\subsubsection{Extracting the effective mass from the temperature}
+To find the appropriate phase distribution function for the temperature dependence we start with the Fermi distribution,
+\begin{equation}
+f(\epsilon) = \frac{1}{\exp\left((\epsilon-\mu)/kT\right) + 1}
+\end{equation} 
+The differential of this distribution results in the broadening function (which is proportional to the probability that the Fermi energy $\mu$ is between $\epsilon$ and $\epsilon + d\epsilon$),
+\begin{equation}
+  P(\epsilon < \mu < \epsilon + d\epsilon) \propto \frac{d\epsilon}{2kT(1 + \cosh[(\epsilon - \mu)/kT])}
+\end{equation}
+This is convolved across the Fermi energy to smear it and also the phase through the parameter $F$. The details of how this is done is given in Schoenberg pg. 59ff~\cite{Schoenberg1984} with the end result is given by,
+\begin{equation}
+  A_T = \frac{X}{\sinh(X)} \textrm{\hspace{0.3cm} where,\hspace{0.3cm}} X = \frac{2\pi^2pkT m_0}{e\hbar B}
+\end{equation}
 
-The temperature effects on the \ac{LK} equation are One possible way to introduce temperature effects is to consider that the Fermi energy $\mu$ may be smeared according to the Fermi distribution $f(\epsilon) = 1/(1+\exp((\epsilon-\mu)/kT))$.
+The above factor includes $m_0$, the effective mass as a term in a function of $T$. As a consequence, by studying the temperature dependence of the amplitude it is possible to get a measure of the effective mass of the electrons at the extremal orbit. Techniques for doing this are discussed in section~\ref{Sec:2:ExtractingEffMassTemperatureDependence}.
 
+\subsubsection{Measuring the scattering length}
 
+The next factor, $A_D$, is commonly called the \textit{Dingle factor} is due to the finite lifetime, $\tau$, of the electrons due to scattering. Because of this time constraint, there is a smearing of the electron energy through the uncertainty principle with a broadening which is approximately Lorentzian in shape. This is reflected in a smearing of the Fermi level such that the broadening function is,
+\begin{equation}
+  P(\epsilon < \mu < \epsilon + d\epsilon) \propto \frac{d\epsilon}{(\epsilon - \mu)^2 + (\hbar/2\tau)^2}
+\end{equation}
+such that after the routine Fourier transform, the end relation is given by,
+\begin{equation}
+  A_D = e^{-\pi p/\omega_c\tau} = e^{-\pi p m_0/e B\tau}
+\end{equation}
 
-
+\subsubsection{Final theoretical observations}
 
 Originally \ac{dHvA} measurements were used to measure the Fermi surfaces of elemental metals and so the initial assumption of a free-electron gas is justified based on the fact that elemental metals have a Fermi surface and are considered materials that adhere to Fermi liquid theory. The fact that oscillations have been observed in cuprates and pnictides which have demonstrated non-Fermi liquid behaviour is therefore remarkable and moreover implies the presence of a Fermi surface, at least in the prescence of a strong magnetic field.
 
@@ -145,7 +163,8 @@ Previous standard practice was to remove a background polynomial fitted to the f
 
 \subsection{Measuring the spin mass}
 
-\subsection{Measuring the band mass}
+\subsection{Extracting effective mass from the temperature dependence}
+\label{Sec:2:ExtractingEffMassTemperatureDependence}
 
 \subsubsection{Basic LK formula fitting}
 
