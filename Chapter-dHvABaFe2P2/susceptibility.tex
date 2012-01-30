@@ -1,29 +1,29 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Susceptibility calculations}
-    \label{Sec:3:SubsceptibilityCalculation}
+    \label{Sec:ResD:SubsceptibilityCalculation}
 
 % TODO Include a band structure plot for the shifted bands
 
 To verify that we do get enhanced susceptibility, leading to a spin-density wave state, the $q$-dependant susceptibility -- described in section \ref{Sec:1:NestingSusceptibility} -- was calculated. Since the Lindhard function takes the sum over all energies in the Brillouin zone, there may be some concern that the rather crude adjustments to the DFT calculations performed in the previous section -- which have only been verified to be correct for energies at the Fermi surface -- may give erroneous results. However the nature of the Lindhard function means that far greater weight is given to energies that are near the Fermi surface and so, assuming that the energy dispersion does vary smoothly close to the Fermi level, any differences away from the Fermi level should not be a cause for concern.  
 
-Calculations were performed using the \code{calc_x0.m} code described in section\ref{Sec:2:Susceptibility} using a $93\times93\times93$ grid of energy values that covered the first Brillouin zone. A small $\delta$ of $10^{-6}$ was included in order to obtain the imaginary component of the susceptbility.
+Calculations were performed using the \code{calc_x0.m} code described in section\ref{Sec:Exp:Susceptibility} using a $93\times93\times93$ grid of energy values that covered the first Brillouin zone. A small $\delta$ of $10^{-6}$ was included in order to obtain the imaginary component of the susceptbility.
 
 \begin{figure}[htbp]
     \begin{center}
-        \includegraphics[scale=0.9]{Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/SusceptibilityEnhancement/SusceptibilityEnhancement}
+        \includegraphics[scale=0.9]{Chapter-dHvABaFe2P2/Figures/AngleDepMeasurements/SusceptibilityEnhancement/SusceptibilityEnhancement}
         \caption{Left panel shows the maximum $q$ dependant susceptibility in each plane perpendicular to $q_z$ between bands $1$ and $4$. Results where calculated with \unit[1]{mRy} of temperature smearing and $\delta=1\times10^{-6}$. Right panel shows the susceptibility in the plane at $q_z=1.5$ which is typical of all the $q_z$ planes for this band combination.}
-        \label{Fig:3:SusceptbilityEnhancement}
+        \label{Fig:ResD:SusceptbilityEnhancement}
     \end{center}
 \end{figure}
 
-\Fig\ref{Fig:3:FullSusceptibility} shows the total susceptibility coupling across various band combinations.
+\Fig\ref{Fig:ResD:FullSusceptibility} shows the total susceptibility coupling across various band combinations.
 
 \begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.7]{Misc/TODO}
         \caption{}
-        \label{Fig:3:FullSusceptibility}
+        \label{Fig:ResD:FullSusceptibility}
     \end{center}
 \end{figure}
 
