@@ -28,7 +28,7 @@ By varying the direction of the field we can obtain a series of maximal and mini
 
 A more detailed analysis of this process follows, beginning with an illustrative mathematical treatment for oscillations in the magnetisation.
 
-\subsubsection{Oscillations in magnetisation}
+\subsubsection{An illustration of the origin of the oscillations}
 
 We begin by calculating the degeneracy of the Landau tubes i.e. the number of electron states per tube. Because the states under a magnetic field are a one-to-one rearrangement of the states with no field, we can use the Sommerfeld number of states per unit k-space ($V/4\pi^3$) to determine the degeneracy. From the Onsager relation (eqn.\ref{Eqn:2:Onsager}) we see that the additional area for successive tubes is $\Delta a_{k_{\perp}}  = 2\pi e B/\hbar$ which we can convert to a volume by integrating over $k_{\perp}$. This gives a degeneracy per tube therefore of,
 
@@ -90,10 +90,12 @@ The derivation for the full expression for the Landau thermodynamic potential, $
 \end{equation}
 where,
 \begin{equation}
-A_{\textrm{tot}} = A_T A_D A_s A_{\textrm{mos}} A_{\textrm{dop}} A_{\textrm{warp}} 
+A_{\textrm{tot}} = A_T A_D A_s A_{\textrm{mos}} A_{\textrm{dop}} A_{\Delta B}
 \end{equation}
 %%
 The above equation and derivatives of it are known as the \ac{LK} equation. To attain the above equation, it was necessary to perform an integral over $k_\perp$\footnote{Similar to the integral in the toy equation from the previous section} which results in a parameter for an extremal Fermi surface orbit area perpendicular to the field given by $a_{\textrm{ext}}$. 
+
+\subsubsection{Attenuation for non-extremal orbits}
 
 Only the extremal (i.e. the largest and smallest) magnetically induced orbits contribute significantly to oscillations in the system energy. This is because $F$ represents a phase factor in the \ac{LK} equation and at the extremal points $dF/dk_\perp=0$ meaning more orbits near extrema are in phase. However it is not immediately clear how much stronger the oscillations from the extremal orbits will be in comparison to other orbits. Figure~\ref{Fig:2:ExtremalPhases} shows examples of the strengths of the oscillations after integrating over a distribution of phases shown in the insets.
 %%
@@ -123,23 +125,67 @@ The differential of this distribution results in the broadening function (which 
 \end{equation}
 This is convolved across the Fermi energy to smear it and also the phase through the parameter $F$. The details of how this is done is given in Schoenberg pg. 59ff~\cite{Schoenberg1984} with the end result is given by,
 \begin{equation}
-  A_T = \frac{X}{\sinh(X)} \textrm{\hspace{0.3cm} where,\hspace{0.3cm}} X = \frac{2\pi^2pkT m_0}{e\hbar B}
+  A_T = \frac{X}{\sinh(X)} \textrm{\hspace{0.3cm} where,\hspace{0.3cm}} X = \frac{2\pi^2pkT m^*_T}{e\hbar B}
 \end{equation}
 
-The above factor includes $m_0$, the effective mass as a term in a function of $T$. As a consequence, by studying the temperature dependence of the amplitude it is possible to get a measure of the effective mass of the electrons at the extremal orbit. Techniques for doing this are discussed in section~\ref{Sec:2:ExtractingEffMassTemperatureDependence}.
+The above factor includes $m^*_T$, the \textit{thermal effective mass} as a term in a function of $T$. As a consequence, by studying the temperature dependence of the amplitude it is possible to get a measure of $m^*_T$ of the electrons at the extremal orbit. Techniques for doing this are discussed in section~\ref{Sec:2:ExtractingEffMassTemperatureDependence}.
 
-\subsubsection{Measuring the scattering length}
+The effective mass determined in this way is enhanced subject to the same interactions as in heat capacity experiments --- i.e. electron-phonon interactions and spin symmetric correlations --- but are probed for a particular Fermi surface orbit, whereas heat capacity is bulk averaged. As we will see later the mass enhancement is is different to that from spin measurements. For more one this see Rourke \etal\cite{Rourke2010b} and references therein.
 
-The next factor, $A_D$, is commonly called the \textit{Dingle factor} is due to the finite lifetime, $\tau$, of the electrons due to scattering. Because of this time constraint, there is a smearing of the electron energy through the uncertainty principle with a broadening which is approximately Lorentzian in shape. This is reflected in a smearing of the Fermi level such that the broadening function is,
+\subsubsection{Attenuation due to finite quasiparticle lifetime}
+
+The \textit{Dingle factor}, $A_D$, is due to the finite lifetime, $\tau$, of the electron quasiparticles due to scattering. Because of this time scale, there is a smearing of the electron energy through the uncertainty principle with a broadening which is approximately Lorentzian in shape. If we assume $\tau$ does not change with energy\footnote{This is not the case, but at most only a few Landau levels contribute to a particular oscillation and if we assume that the energy does not vary too much between subsequent levels then the assumption is a good one}, then this can be modeled as a smearing of the Fermi level such that the broadening function is,
 \begin{equation}
   P(\epsilon < \mu < \epsilon + d\epsilon) \propto \frac{d\epsilon}{(\epsilon - \mu)^2 + (\hbar/2\tau)^2}
 \end{equation}
-such that after the routine Fourier transform, the end relation is given by,
+and such that after the routine Fourier transform, the end relation is given by,
 \begin{equation}
-  A_D = e^{-\pi p/\omega_c\tau} = e^{-\pi p m_0/e B\tau}
+  A_D = e^{-\pi p m_0/e B\tau} = e^{-\pi p/\omega_c\tau} 
 \end{equation}
+The exponent in the above can be thought of as the number of orbits the electron has completed (i.e. each harmonic $p$ is another successive orbit) divided by the expected number of orbits it will complete, so evidently we expect to see the higher harmonics having an exponentially lower amplitude.
+
+\subsubsection{Attenuation due to spin splitting}
+
+Applying a magnetic field causes a Zeeman splitting of energy levels of amgnitude,
+\begin{equation}
+  \Delta\epsilon = \frac{g e \hbar B}{2 m_e}
+\end{equation}
+where $m_e$ is the free electron mass and $g$ is a factor that is $\approx2$ for free electrons. Rather than smearing, this can be thought of as two separate Fermi surfaces with separate Fermi energies. The attentuation is given then as,
+\begin{equation}
+  A_s = \cos\left(\frac{\pi p g m^*_s}{2m_e}\right)
+\end{equation}
+where $m^*_s$ is the \textit{spin effective mass}. This is subject to a different set of interaction in comparison to the thermal effective mass -- notably both spin symmetric and antisymmetric correlations but not the electron-phonon interactions. As such, in materials with strong phonon interactions we may see a strong difference in $m^*_s$ and $m^*_T$.
+
+\subsubsection{Other attenuating factors}
+
+Another attenuating factor due to slight misalignments in the crystal structure, ($A_{mos}$), causing a mosaic polycrystalline structure could be modeled with an appropriate broadening function. Schoenberg suggests a Lorentzian similar to the Dingle factor --- there is no solid mathematical basis for this but no other function shape has been observed in experiment. The final form would then look like the following,
+\begin{equation}
+  A_{\textrm{mos}} = e^{2\pi p \Delta F_{\textrm{mos}}/B}
+\end{equation}
+where $\Delta F_{mos}$ is a parameter that determines the degree of overall misalignment.
+
+The final attenuating factors mentioned here are $A_{\Delta B}$, the damping due to field inhomogeneity which has an effect depending on the shape of the field and $A_{\textrm{dop}}$, which is another Lorentzian-like broadening factor due to the doping inhomogeniety in the sample. Neither of which will be considered in the thesis --- the material studied is undoped, and the magnet is suitably large as to have an essentially linear field profile ---doping and so will not be explored further\footnote{If you do want to consider these factors, ref~\cite{Rourke2010b} has a passage on doping homogeneity and pg. 64 of Schoenberg discusses field inhomogeneity~\ref{Schoenberg1984}.}
+
+\subsubsection{Band mass}
+
+So far, three different electron masses have been defined, the thermal effective mass, the spin effective mass and the free electron mass. To tie these together a fourth mass is introduced, the \textit{band mass}. This is another effective mass resulting from the electrons being subject to the bandstructure potential as defined by \ac{DFT} calculations and is given by,
+(TODO check this)
+\begin{equation}
+  m^*_b = \frac{\partial a_{k_\perp}}{\partial k_\perp}
+\end{equation}
+Mass enhancement comes from any kind of interactions the electron has with its environment --- i.e. external fields, other electrons and nuclei --- resulting in the free electron mass $m_e$ becoming enhanced (renormalised). The bands mass can be determined from \ac{DFT} and the resulting enahcement is purely from the interaction of the electron with the calculated lattice potential. However \ac{DFT} calculations typically do not model correlation effects well or dynamic interactions at all. We know that both the thermal effective mass and the spin effective mass incorporate the band mass enhancements plus a unique set of interactions specified previously. Figure~\ref{Fig:2:EffectiveMassInheritance} lays out how the effective masses build on each other by incorporating more interactions.
+\begin{figure}[htbp]
+    \begin{center}
+        \includegraphics[scale=0.9]{Chapter2-ExperimentalTechnique/Figures/EffectiveMassInheritance/EffectiveMassInheritance}
+        \caption{A diagram showing how the succeessive electron masses build on the previous interactions. Additional interaction effects are listed in italics.}
+        \label{Fig:2:EffectiveMassInheritance}
+    \end{center}
+\end{figure}
+because of this particular hierarchy, it is sometimes possible to compare effective masses to get a sense of scale of the interactions.
 
 \subsubsection{Final theoretical observations}
+
+The effective mass, $m_0$, appears in many of the above terms, however measurents described in the next section which are designed to probe the effective mass occur under different geometries and conditions. With this in mind, strictly speaking any effective mass is subject to the measurement angle for example
 
 Originally \ac{dHvA} measurements were used to measure the Fermi surfaces of elemental metals and so the initial assumption of a free-electron gas is justified based on the fact that elemental metals have a Fermi surface and are considered materials that adhere to Fermi liquid theory. The fact that oscillations have been observed in cuprates and pnictides which have demonstrated non-Fermi liquid behaviour is therefore remarkable and moreover implies the presence of a Fermi surface, at least in the prescence of a strong magnetic field.
 
