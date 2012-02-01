@@ -11,3 +11,4 @@ thesis.run.xml
 *.blg
 *.bbl
 *.orig
+*.asv

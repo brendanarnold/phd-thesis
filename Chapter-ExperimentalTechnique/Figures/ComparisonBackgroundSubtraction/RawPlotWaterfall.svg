@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 "
+   sodipodi:docname="RawPlotWaterfall.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="398.84898"
+     inkscape:cy="853.78911"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1210"
+     inkscape:window-height="848"
+     inkscape:window-x="22"
+     inkscape:window-y="29"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:1.93087959;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 341.31949,188.21703 c 0,0 30.89407,-11.0336 75.85598,-2.20672"
+       id="path3014"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#8c8cff;stroke-width:1.93087959;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.93087956, 1.93087956;stroke-dashoffset:0"
+       d="m 294.15086,154.56456 c 40.54847,44.13439 46.06527,49.37535 83.85534,-12.96448 l 0.82752,-14.34367 c 6.896,-12.96448 13.24032,-19.86048 20.13632,-27.03232"
+       id="path3806"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3790"
+       d="m 377.00219,141.73769 80.55494,31.40277"
+       style="fill:none;stroke:#ff0000;stroke-width:1.93087959;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <image
+       y="85.284172"
+       x="250.07698"
+       id="image2993"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-ExperimentalTechnique/Figures/RawPlotWaterfall/main.png"
+       height="162.81718"
+       width="265.59995" />
+    <text
+       xml:space="preserve"
+       style="font-size:12.35762882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="438.41513"
+       y="248.07428"
+       id="text2996"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan2998"
+         x="438.41513"
+         y="248.07428"
+         style="font-size:9.26822186px">Angle (<tspan
+   style="font-style:italic"
+   id="tspan3006">deg.</tspan>)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12.35762882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="291.11664"
+       y="239.7991"
+       id="text3000"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3002"
+         x="291.11664"
+         y="239.7991"
+         style="font-size:9.26822186px">Field (<tspan
+   style="font-style:italic"
+   id="tspan3004">T</tspan>)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12.35762882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="-171.47543"
+       y="244.02098"
+       id="text3008"
+       sodipodi:linespacing="100%"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3010"
+         x="-171.47543"
+         y="244.02098"
+         style="font-size:9.26822186px">Voltage (<tspan
+   style="font-size:9.26822186px;font-style:italic"
+   id="tspan3012">V</tspan>)</tspan></text>
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:1.93087959;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 294.4267,154.8404 78.89022,36.96255"
+       id="path3784"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:12.35762882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="365.14178"
+       y="138.97818"
+       id="text3794"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3796"
+         x="365.14178"
+         y="138.97818">A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12.35762882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="419.32767"
+       y="195.96111"
+       id="text3798"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3800"
+         x="419.32767"
+         y="195.96111">B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12.35762882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="284.06207"
+       y="151.05901"
+       id="text3802"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3804"
+         x="284.06207"
+         y="151.05901">C</tspan></text>
+    <path
+       style="fill:none;stroke:#8c8cff;stroke-width:1.93087959;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.93087956, 1.93087956;stroke-dashoffset:0"
+       d="m 373.31692,192.90631 c 43.03103,-4.41344 84.68286,-19.58464 84.68286,-19.58464 0,0 -0.27583,-11.30943 1.10336,-12.13695 1.37921,-0.82752 18.75712,-6.896 18.75712,-6.896"
+       id="path3808"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccsc" />
+  </g>
+</svg>
