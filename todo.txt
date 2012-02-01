@@ -1,49 +1,96 @@
 
 
-File: .\Chapter1-Introduction\nesting.tex
+File: .\Chapter-dHvABaFe2P2\anglesweeps.tex
 
-Line: 8
-TODO: Cite He3 superfluidity discovery Oscheroff, Richardson. Leggett 1972
+Line: 52
+\TODO{how the harmonic amplitudes fall off according to $\exp{-\pi p/\omega_c \tau}$}
 
-Line: 12
-TODO: What other pairing mechanisms are there, negative U?, CDW?
+Line: 206
+\TODO{Calculate volumes of the Fermi surfaces}
+
+Line: 212
+\TODO{Does non-z orbital character preclude nesting with a z component?}
+
+Line: 240
+The two dimensional fits were performed using a least square fitting routine using MATLAB on the DFT data shifted as described in the previous section. Residuals are shown in figure\ref{Fig:ResD:TightBindingResiduals} \TODO{Make plot of tight binding fit residuals}. The number of terms for the fits were increased until the residuals ceased to change appreciably. Fit parameters are presented in table\ref{Tab:ResD:HarmonicParams}. Due to the skewed nature of the \kz dispersion of the outer hole surface $20$ terms were necessary to obtain a reasonable fit to the corrected DFT data however electron surfaces could be fitted well with $9$ terms and the inner hole surface with $10$ terms. The final analytical function was then used to create a false energy dispersion on a discrete grid of $k$-points. Extremal orbits were then calculated as a check of how well it matches the original data. The results of this are presented in \fig\ref{Fig:ResD:TightBindingFitRotationPlot}. The analytical function deviates from the measured data at higher angles implying that the 
+
+
+
+File: .\Chapter-dHvABaFe2P2\series.tex
 
 Line: 16
-TODO: What actually is the cause of the attraction in the nesting picture?
+ The progression along the series is isovalent since P and As are in the same periodic group -- group $V$. The net effect of the substitution is to apply an increasing chemical pressure as $x$ moves towards $1$. Several reports show that applying \textit{physical} pressure to \BaFeAs results in a similar phase diagram with an antiferromagnetic phase and superconductivity up to $\sim$\unit[30]{K}\cite{Yamazaki2010,Colombier2009,Alireza2009} with Klintberg \textit{et al.}\cite{Klintberg2010} presenting a direct comparison between the two types of pressure. As pressure is applied, the unit cell $a$ axis shrinks slightly less than the $c$ axis ($\sim3\%$ c.f. $\sim4.5\%$ respectively). Interestingly the $c$ axis shrinking largely occurs in the Fe-Pnictide plane leading to some theories of the superconductivity emerging from the tetrahedral bond angle between the Fe and the pnictigen. \TODO{ref read Kuroki}
 
-Line: 22
-TODO:
+Line: 26
+The \BaFePAs series from a substitution of $x=0.41$--$1.0$ has been previously measured by members of the group at Bristol using dHvA oscillations\cite{Shishido2010}. As suggested in the Shishido reference, since dHvA has been observed across such a large range of substitutions, it implies that the material is not prone to disorder as is the case in many charge doped series \TODO{Need ref} making the series an excellant candidate for dHvA studies. The Fermi surfaces have been characterised for x ranging from $0.41$ to $1$ for electron sheets only but have clearly shown that the DFT calculations consistently overestimate the size of the surfaces. Moreover, dHvA measurements on the material with $x=0.63$ have been performed where one of the hole surface extrema was observed\cite{Analytis2010c} however DFT calculations as well as comparisons with \SrFeP\cite{Analytis2009} give evidence for a second hole Fermi surface for materials towards the P end of the series, (towards the As end of the series, there appears this second hole and a \textit{third} hole surface similar but smaller to the other hole sheets). If the electron Fermi surfaces are oversized in the DFT calculations, then the hole Fermi surface volumes should also be oversized in order to remain compensated (electrically neutral). What is not clear though is whether the \textit{shapes} of the hole pockets are also altered in the compounds leading to \BaFeP. DFT calculations show the larger of the hole pockets in particular undergoing significant geometric changes, specifically in that it becomes much more three dimensional as P substitution becomes more complete. The Fermi surface of the opposite end-member, \BaFeAs, has been fully characterised by previous ARPES measurements\cite{Kondo2010a} and dHvA\cite{Terashima2011, Analytis2010b}. Coupled with a full characterisation of the fermiology of \BaFeP, this data can be used to interpolate Fermiology of the hole pockets between end members thus completing the partial determination of the Fermi surfaces of the intermediary compounds.
 
 
 
-File: .\Chapter2-ExperimentalTechnique\dhva.tex
+File: .\Chapter-dHvABaFe2P2\susceptibility.tex
+
+Line: 6
+\TODO{Include a band structure plot for the shifted bands}
+
+
+
+File: .\Chapter-ExperimentalTechnique\dhva.tex
+
+Line: 21
+\TODO{Finish this}
+
+Line: 34
+\TODO{Need to do investigation first}
+
+
+
+File: .\Chapter-Introduction\nesting.tex
+
+Line: 17
+There are several arguments against phonons as the sole pairing mechanism in the pnictide case, Boeri et al.\cite{Boeri2008} and Mazin et al.\cite{Mazin2008} present calculations showing that the magnitude of the phonon pairing strength is not adequate for the high \Tc values attained in LaAsOF, Haule et al.\cite{Haule2008} note in the same material that the gradient of the density of states (DOS) at the Fermi level is such that you would expect an increase in DOS and hence \Tc with hole doping if the BCS model held, however the reverse is true. Non Fermi-liquid behaviour was demonstrated in the \BaFePAs series\cite{Jiang2009,Kasahara2010} and evidence for nodes in the gap function have been found in LaFePO\cite{Fletcher2009} and the \BaFePAs series\cite{Zhang2011,Yamashita2011a,Suzuki2011} although not in \TODO{Finish this}
 
 Line: 30
-One of the primary field-dependant contributions to the oscillation amplitude is the Dingle term scattering (equation \ref{Eqn:2:DingleTermOscillationAmp}). This has an exponential dependance with temperature. The Dingle factor, $\alpha$, can be determined by fitting a simplified version of equation \ref{Eqn:2:OscillationAmp} to oscillations which have been filtered to reduce the number of fitting parameters. Once we have the Dingle term, a series of ansatz data TODO...
-
-Line: 40
-TODO: Angle correction
+FS nesting not the only cause of spin-fluctuations, also can be caused by frustrated superexchange for example \TODO{Finish this}
 
 Line: 42
-TODO: Temperature correction
+\TODO{What actually is the cause of the attraction in the nesting picture? ... Spin fluctuation intereaction in real space is approximately propoprtional to the dipole interaction $V=-\mu . \mu \chi(r)$\cite{Bergemann2003}}
 
 
 
-File: .\Chapter3-dHvABaFe2P2\series.tex
+File: .\Chapter-Introduction\pseudogap.tex
 
-Line: 18
-Structurally, the unit cell of the series is tetragonal ($I4/mmm$) for most of the phase diagram, aside from an orthorhombic phase below the $T_s$ line as shown in \fig\ref{Fig:3:PhaseDiagram}. The unit cell $a$ axis shrinks slightly less as pressure is applied compared with the $c$ axis ($\sim3\%$ c.f. $\sim4.5\%$ respectively). Interestingly though the $c$ axis shrinking largely occurs in the Fe-Pnictide plane leading to some theories of the superconductivity emerging from the tetrahedral bond angle between the Fe and the pnictigen. %TODO: ref
+Line: 14
+Another interesting region, one that is not present in the pnictides, is that below the $T^*$ temperature scale on the underdoped side of the superconducting dome. In this region, an energy gap opens up in the excitation spectra but without any sign of the Meissner effect. This region is known as the \textit{pseudogap}. Some aspects of the pseudogap lead us to believe that it is closely related to the superconducting gap such as the fact that it shares the gap symmetry and is of a similar magnitude, and there have been proposals that the pseudogap is a precursor state to superconductivity \TODO{Read more}. However research involving the Bristol group has shown evidence that phase fluctuations rather than the pseudogap in particular are the neceesary precursors for the cuprate superconducting condition\cite{Rourke2011}.
+
+
+
+File: .\Chapter-Theory\dhva.tex
+
+Line: 151
+The term $m_b$ refers to the \textit{band mass} which will be discussed in detail later on. The mass term here is \TODO{How is it coupled as Tony described?}
+
+Line: 178
+\TODO{check this}
+
+
+
+File: .\Chapter-Theory\susceptibility.tex
+
+Line: 28
+\TODO{How does susceptibility tie in with nesting?}
+
+Line: 29
+\TODO{Lindhard susceptibility is a time dependent perturbation in the adiabatic limit to what? Adiabatic limit is where the pertubation time-frame is slow c.f. the unperturbed time-frame}
 
 Line: 30
-The \BaFePAs series has been previously measured by members of the group at Bristol using dHvA oscillations\cite{Shishido2010}. As suggested in the Shishido reference, since dHvA has been observed across such a large range of substitutions, it implies that the material is not prone to disorder as is the case in many charge doped series (TODO ref). The electron surfaces have been characterised for x ranging from $0.41$ to $1$ and have clearly shown that the DFT calculations consistently overestimate the size of the surfaces. Moreover, dHvA measurements on the material with $x=0.63$ have been performed where one of the hole surface extrema was observed\cite{Analytis2010c} however DFT calculations as well as comparisons with \SrFeP\cite{Analytis2009} and considerations of compensated Fermi surface volumes give evidence for two hole as well as two electron fermi surfaces for materials towards the P end of the series, (towards the As end of the series, there appears an extra, pinched off, hole surface around the $\Gamma$ point). If the electron Fermi surfaces are oversized in the DFT calculations, then the hole Fermi surface volumes should also be oversized in order to remain compensated. What is not clear though is whether the geometry is altered -- DFT calculations show the larger of the hole pockets undergoing significant changes, specifically in that it becomes much more three dimensional as P substitution becomes more complete. This thesis presents data which elucidates the shape of the outer hole surface.
+\TODO{imaginary factor corresponds to the decay rate of the state}
+
+Line: 31
+\TODO{energy(susceptibility) is broadened by the decay rate}
 
 
 
-File: .\Chapter3-dHvABaFe2P2\susceptibility.tex
+File: .\Misc\macros.tex
 
-Line: 13
-        \includegraphics[scale=0.9]{Misc/TODO}
-
-Line: 43
-        \includegraphics[scale=0.7]{Misc/TODO}
+Line: 3
+\newcommand{\TODO}[1]{\colorbox{Highlight}{TODO: (#1)}}
 

@@ -49,8 +49,7 @@ The magnetic field was alternatively ramped up and then down meaning subsequent 
     \end{center}
 \end{figure}
 
-% TODO show the harmonic amplitudes fall off according to \exp{-\pi
-% p/\omega_c \tau}
+\TODO{how the harmonic amplitudes fall off according to $\exp{-\pi p/\omega_c \tau}$}
 
 %%
 \Fig\ref{Fig:ResD:SubstitutionComparison} shows the measured rotation data which has been matched up to corresponding orbits in the DFT calculations (see next section). Superimposed is the data from the $x=0.63$ data in the \BaFePAs series multiplied by amounts commensurate to the expected shifts in the Shishido paper\cite{Shishido2010}. We can see that while the size of the areas changes between the two values, the overall shape of the $x=0.63$ data matches reasonably well with the data for $x=1$ for bands 2, 3 and 4 at least. Assuming that nothing exotic happens in the intermediary, we can extrapolate the shape of these Fermi surfaces across the range by applying the known electron Fermi surface areas and the compensation condition. This is explored further in the next section.
@@ -204,13 +203,13 @@ The second and third panels of \fig~\ref{Fig:ResD:Band2DCharacterRigidComparison
 
 The final corrections show the DFT calculations being adjusted in size only for the electron and inner hole surfaces with overall shrinking of volume, the outer hole surface is adjusted in shape as well. Volume calculations give the following values for each of the surfaces as a percentage of the Brillouin zone ....
 
-%TODO Calculate volumes of the Fermi surfaces
+\TODO{Calculate volumes of the Fermi surfaces}
 
 
 
 An interesting condition can be seen from \fig\ref{Fig:ResD:ZSlices} where we observe cross sections of the final corrected Fermi surfaces showing the basel-plane at the bottom of the unit cell ($\kz=0$), quarter of the way up, ($\kz=0.25$) and halfway up ($\kz=0.5$). The inner hole surface at $\kz=0.5$ directly matches the size and shape of the inner electron surface at $\kz=0.25$. Moreover both surface share similar predominant \DxzDyz orbital character. Both surfaces have different \kz dispersions which mean nesting along the vector of $q=(\pi, \pi, \pi/2)$ is only partial thus providing the right conditions necessary for possible pair forming spin-density-wave fluctuations.
 
-%TODO Does non-z orbital character preclude nesting with a z component?
+\TODO{Does non-z orbital character preclude nesting with a z component?}
 
 \begin{figure}[htbp]
     \begin{center}
@@ -238,7 +237,7 @@ k_F(\phi, \kappa) = \sum_{\substack{\mu,\nu \geq 0 \\ \mu \textrm{even}}}
 \end{equation}
 where $k_F$ is the Fermi surface in k-space, $\kappa = ck_z/2$, $c$ is the unit cell height and $\phi$ is the polar angle.
 
-The two dimensional fits were performed using a least square fitting routine using MATLAB on the DFT data shifted as described in the previous section. Residuals are shown in figure\ref{Fig:ResD:TightBindingResiduals} (TODO: Make plot of tight binding fit residuals). The number of terms for the fits were increased until the residuals ceased to change appreciably. Fit parameters are presented in table\ref{Tab:ResD:HarmonicParams}. Due to the skewed nature of the \kz dispersion of the outer hole surface $20$ terms were necessary to obtain a reasonable fit to the corrected DFT data however electron surfaces could be fitted well with $9$ terms and the inner hole surface with $10$ terms. The final analytical function was then used to create a false energy dispersion on a discrete grid of $k$-points. Extremal orbits were then calculated as a check of how well it matches the original data. The results of this are presented in \fig\ref{Fig:ResD:TightBindingFitRotationPlot}. The analytical function deviates from the measured data at higher angles implying that the 
+The two dimensional fits were performed using a least square fitting routine using MATLAB on the DFT data shifted as described in the previous section. Residuals are shown in figure\ref{Fig:ResD:TightBindingResiduals} \TODO{Make plot of tight binding fit residuals}. The number of terms for the fits were increased until the residuals ceased to change appreciably. Fit parameters are presented in table\ref{Tab:ResD:HarmonicParams}. Due to the skewed nature of the \kz dispersion of the outer hole surface $20$ terms were necessary to obtain a reasonable fit to the corrected DFT data however electron surfaces could be fitted well with $9$ terms and the inner hole surface with $10$ terms. The final analytical function was then used to create a false energy dispersion on a discrete grid of $k$-points. Extremal orbits were then calculated as a check of how well it matches the original data. The results of this are presented in \fig\ref{Fig:ResD:TightBindingFitRotationPlot}. The analytical function deviates from the measured data at higher angles implying that the 
 
 \begin{figure}[htbp]
     \begin{center}
