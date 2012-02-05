@@ -16,15 +16,26 @@ load(['Band' num2str(BAND_NUM) '_110Slice_BandCharacter']);
 for splt = 1:5
     figure;
     hold on;
-    pcolor(interp_grid_x, interp_grid_y, character{splt + 5});
-    xlim([-sqrt(2)/2, sqrt(2)/2]);
-    ylim([0, 1]);
+    ch = character{splt + 5};
+    disp(sprintf('Char %d max is %.4f and min is %.4f', splt, max(ch(:)), min(ch(:))));
+    pcolor(interp_grid_x, interp_grid_y, ch);
     shading interp;
     colormap('jet');
     contour(interp_grid_x, interp_grid_y, energies, [EF EF], 'Color', [1 1 1], 'LineWidth', 3);
     contour(interp_grid_x, interp_grid_y, energies, [EF EF], 'Color', color, 'LineWidth', 2);
     %myaa;
-    set(gca, 'FontSize', 18);
+    FONT_SIZE = 18;
+    set( get( gca, 'XLabel' ), 'FontSize', FONT_SIZE );
+    set( get( gca, 'YLabel' ), 'FontSize', FONT_SIZE );
+    set( get( gca, 'ZLabel' ), 'FontSize', FONT_SIZE );
+    set( gca, 'FontSize', FONT_SIZE);
+    set( gca, 'FontName', 'Times New Roman');
+    set(gcf, 'Color', [1 1 1])
+    set(gca, 'Color', 'none')
+    box on;
+    colorbar;
+    xlim([min(interp_grid_x(:)) max(interp_grid_x(:))]);
+    ylim([min(interp_grid_y(:)) max(interp_grid_y(:))]);
     print(sprintf(SAVE_FILESTEM, splt), '-dpng', '-r300');
     hold off;
 end

@@ -2,28 +2,37 @@
 % C:\PhD\Results\2010\dHvA BaFe2P2 June\Data\WIEN2k-BaFe2P2\BandCharacter1e5\apply_orbit_character_shift_110cut_fs.m
 % and type save('Band2_110Slice_BandCharacter', 'character', 'interp_grid_x', 'interp_grid_y', 'energies');
 
-
+BAND_NUM = 2;
 EF = 0.61358;
-COLORS = {[1 0.5 0] [1 0 0] [0 1 0] [0 0 1]};
-color = COLORS{2};
+COLORS = {[1 0.5 0] [1 0 0] [0 0.6 0] [0 0 0.6]};
+color = COLORS{BAND_NUM};
 %CHAR_NAMES = {'$\Sigma d$', '$d_{z^2}$', '$d_{xy}$', '$d_{x^2y^2}$', '$d_{xz}+d_{yz}$'};
 FNTSZ = 18;
-SAVE_FILESTEM = 'Band2_BandCharPlot_%d.png';
+SAVE_FILESTEM = ['Band' num2str(BAND_NUM) '_BandCharPlot_%d.png'];
 
 
-load('Band2_110Slice_BandCharacter');
+load(['Band' num2str(BAND_NUM) '_110Slice_BandCharacter']);
 
 for splt = 1:5
     figure;
     hold on;
-    pcolor(interp_grid_x, interp_grid_y, character{splt});
-    xlim([-sqrt(2)/2, sqrt(2)/2]);
-    ylim([0, 1]);
+    pcolor(interp_grid_x, interp_grid_y, character{splt + 5});
     shading interp;
     colormap('jet');
+    contour(interp_grid_x, interp_grid_y, energies, [EF EF], 'Color', [1 1 1], 'LineWidth', 3);
     contour(interp_grid_x, interp_grid_y, energies, [EF EF], 'Color', color, 'LineWidth', 2);
     %myaa;
-    set(gca, 'FontSize', 18xyx);
+    FONT_SIZE = 18;
+    set( get( gca, 'XLabel' ), 'FontSize', FONT_SIZE );
+    set( get( gca, 'YLabel' ), 'FontSize', FONT_SIZE );
+    set( get( gca, 'ZLabel' ), 'FontSize', FONT_SIZE );
+    set( gca, 'FontSize', FONT_SIZE);
+    set( gca, 'FontName', 'Times New Roman');
+    set(gcf, 'Color', [1 1 1])
+    set(gca, 'Color', 'none')
+    box on;
+    xlim([min(interp_grid_x(:)) max(interp_grid_x(:))]);
+    ylim([min(interp_grid_y(:)) max(interp_grid_y(:))]);
     print(sprintf(SAVE_FILESTEM, splt), '-dpng', '-r300');
     hold off;
 end
