@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="372.89259"
-     inkscape:cy="898.39579"
+     inkscape:zoom="1.979899"
+     inkscape:cx="338.21096"
+     inkscape:cy="917.77046"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -58,233 +58,155 @@
      id="layer1">
     <text
        xml:space="preserve"
-       style="font-size:24.64793396px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="388.89056"
-       y="174.56117"
-       id="text3018"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan3020"
-         x="388.89056"
-         y="174.56117"
-         style="font-size:7.9225502px;font-style:normal">B (<tspan
-   style="font-style:italic"
-   id="tspan3058">T</tspan>)</tspan></text>
-    <text
-       sodipodi:linespacing="100%"
-       id="text3148"
-       y="237.69585"
-       x="499.07974"
-       style="font-size:8.80283356px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       xml:space="preserve"><tspan
-         y="237.69585"
-         x="499.07974"
-         id="tspan3150"
-         sodipodi:role="line">FFT Frequency (<tspan
-   id="tspan3152"
-   style="font-style:italic">T</tspan>)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:8.80283356px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="-199.75125"
-       y="471.25177"
-       id="text3030"
-       sodipodi:linespacing="100%"
-       transform="matrix(0,-1,1,0,0,0)"><tspan
-         sodipodi:role="line"
-         id="tspan3032"
-         x="-199.75125"
-         y="471.25177">Amplitude (<tspan
-   style="font-style:italic"
-   id="tspan3112">a.u.</tspan>)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:8.80283356px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="382.67313"
-       y="238.05765"
-       id="text3048"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan3050"
-         x="382.67313"
-         y="238.05765">1/B (<tspan
-   style="font-style:italic"
-   id="tspan3052">T<tspan
-   style="font-size:5.7219224px;baseline-shift:super"
-   id="tspan3054">-1</tspan></tspan>)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:9.18967247px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="-192.93671"
-       y="320.82446"
+       style="font-size:9.84883118px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="-165.7287"
+       y="246.39287"
        id="text3060"
        sodipodi:linespacing="100%"
        transform="matrix(0,-1,1,0,0,0)"><tspan
          sodipodi:role="line"
          id="tspan3062"
-         x="-192.93671"
-         y="320.82446">Voltage (<tspan
+         x="-165.7287"
+         y="246.39287">Voltage (<tspan
    style="font-style:italic"
    id="tspan3064">mV</tspan>)</tspan></text>
     <image
-       y="113.66926"
-       x="325.65613"
-       id="image3085"
-       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-ExperimentalTechnique/Figures/ComparisonBackgroundSubtraction/fit_B.png"
-       height="53.223305"
-       width="135.03763" />
+       y="74.561676"
+       x="150.02469"
+       id="image3069"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-ExperimentalTechnique/Figures/ComparisonBackgroundSubtraction/fft_inset.png"
+       height="152.85013"
+       width="266.97366" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect3076-7"
+       width="127.5"
+       height="43.92857"
+       x="263.39285"
+       y="86.826462" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect3076"
+       width="127.5"
+       height="43.92857"
+       x="264.10715"
+       y="145.93361" />
     <image
-       y="175.79982"
-       x="325.68756"
+       y="142.5419"
+       x="250.93425"
        id="image3107"
        xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-ExperimentalTechnique/Figures/ComparisonBackgroundSubtraction/fit_invB.png"
-       height="53.223305"
-       width="131.51874" />
-    <image
-       y="115.7611"
-       x="475.48334"
-       id="image3122"
-       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-ExperimentalTechnique/Figures/ComparisonBackgroundSubtraction/fft_inset.png"
-       height="112.74394"
-       width="118.65479" />
+       height="57.04092"
+       width="140.95235" />
+    <text
+       sodipodi:linespacing="100%"
+       id="text3148"
+       y="239.50528"
+       x="237.77269"
+       style="font-size:15.84808922px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         y="239.50528"
+         x="237.77269"
+         id="tspan3150"
+         sodipodi:role="line"
+         style="font-size:12px">FFT Frequency (<tspan
+   id="tspan3152"
+   style="font-size:12px;font-style:italic">T</tspan>)</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="529.20831"
-       y="145.11893"
-       id="text3157"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan3159"
-         x="529.20831"
-         y="145.11893"
-         style="font-size:8px">Fitted to 1/B</tspan><tspan
-         sodipodi:role="line"
-         x="529.20831"
-         y="153.11893"
-         id="tspan3161"
-         style="font-size:8px">Fitted to B</tspan></text>
-    <path
-       inkscape:connector-curvature="0"
-       id="path3933"
-       d="m 515.86712,142.6443 10.10152,0"
-       style="fill:none;stroke:#000000;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.30000001, 0.30000001;stroke-dashoffset:0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 515.99339,150.97806 10.10152,0"
-       id="path3163"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;stroke:#ff0000;stroke-width:1.51531088;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m 183.42036,188.60815 c 0,0 24.24497,-8.65894 59.53008,-1.73179"
-       id="path3014"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
-    <path
-       style="fill:none;stroke:#8c8cff;stroke-width:1.51531088;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.51531094, 1.51531094;stroke-dashoffset:0"
-       d="m 146.40347,162.19843 c 31.82153,34.63569 36.15099,38.74868 65.80778,-10.17423 l 0.64943,-11.25659 c 5.41182,-10.17421 10.3907,-15.58605 15.80252,-21.21435"
-       id="path3806"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
-    <path
-       sodipodi:nodetypes="cc"
-       inkscape:connector-curvature="0"
-       id="path3790"
-       d="m 211.42333,152.1322 63.21772,24.64419"
-       style="fill:none;stroke:#ff0000;stroke-width:1.51531088;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-    <image
-       y="107.82877"
-       x="111.81528"
-       id="image2993"
-       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-ExperimentalTechnique/Figures/RawPlotWaterfall/main.png"
-       height="127.77527"
-       width="208.43687" />
-    <text
-       xml:space="preserve"
-       style="font-size:9.69799042px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="260.62897"
-       y="233.05736"
-       id="text2996"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan2998"
-         x="260.62897"
-         y="233.05736"
-         style="font-size:8.80283356px">Angle (<tspan
-   style="font-size:8.80283356px;font-style:italic"
-   id="tspan3006">deg.</tspan>)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:9.69799042px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="137.45628"
-       y="228.07845"
-       id="text3000"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan3002"
-         x="137.45628"
-         y="228.07845"
-         style="font-size:8.80283356px">Field (<tspan
-   style="font-size:8.80283356px;font-style:italic"
-   id="tspan3004">T</tspan>)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:9.69799042px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="-182.03568"
-       y="108.07281"
-       id="text3008"
+       style="font-size:15.84808922px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="-182.54785"
+       y="140.93489"
+       id="text3030"
        sodipodi:linespacing="100%"
        transform="matrix(0,-1,1,0,0,0)"><tspan
          sodipodi:role="line"
-         id="tspan3010"
-         x="-182.03568"
-         y="108.07281"
-         style="font-size:8.80283356px">Voltage (<tspan
-   style="font-size:8.80283356px;font-style:italic"
-   id="tspan3012">V</tspan>)</tspan></text>
-    <path
-       style="fill:none;stroke:#ff0000;stroke-width:1.51531088;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m 146.61994,162.41491 61.91127,29.00738"
-       id="path3784"
-       inkscape:connector-curvature="0" />
+         id="tspan3032"
+         x="-182.54785"
+         y="140.93489"
+         style="font-size:12px">Amplitude (<tspan
+   style="font-size:12px;font-style:italic"
+   id="tspan3112">a.u.</tspan>)</tspan></text>
+    <g
+       id="g3054"
+       transform="matrix(0.58322879,0,0,0.58322879,55.422675,10.636289)">
+      <text
+         sodipodi:linespacing="100%"
+         id="text3157"
+         y="140.606"
+         x="236.13454"
+         style="font-size:22.57437897px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:18.05950356px"
+           y="140.606"
+           x="236.13454"
+           id="tspan3159"
+           sodipodi:role="line">Fitted to 1/B</tspan><tspan
+           style="font-size:18.05950356px"
+           id="tspan3161"
+           y="158.66551"
+           x="236.13454"
+           sodipodi:role="line">Fitted to B</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.67723137;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.67723139, 0.67723139;stroke-dashoffset:0"
+         d="m 206.01763,135.01969 22.80355,0"
+         id="path3933"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3163"
+         d="m 206.30267,153.83263 22.80356,0"
+         style="fill:none;stroke:#000000;stroke-width:0.67723137;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <image
+       y="83.464951"
+       x="250.90056"
+       id="image3085"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-ExperimentalTechnique/Figures/ComparisonBackgroundSubtraction/fit_B.png"
+       height="57.04092"
+       width="144.72363" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect3072"
+       width="109.5282"
+       height="12.564922"
+       x="271.37305"
+       y="133.17609" />
     <text
        xml:space="preserve"
-       style="font-size:9.69799042px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="202.11554"
-       y="149.96657"
-       id="text3794"
+       style="font-size:26.41588593px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="321.51559"
+       y="139.24156"
+       id="text3018"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
-         id="tspan3796"
-         x="202.11554"
-         y="149.96657">A</tspan></text>
+         id="tspan3020"
+         x="321.51559"
+         y="139.24156"
+         style="font-size:8.49081993px;font-style:normal">B (<tspan
+   style="font-style:italic"
+   id="tspan3058">T</tspan>)</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect3074"
+       width="89.139824"
+       height="10.194181"
+       x="282.04138"
+       y="191.80962" />
     <text
        xml:space="preserve"
-       style="font-size:9.69799042px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="244.6394"
-       y="194.68552"
-       id="text3798"
+       style="font-size:9.43424511px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="312.9556"
+       y="201.91608"
+       id="text3048"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
-         id="tspan3800"
-         x="244.6394"
-         y="194.68552">B</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:9.69799042px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="138.48602"
-       y="159.44734"
-       id="text3802"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan3804"
-         x="138.48602"
-         y="159.44734">C</tspan></text>
-    <path
-       style="fill:none;stroke:#8c8cff;stroke-width:1.51531088;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.51531094, 1.51531094;stroke-dashoffset:0"
-       d="m 208.53121,192.28819 c 33.7698,-3.46357 66.45721,-15.36959 66.45721,-15.36959 0,0 -0.21647,-8.87539 0.8659,-9.52481 1.08238,-0.64942 14.72016,-5.41183 14.72016,-5.41183"
-       id="path3808"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccsc" />
+         id="tspan3050"
+         x="312.9556"
+         y="201.91608">1/B (<tspan
+   style="font-style:italic"
+   id="tspan3052">T<tspan
+   style="font-size:6.13234568px;baseline-shift:super"
+   id="tspan3054">-1</tspan></tspan>)</tspan></text>
   </g>
 </svg>

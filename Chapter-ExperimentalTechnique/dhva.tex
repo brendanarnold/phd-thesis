@@ -73,14 +73,19 @@ Although the direction in which the field sweep occurs should not affect the osc
 \begin{table}
     \begin{center}
            \caption{Correction factors linearly applied to the \ac{FFT} peaks due to hysteresis in the sweep direction.}
-        \begin{tabular}[htbp]{llcc}
+        \begin{tabular}[htbp]{lll}
 \toprule
-\multicolumn{2}{l}{Sweeps}   & Corrn. at \unit[0]{T}  & Corrn. at \unit[8000]{T}\\
+Sweeps $B \to[110]$ & Corrn. at \unit[0]{T}  & Corrn. at \unit[8000]{T}\\
 \midrule
-$B \to[110]$ & $-31\degree$ to $-24\degree$  & 1 & 18 \\
-                        & $-24\degree$ to $-13\degree$ & 9 & 20 \\
-                        & $-13\degree$ to end  & 1 & 21 \\
-$B \to[100]$ & All    & 3 & 13 \\
+$-31\degree$ to $-24\degree$  & 1 & 18 \\
+$-24\degree$ to $-13\degree$ & 9 & 20 \\
+$-13\degree$ to $100\degree$ & 1 & 21 \\
+\bottomrule
+& & \\
+\toprule
+Sweeps $B \to[100]$ & Corrn. at \unit[0]{T}  & Corrn. at \unit[8000]{T}\\
+\midrule
+$-31\degree$ to $100\degree$ & 3 & 13 \\
 \bottomrule
         \label{Table:Exp:HysteresisCorrection}
         \end{tabular}
@@ -103,10 +108,17 @@ where $\theta$ is the angle from the cylinder axis (usually in the $c$ direction
 \subsubsection{Background removal}
 
 Previous standard practice was to remove a background polynomial fitted to the field or inverse field from the raw data before taking the \ac{FFT}. With reference to figure~\ref{Fig:Exp:BackgroundSubtractionComparison}, raw torque data taken over a range of angles\footnote{See section\ref{Sec:ResD:AngleDependentMeasurements} for full details} and a strong $B^2$ component can be observed as a result of the $A_{\Gamma}$ term in the \ac{LK} equation (marked `B' in the left panel). As shown in the centre and right panels, subtracting a second order polynomial fitted to the \textit{inverse} field leaves a large artificial angle-dependant oscillation in $1/B$ in the residual which may be misconstrued as a signal from a low frequency Fermi surface orbit, especially since there is an apparent angle dependence -- no such peak is seen for the flat curves at `A' and `C'. For this reason it is recommended to subtract a second order polynomial fitted to field rather than inverse field for torque measurements.
+\begin{figure}[htbp]
+    \begin{center}
+        \includegraphics[scale=1.0]{Chapter-ExperimentalTechnique/Figures/ComparisonBackgroundSubtraction/RawPlotAngleDependence}
+        \caption{The angle dependence of the raw torque data clearly showing a negative $B^2$ background at (b) and for $\theta>0\degree$ and a positive $B^2$ background for $\theta<0\degree$. The background flattens out at (a), $\theta = 0\degree$ and (c), $\theta=90\degree$.}
+        \label{Fig:Exp:RawPlotAngleDependence}
+    \end{center}
+\end{figure}
 \begin{figure}[h!]
     \begin{center}
         \includegraphics[scale=0.9]{Chapter-ExperimentalTechnique/Figures/ComparisonBackgroundSubtraction/ComparisonBackgroundSubtraction}
-        \caption{Left panel shows the angle dependance of the raw torque signal  clearly showing a negative $B^2$ background for $\theta>0$ and a positive $B^2$ background for $\theta<0$. Centre panels show a simulated $B^2$ background with $\sim\unit[0.5]{mV}$ of noise, similar in scale to that of `B' in the first panel, fitted to a 2nd order polynomial with field on top and inverse field on the bottom. The right panel shows the resulting \ac{FFT}s.}
+        \caption{Insets show a 2nd order polynomials fitted to simulated $B^2$ background with $\sim\unit[0.5]{mV}$ of noise, similar in scale to that of (b) in figure~\ref{Fig:Exp:RawPlotAngleDependence}. Upper inset is fitted to field and lower to inverse field. The main figure shows the resulting \ac{FFT}s.}
         \label{Fig:Exp:BackgroundSubtraction}
     \end{center}
 \end{figure}

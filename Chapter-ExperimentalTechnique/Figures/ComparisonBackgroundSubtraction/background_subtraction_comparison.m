@@ -43,6 +43,7 @@ set(gcf, 'Color', [1 1 1]);
 set(gca, 'Color', 'none');
 
 box on;
+grid on;
 
 % set(gcf, 'Position', [163   500   568   259]);
 set(gcf, 'Position', [147   678   446   159]);
@@ -72,6 +73,7 @@ set(gcf, 'Color', [1 1 1]);
 set(gca, 'Color', 'none');
 
 box on;
+grid on;
 
 % set(gcf, 'Position', [163   500   568   259]);
 set(gcf, 'Position', [147   678   446   159]);
@@ -111,7 +113,7 @@ set(gca, 'Color', 'none');
 
 box on;
 
-set(gcf, 'Position', [589   476   416   370]);
+set(gcf, 'Position', [277   490   612   316]);
 % set(gcf, 'Position', [589   476   518   370]);
 
 
@@ -150,8 +152,10 @@ y = data{2};
 
 plot(x, y, 'k--');
 
-xlim([0, 100]);
+xlim([0, 200]);
 ylim([0 0.08]);
+
+% grid on;
 
 set(gca, 'YTickLabel', '');
 
