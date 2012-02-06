@@ -2,7 +2,7 @@
 % C:\PhD\Results\2010\dHvA BaFe2P2 June\Data\WIEN2k-BaFe2P2\BandCharacter1e5\apply_orbit_character_shift_110cut_fs.m
 % and type save('Band2_110Slice_BandCharacter', 'character', 'interp_grid_x', 'interp_grid_y', 'energies');
 
-BAND_NUM = 2;
+BAND_NUM = 4;
 EF = 0.61358;
 COLORS = {[1 0.5 0] [1 0 0] [0 0.6 0] [0 0 0.6]};
 color = COLORS{BAND_NUM};
@@ -13,9 +13,10 @@ SAVE_FILESTEM = ['Band' num2str(BAND_NUM) '_BandCharPlot_%d.png'];
 
 load(['Band' num2str(BAND_NUM) '_110Slice_BandCharacter']);
 
-for splt = 1:5
+for splt = 2:5
     figure;
     hold on;
+    set(gcf, 'Position', [360   633   447   289]);
     ch = character{splt + 5};
     disp(sprintf('Char %d max is %.4f and min is %.4f', splt, max(ch(:)), min(ch(:))));
     pcolor(interp_grid_x, interp_grid_y, ch);
@@ -23,7 +24,12 @@ for splt = 1:5
     colormap('jet');
     contour(interp_grid_x, interp_grid_y, energies, [EF EF], 'Color', [1 1 1], 'LineWidth', 3);
     contour(interp_grid_x, interp_grid_y, energies, [EF EF], 'Color', color, 'LineWidth', 2);
-    %myaa;
+%     if splt == 5
+        colorbar;
+%     end
+    if splt ~= 2
+        set(gca, 'YTickLabels', {''});
+    end
     FONT_SIZE = 18;
     set( get( gca, 'XLabel' ), 'FontSize', FONT_SIZE );
     set( get( gca, 'YLabel' ), 'FontSize', FONT_SIZE );
@@ -33,10 +39,10 @@ for splt = 1:5
     set(gcf, 'Color', [1 1 1])
     set(gca, 'Color', 'none')
     box on;
-    colorbar;
     xlim([min(interp_grid_x(:)) max(interp_grid_x(:))]);
     ylim([min(interp_grid_y(:)) max(interp_grid_y(:))]);
-    print(sprintf(SAVE_FILESTEM, splt), '-dpng', '-r300');
+    export_fig(sprintf(SAVE_FILESTEM, splt), '-r150', '-transparent');
+%     print(sprintf(SAVE_FILESTEM, splt), '-dpng', '-r300');
     hold off;
 end
 
