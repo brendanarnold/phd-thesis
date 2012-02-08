@@ -1,5 +1,4 @@
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Susceptibility calculations}
     \label{Sec:ResD:SubsceptibilityCalculation}
 
@@ -7,11 +6,15 @@ To verify that we do get enhanced susceptibility, leading to a spin-density wave
 \begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.95]{Chapter-dHvABaFe2P2/Figures/AngleDepMeasurements/ShiftedBandStructure/ShiftedBandStructure}
-        \caption{Band structure for the bands that cross the fermi surface shifted to fit the dHvA data. Inset shows the path around the brillouin zone.}
+        \caption{Band structure for the bands that cross the fermi surface shifted to fit the dHvA data. (a) and (b) give an idea of the granularity of the \WIEN calculation at the Fermi surface. Inset shows the path around the brillouin zone.}
         \label{Fig:ResD:ShiftedBandStructure}
     \end{center}
 \end{figure}
-Calculations were performed using the \code{calc_x0.m} code described in section\ref{Sec:Exp:Susceptibility} using a $93\times93\times93$ grid of energy values that covered the first Brillouin zone. A small $\delta$ of $10^{-6}$ was included in order to obtain the imaginary component of the susceptbility.
+Calculations were performed using the \code{calc_x0.m} code described in section\ref{Sec:Exp:Susceptibility} using a $93\times93\times93$ grid of energy values that covered the first Brillouin zone. We will need to smooth over the granularity of the \WIEN band model since for the imaginary part at least, the calculations is very sensitive to slight imperfections in cancellation. Figure~\ref{Fig:ResD:ShiftedBandStructure} shows the band structure shifted as described in the previous section. We notice that away from the Fermi surface we have dicontinuities in the large hole pocket, most notably between $Z$ and $\Sigma_1$, due to the correction applied which is proprtional to the \DzTwo character however these are reasonably far from the Fermi level. Two regions in the figure are marked (a) and (b) which show points around the Fermi level as they are spaced in the $93\times93\times93$ model. (a) is particularly steep and has a $\Delta \epsilon/\textrm{pt.} = \unit[0.0760]{Ry}$ and (b) is more typical of the gradient at the Fermi level and has $\Delta \epsilon/\textrm{pt.} = \unit[0.0368]{Ry}$. So the energy scale that will need to compensated is \unit[$\sim 5\times10^{-2}$]{Ry}.
+
+
+
+A small $\delta$ of $10^{-6}$ was included in order to obtain the imaginary component of the susceptbility.
 
 \begin{figure}[htbp]
     \begin{center}

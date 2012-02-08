@@ -69,7 +69,7 @@ Key to the above relation is that, although $R_\perp$ is inversely proprtional t
 %%
 \begin{figure}[htbp]
     \begin{center}
-        \includegraphics[scale=0.9]{Chapter-ExperimentalTechnique/Figures/TheoreticalOscillations/TheoreticalOscillations}
+        \includegraphics[scale=0.9]{Chapter-Theory/Figures/TheoreticalOscillations/TheoreticalOscillations}
         \caption{Theoretical energy oscillations for a Fermi surface orbit which is 5\% of a \unit[5]{\AA} cubic Brillouin zone between \unit[1--18]{T}. Kinetic energy term is taken to be for an electron at a level half the size of the Fermi surface.}
         \label{Fig:Theo:EnergyOscillations}
     \end{center}
@@ -103,7 +103,7 @@ Only the extremal (i.e. the largest and smallest) magnetically induced orbits co
 %%
 \begin{figure}[htbp]
     \begin{center}
-        \includegraphics[scale=0.8]{Chapter-ExperimentalTechnique/Figures/ExtremalPhases/ExtremalPhases}
+        \includegraphics[scale=0.8]{Chapter-Theory/Figures/ExtremalPhases/ExtremalPhases}
         \caption{The sum of 1000 cosines with phase dispersions shown in the insets. Dashed line represents an extremal dispersion, solid lines a spread of linear dispersions and dotted line represent a non-extremal inflection point. Top left, top right and bottom left panels have phase distributions that are scaled from $0$ to $\sim1$, $\approx10$ and $\approx100$ Landau tube `wavelengths' respectively.}
         \label{Fig:Theo:ExtremalPhases}
     \end{center}
@@ -176,19 +176,34 @@ The final attenuating factors mentioned here are $A_{\Delta B}$, the damping due
 \subsection{Band mass}
 
 So far, three different electron masses have been defined, the thermal effective mass, the spin effective mass and the free electron mass. To tie these together a fourth mass is introduced, the \textit{band mass}. This is another effective mass resulting from the electrons being subject to the bandstructure potential as defined by \ac{DFT} calculations and is given by,
-\TODO{check this}
 \begin{equation}
-  m^*_b = \frac{\partial a_{k_\perp}}{\partial k_\perp}
+  m^*_b = \frac{\hbar^2}{2\pi}\frac{\partial a_{k_\perp}}{\partial \epsilon}
 \end{equation}
 Mass enhancement comes from any kind of interactions the electron has with its environment --- i.e. external fields, other electrons and nuclei --- resulting in the free electron mass $m_e$ becoming enhanced (renormalised). The bands mass can be determined from \ac{DFT} and the resulting enahcement is purely from the interaction of the electron with the calculated lattice potential. However \ac{DFT} calculations typically do not model correlation effects well or dynamic interactions at all. We know that both the thermal effective mass and the spin effective mass incorporate the band mass enhancements plus a unique set of interactions specified previously. Figure~\ref{Fig:Theo:EffectiveMassInheritance} lays out how the effective masses build on each other by incorporating more interactions.
 \begin{figure}[htbp]
     \begin{center}
-        \includegraphics[scale=0.9]{Chapter-ExperimentalTechnique/Figures/EffectiveMassInheritance/EffectiveMassInheritance}
+        \includegraphics[scale=0.9]{Chapter-Theory/Figures/EffectiveMassInheritance/EffectiveMassInheritance}
         \caption{A diagram showing how the succeessive electron masses build on the previous interactions. Additional interaction effects are listed in italics.}
         \label{Fig:Theo:EffectiveMassInheritance}
     \end{center}
 \end{figure}
 because of this particular hierarchy, it is sometimes possible to compare effective masses to get a sense of scale of the interactions.
+
+\subsubsection{A 2D Approximation}
+
+Although none of the attentuating factors above have an explicit angle dependence, they do vary as a function of angle through the band mass. A common approximation to simulate the dependancy in layered systems is to assume the Fermi surface is two dimensional in shape and therefore cylindrical. The cross section of a cylinder is given by,
+\begin{equation}
+    a = \frac{a_0}{\cos \theta},
+\end{equation}
+where $\theta$ is the angle from the cylinder axis. Increasing the Fermi energy by $\Delta \epsilon$ will cause the cross section at zero angle to change by amount $\Delta a_0$, then the band mass is given by,
+\begin{equation}
+    m^*_b = \frac{\hbar^2}{2\pi}\frac{\partial a_{k_\perp}}{\partial \epsilon} = \frac{\hbar^2}{2\pi}\frac{\partial}{\partial \epsilon}\left(\frac{a_0 + \Delta a_0 }{\cos\theta} - \frac{a_0 }{\cos\theta}\right) = \frac{\hbar^2}{2\pi}\frac{\partial a_0}{\partial \epsilon}\frac{1}{\cos \theta},
+\end{equation}
+therefore
+\begin{equation}
+    m^*_b = \frac{m^*_{b0} }{\cos{\theta}}
+\end{equation}
+This means that under this approximation, any factor that includes the band mass, explicitly or implicitly\footnote{Meaning $m^*_T$ and $m^*_S$ which are both enhancements of the band mass} can be resolved using the the zero angle band mass with an angle dependence of $1/\cos{\theta}$.
 
 \subsection{Final theoretical observations}
 
