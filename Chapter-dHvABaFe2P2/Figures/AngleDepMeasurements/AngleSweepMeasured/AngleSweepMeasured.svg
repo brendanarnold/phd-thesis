@@ -52,24 +52,20 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <g
-       id="g3007"
-       transform="matrix(0.19737919,0,0,0.19737919,267.2587,91.608121)">
-      <image
-         width="969"
-         height="1221"
-         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/AngleSweepMeasured/SubplotMeasuredOnly_001-110.png"
-         id="image2993"
-         x="-544.5"
-         y="-63.852097" />
-      <image
-         width="885"
-         height="1182"
-         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/AngleSweepMeasured/SubplotMeasuredOnly_001-100.png"
-         id="image3004"
-         x="423.21426"
-         y="-25.78068" />
-    </g>
+    <image
+       y="79.005043"
+       x="159.78574"
+       id="image2993"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/AngleDepMeasurements/AngleSweepMeasured/SubplotMeasuredOnly_001-110.png"
+       height="240.99998"
+       width="191.26044" />
+    <image
+       y="86.519554"
+       x="350.79239"
+       id="image3004"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/AngleDepMeasurements/AngleSweepMeasured/SubplotMeasuredOnly_001-100.png"
+       height="233.3022"
+       width="174.68059" />
     <text
        xml:space="preserve"
        style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"

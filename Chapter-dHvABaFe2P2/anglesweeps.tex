@@ -211,7 +211,7 @@ Total & -0.065\%    & -0.352\%  & -0.450\%  \\
 \end{table}
 The volumes compensate better before the shifts by a small amount (\unit[$\sim 0.4$]{\%}) with the shifts proprtional to \DxzDyz being slightly closer to the unshifted volume.
 
-An interesting condition can be seen from figure~\ref{Fig:ResD:ZSlices} where we observe cross sections of the final corrected Fermi surfaces showing the basel-plane at the bottom of the unit cell ($\kz=0$), quarter of the way up, ($\kz=0.25$) and halfway up ($\kz=0.5$). The inner hole surface at $\kz=0.5$ directly matches the size and shape of the inner electron surface at $\kz=0.25$. Moreover both surface share similar predominant \DxzDyz orbital character. Both surfaces have different \kz dispersions which mean nesting along the vector of $q=(\pi, \pi, \pi/2)$ is only partial thus providing the right conditions necessary for possible pair forming spin-density-wave fluctuations. \TODO{Does non-z orbital character preclude nesting with a z component?}
+An interesting condition can be seen from figure~\ref{Fig:ResD:ZSlices} where we observe cross sections of the final corrected Fermi surfaces showing the basal-plane at the bottom of the unit cell ($\kz=0$), quarter of the way up, ($\kz=0.25$) and halfway up ($\kz=0.5$). The inner hole surface at $\kz=0.5$ directly matches the size and shape of the inner electron surface at $\kz=0.25$. Moreover both surface share similar predominant \DxzDyz orbital character. Both surfaces have different \kz dispersions which mean nesting along the vector of $q=(\pi, \pi, \pi/2)$ is only partial thus providing the right conditions necessary for possible pair forming spin-density-wave fluctuations. \TODO{Does non-z orbital character preclude nesting with a z component?}
 \begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.9]{Chapter-dHvABaFe2P2/Figures/AngleDepMeasurements/ZSlices/ZSlices}
@@ -220,6 +220,33 @@ An interesting condition can be seen from figure~\ref{Fig:ResD:ZSlices} where we
     \end{center}
 \end{figure}
 This brings us on to the question of how well nested the Fermi surfaces are. To answer we turn to the calculations of the Lindhard susceptibility.
+
+\subsection{Obtaining the Fermi surface for members of the \BaFePAs series}
+
+If we assume Vegard's law across the series, then we can use existing literature measurements of the Fermi surface at $x=0.38$ from Yoshida \etal \cite{Yoshida2010} and $x=0.63$ from Analytis \etal \cite{Analytis2010c}. There are also useful measurements of the electron surfaces from Shishido \etal \cite{Shishido2010}. Table~\ref{Table:ResD:SeriesRecipe} lists the expected sizes of the maximal orbits for various members of the series.
+\begin{table}
+    \begin{center}
+           \caption{The extremal orbit sizes for various members of the \BaFePAs series given in Tesla}
+        \begin{tabular}[htbp]{lrrrrrr}
+\toprule
+ & $x=0.0$  & $x=0.2$   & $x=0.4$   & $x=0.6$   & $x=0.8$   & $x=1.0$   \\
+\midrule
+$1^{\textrm{st}}$ hole (max) & & & & & & 1255 \\
+$1^{\textrm{st}}$ hole (min) & & & & & & \\
+$2^{\textrm{nd}}$ hole (max) & & & & & & \\
+$2^{\textrm{nd}}$ hole (min) & & & & & & 790 \\
+$3^{\textrm{rd}}$ hole (max) & & & & & & \\
+$3^{\textrm{rd}}$ hole (min) & & & & & & \\
+$1^{\textrm{st}}$ electron (max) & & & & & & 1350 \\
+$1^{\textrm{st}}$ electron (min) & & & & & & 1180 \\
+$2^{\textrm{nd}}$ electron (max) & & & & & & 2300 \\
+$2^{\textrm{nd}}$ electron (min) & & & & & & 2130 \\
+\bottomrule
+        \label{Table:ResD:SeriesRecipe}
+        \end{tabular}
+    \end{center}
+\end{table}
+We cannot apply Vegard's law beyond a structural transition in the series. And so this recipe cannot be applied to the orthorhombic state to the low $x$ end of the phase diagram. The measurement by Analytis et al. at $x=0.38$ was tetragonal and this approximately defines the lower limit for the recipe before the orthorhombic state kicks in at low temperatures. There is also a so called `collapsed tetragonal phase' which occurs in the \BaFeAs at a pressure \unit[27]{GPa}\cite{Mittal2011} at \unit[33]{K}. Given that there is a close link between pressure and chemical pressure (i.e. Phosphor substitution) this could potentially be problem for mapping the \BaFePAs series using a linear relationship. Given that the optimal \Tc of \BaFeAs under pressure is \unit[$\sim$5]{GPa}\cite{Colombier2009} and optimal \Tc for the \BaFePAs series is $x\sim0.3$, we can very approximately place $x=1$ corresponding to \unit[$\sim 17$]{GPa} whic is about half of that required for the collapsed phase transition. Moreover there does not appear to be any reports of the collapsed phase being observed in the \BaFePAs series and so we assume that this is the case.
 
 \clearpage
 
