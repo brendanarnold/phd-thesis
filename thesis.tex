@@ -2,26 +2,26 @@
 %\documentclass[a4paper, 11pt, draft]{book}
 
 % Packages used
-\usepackage{graphicx}
-\usepackage{booktabs} % Good looking tables
-\usepackage{url}
-\usepackage{amsmath}
-\usepackage[sorting=none]{biblatex}
-\usepackage{lscape}
-\usepackage{units}
-\usepackage[small,bf]{caption}
-\usepackage{listings}
-\usepackage{float}
-\usepackage{rotating}
-\usepackage[table]{xcolor}
-\usepackage{acronym}
-\usepackage[perpage,symbol*]{footmisc}
-\usepackage{epstopdf}
-\usepackage{color}
+\usepackage{graphicx}                   % Figures
+\usepackage{booktabs}                   % Good looking tables
+\usepackage{url}                        % Formatting for URLs
+\usepackage{amsmath}                    % Extra math stuff
+\usepackage[sorting=none]{biblatex}     % Better bibliography control
+\usepackage{lscape}                     % Landscape
+\usepackage{units}                      % Unit package - bit crummy
+\usepackage[small,bf]{caption}          % Figure caption formatting
+\usepackage{listings}                   % For including computer code
+\usepackage{float}                      % Better float control
+\usepackage{rotating}                   % Rotate table to landscape?
+\usepackage[table]{xcolor}              % Define more colors
+\usepackage{acronym}                    % Define acronyms
+\usepackage[perpage,symbol*]{footmisc}  % Control foonote symbols
+\usepackage{epstopdf}                   % Automatically convert .eps to .pdf
+\usepackage{color}                      % Even more colors
+\usepackage{soul}                       % Allows for wrapping with underline, highlighting etc.
 
 % Define some macros
 \input{Misc/macros.tex}
-
 
 % Prefix equation/figure numbers with section number
 \numberwithin{equation}{section}
@@ -41,6 +41,7 @@
 % \input{Misc/declaration.tex}
 % \input{Misc/summary.tex}
 % \input{Misc/acknowledgements.tex}
+\input{Misc/acronyms.tex}
 % \input{Misc/tableofcontents.tex}
 % ... to here are not numbered
 
@@ -58,7 +59,5 @@
 
 % Appendix here
 
-% Define some acronyms
-\input{Misc/acronyms.tex}
 
 \end{document}

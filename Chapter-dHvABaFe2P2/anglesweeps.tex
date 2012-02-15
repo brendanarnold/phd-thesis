@@ -39,25 +39,32 @@ The magnetic field was alternatively ramped up and then down meaning subsequent 
 %%
 Figure~\ref{Fig:ResD:FFTExamples} shows three example FFTs which show peaks from all the principal bands identified the next section. They also show first and second harmonics\footnote{Third harmonics were also identified in other FFTs, these are shown in figure~\ref{Fig:ResD:AngleSweepMeasured}.}. The low frequency region in figure~\ref{Fig:ResD:FFTExamples} shows noise from the cantilever, but according to DFT fits performed in the next section, this region also likely contains signal from the minimum of band $1$. Given that the signal from electron bands is generally small due to high scattering rate, we were not able to extract a convincing Fourier peak.
 
-Figure~\ref{Fig:ResD:AngleSweepMeasured} shows the set of peak data after having the angle determined as described in section~\ref{Sec:2:AngleCorrection}. The points marked in grey are the harmonics which were identified by overlaying the measured data on itself after doubling and tripling of the frequency. Signal can be observed up to relatively high angles for the torque technique ($R_T \propto \sin{\theta}$) with peak observed almost up to $80\degree$  in the $[110]$ direction which, along with the observation of third harmonics, and the onset of oscillations in relatively low field is further testament to the quality of the crystal.
+Figure~\ref{Fig:ResD:AngleSweepMeasured} shows the set of peak data after having the angle determined as described in section~\ref{Sec:2:AngleCorrection}.  Signal can be observed up to relatively high angles for the torque technique ($R_T \propto \sin{\theta}$) with peak observed almost up to $80\degree$  in the $[110]$ direction which, along with the observation of third harmonics, and the onset of oscillations in relatively low field is further testament to the quality of the crystal.
 %%
 \begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.9]{Chapter-dHvABaFe2P2/Figures/AngleDepMeasurements/AngleSweepMeasured/AngleSweepMeasured}
-        \caption{Peaks identified by varying the field range, window type and background polynomial. Left panel shows data taken with the field parallel to $[001]$ down to $[110]$, the right panels shows $[001]$ to $[100]$. Points marked in grey are harmonics.}
+        \caption{Peaks identified by varying the field range, window type and background polynomial. Left panel shows data taken with the field parallel to $[001]$ down to $[110]$, the right panels shows $[001]$ to $[100]$.}
         \label{Fig:ResD:AngleSweepMeasured}
     \end{center}
 \end{figure}
 %%
-Figure~\ref{Fig:ResD:SubstitutionComparison} shows the measured rotation data which has been matched up to corresponding orbits in the DFT calculations (see next section). Superimposed is the data from the $x=0.63$ data in the \BaFePAs series multiplied by amounts commensurate to the expected shifts in the Shishido paper\cite{Shishido2010}. We can see that while the size of the areas changes between the two values, the overall shape of the $x=0.63$ data matches reasonably well with the data for $x=1$ for bands 2, 3 and 4 at least. Assuming that nothing exotic happens in the intermediary, we can extrapolate the shape of these Fermi surfaces across the range by applying the known electron Fermi surface areas and the compensation condition. This is explored further in the next section.
+The left panel in figure~\ref{Fig:ResD:IdentifyingBands} shows the measured rotation data which has been matched up to corresponding orbits in the DFT calculations (see right panel). Superimposed is the data from the $x=0.63$ data in the \BaFePAs series multiplied by amounts commensurate to the expected shifts in the Shishido paper\cite{Shishido2010}. We can see that while the size of the areas changes between the two values, the overall shape of the $x=0.63$ data matches reasonably well with the data for $x=1$ for bands 2, 3 and 4 at least. Assuming that nothing exotic happens in the intermediary, we can extrapolate the shape of these Fermi surfaces across the range by applying the known electron Fermi surface areas and the compensation condition. This is explored further in the next section.
 %%
-\begin{figure}
+\begin{figure}[htbp]
     \begin{center}
-        \includegraphics[scale=0.9]{Chapter-dHvABaFe2P2/Figures/AngleDepMeasurements/SubstitutionComparison/SubstitutionComparison}
-        \caption{dHvA data taken with the field rotating from $[001]\rightarrow[100]$. Overlaid in black squares is data from BaFe$_2$As$_{0.37}$P$_{0.63}$\cite{Analytis2010c} with the $\alpha$ and $\gamma$ frequencies multiplied by $1.33$ and $\beta$ frequencies multiplied by $1.19$ commensurate with known shifts from literature. Data is colour coded according to the bands identified from DFT calculations detailed later.}
-        \label{Fig:ResD:SubstitutionComparison}
+        \includegraphics[scale=1.0]{Chapter-dHvABaFe2P2/Figures/AngleDepMeasurements/IdentifyingBands/IdentifyingBands}
+        \caption{Left panel shows the measured data with points overlayed from BaFe$_2$As$_{0.37}$P$_{0.63}$\cite{Analytis2010c} with the $\alpha$ and $\gamma$ frequencies multiplied by $1.33$ and $\beta$ frequencies multiplied by $1.19$ commensurate with known shifts from literature. Right panel shows \ac{DFT} calculations overlayed for \BaFeP. Data is color coded according to the corresponding bands. Points in greay are harmonics.}
+        \label{Fig:ResD:IdentifyingBands}
     \end{center}
 \end{figure}
+% \begin{figure}
+%     \begin{center}
+%         \includegraphics[scale=0.9]{Chapter-dHvABaFe2P2/Figures/AngleDepMeasurements/SubstitutionComparison/SubstitutionComparison}
+%         \caption{dHvA data taken with the field rotating from $[001]\rightarrow[100]$. Overlaid in black squares is data from BaFe$_2$As$_{0.37}$P$_{0.63}$\cite{Analytis2010c} with the $\alpha$ and $\gamma$ frequencies multiplied by $1.33$ and $\beta$ frequencies multiplied by $1.19$ commensurate with known shifts from literature. Data is colour coded according to the bands identified from DFT calculations detailed later.}
+%         \label{Fig:ResD:SubstitutionComparison}
+%     \end{center}
+% \end{figure}
 %%
 
 \clearpage
@@ -65,7 +72,7 @@ Figure~\ref{Fig:ResD:SubstitutionComparison} shows the measured rotation data wh
 \subsubsection{Rigidly shifting the calculated DFT energies}
     \label{Sec:ResD:DFTShifts}
 
-Figure~\ref{Fig:ResD:AngleSweepMeasuredUnshifted} shows the DFT calculations performed using the augmented plane wave method plus local orbits method method as implemented in the WIEN2k package\cite{Blaha2001}. The unit cell used was that measured by Rotter et al. which are listed in table~\ref{Tab:ResD:LatticeParams}. The calculations were processed into rotation plots using the MATLAB code originally written by Dr. Ed Yelland. Results are shown superimposed over the measured data. By factoring the frequency with $\cos{\theta}$ it becomes clearer which of the orbits is a maximal extrema and which is a minimal extrema. Using this knowledge as well as clues from the Fourier amplitude of the measured data, it was possible to separate out individual bands which have been colour coded and labelled --- according to literature convention --- as specified in table~\ref{Tab:ResD:BandNaming}. Minimal extrema are sub-labelled $1$, maxima are sub-labelled $2$.
+The right panel of figure~\ref{Fig:ResD:IdentifyingBands} shows the DFT calculations performed using the augmented plane wave method plus local orbits method method as implemented in the WIEN2k package\cite{Blaha2001}. The unit cell used was that measured by Rotter et al. which are listed in table~\ref{Tab:ResD:LatticeParams}. The calculations were processed into rotation plots using the MATLAB code originally written by Dr. Ed Yelland. Results are shown superimposed over the measured data. By factoring the frequency with $\cos{\theta}$ it becomes clearer which of the orbits is a maximal extrema and which is a minimal extrema. Using this knowledge as well as clues from the Fourier amplitude of the measured data, it was possible to separate out individual bands which have been colour coded and labelled --- according to literature convention --- as specified in table~\ref{Tab:ResD:BandNaming}. Minimal extrema are sub-labelled $1$, maxima are sub-labelled $2$. The points marked in grey are the harmonics which were identified by overlaying the measured data on itself after doubling and tripling of the frequency.
 %%
 \begin{table}
     \begin{center}
@@ -86,13 +93,13 @@ Band Num.  & Label & Colour    & Type \\
 %%
 As with previous DFT calculations in the \BaFePAs series, the calculated values are consistently higher than the measured values. The exception in this case is $\gamma_2$ which is not much different from the calculated values.
 %%
-\begin{figure}
-    \begin{center}
-        \includegraphics[scale=0.7]{Chapter-dHvABaFe2P2/Figures/AngleDepMeasurements/AngleSweepMeasuredUnshifted/AngleSweepMeasuredUnshifted}
-        \caption{dHvA frequencies multiplied by $\cos(\theta)$. Solid lines are DFT calculations, open circles are measured data. $H$ field directed along $[001]\rightarrow[100]$.}
-        \label{Fig:ResD:AngleSweepMeasuredUnshifted}
-    \end{center}
-\end{figure}
+% \begin{figure}
+%     \begin{center}
+%         \includegraphics[scale=0.7]{Chapter-dHvABaFe2P2/Figures/AngleDepMeasurements/AngleSweepMeasuredUnshifted/AngleSweepMeasuredUnshifted}
+%         \caption{dHvA frequencies multiplied by $\cos(\theta)$. Solid lines are DFT calculations, open circles are measured data. $H$ field directed along $[001]\rightarrow[100]$.}
+%         \label{Fig:ResD:AngleSweepMeasuredUnshifted}
+%     \end{center}
+% \end{figure}
 
 For the $[110]$ direction it became apparent from the fact that the DFT and the measured curves were qualitatively different that the field was not perfectly aligned with the $[110]$ axis of the sample. By assuming that the measurements were taken from the $c$-axis direction down to a vector rotated \unit[10]{\degree} within the $ab$-plane from the $[110]$ direction, the DFT data matches much better. A \unit[10]{\degree} misalignment is within the estimated alignment error for the microscope images. The data will continue to be labelled as in the $[110]$ plane however for convenience.
 
@@ -157,8 +164,8 @@ Band $2$ has very little basel-plane \Dxy and \DxTwoyTwo character close to the 
 Energy shifts were applied across the full three dimensional Brillouin zone for band $2$ using the following two scalings which were determined by trial and error fitting of the data,
 %%
 \begin{align*}
-\textrm{\DzTwo:}\quad \Delta\epsilon &= 0.002 - 0.0052 \left(1 - \frac{\epsilon - 0.033}{0.2205 - 0.033}\right) \\
-\textrm{\DxzDyz:}\quad \Delta\epsilon &= 0.002 - 0.0052 \left(\frac{\epsilon - 0.0946}{0.3135 - 0.0946}\right)
+\textrm{\DzTwo:}\quad \Delta\epsilon &= 0.002 - 0.0052 \left[1 - \frac{\epsilon - 0.033}{0.2205 - 0.033}\right] \\
+\textrm{\DxzDyz:}\quad \Delta\epsilon &= 0.002 - 0.0052 \left[\frac{\epsilon - 0.0946}{0.3135 - 0.0946}\right]
 \end{align*}
 %%
 Note that these scalings ensure that the energy shift applied varies between \unit[-32]{mRy} and \unit[2]{mRy} which are slightly different to the values applied when rigidly shifting the band. This is due to the fact that the Fermi surface area measured in the narrow region is affected more and more by the size of the Fermi surface in the wide region (and vice-versa) as the azimuthal angle gets higher. The calculated area deviates from the measured area which results in the crossing of the calculated rotation plot with the measured rotation plot shown in the first panel of figure~\ref{Fig:ResD:Band2DCharacterRigidComparison}. So when the rigid shifts were being determined, values were chosen which best lines up along the full length of the curve -- one which will be slightly lower than if we were to match the plots exactly at $\theta=0^\circ$.
@@ -223,30 +230,38 @@ This brings us on to the question of how well nested the Fermi surfaces are. To 
 
 \subsection{Obtaining the Fermi surface for members of the \BaFePAs series}
 
-If we assume Vegard's law across the series, then we can use existing literature measurements of the Fermi surface at $x=0.38$ from Yoshida \etal \cite{Yoshida2010} and $x=0.63$ from Analytis \etal \cite{Analytis2010c}. There are also useful measurements of the electron surfaces from Shishido \etal \cite{Shishido2010}. Table~\ref{Table:ResD:SeriesRecipe} lists the expected sizes of the maximal orbits for various members of the series.
+We can use existing literature measurements of the Fermi surface at $x=0.38$ from Yoshida \etal \cite{Yoshida2010}, $x=0.63$ from Analytis \etal \cite{Analytis2010c} and a range between $0.4 < x < 1.0$ from Shishido \etal \cite{Shishido2010} to obatain an approximate relation for the size of Fermi surface orbits across the \BaFePAs series. Figure~\ref{Fig:ResD:SeriesRecipe} shows the maximum and minimum orbit sizes with the field along the $c$-axis from these papers along with data presented in this thesis.
+\begin{figure}[htbp]
+    \begin{center}
+        \includegraphics[scale=1.1]{Chapter-dHvABaFe2P2/Figures/AngleDepMeasurements/SeriesRecipe/SeriesRecipe}
+        \caption{Left panel shows the trend in electron orbit size at $\theta=0\degree$ over the series, right panel show the hole orbit size trends. Dotted lines show linear fits to the data.}
+        \label{Fig:ResD:SeriesRecipe}
+    \end{center}
+\end{figure}
+It may be possible to apply a linear scaling to determine the intermediate orbit sizes however there are a number of assumptions that need to be made. Firstly we cannot apply Vegard's law beyond a structural transition in the series meaning we cannot extrapolate to the orthorhombic state at the low $x$ end of the phase diagram. The measurement by Yoshida et al. at $x=0.38$ roughly coincides with the edge of the orthorhombic transition as shown in figure~\ref{Fig:ResD:PhaseDiagram} but was found to be tetragonal and so we can use to to define the lower limit for the extrapolation at low temperatures. There is also a so called `collapsed tetragonal phase' which occurs in the \BaFeAs at a pressure \unit[27]{GPa}\cite{Mittal2011} at \unit[33]{K} which could present a problme as we apply chemical pressure. The optimal \Tc of \BaFeAs under pressure is \unit[$\sim$5]{GPa}\cite{Colombier2009} and optimal \Tc for the \BaFePAs series is $x\sim0.3$, and so we can very approximately place $x=1$ corresponding to \unit[$\sim 17$]{GPa} which is about half of that required for the collapsed phase transition. Moreover the author is not aware of any reports of the collapsed phase being observed in the \BaFePAs series at atmospheric pressure and so we assume that this is the case. There is also the problem of the third hole surface around the $\Gamma$ point which appears in \ac{DFT} calculations. Although it has not been observed in any of the measurements, this is to be expected since electron surfaces generally scatter more and so have a weaker signal to electron pockets and also it may be close in size and shape to other hole surfaces making it difficult to pick out with current \ac{ARPES} resolution.
+
+Looking at figure~\ref{Fig:ResD:SeriesRecipe} we see some inconsistencies which may also throw some doubt onto such a linear fit. Key points from Yoshida \etal are measured from \ac{ARPES} and not \ac{dHvA}. As they were measured at \unit[10]{K}, this means that the Fermi surface is measured in the superconducting state and not the field suppressed normal state which is the case for the \ac{dHvA} data. It is not clear if this results in different Fermi surfaces. It also should be noted that a linear extrapolation of $\delta$ suggests that it will become more three dimentional as it goes below $x=0.38$, however this does not appear to be supported by the \ac{DFT} results which show it remaining quasi-two dimensional. 
+
+With the above (many) caveats in mind, we can determine a series of linear laws which would approxmately determine the orbit sizes for $0.38 < x < 1.0$ by applying fits to the data in figure~\ref{Fig:ResD:SeriesRecipe}. The results of these fits are given in table~\ref{Table:ResD:SeriesRecipeFits}.
 \begin{table}
     \begin{center}
-           \caption{The extremal orbit sizes for various members of the \BaFePAs series given in Tesla}
-        \begin{tabular}[htbp]{lrrrrrr}
+           \caption{Linear relations to determine orbit sizes. Coefficients are of the form $F=mx+c$.}
+        \begin{tabular}[htbp]{lrr}
 \toprule
- & $x=0.0$  & $x=0.2$   & $x=0.4$   & $x=0.6$   & $x=0.8$   & $x=1.0$   \\
+Orbit   & $m$   & $c$   \\
 \midrule
-$1^{\textrm{st}}$ hole (max) & & & & & & 1255 \\
-$1^{\textrm{st}}$ hole (min) & & & & & & \\
-$2^{\textrm{nd}}$ hole (max) & & & & & & \\
-$2^{\textrm{nd}}$ hole (min) & & & & & & 790 \\
-$3^{\textrm{rd}}$ hole (max) & & & & & & \\
-$3^{\textrm{rd}}$ hole (min) & & & & & & \\
-$1^{\textrm{st}}$ electron (max) & & & & & & 1350 \\
-$1^{\textrm{st}}$ electron (min) & & & & & & 1180 \\
-$2^{\textrm{nd}}$ electron (max) & & & & & & 2300 \\
-$2^{\textrm{nd}}$ electron (min) & & & & & & 2130 \\
+$\delta_{\textrm{max}}$ & 0.081 & 1.169 \\
+$\delta_{\textrm{min}}$ & -1.766 & 1.841 \\
+$\gamma_{\textrm{max}}$ & 4.339 & 3.111 \\
+$\gamma_{\textrm{min}}$ & 0.698 &  0.071 \\
+$\beta_{\textrm{min}}$ & 0.749 & 1.352 \\
+$\beta_{\textrm{max}}$ & 0.811 & 1.489 \\
+$\alpha_{\textrm{max}}$ & 0.495 & 0.646 \\
+$\alpha_{\textrm{min}}$ & 0.946 & 0.404 \\
 \bottomrule
-        \label{Table:ResD:SeriesRecipe}
+        \label{Table:ResD:SeriesRecipeFits}
         \end{tabular}
     \end{center}
 \end{table}
-We cannot apply Vegard's law beyond a structural transition in the series. And so this recipe cannot be applied to the orthorhombic state to the low $x$ end of the phase diagram. The measurement by Analytis et al. at $x=0.38$ was tetragonal and this approximately defines the lower limit for the recipe before the orthorhombic state kicks in at low temperatures. There is also a so called `collapsed tetragonal phase' which occurs in the \BaFeAs at a pressure \unit[27]{GPa}\cite{Mittal2011} at \unit[33]{K}. Given that there is a close link between pressure and chemical pressure (i.e. Phosphor substitution) this could potentially be problem for mapping the \BaFePAs series using a linear relationship. Given that the optimal \Tc of \BaFeAs under pressure is \unit[$\sim$5]{GPa}\cite{Colombier2009} and optimal \Tc for the \BaFePAs series is $x\sim0.3$, we can very approximately place $x=1$ corresponding to \unit[$\sim 17$]{GPa} whic is about half of that required for the collapsed phase transition. Moreover there does not appear to be any reports of the collapsed phase being observed in the \BaFePAs series and so we assume that this is the case.
-
 \clearpage
 
