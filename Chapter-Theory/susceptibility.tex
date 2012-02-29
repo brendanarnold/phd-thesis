@@ -11,14 +11,14 @@ where,
 \begin{equation}
     D = |\langle k+q,l^\prime|V|k,l \rangle|^2
 \end{equation}
-and is the matrix transition element for the scattering process. The numerator term contains two Fermi functions --- the same as eqn.~\ref{Eqn:Theo:FermiFunction} --- which ensure that the susceptibilty is finite for states which scatter across the Fermi energy and zero if they do not. They also smear the calculations as a function of temperature. The final term in the denominator is an artefact of the adiabatic approximation used to calculate the perturbation. The completed approximation takes the limit of $\eta \to 0$ which results in an expression for the imaginary part of Lindhard susceptibility, $\mathcal{Im}(\chi_0) \propto \delta(\epsilon_{k+q,l^\prime} - \epsilon{k,l} - \hbar\omega)$ which, in a continuous calculation, results in resonances at excitations which match the difference in energies between states. However, in this thesis, the energy dispersions used to determine nesting conditions are not continuous and instead are based on discrete energies obtained from DFT calculations. As such $\eta$ will have to remain finite in order to broaden the delta function into a Lorentzian with width comparable to the energy differences between the discrete points -- the net result of this will be loss of some fine structure. The third term in the denominator corresponds to the excitation energy of the perturbing field with $\omega$ corresponding to the temporal frequency of the field. The first sum in the Lindhard function is over all $k$ states in the first Brillouin zone. The DFT calculations do not provide values for all $k$ states, instead a fairly coarse mesh evenly distributed over the Brillouin zone is used. The second sum combines each energy band. In practice only bands that lie close (within the adiabatic or temeprature broadening) to the Fermi energy need to be included in the calculations.
+and is the matrix transition element for the scattering process. The numerator term contains two Fermi functions --- the same as eqn.~\ref{Eqn:Theo:FermiFunction} --- which ensure that the susceptibilty is finite for states which scatter across the Fermi energy and zero if they do not. They also smear the calculations as a function of temperature. The final term in the denominator is an artefact of the adiabatic approximation used to calculate the perturbation. The completed approximation takes the limit of $\eta \to 0$ which results in an expression for the imaginary part of Lindhard susceptibility, $\Imag(\chi_0)\propto \delta(\epsilon_{k+q,l^\prime} - \epsilon{k,l} - \hbar\omega)$ which, in a continuous calculation, results in resonances at excitations which match the difference in energies between states. However, in this thesis, the energy dispersions used to determine nesting conditions are not continuous and instead are based on discrete energies obtained from DFT calculations. As such $\eta$ will have to remain finite in order to broaden the delta function into a Lorentzian with width comparable to the energy differences between the discrete points -- the net result of this will be loss of some fine structure. The third term in the denominator corresponds to the excitation energy of the perturbing field with $\omega$ corresponding to the temporal frequency of the field. The first sum in the Lindhard function is over all $k$ states in the first Brillouin zone. The DFT calculations do not provide values for all $k$ states, instead a fairly coarse mesh evenly distributed over the Brillouin zone is used. The second sum combines each energy band. In practice only bands that lie close (within the adiabatic or temeprature broadening) to the Fermi energy need to be included in the calculations.
 
 Peaks in this function correspond to scattering of states which cross the Fermi energy yet remain close to the Fermi energy.  We can derive this function by modelling an oscillatory perturbing field on a system. To solve to get an expression for the second order perturbation, we make the adiabatic limit approximation (i.e. the perturbing potential is gradually increase from zero at $t=\infty$ to $v$ at $t=0$).
 
 The real and imaginary parts of equation \ref{Eqn:Intro:Lindhard} are,
 \begin{align}
-\chi_0(q, \omega)^\prime &= \lim_{\eta \to 0} \sum_{k}\sum_{l, l^\prime}\frac{(\epsilon_{k+q,l^\prime} - \epsilon_{k,l} - \hbar\omega) (f(\epsilon_{k+q,l^\prime}) - f(\epsilon_{k,l}))}{(\epsilon_{k+q,l^\prime} - \epsilon_{k,l} - \hbar\omega)^2 + \eta^2}D \\
-\chi_0(q, \omega)^{\prime\prime} &= \lim_{\eta \to 0} \sum_{k}\sum_{l, l^\prime}\frac{-\eta (f(\epsilon_{k+q,l^\prime}) - f(\epsilon_{k,l}))}{(\epsilon_{k+q,l^\prime} - \epsilon_{k,l} - \hbar\omega)^2 + \eta^2}D\\
+\Real\{\chi_0(q, \omega)\} &= \lim_{\eta \to 0} \sum_{k}\sum_{l, l^\prime}\frac{(\epsilon_{k+q,l^\prime} - \epsilon_{k,l} - \hbar\omega) (f(\epsilon_{k+q,l^\prime}) - f(\epsilon_{k,l}))}{(\epsilon_{k+q,l^\prime} - \epsilon_{k,l} - \hbar\omega)^2 + \eta^2}D \\
+\Imag\{\chi_0(q, \omega)\} &= \lim_{\eta \to 0} \sum_{k}\sum_{l, l^\prime}\frac{-\eta (f(\epsilon_{k+q,l^\prime}) - f(\epsilon_{k,l}))}{(\epsilon_{k+q,l^\prime} - \epsilon_{k,l} - \hbar\omega)^2 + \eta^2}D\\
 \end{align}
 respectively.
 
@@ -26,8 +26,11 @@ Although knowledge of the susceptibility is useful to model, for example, neutro
 
 
 \TODO{How does susceptibility tie in with nesting?}
+
 \TODO{Lindhard susceptibility is a time dependent perturbation in the adiabatic limit to what? Adiabatic limit is where the pertubation time-frame is slow c.f. the unperturbed time-frame}
+
 \TODO{imaginary factor corresponds to the decay rate of the state}
+
 \TODO{energy(susceptibility) is broadened by the decay rate}
 
 
