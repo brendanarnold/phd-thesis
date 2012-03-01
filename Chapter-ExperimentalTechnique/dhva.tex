@@ -124,6 +124,7 @@ Previous standard practice was to remove a background polynomial fitted to the f
 \end{figure}
 
 \subsection{Measuring the spin mass}
+\label{Sec:Exp:MeasuringSpinMass}
 
 The only terms in the \ac{LK} equation that cause the amplitude to drop to zero as a function of angle are the torque term, $A_\Gamma$ which causes a single zero when the field is parallel with the cantilever arm and the spin term $A_S$\footnote{The angle dependence of $A_S$ comes from variations in the band mass}. By examining the amplitude as a function of angle it is possible to determine the spin effective mass. A good determination requires more than one spin zero to be observed since the oscillatory nature of the $A_S$ term gives multiple solutions for a single zero.
 
@@ -131,6 +132,7 @@ In practice the determination is complicated by the fact that if the Landau leve
 
 To the first approximation, the cylindrical approximation is used to describe the band mass in $A_S$, however the form of the spin term is relatively sensitive to small deviations and so fits would be much better using a more accurate variation of band mass with angle. Band mass was extracted from \ac{DFT} results and was performed using Ed's MATLAB code which locates the extremal areas from the corrected \ac{BZ} energy dispersion at a particular angle. Once located a small shift in energy is applied and the correspondinig shift in area is used to determine the band mass using equation~\ref{Eqn:Theo:BandMass}. A polynomial of appropriate order is then fitted to the curve and used in the fitting routine in place of the band mass. The MATLAB code determines the masses with some spread in the values which caused higher order polynomial fits to oscillate at low angles within the noise. To alleviate this, a mean value was determined for each angle.
 
+One final note is that the absolute value of the $A_S$ term is used to fit the data since we analyse the height of the \ac{FFT} peaks of the oscillations which are always positive and not the oscillations directly.
 
 \subsection{Extracting effective mass from the temperature dependence}
 \label{Sec:Exp:ExtractingEffMassTemperatureDependence}
