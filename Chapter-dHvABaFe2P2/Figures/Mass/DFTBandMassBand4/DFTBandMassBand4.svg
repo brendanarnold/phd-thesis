@@ -17,7 +17,30 @@
    inkscape:version="0.48.1 "
    sodipodi:docname="DFTBandMassBand4.svg">
   <defs
-     id="defs4" />
+     id="defs4">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3016">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect3018"
+         width="121.21831"
+         height="119.70308"
+         x="557.09912"
+         y="148.27567" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3039">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect3041"
+         width="247.85715"
+         height="232.14285"
+         x="285"
+         y="103.07648" />
+    </clipPath>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,9 +48,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.9899495"
-     inkscape:cx="399.00196"
-     inkscape:cy="842.27574"
+     inkscape:zoom="1.4"
+     inkscape:cx="563.84175"
+     inkscape:cy="752.12946"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -44,7 +67,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -58,7 +81,8 @@
        id="image3004"
        xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Mass/DFTBandMassBand4/Main.png"
        height="288.99121"
-       width="244.15817" />
+       width="244.15817"
+       clip-path="url(#clipPath3039)" />
     <text
        xml:space="preserve"
        style="font-size:14.15663147px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
@@ -88,5 +112,48 @@
    id="tspan3019">m</tspan><tspan
    style="font-size:9.20194054px;font-style:italic;baseline-shift:sub"
    id="tspan3017">e</tspan>)</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3001"
+       width="131.07143"
+       height="130.71428"
+       x="317.85712"
+       y="117.00504" />
+    <image
+       y="118.46314"
+       x="324.00537"
+       id="image2998"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Mass/DFTBandMassBand4/OrbitLocation.png"
+       height="97.399178"
+       width="163.69182" />
+    <image
+       y="131.05252"
+       x="528.50067"
+       id="image3011"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Mass/DFTBandMassBand4/Main.png"
+       height="267.66785"
+       width="226.14287"
+       clip-path="url(#clipPath3016)"
+       transform="translate(-26.16244,26.263966)" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="386.38336"
+       y="223.02695"
+       id="text3020"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3022"
+         x="386.38336"
+         y="223.02695">Angle (<tspan
+   style="font-style:italic"
+   id="tspan3024">deg.</tspan>)</tspan></text>
+    <image
+       y="107.9356"
+       x="527.61829"
+       id="image3034"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Mass/DFTBandMassBand4/InvCosFitParams.png"
+       height="62.451714"
+       width="120.55553" />
   </g>
 </svg>

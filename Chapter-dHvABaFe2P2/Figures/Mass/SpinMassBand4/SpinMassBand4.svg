@@ -104,15 +104,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="330.03975"
-     inkscape:cy="805.88878"
+     inkscape:cx="325.04918"
+     inkscape:cy="810.3011"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1141"
      inkscape:window-height="849"
-     inkscape:window-x="37"
-     inkscape:window-y="60"
+     inkscape:window-x="100"
+     inkscape:window-y="97"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
@@ -365,24 +365,6 @@
          id="path4944"
          d="m 656.59916,313.86681 54.54823,-54.54824"
          style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-    </g>
-    <g
-       id="g3022"
-       transform="matrix(0.19820968,0,0,0.19820968,253.17455,18.713945)">
-      <rect
-         y="1103.0764"
-         x="-247.14285"
-         height="299.28571"
-         width="558.57141"
-         id="rect3020"
-         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-      <image
-         width="665.2887"
-         height="395.85715"
-         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Mass/SpinMassBand4/OrbitLocation.png"
-         id="image3015"
-         x="-324.35715"
-         y="1070.1479" />
     </g>
     <text
        xml:space="preserve"
@@ -1503,5 +1485,47 @@
          id="path4134-8"
          inkscape:connector-curvature="0" />
     </g>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3275"
+       y="126.55739"
+       x="196.47469"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         y="126.55739"
+         x="196.47469"
+         id="tspan3277"
+         sodipodi:role="line"
+         style="font-size:14px"><tspan
+   id="tspan3279"
+   style="font-size:14px;font-style:italic">n</tspan> = 4</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3281"
+       y="269.99905"
+       x="316.17776"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="font-size:14px"
+         y="269.99905"
+         x="316.17776"
+         id="tspan3283"
+         sodipodi:role="line"><tspan
+   id="tspan3285"
+   style="font-size:14px;font-style:italic">n</tspan> = 6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="301.53055"
+       y="296.263"
+       id="text3269"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3271"
+         x="301.53055"
+         y="296.263"
+         style="font-size:14px"><tspan
+   style="font-size:14px;font-style:italic"
+   id="tspan3273">n</tspan> = 3</tspan></text>
   </g>
 </svg>

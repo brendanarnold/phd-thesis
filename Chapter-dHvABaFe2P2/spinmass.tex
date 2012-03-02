@@ -1,30 +1,36 @@
 
 \section{Determining the spin mass}
 
-Following the method in section~\ref{Sec:Exp:MeasuringSpinMass} we begin by taking a variety of spin masses using the cylindrical approximation. Figure~\ref{Fig:ResD:Band4SpinMassCylindrical} shows \ac{FFT} amplitudes for a portion of the $\alpha$ electron pocket taken over a range of angles towards the $[100]$ direction. The shaded areas are bound to the areas where we believe the amplitudes go to zero as defined by the overall shape of the curve and the splitting of the peaks. The upper panel shows the particular oscillation that most closely matches the zeros in the data as well as its upper and lower bounds to quantify the possible error. The lower panel shows the next and previous set of oscillations in order to demonstrate that the selected oscillation in the top panel is indeed the best fit. In the cylindrical case the best fit is given by \TODO{XXXXX} with an error of \TODO{XXXX}.
+Following the method in section~\ref{Sec:Exp:MeasuringSpinMass} we begin by using the cylindrical approximation and then move onto using an expression for $m^*_b$ derived from a polynomial fit to band masses calculated from \ac{DFT}. Figure~\ref{Fig:ResD:DFTBandMassBand4} shows the two fit forms for the band mass used --- an eight order polynomial and the cylindrical approximation --- used as well as in the inset the particular portion of the $\alpha$ band data that was used in the following investigation. As we can see from the inset, we use a relatively small portion of the measured data curve where the amplitudes are strong and well separated from amplitudes from other extremal orbits on the Fermi surface. Detailed in the panels to the right of the figure are the parameters for the two equational forms for the band mass.
+%%
 \begin{figure}[htbp]
     \begin{center}
-        \includegraphics[scale=0.9]{Misc/TODO}
-        \caption{Measured amplitude of \ac{FFT} peaks across a range of angles for the portion of data shown in the inset. Curves corresponding to the $A_S$ term calculated using the cylindrical apporximation are superimposed. Upper panel shows the best fitting data and its bounds, the lower portion shows fitting to the next oscillation along which clearly demonstrates the misalignment. Shaded areas are zones where we believe the spin zeros are located in the data.}
-        \label{Fig:ResD:Band4SpinMassCylindrical}
-    \end{center}
-\end{figure}
-We now contrast this with a spin mass determination using a band mass calculated from \ac{DFT}. Figure~\ref{Fig:ResD:DFTBandMassBand4} shows the band mass as calculated from the shifted \ac{DFT} energies for band 4. On the plot is an order 8 polynomial fit as well as the corresponding cylindrical approximation curve for comparison.
-\begin{figure}[htbp]
-    \begin{center}
-        \includegraphics[scale=0.9]{Chapter-dHvABaFe2P2/Figures/Mass/DFTBandMassBand4/DFTBandMassBand4}
+        \includegraphics[scale=0.8]{Chapter-dHvABaFe2P2/Figures/Mass/DFTBandMassBand4/DFTBandMassBand4}
         \caption{Band masses calculated from \ac{DFT} of band 4 taken over a range of angles rotating towards the $[100]$ direction. A fit to and order 8 polynomial is shows as well as a comparitive fit suing the cylindrical approximation.}
         \label{Fig:ResD:DFTBandMassBand4}
     \end{center}
 \end{figure}
-Taking the polynomial from the fit to the \ac{DFT} band mass calulcations as the band mass for the inspection of the $A_S$ term, figure~\ref{Fig:ResD:SpinMassFromDFTBand4} shows the revised best fit. Now the fit values gives a spin mass of \TODO{XXXX} with an error pf \TODO{XXXX}.
+%%
+Beginning with the cylindrical pproximation, figure~\ref{Fig:ResD:Band4SpinMassCylindrical} shows the \ac{FFT} amplitudes for the said portion of the $\alpha$ electron pocket over a range of angles towards the $[100]$ direction as open circles. The shaded areas delimit where we believe the amplitudes go to zero as determined by inspecting the overall shape of the curve and the splitting of the peaks. The upper panel shows the $n=5$ oscillation, with dotted lines showing the bounds using the cylindrical approximation for the band mass. The $n=5$ oscillation most closely matches the zeros in the data with the $n=6$ oscillation which fits reasonably well presented in the middle panel. The lower panel shows the next ($n=7$) and previous oscillations ($n=4$) in order to demonstrate that the $A_S$ curves no longer align well with the data. We note that for negative angles (i.e. where the sample was raotated back beyond $B\parallel[001]$) the amplitude is not symmetric as expected. This has been oberseved previously for measurement using a similar technique\cite{Rourke2010b} and the cause has not yet been fully determined. Some possible explanations could be changes in the resistance response of the cantilever as is transitions from flexing upwards to flexing downwards however further investigation will be required to determine this. The spin masses obtained using the cylindrical approximation from the presented curves are \TODO{XXXX} for $n=5$ and \TODO{XXXX} for $n=6$.
+%%
 \begin{figure}[htbp]
     \begin{center}
-        \includegraphics[scale=0.8]{Chapter-dHvABaFe2P2/Figures/Mass/SpinMassBand4/SpinMassBand4}
-        \caption{Measured amplitude of \ac{FFT} peaks across a range of angles for the portion of data shown in the inset.  Curves corresponding to the $A_S$ term calculated using the cylindrical apporximation are superimposed. Upper panel shows the best fitting data and its bounds, the lower portion shows fitting to the next oscillation along which clearly demonstrates the misalignment. Shaded areas are zones where we believe the spin zeros are located in the data.}
+        \includegraphics[scale=0.75]{Chapter-dHvABaFe2P2/Figures/Mass/SpinMassBand4Cylindrical/SpinMassBand4Cylindrical}
+        \caption{$A_S$ curves calculated for various oscillations using the cylindrical approximation. Open circles are \ac{FFT} amplitudes for $\alpha$ band rotating towards the $[100]$ direction.}
+        \label{Fig:ResD:Band4SpinMassCylindrical}
+    \end{center}
+\end{figure}
+%%
+We now contrast this with a spin mass determination using a band mass calculated from \ac{DFT}. Figure~\ref{Fig:ResD:SpinMassFromDFTBand4} shows the revised curves with the upper panel showing $n=4$ to be the best fitting with the lower panel demonstarting $n = 3, 5$ do not fit well to the measured data. Now the fit values gives a spin mass of \TODO{XXXX} with an error of \TODO{XXXX}.
+%%
+\begin{figure}[htbp]
+    \begin{center}
+        \includegraphics[scale=0.7]{Chapter-dHvABaFe2P2/Figures/Mass/SpinMassBand4/SpinMassBand4}
+        \caption{$A_S$ curves calculated for various oscillations using the polynomial fit to \ac{DFT} calculated band masses. Open circles are \ac{FFT} amplitudes for $\alpha$ band rotating towards the $[100]$ direction.}
         \label{Fig:ResD:SpinMassFromDFTBand4}
     \end{center}
 \end{figure}
+%%
 Given that a more accurate fit is obtained by using the \ac{DFT} calculated band masses, table~\ref{Table:ResD:SpinMassValues} shows more spin mass values calculated using this technique with the full graphs given in Appendix~\ref{Appendix:SpinMassPlots}.
 \begin{table}
     \begin{center}
