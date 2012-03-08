@@ -27,7 +27,7 @@ camva(6);
 campos([21.5766    6.4178   11.9692]);
 set(gcf, 'color', [1 1 1])
 
-export_fig 'Band4_Shifted.png' '-r150'
+% export_fig 'Band4_Shifted.png' '-r150'
 
 
 %set(0, 'ScreenPixelsPerInch', 120)
