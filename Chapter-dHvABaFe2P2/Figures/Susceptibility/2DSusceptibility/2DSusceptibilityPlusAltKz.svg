@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 "
+   sodipodi:docname="2DSusceptibilityPlusAltKz.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="474.00135"
+     inkscape:cy="715.8856"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="968"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <image
+       y="104.7049"
+       x="172.97742"
+       id="image2993"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/2DSusceptibility/Re.png"
+       height="179.54169"
+       width="200.62245" />
+    <image
+       y="104.7049"
+       x="375.59631"
+       id="image3004"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/2DSusceptibility/Im.png"
+       height="179.77855"
+       width="198.72754" />
+    <text
+       sodipodi:linespacing="100%"
+       id="text3047"
+       y="142.95631"
+       x="210.26392"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="font-size:16px"
+         y="142.95631"
+         x="210.26392"
+         id="tspan3049"
+         sodipodi:role="line">Re<tspan
+   style="font-style:italic"
+   id="tspan3183"></tspan></tspan><tspan
+         style="font-size:16px"
+         y="158.96649"
+         x="210.26392"
+         sodipodi:role="line"
+         id="tspan3054"><tspan
+           style="font-style:italic"
+           id="tspan3056">k<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan3185">z</tspan>=π</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="398.59869"
+       y="142.78479"
+       id="text3043"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3045"
+         x="398.59869"
+         y="142.78479"
+         style="font-size:16px">Im<tspan
+   style="font-style:italic"
+   id="tspan3187"></tspan></tspan><tspan
+         sodipodi:role="line"
+         x="398.59869"
+         y="158.79497"
+         style="font-size:16px"
+         id="tspan3060"><tspan
+           style="font-style:italic"
+           id="tspan3062">k<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan3189">z</tspan>=π</tspan></tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3057"
+       y="284.25568"
+       x="306.98868"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'"
+         y="284.25568"
+         x="306.98868"
+         id="tspan3059"
+         sodipodi:role="line">k<tspan
+   id="tspan3061"
+   style="font-size:65.00091553%;baseline-shift:sub">x</tspan></tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3063"
+       y="282.82712"
+       x="502.70294"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'"
+         y="282.82712"
+         x="502.70294"
+         id="tspan3065"
+         sodipodi:role="line">k<tspan
+   id="tspan3067"
+   style="font-size:65.00091553%;baseline-shift:sub">x</tspan></tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3069"
+       y="262.11282"
+       x="173.41722"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'"
+         y="262.11282"
+         x="173.41722"
+         id="tspan3071"
+         sodipodi:role="line">k<tspan
+   id="tspan3073"
+   style="font-size:65.00091553%;baseline-shift:sub">y</tspan></tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3075"
+       y="252.82709"
+       x="379.84583"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'"
+         y="252.82709"
+         x="379.84583"
+         id="tspan3077"
+         sodipodi:role="line">k<tspan
+   id="tspan3079"
+   style="font-size:65.00091553%;baseline-shift:sub">y</tspan></tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3014"
+       y="134.25568"
+       x="158.41722"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'"
+         y="134.25568"
+         x="158.41722"
+         id="tspan3016"
+         sodipodi:role="line">χ<tspan
+   id="tspan3018"
+   style="font-size:65.00091553%;baseline-shift:sub">0</tspan><tspan
+   id="tspan3020"
+   style="font-size:65.00091553%;baseline-shift:sub" /></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="364.84583"
+       y="134.25568"
+       id="text3051"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3053"
+         x="364.84583"
+         y="134.25568"
+         style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'">χ<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan3012">0</tspan><tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan3055" /></tspan></text>
+    <g
+       id="g3019"
+       transform="matrix(0.8968305,0,0,0.8968305,72.580663,-11.772826)">
+      <rect
+         y="134.89113"
+         x="424.26407"
+         height="55.927166"
+         width="65.202301"
+         id="rect3017"
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.59717828;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <image
+         width="66.670403"
+         height="57.285713"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/2DSusceptibility/ImContour.png"
+         id="image3014"
+         x="423.56058"
+         y="134.08699" />
+    </g>
+    <g
+       id="g3036"
+       transform="matrix(0.17567571,0,0,0.17567571,272.0096,151.50388)">
+      <rect
+         y="-250.7346"
+         x="145.46196"
+         height="290.20764"
+         width="337.0596"
+         id="rect3034"
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.59807199;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <image
+         width="341"
+         height="293"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/2DSusceptibility/ReContour.png"
+         id="image3031"
+         x="142.99963"
+         y="-252.11391" />
+    </g>
+    <image
+       y="288.7049"
+       x="173.69171"
+       id="image2993-5"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/2DSusceptibilityAlternateKz/Re.png"
+       height="179.54169"
+       width="200.62245" />
+    <image
+       y="288.7049"
+       x="376.31058"
+       id="image3004-5"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/2DSusceptibilityAlternateKz/Im.png"
+       height="179.77855"
+       width="198.72754" />
+    <text
+       sodipodi:linespacing="100%"
+       id="text3047-1"
+       y="324.43094"
+       x="211.18126"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="font-size:16px"
+         y="324.43094"
+         x="211.18126"
+         id="tspan3049-7"
+         sodipodi:role="line">Re<tspan
+   style="font-style:italic"
+   id="tspan3199"></tspan></tspan><tspan
+         style="font-size:16px"
+         y="340.44113"
+         x="211.18126"
+         sodipodi:role="line"
+         id="tspan3072"><tspan
+           style="font-style:italic"
+           id="tspan3074">k<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan3201">z</tspan>=0</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="401.29266"
+       y="325.26956"
+       id="text3043-1"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3045-1"
+         x="401.29266"
+         y="325.26956"
+         style="font-size:16px">Im<tspan
+   style="font-style:italic"
+   id="tspan3195"></tspan></tspan><tspan
+         sodipodi:role="line"
+         x="401.29266"
+         y="341.27975"
+         style="font-size:16px"
+         id="tspan3066"><tspan
+           style="font-style:italic"
+           id="tspan3068">k<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan3197">z</tspan>=0</tspan></tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3057-5"
+       y="478.25568"
+       x="307.70294"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'"
+         y="478.25568"
+         x="307.70294"
+         id="tspan3059-2"
+         sodipodi:role="line">k<tspan
+   id="tspan3061-7"
+   style="font-size:65.00091553%;baseline-shift:sub">x</tspan></tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3063-6"
+       y="476.82712"
+       x="503.41721"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'"
+         y="476.82712"
+         x="503.41721"
+         id="tspan3065-1"
+         sodipodi:role="line">k<tspan
+   id="tspan3067-4"
+   style="font-size:65.00091553%;baseline-shift:sub">x</tspan></tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3069-2"
+       y="446.11282"
+       x="174.13152"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'"
+         y="446.11282"
+         x="174.13152"
+         id="tspan3071-3"
+         sodipodi:role="line">k<tspan
+   id="tspan3073-2"
+   style="font-size:65.00091553%;baseline-shift:sub">y</tspan></tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3075-2"
+       y="436.82709"
+       x="380.56009"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'"
+         y="436.82709"
+         x="380.56009"
+         id="tspan3077-1"
+         sodipodi:role="line">k<tspan
+   id="tspan3079-6"
+   style="font-size:65.00091553%;baseline-shift:sub">y</tspan></tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3014-8"
+       y="318.25568"
+       x="159.13152"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'"
+         y="318.25568"
+         x="159.13152"
+         id="tspan3016-5"
+         sodipodi:role="line">χ<tspan
+   id="tspan3018-7"
+   style="font-size:65.00091553%;baseline-shift:sub">0</tspan><tspan
+   id="tspan3020-6"
+   style="font-size:65.00091553%;baseline-shift:sub" /></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="365.56009"
+       y="318.25568"
+       id="text3051-1"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3053-8"
+         x="365.56009"
+         y="318.25568"
+         style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'">χ<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan3012-9">0</tspan><tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan3055-2" /></tspan></text>
+    <g
+       id="g3191"
+       transform="translate(18,-10)">
+      <rect
+         y="303.20166"
+         x="437.7879"
+         height="50.157188"
+         width="58.47541"
+         id="rect3017-7"
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.5355677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <image
+         width="59.792049"
+         height="51.375576"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/2DSusceptibilityAlternateKz/ImContour.png"
+         id="image3014-9"
+         x="437.15698"
+         y="302.48047" />
+    </g>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.10506672;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3034-5"
+       width="59.213184"
+       height="50.982433"
+       x="298.27802"
+       y="291.4559" />
+    <image
+       y="291.21359"
+       x="297.84543"
+       id="image3031-4"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/2DSusceptibilityAlternateKz/ReContour.png"
+       height="51.472984"
+       width="59.905418" />
+  </g>
+</svg>

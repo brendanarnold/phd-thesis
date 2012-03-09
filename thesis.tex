@@ -7,7 +7,7 @@
 \usepackage{url}                        % Formatting for URLs
 \usepackage{amsmath}                    % Extra math stuff
 \usepackage[sorting=none]{biblatex}     % Better bibliography control
-\usepackage{lscape}                     % Landscape
+\usepackage{pdflscape}                     % Landscape
 \usepackage{units}                      % Unit package - bit crummy
 \usepackage[small,bf]{caption}          % Figure caption formatting
 \usepackage{listings}                   % For including computer code
@@ -19,6 +19,11 @@
 \usepackage{epstopdf}                   % Automatically convert .eps to .pdf
 \usepackage{color}                      % Even more colors
 \usepackage{soul}                       % Allows for wrapping with underline, highlighting etc.
+\usepackage{setspace}                   % Set linespacing
+
+\singlespacing
+% \onehalfspacing
+% \doublespacing
 
 % Define some macros
 \input{Misc/macros.tex}
@@ -46,9 +51,9 @@
 % ... to here are not numbered
 
 % Main content here
-\input{Chapter-Introduction/main.tex}
-\input{Chapter-Theory/main.tex}
-\input{Chapter-ExperimentalTechnique/main.tex}
+% \input{Chapter-Introduction/main.tex}
+% \input{Chapter-Theory/main.tex}
+% \input{Chapter-ExperimentalTechnique/main.tex}
 \input{Chapter-dHvABaFe2P2/main.tex}
 % \input{Chapter-HallBSCO/main.tex}
 % \input{Chapter-MagnetoresistanceBSCO/main.tex}

@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 "
+   sodipodi:docname="New document 1">
+  <defs
+     id="defs4">
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path4312" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Lend-8"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path4312-2" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="274.36993"
+     inkscape:cy="600.24258"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1016"
+     inkscape:window-height="712"
+     inkscape:window-x="4"
+     inkscape:window-y="43"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="layer1-9"
+       inkscape:label="Layer 1"
+       transform="matrix(0.81781926,0,0,0.81781926,117.83927,444.3789)">
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-001_OMEGA=1,0E-001_T=158K_TotalBands.png"
+         id="image2993"
+         x="124.0676"
+         y="123.05147" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-001_OMEGA=1,0E-002_T=158K_TotalBands.png"
+         id="image3004"
+         x="207.15302"
+         y="123.05147" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-001_OMEGA=1,0E-003_T=158K_TotalBands.png"
+         id="image3015"
+         x="290.0881"
+         y="123.05147" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-001_OMEGA=1,0E-004_T=158K_TotalBands.png"
+         id="image3026"
+         x="373.03885"
+         y="123.05147" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-001_OMEGA=1,0E-005_T=158K_TotalBands.png"
+         id="image3037"
+         x="455.9986"
+         y="123.05147" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-001_OMEGA=1,0E-006_T=158K_TotalBands.png"
+         id="image3048"
+         x="539.47711"
+         y="123.05147" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-002_OMEGA=1,0E-001_T=158K_TotalBands.png"
+         id="image3059"
+         x="124.0676"
+         y="192.42455" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-002_OMEGA=1,0E-002_T=158K_TotalBands.png"
+         id="image3070"
+         x="207.15302"
+         y="192.42455" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-002_OMEGA=1,0E-003_T=158K_TotalBands.png"
+         id="image3081"
+         x="290.0881"
+         y="192.42455" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-002_OMEGA=1,0E-004_T=158K_TotalBands.png"
+         id="image3092"
+         x="373.03885"
+         y="192.42455" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-002_OMEGA=1,0E-005_T=158K_TotalBands.png"
+         id="image3103"
+         x="455.9986"
+         y="192.42455" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-002_OMEGA=1,0E-006_T=158K_TotalBands.png"
+         id="image3114"
+         x="539.47711"
+         y="192.42455" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-003_OMEGA=1,0E-001_T=158K_TotalBands.png"
+         id="image3125"
+         x="124.0676"
+         y="261.29822" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-003_OMEGA=1,0E-002_T=158K_TotalBands.png"
+         id="image3136"
+         x="207.15302"
+         y="261.29822" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-003_OMEGA=1,0E-003_T=158K_TotalBands.png"
+         id="image3147"
+         x="290.0881"
+         y="261.29822" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-003_OMEGA=1,0E-004_T=158K_TotalBands.png"
+         id="image3158"
+         x="373.03885"
+         y="261.29822" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-003_OMEGA=1,0E-005_T=158K_TotalBands.png"
+         id="image3169"
+         x="455.9986"
+         y="261.29822" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-003_OMEGA=1,0E-006_T=158K_TotalBands.png"
+         id="image3180"
+         x="539.47711"
+         y="261.29822" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-004_OMEGA=1,0E-001_T=158K_TotalBands.png"
+         id="image3191"
+         x="124.0676"
+         y="330.48511" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-004_OMEGA=1,0E-002_T=158K_TotalBands.png"
+         id="image3202"
+         x="207.15302"
+         y="330.48511" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-004_OMEGA=1,0E-003_T=158K_TotalBands.png"
+         id="image3213"
+         x="290.0881"
+         y="330.48511" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-004_OMEGA=1,0E-004_T=158K_TotalBands.png"
+         id="image3224"
+         x="373.03885"
+         y="330.48511" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-004_OMEGA=1,0E-005_T=158K_TotalBands.png"
+         id="image3235"
+         x="455.9986"
+         y="330.48511" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-004_OMEGA=1,0E-006_T=158K_TotalBands.png"
+         id="image3246"
+         x="539.47711"
+         y="330.48511" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-005_OMEGA=1,0E-001_T=158K_TotalBands.png"
+         id="image3257"
+         x="124.0676"
+         y="399.1109" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-005_OMEGA=1,0E-002_T=158K_TotalBands.png"
+         id="image3268"
+         x="207.15302"
+         y="399.1109" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-005_OMEGA=1,0E-003_T=158K_TotalBands.png"
+         id="image3279"
+         x="290.0881"
+         y="399.1109" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-005_OMEGA=1,0E-004_T=158K_TotalBands.png"
+         id="image3290"
+         x="373.03885"
+         y="399.1109" />
+      <image
+         inkscape:transform-center-y="-139.40743"
+         inkscape:transform-center-x="111.194"
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-005_OMEGA=1,0E-005_T=158K_TotalBands.png"
+         id="image3301"
+         x="455.9986"
+         y="399.1109" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-005_OMEGA=1,0E-006_T=158K_TotalBands.png"
+         id="image3312"
+         x="539.47711"
+         y="399.1109" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-006_OMEGA=1,0E-001_T=158K_TotalBands.png"
+         id="image3323"
+         x="124.0676"
+         y="467.67416" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-006_OMEGA=1,0E-002_T=158K_TotalBands.png"
+         id="image3334"
+         x="207.15302"
+         y="467.67416" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-006_OMEGA=1,0E-003_T=158K_TotalBands.png"
+         id="image3345"
+         x="290.0881"
+         y="467.67416" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-006_OMEGA=1,0E-004_T=158K_TotalBands.png"
+         id="image3356"
+         x="373.03885"
+         y="467.67416" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-006_OMEGA=1,0E-005_T=158K_TotalBands.png"
+         id="image3367"
+         x="455.9986"
+         y="467.67416" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ImX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-006_OMEGA=1,0E-006_T=158K_TotalBands.png"
+         id="image3378"
+         x="539.47711"
+         y="467.67416" />
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="82.042816"
+         y="155.48158"
+         id="text3423"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan3425"
+           x="82.042816"
+           y="155.48158">10<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan3427">-1</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="82.042816"
+         y="228.33873"
+         id="text3429"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan3431"
+           x="82.042816"
+           y="228.33873">10<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan3433">-2</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="82.042816"
+         y="299.05301"
+         id="text3435"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan3437"
+           x="82.042816"
+           y="299.05301">10<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan3439">-3</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="82.042816"
+         y="364.05301"
+         id="text3441"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan3443"
+           x="82.042816"
+           y="364.05301">10<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan3445">-4</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="82.042816"
+         y="437.62445"
+         id="text3447"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan3449"
+           x="82.042816"
+           y="437.62445">10<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan3451">-5</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="82.042816"
+         y="502.62445"
+         id="text3453"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan3455"
+           x="82.042816"
+           y="502.62445">10<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan3457">-6</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="159.41576"
+         y="567.3891"
+         id="text3387"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan3389"
+           x="159.41576"
+           y="567.3891">10<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan3391">-1</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="237.2729"
+         y="567.3891"
+         id="text3393"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan3395"
+           x="237.2729"
+           y="567.3891">10<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan3397">-2</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="314.41577"
+         y="567.3891"
+         id="text3399"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan3401"
+           x="314.41577"
+           y="567.3891">10<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan3403">-3</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="396.55862"
+         y="567.3891"
+         id="text3405"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan3407"
+           x="396.55862"
+           y="567.3891">10<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan3409">-4</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="476.55862"
+         y="567.3891"
+         id="text3411"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan3413"
+           x="476.55862"
+           y="567.3891">10<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan3415">-5</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="556.55865"
+         y="567.3891"
+         id="text3417"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan3419"
+           x="556.55865"
+           y="567.3891">10<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan3421">-6</tspan></tspan></text>
+      <text
+         sodipodi:linespacing="100%"
+         id="text3528"
+         y="115.12497"
+         x="118.45976"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:24px"
+           y="115.12497"
+           x="118.45976"
+           id="tspan3530"
+           sodipodi:role="line">δ</tspan></text>
+      <text
+         sodipodi:linespacing="100%"
+         id="text3532"
+         y="541.22504"
+         x="633.36566"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:24px"
+           y="541.22504"
+           x="633.36566"
+           id="tspan3534"
+           sodipodi:role="line">ω</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path3536"
+         d="m 111.11678,548.29606 0,-428.30468"
+         style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path4750"
+         d="m 110.86424,547.79099 520.4811,0"
+         style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)" />
+    </g>
+    <g
+       id="layer1-5"
+       inkscape:label="Layer 1"
+       transform="matrix(0.81781926,0,0,0.81781926,117.83927,40.142525)">
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-001_OMEGA=1,0E-001_T=158K_TotalBands.png"
+         id="image2993-1"
+         x="124.0676"
+         y="123.05147" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-001_OMEGA=1,0E-002_T=158K_TotalBands.png"
+         id="image3004-7"
+         x="207.15302"
+         y="123.05147" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-001_OMEGA=1,0E-003_T=158K_TotalBands.png"
+         id="image3015-1"
+         x="290.0881"
+         y="123.05147" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-001_OMEGA=1,0E-004_T=158K_TotalBands.png"
+         id="image3026-1"
+         x="373.03885"
+         y="123.05147" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-001_OMEGA=1,0E-005_T=158K_TotalBands.png"
+         id="image3037-5"
+         x="455.9986"
+         y="123.05147" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-001_OMEGA=1,0E-006_T=158K_TotalBands.png"
+         id="image3048-2"
+         x="539.47711"
+         y="123.05147" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-002_OMEGA=1,0E-001_T=158K_TotalBands.png"
+         id="image3059-7"
+         x="124.0676"
+         y="192.42455" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-002_OMEGA=1,0E-002_T=158K_TotalBands.png"
+         id="image3070-6"
+         x="207.15302"
+         y="192.42455" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-002_OMEGA=1,0E-003_T=158K_TotalBands.png"
+         id="image3081-1"
+         x="290.0881"
+         y="192.42455" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-002_OMEGA=1,0E-004_T=158K_TotalBands.png"
+         id="image3092-4"
+         x="373.03885"
+         y="192.42455" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-002_OMEGA=1,0E-005_T=158K_TotalBands.png"
+         id="image3103-2"
+         x="455.9986"
+         y="192.42455" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-002_OMEGA=1,0E-006_T=158K_TotalBands.png"
+         id="image3114-3"
+         x="539.47711"
+         y="192.42455" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-003_OMEGA=1,0E-001_T=158K_TotalBands.png"
+         id="image3125-2"
+         x="124.0676"
+         y="261.29822" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-003_OMEGA=1,0E-002_T=158K_TotalBands.png"
+         id="image3136-2"
+         x="207.15302"
+         y="261.29822" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-003_OMEGA=1,0E-003_T=158K_TotalBands.png"
+         id="image3147-1"
+         x="290.0881"
+         y="261.29822" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-003_OMEGA=1,0E-004_T=158K_TotalBands.png"
+         id="image3158-6"
+         x="373.03885"
+         y="261.29822" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-003_OMEGA=1,0E-005_T=158K_TotalBands.png"
+         id="image3169-8"
+         x="455.9986"
+         y="261.29822" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-003_OMEGA=1,0E-006_T=158K_TotalBands.png"
+         id="image3180-5"
+         x="539.47711"
+         y="261.29822" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-004_OMEGA=1,0E-001_T=158K_TotalBands.png"
+         id="image3191-7"
+         x="124.0676"
+         y="330.48511" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-004_OMEGA=1,0E-002_T=158K_TotalBands.png"
+         id="image3202-6"
+         x="207.15302"
+         y="330.48511" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-004_OMEGA=1,0E-003_T=158K_TotalBands.png"
+         id="image3213-1"
+         x="290.0881"
+         y="330.48511" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-004_OMEGA=1,0E-004_T=158K_TotalBands.png"
+         id="image3224-8"
+         x="373.03885"
+         y="330.48511" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-004_OMEGA=1,0E-005_T=158K_TotalBands.png"
+         id="image3235-9"
+         x="455.9986"
+         y="330.48511" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-004_OMEGA=1,0E-006_T=158K_TotalBands.png"
+         id="image3246-2"
+         x="539.47711"
+         y="330.48511" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-005_OMEGA=1,0E-001_T=158K_TotalBands.png"
+         id="image3257-7"
+         x="124.0676"
+         y="399.1109" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-005_OMEGA=1,0E-002_T=158K_TotalBands.png"
+         id="image3268-9"
+         x="207.15302"
+         y="399.1109" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-005_OMEGA=1,0E-003_T=158K_TotalBands.png"
+         id="image3279-5"
+         x="290.0881"
+         y="399.1109" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-005_OMEGA=1,0E-004_T=158K_TotalBands.png"
+         id="image3290-4"
+         x="373.03885"
+         y="399.1109" />
+      <image
+         inkscape:transform-center-y="-139.40743"
+         inkscape:transform-center-x="111.194"
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-005_OMEGA=1,0E-005_T=158K_TotalBands.png"
+         id="image3301-3"
+         x="455.9986"
+         y="399.1109" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-005_OMEGA=1,0E-006_T=158K_TotalBands.png"
+         id="image3312-1"
+         x="539.47711"
+         y="399.1109" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-006_OMEGA=1,0E-001_T=158K_TotalBands.png"
+         id="image3323-2"
+         x="124.0676"
+         y="467.67416" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-006_OMEGA=1,0E-002_T=158K_TotalBands.png"
+         id="image3334-3"
+         x="207.15302"
+         y="467.67416" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-006_OMEGA=1,0E-003_T=158K_TotalBands.png"
+         id="image3345-3"
+         x="290.0881"
+         y="467.67416" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-006_OMEGA=1,0E-004_T=158K_TotalBands.png"
+         id="image3356-4"
+         x="373.03885"
+         y="467.67416" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-006_OMEGA=1,0E-005_T=158K_TotalBands.png"
+         id="image3367-1"
+         x="455.9986"
+         y="467.67416" />
+      <image
+         width="79.066109"
+         height="68.284363"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/Susceptibility/RangeDeltaOmega/ReX0_BaFe2P2_Mewis_1e5NoSO_DELTA=1,0E-006_OMEGA=1,0E-006_T=158K_TotalBands.png"
+         id="image3378-1"
+         x="539.47711"
+         y="467.67416" />
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="82.042816"
+         y="155.48158"
+         id="text3423-3"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan3425-8"
+           x="82.042816"
+           y="155.48158">10<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan3427-7">-1</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="82.042816"
+         y="228.33873"
+         id="text3429-4"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan3431-2"
+           x="82.042816"
+           y="228.33873">10<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan3433-7">-2</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="82.042816"
+         y="299.05301"
+         id="text3435-7"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan3437-9"
+           x="82.042816"
+           y="299.05301">10<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan3439-3">-3</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="82.042816"
+         y="364.05301"
+         id="text3441-1"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan3443-9"
+           x="82.042816"
+           y="364.05301">10<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan3445-8">-4</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="82.042816"
+         y="437.62445"
+         id="text3447-6"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan3449-5"
+           x="82.042816"
+           y="437.62445">10<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan3451-0">-5</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="82.042816"
+         y="502.62445"
+         id="text3453-2"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan3455-8"
+           x="82.042816"
+           y="502.62445">10<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan3457-6">-6</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="159.41576"
+         y="567.3891"
+         id="text3387-0"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan3389-2"
+           x="159.41576"
+           y="567.3891">10<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan3391-4">-1</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="237.2729"
+         y="567.3891"
+         id="text3393-8"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan3395-6"
+           x="237.2729"
+           y="567.3891">10<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan3397-5">-2</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="314.41577"
+         y="567.3891"
+         id="text3399-0"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan3401-9"
+           x="314.41577"
+           y="567.3891">10<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan3403-0">-3</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="396.55862"
+         y="567.3891"
+         id="text3405-0"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan3407-6"
+           x="396.55862"
+           y="567.3891">10<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan3409-1">-4</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="476.55862"
+         y="567.3891"
+         id="text3411-3"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan3413-8"
+           x="476.55862"
+           y="567.3891">10<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan3415-9">-5</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="556.55865"
+         y="567.3891"
+         id="text3417-3"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan3419-4"
+           x="556.55865"
+           y="567.3891">10<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan3421-4">-6</tspan></tspan></text>
+      <text
+         sodipodi:linespacing="100%"
+         id="text3528-6"
+         y="115.12497"
+         x="118.45976"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:24px"
+           y="115.12497"
+           x="118.45976"
+           id="tspan3530-0"
+           sodipodi:role="line">δ</tspan></text>
+      <text
+         sodipodi:linespacing="100%"
+         id="text3532-6"
+         y="541.22504"
+         x="633.36566"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:24px"
+           y="541.22504"
+           x="633.36566"
+           id="tspan3534-6"
+           sodipodi:role="line">ω</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path3536-1"
+         d="m 111.11678,548.29606 0,-428.30468"
+         style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path4750-8"
+         d="m 110.86424,547.79099 520.4811,0"
+         style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)" />
+    </g>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3321"
+       y="302.82901"
+       x="146.47212"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="font-size:24px"
+         y="302.82901"
+         x="146.47212"
+         id="tspan3323"
+         sodipodi:role="line">Re</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="149.50258"
+       y="706.89008"
+       id="text3317"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3319"
+         x="149.50258"
+         y="706.89008"
+         style="font-size:24px">Im</tspan></text>
+  </g>
+</svg>
