@@ -72,9 +72,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="298.12217"
-     inkscape:cy="686.23948"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="483.96328"
+     inkscape:cy="819.96688"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -102,44 +102,55 @@
      inkscape:groupmode="layer"
      id="layer1">
     <image
-       y="110.53584"
-       x="319.82266"
-       id="image2993"
-       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/XRays/1-8.png"
-       height="167"
-       width="167" />
-    <image
-       y="281.35309"
-       x="147.74356"
+       y="111.3531"
+       x="320.75769"
        id="image3004"
-       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/XRays/11.png"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/XRays/XRayDiffraction/11.png"
        height="167"
-       width="167" />
-    <image
-       y="281.35309"
-       x="319.82266"
-       id="image3026"
-       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/XRays/BaFe2P2_Frame1.png"
-       height="125.18466"
        width="167" />
     <g
-       id="g4363"
-       transform="translate(0.10572815,1.0819244)">
+       id="g3038"
+       transform="translate(-5.050827,0.81726074)">
+      <image
+         width="167"
+         height="167"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/XRays/XRayDiffraction/1-8.png"
+         id="image2993"
+         x="498.82266"
+         y="110.53584" />
+      <rect
+         y="195.29582"
+         x="562.58215"
+         height="73.986374"
+         width="97.986374"
+         id="rect3010"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.01362383;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <image
+         width="98"
+         height="74"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/XRays/XRayDiffraction/BaFe2P2_Frame1.png"
+         id="image3026"
+         x="562.57538"
+         y="195.289" />
+    </g>
+    <g
+       id="g3043"
+       transform="translate(0,0.81726074)">
       <image
          width="167.00002"
          height="167.00002"
-         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/XRays/3.png"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/XRays/XRayDiffraction/3.png"
          id="image3015"
-         x="147.63782"
-         y="109.4539" />
+         x="147.74355"
+         y="110.53583" />
       <g
-         transform="translate(2.8571429,0.71428572)"
+         transform="translate(2.9628711,1.7962101)"
          id="g3877">
         <image
            y="81.443161"
            x="589.2616"
            id="image3015-7"
-           xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/XRays/3.png"
+           xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/XRays/XRayDiffraction/3.png"
            height="167.00002"
            width="167.00002"
            style="fill:none;stroke:#000000;stroke-opacity:1"
@@ -154,46 +165,48 @@
            y="201.63362" />
       </g>
       <g
-         transform="translate(-2.1428571,0.35714286)"
-         id="g3873">
-        <image
-           y="34.576458"
-           x="762.21429"
-           id="image3015-4"
-           xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/XRays/3.png"
-           height="167.00002"
-           width="167.00002"
-           clip-path="url(#clipPath3867)"
-           transform="matrix(3.5631069,0,0,3.5631069,-2606.7408,-6.1862835)" />
+         id="g3033">
+        <g
+           id="g3030">
+          <image
+             transform="matrix(3.5631069,0,0,3.5631069,-2608.7779,-4.7472162)"
+             clip-path="url(#clipPath3867)"
+             width="167.00002"
+             height="167.00002"
+             xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-dHvABaFe2P2/Figures/XRays/XRayDiffraction/3.png"
+             id="image3015-4"
+             x="762.21429"
+             y="34.576458" />
+        </g>
         <rect
            style="fill:none;stroke:#000000;stroke-width:0.94632727;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
            id="rect3871"
            width="67.517509"
            height="65.987152"
-           x="208.55392"
-           y="120.3036" />
+           x="206.5168"
+           y="121.74266" />
       </g>
       <path
          inkscape:connector-curvature="0"
          id="path3881"
-         d="m 190.35714,122.00504 c 1.42857,0.35714 15.71429,9.28571 15.71429,9.28571"
+         d="m 190.46287,123.08696 c 1.42857,0.35714 15.71429,9.28571 15.71429,9.28571"
          style="fill:none;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Lstart)" />
       <rect
          style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2, 1;stroke-dashoffset:0"
          id="rect4329"
          width="20.257566"
          height="19.92326"
-         x="174.3241"
-         y="110.25771" />
+         x="174.42982"
+         y="111.33964" />
       <rect
-         y="189.41646"
-         x="148.12572"
+         y="190.49838"
+         x="148.23145"
          height="14.820029"
          width="15.068706"
          id="rect4327"
          style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2, 1;stroke-dashoffset:0" />
       <g
-         transform="matrix(0.96592583,0.25881905,-0.25881905,0.96592583,93.059396,-21.616337)"
+         transform="matrix(0.96592583,0.25881905,-0.25881905,0.96592583,93.165124,-20.534413)"
          id="g4335">
         <rect
            style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
@@ -221,7 +234,7 @@
            transform="matrix(1,0,0,0.7650044,5.8928572,36.085456)" />
       </g>
       <g
-         transform="matrix(0.96592583,0.25881905,-0.25881905,0.96592583,123.21616,-94.383915)"
+         transform="matrix(0.96592583,0.25881905,-0.25881905,0.96592583,123.32189,-93.301991)"
          id="g4335-0">
         <rect
            style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
