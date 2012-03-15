@@ -4,22 +4,22 @@
 
 \subsection{Determining experimental parameters}
 
-Preliminary measurements showed very strong \ac{dHvA} oscillations which begin at relatively low field with an example of the raw data shown in figure~\ref{Fig:ResD:RawOscillations}. Since it is not clear from the raw torque data where the oscillations begin, Fourier transforms were taken with small (\unit[1]{T}) field intervals --- the interval where a clear signal is present marks the onset of oscillations. An \ac{FFT} of the data for the ranges \unit[4-5]{T}, \unit[5-6]{T} and \unit[6-7]{T} are shown in the insets of the figure. The range \unit[6-7]{T} clearly shows the electron peaks at around \unit[1500]{T} and \unit[2450]{T}, with the higher frequency peak disappearing in the \unit[5-6]{T} range and both peaks disappearing in the \unit[4-5]{T} range. Further refinement suggests the onset of appreciable oscillations is around \unit[5.6]{T} for the strongest electron peak. The field was ramped between \unit[6]{T} and the safe maximum of \unit[18]{T} for the vast majority of measurements bar some sweeps where the magnet was ramped to or from \unit[0]{T} following or preceding shut-down of the magnet.
+Preliminary measurements showed very strong \ac{dHvA} oscillations which begin at relatively low field with an example of the raw data shown in figure~\ref{Fig:ResD:RawOscillations}. Since it is not clear from the raw torque data where the oscillations begin, Fourier transforms were taken with small (\unit{1}{\tesla}) field intervals --- the interval where a clear signal is present marks the onset of oscillations. An \ac{FFT} of the data for the ranges \unit{4-5}{\tesla}, \unit{5-6}{\tesla} and \unit{6-7}{\tesla} are shown in the insets of the figure. The range \unit{6-7}{\tesla} clearly shows the electron peaks at around \unit{1500}{\tesla} and \unit{2450}{\tesla}, with the higher frequency peak disappearing in the \unit{5-6}{\tesla} range and both peaks disappearing in the \unit{4-5}{\tesla} range. Further refinement suggests the onset of appreciable oscillations is around \unit{5.6}{\tesla} for the strongest electron peak. The field was ramped between \unit{6}{\tesla} and the safe maximum of \unit{18}{\tesla} for the vast majority of measurements bar some sweeps where the magnet was ramped to or from \unit{0}{\tesla} following or preceding shut-down of the magnet.
 
 \begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.7]{Chapter-dHvABaFe2P2/Figures/AngleDepMeasurements/RawOscillations/RawOscillations}
-        \caption{An example of the torque data taken with field aligned at \unit[26]{\degree} on the reverse side of the $[001]$ to $[100]$ angle sweep detailed later. Insets show a \acp{FFT} of the data between \unit[4-5]{T}, \unit[5-6]{T} and \unit[6-7]{T} respectively. These intervals are marked on the main plot as A, B and C.}
+        \caption{An example of the torque data taken with field aligned at \unit{26}{\degree} on the reverse side of the $[001]$ to $[100]$ angle sweep detailed later. Insets show a \acp{FFT} of the data between \unit{4-5}{\tesla}, \unit{5-6}{\tesla} and \unit{6-7}{\tesla} respectively. These intervals are marked on the main plot as A, B and C.}
         \label{Fig:ResD:RawOscillations}
     \end{center}
 \end{figure}
 
-Figure~\ref{Fig:ResD:ComparisonSweepRates} shows some example Fourier transforms of data taken at various field sweep rates and plotted with the frequencies shifted arbitrarily for ease of comparison. The difference in amplitude between the sweeps at \unit[0.05]{T/min.} and \unit[0.1]{T/min.} is less than \unit[1]{\%} whereas the difference when sweeping at \unit[0.2]{T/min.} is nearly \unit[5]{\%}. Unless otherwise stated, subsequent sweeps were performed at \unit[0.1]{T/min.}.
+Figure~\ref{Fig:ResD:ComparisonSweepRates} shows some example Fourier transforms of data taken at various field sweep rates and plotted with the frequencies shifted arbitrarily for ease of comparison. The difference in amplitude between the sweeps at \unit{0.05}{\tesla\reciprocal\minute} and \unit{0.1}{\tesla\reciprocal\minute} is less than \unit{1}{\%} whereas the difference when sweeping at \unit{0.2}{\tesla\reciprocal\minute} is nearly \unit{5}{\%}. Unless otherwise stated, subsequent sweeps were performed at \unit{0.1}{\tesla\reciprocal\minute}.
 
 \begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.7]{Chapter-dHvABaFe2P2/Figures/AngleDepMeasurements/SweepRateComparison/SweepRateComparison}
-        \caption{FFTs showing the peak from the smaller branch of band $3$ taken at, A: \unit[0.05]{T/min.}, B: \unit[0.1]{T/min.} and C: \unit[0.2]{T/min.}. The peaks are arbitrarily shifted in frequency for ease of comparison. Measurements taken with $H$ at \unit[10]{\degree} from $[001]$ in the $[110]$ direction.}
+        \caption{FFTs showing the peak from the smaller branch of band $3$ taken at, A: \unit{0.05}{\tesla\reciprocal\minute}, B: \unit{0.1}{\tesla\reciprocal\minute} and C: \unit{0.2}{\tesla\reciprocal\minute}. The peaks are arbitrarily shifted in frequency for ease of comparison. Measurements taken with $H$ at \unit{10}{\degree} from $[001]$ in the $[110]$ direction.}
         \label{Fig:ResD:ComparisonSweepRates}
     \end{center}
 \end{figure}
@@ -34,7 +34,10 @@ In order to make a reasonable determination of the Fermi surface of a material, 
     \end{center}
 \end{figure}
 
-The magnetic field was alternatively ramped up and then down meaning subsequent measurements were generally performed with the magnetic field ramping in opposite directions. Although in theory this should not affect the results in any way, subsequent \ac{FFT} peaks appeared to alternately be shifted by up to $\sim\pm$\unit[21]{T} with the magnitude of the shifts being roughly proportional to frequency. Assuming that the shifts were an artefact of the measurements, a linear correction determined by visual inspection was applied of $F_{\textrm{corr.}} = 3 + \frac{10}{8000} F_{\textrm{meas.}}$ for the sweep in the $[100]$ direction and $F_{\textrm{corr.}} = 0 + \frac{21}{8000}  F_{\textrm{meas.}}$ and  $F_{\textrm{corr.}} = 0 + \frac{18}{8000} F_{\textrm{meas.}}$ for the two sets of measurements performed to complete the sweep in the $[110]$ direction. Figure~\ref{Fig:ResD:HysteresisCorrection} shows an example of these hysteric shifts and the subsequent correction applied.
+\TODO{Self heating effects}
+
+
+The magnetic field was alternatively ramped up and then down meaning subsequent measurements were generally performed with the magnetic field ramping in opposite directions. Although in theory this should not affect the results in any way, subsequent \ac{FFT} peaks appeared to alternately be shifted by up to $\sim\pm$\unit{21}{\tesla} with the magnitude of the shifts being roughly proportional to frequency. Assuming that the shifts were an artefact of the measurements, a linear correction determined by visual inspection was applied of $F_{\textrm{corr.}} = 3 + \frac{10}{8000} F_{\textrm{meas.}}$ for the sweep in the $[100]$ direction and $F_{\textrm{corr.}} = 0 + \frac{21}{8000}  F_{\textrm{meas.}}$ and  $F_{\textrm{corr.}} = 0 + \frac{18}{8000} F_{\textrm{meas.}}$ for the two sets of measurements performed to complete the sweep in the $[110]$ direction. Figure~\ref{Fig:ResD:HysteresisCorrection} shows an example of these hysteric shifts and the subsequent correction applied.
 
 \begin{figure}[htbp]
     \begin{center}
@@ -108,7 +111,7 @@ In order to obtain the correct shape of Fermi surface, the \ac{DFT} calculations
         \caption{Rigid energy shifts required to match the \ac{DFT} calculations with the measured data.}
         \begin{tabular}[htbp]{llr}
 \toprule
-Band    & \multicolumn{2}{l}{Energy Shift (\unit{Ry})} \\
+Band    & \multicolumn{2}{l}{Energy Shift (Ry)} \\
 \midrule
 1       &       & -0.0083      \\
 2       & Wide  & 0.0          \\
@@ -121,7 +124,7 @@ Band    & \multicolumn{2}{l}{Energy Shift (\unit{Ry})} \\
     \end{center}
 \end{table}
 
-Band $2$ in this case has two separate shifts specified in two different regions of the Brillouin zone. The rotation plot for the wider orbit located at the edge of the Brillouin zone was calculated with no energy shift and the narrow part of the Fermi surface around the $\Gamma$ point was calculated with a shift of $0.0038\unit{Ry}$. This provides a reasonable match for the rotation plot where we can apply the shift to the two regions discretely, however is proves problematic when we wish to study intermediate areas since it is not clear how the Fermi surface varies between the two regions. A technique for applying appropriate energy shifts throughout the Brillouin zone is explored in the next section.
+Band $2$ in this case has two separate shifts specified in two different regions of the \ac{BZ}. The rotation plot for the wider orbit located at the edge of the \ac{BZ} was calculated with no energy shift and the narrow part of the Fermi surface around the $\Gamma$ point was calculated with a shift of $\unit{0.0038}{Ry}$. This provides a reasonable match for the rotation plot where we can apply the shift to the two regions discretely, however is proves problematic when we wish to study intermediate areas since it is not clear how the Fermi surface varies between the two regions. A technique for applying appropriate energy shifts throughout the \ac{BZ} is explored in the next section.
 
 \begin{figure}[htbp]
     \begin{center}
@@ -130,7 +133,7 @@ Band $2$ in this case has two separate shifts specified in two different regions
         \label{Fig:ResD:BaselMisalignment}
     \end{center}
 \end{figure}
-For the $[100]$ direction it became apparent from the fact that the \ac{DFT} and the measured curves were qualitatively different that the field was not perfectly aligned with the $[100]$ axis of the sample. Figure~\ref{Fig:ResD:BaselMisalignment} shows how the measured data (circles) does not align well with the plots calculated for rotations towards $[100]$ (solid) but does align well with plots towards an axis which is rotated \unit[10]{\degree} within the $ab$-plane from the $[100]$ direction. A \unit[10]{\degree} misalignment is within the estimated basel alignment error for the microscope images. The data will continue to be labelled as in the $[100]$ plane however for convenience.
+For the $[100]$ direction it became apparent from the fact that the \ac{DFT} and the measured curves were qualitatively different that the field was not perfectly aligned with the $[100]$ axis of the sample. Figure~\ref{Fig:ResD:BaselMisalignment} shows how the measured data (circles) does not align well with the plots calculated for rotations towards $[100]$ (solid) but does align well with plots towards an axis which is rotated \unit{10}{\degree} within the $ab$-plane from the $[100]$ direction. A \unit{10}{\degree} misalignment is within the estimated basel alignment error for the microscope images. The data will continue to be labelled as in the $[100]$ plane however for convenience.
 
 In the first place, these shifts were applied as they conveniently and effectively corrected the Fermi surface energies, however the question arises as to whether there is any physical significance to be attached to them. The technique of rigid energy corrections has been applied to previous measurements on LaFePO\cite{Carrington2009} and SrFe$_2$P$_2$\cite{Analytis2009} both of which are highly two dimensional systems that exhibit relatively strong nesting characteristics. This is in contrast with measurements on CaFe$_2$P$_2$\cite{Coldea2009} which has a highly three dimensional Fermi surface and no nesting vector. Furthermore the bulbous area of the three dimensional hole surface in \BaFeP which does not nest requires no shifting of the Fermi surface to match \ac{DFT} calculations, whereas the nested neck portion does require a shift. This correlation between nesting and shifts in calculated energy make the spin-density-wave fluctuations that are associated with the nesting phenomena an obvious candidate for the cause of the discrepancy between \ac{DFT} calculation and experiment.
 
@@ -150,14 +153,14 @@ We can see the vast majority of Fermi surface chaarcter is due to the iron atomi
 
 Band $2$ has very little basel-plane \Dxy and \DxTwoyTwo character close to the Fermi level but shows a significant amount of \DzTwo character at the wide region of the Fermi surface and \DxzDyz character at the narrow region. Evidently, energy shifts could be applied which are scaled to either the \DzTwo and \DxzDyz orbital character in order that we obtain a smooth energy shift transition between the narrow and wide regions discussed previously. 
 
-Energy shifts were applied across the full three dimensional Brillouin zone for band $2$ using the following two scalings which were determined by trial and error fitting of the data,
+Energy shifts were applied across the full three dimensional \ac{BZ} for band $2$ using the following two scalings which were determined by trial and error fitting of the data,
 %%
 \begin{align*}
 \textrm{\DzTwo:}\quad \Delta\epsilon &= 0.002 - 0.0052 \left[1 - \frac{\epsilon - 0.033}{0.2205 - 0.033}\right] \\
 \textrm{\DxzDyz:}\quad \Delta\epsilon &= 0.002 - 0.0052 \left[\frac{\epsilon - 0.0946}{0.3135 - 0.0946}\right]
 \end{align*}
 %%
-Note that these scalings ensure that the energy shift applied varies between \unit[-32]{mRy} and \unit[2]{mRy} which are slightly different to the values applied when rigidly shifting the band. This is due to the fact that the Fermi surface area measured in the narrow region is affected more and more by the size of the Fermi surface in the wide region (and vice-versa) as the azimuthal angle gets higher. The calculated area deviates from the measured area which results in the crossing of the calculated rotation plot with the measured rotation plot shown in the first panel of figure~\ref{Fig:ResD:Band2DCharacterRigidComparison}. So when the rigid shifts were being determined, values were chosen which best lines up along the full length of the curve -- one which will be slightly lower than if we were to match the plots exactly at $\theta=0^\circ$.
+Note that these scalings ensure that the energy shift applied varies between \unit{-32}{\milli Ry} and \unit{2}{\milli Ry} which are slightly different to the values applied when rigidly shifting the band. This is due to the fact that the Fermi surface area measured in the narrow region is affected more and more by the size of the Fermi surface in the wide region (and vice-versa) as the azimuthal angle gets higher. The calculated area deviates from the measured area which results in the crossing of the calculated rotation plot with the measured rotation plot shown in the first panel of figure~\ref{Fig:ResD:Band2DCharacterRigidComparison}. So when the rigid shifts were being determined, values were chosen which best lines up along the full length of the curve -- one which will be slightly lower than if we were to match the plots exactly at $\theta=0^\circ$.
 
 \begin{figure}[htbp]
     \begin{center}
@@ -180,13 +183,13 @@ The second and third panels of figure~\ref{Fig:ResD:Band2DCharacterRigidComparis
 \begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.7]{Chapter-dHvABaFe2P2/Figures/AngleDepMeasurements/BandCharacterFermiSurface/FullBandCharacterFermiSurface}
-        \caption{Fully assembled Fermi surface in the first Brillouin of \BaFeP as determined by \ac{DFT} calculations corrected by either rigid energy shifts (bands 1, 3, 4) or shifts proportional to \DzTwo character (band 2)}
+        \caption{Fully assembled Fermi surface in the first \ac{BZ} of \BaFeP as determined by \ac{DFT} calculations corrected by either rigid energy shifts (bands 1, 3, 4) or shifts proportional to \DzTwo character (band 2)}
         \label{Fig:ResD:FullBandCharacterFermiSurface}
     \end{center}
 \end{figure}
 %%
 
-The final corrections show the \ac{DFT} calculations being adjusted in size only for the electron and inner hole surfaces with overall shrinking of volume, the outer hole surface is adjusted in shape as well. Volume calculations as a percentage of the Brillouin zone are given for each of the Fermi surfaces before and after shifting in table~\ref{Table:ResD:FermiSurfaceVolumes},
+The final corrections show the \ac{DFT} calculations being adjusted in size only for the electron and inner hole surfaces with overall shrinking of volume, the outer hole surface is adjusted in shape as well. Volume calculations as a percentage of the \ac{BZ} are given for each of the Fermi surfaces before and after shifting in table~\ref{Table:ResD:FermiSurfaceVolumes},
 \begin{table}
     \begin{center}
            \caption{Volumes of the shifted and unshifted Fermi surfaces as a percentage of \ac{BZ} volume.}
@@ -205,7 +208,7 @@ Total & -0.065\%    & -0.352\%  & -0.450\%  \\
         \end{tabular}
     \end{center}
 \end{table}
-The volumes compensate better before the shifts by a small amount (\unit[$\sim 0.4$]{\%}) with the shifts proprtional to \DxzDyz being slightly closer to the unshifted volume.
+The volumes compensate better before the shifts by a small amount ($\sim$\unit{0.4}{\%}) with the shifts proprtional to \DxzDyz being slightly closer to the unshifted volume.
 
 \section{Obtaining the Fermi surface for members of the \BaFePAs series}
 
@@ -219,11 +222,11 @@ We can use existing literature measurements of the Fermi surface at $x=0.38$ fro
 \end{figure}
 It may be possible to apply a linear scaling to determine the intermediate orbit sizes however there are a number of assumptions that need to be made. 
 
-Firstly we cannot apply Vegard's law beyond a structural transition in the series meaning we cannot extrapolate to the orthorhombic state at the low $x$ end of the phase diagram. The measurement by Yoshida et al. at $x=0.38$ roughly coincides with the edge of the orthorhombic transition as shown in figure~\ref{Fig:ResD:PhaseDiagram} but was found to be tetragonal and so we can use to to define the lower limit for the extrapolation at low temperatures. There is also a so called `collapsed tetragonal phase' which occurs in the \BaFeAs at a pressure \unit[27]{GPa}\cite{Mittal2011} at \unit[33]{K} which could present a problme as we apply chemical pressure. The optimal \Tc of \BaFeAs under pressure is \unit[$\sim$5]{GPa}\cite{Colombier2009} and optimal \Tc for the \BaFePAs series is $x\sim0.3$, and so we can very approximately place $x=1$ corresponding to \unit[$\sim 17$]{GPa} which is about half of that required for the collapsed phase transition. Moreover the author is not aware of any reports of the collapsed phase being observed in the \BaFePAs series at atmospheric pressure and so we assume that this is the case. 
+Firstly we cannot apply Vegard's law beyond a structural transition in the series meaning we cannot extrapolate to the orthorhombic state at the low $x$ end of the phase diagram. The measurement by Yoshida et al. at $x=0.38$ roughly coincides with the edge of the orthorhombic transition as shown in figure~\ref{Fig:ResD:PhaseDiagram} but was found to be tetragonal and so we can use to to define the lower limit for the extrapolation at low temperatures. There is also a so called `collapsed tetragonal phase' which occurs in the \BaFeAs at a pressure \unit{27}{\giga\pascal}\cite{Mittal2011} at \unit{33}{\kelvin} which could present a problme as we apply chemical pressure. The optimal \Tc of \BaFeAs under pressure is $\sim$\unit{5}{\giga\pascal}~\cite{Colombier2009} and optimal \Tc for the \BaFePAs series is $x\sim0.3$, and so we can very approximately place $x=1$ corresponding to $\sim$\unit{7}{\giga\pascal} which is about half of that required for the collapsed phase transition. Moreover the author is not aware of any reports of the collapsed phase being observed in the \BaFePAs series at atmospheric pressure and so we assume that this is the case. 
 
 There is also the problem of the third hole surface around the $\Gamma$ point which appears in \ac{DFT} calculations. Although it has not been observed in any of the measurements, this is to be expected since electron surfaces generally scatter more and so have a weaker signal to electron pockets and also it may be close in size and shape to other hole surfaces making it difficult to pick out with current \ac{ARPES} resolution.
 
-Looking at figure~\ref{Fig:ResD:SeriesRecipe} we see some inconsistencies which may also throw some doubt onto such a linear fit. Key points from Yoshida \etal are measured from \ac{ARPES} and not \ac{dHvA}. As they were measured at \unit[10]{K}, this means that the Fermi surface is measured in the superconducting state and not the field suppressed normal state which is the case for the \ac{dHvA} data. It is not clear if this results in different Fermi surfaces. It also should be noted that a linear extrapolation of $\delta$ suggests that it will become more three dimentional as it goes below $x=0.38$, however this does not appear to be supported by the \ac{DFT} results which show it remaining quasi-two dimensional. 
+Looking at figure~\ref{Fig:ResD:SeriesRecipe} we see some inconsistencies which may also throw some doubt onto such a linear fit. Key points from Yoshida \etal are measured from \ac{ARPES} and not \ac{dHvA}. As they were measured at \unit{10}{\kelvin}, this means that the Fermi surface is measured in the superconducting state and not the field suppressed normal state which is the case for the \ac{dHvA} data. It is not clear if this results in different Fermi surfaces. It also should be noted that a linear extrapolation of $\delta$ suggests that it will become more three dimentional as it goes below $x=0.38$, however this does not appear to be supported by the \ac{DFT} results which show it remaining quasi-two dimensional. 
 
 With the above (many) caveats in mind, we can determine a series of linear laws which would approxmately determine the orbit sizes for $0.38 < x < 1.0$ by applying fits to the data in figure~\ref{Fig:ResD:SeriesRecipe}. The results of these fits are given in table~\ref{Table:ResD:SeriesRecipeFits}.
 \begin{table}
