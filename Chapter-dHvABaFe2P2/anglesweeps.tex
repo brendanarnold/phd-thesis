@@ -14,7 +14,7 @@ Preliminary measurements showed very strong \ac{dHvA} oscillations which begin a
     \end{center}
 \end{figure}
 
-Figure~\ref{Fig:ResD:ComparisonSweepRates} shows some example Fourier transforms of data taken at various field sweep rates and plotted with the frequencies shifted arbitrarily for ease of comparison. The difference in amplitude between the sweeps at \unit{0.05}{\tesla\reciprocal\minute} and \unit{0.1}{\tesla\reciprocal\minute} is less than \unit{1}{\%} whereas the difference when sweeping at \unit{0.2}{\tesla\reciprocal\minute} is nearly \unit{5}{\%}. Unless otherwise stated, subsequent sweeps were performed at \unit{0.1}{\tesla\reciprocal\minute}.
+Figure~\ref{Fig:ResD:ComparisonSweepRates} shows some example Fourier transforms of data taken at various field sweep rates and plotted with the frequencies shifted arbitrarily for ease of comparison. The difference in amplitude between the sweeps at \unit{0.05}{\tesla\reciprocal\minute} and \unit{0.1}{\tesla\reciprocal\minute} is less than \unit{1}{\%} whereas the difference when sweeping at \unit{0.2}{\tesla\reciprocal\minute} is nearly \unit{5}{\%}. Unless otherwise stated, subsequent sweeps were performed at \unit{0.15}{\tesla\reciprocal\minute} at the edge of where the sweep rate makes a significant difference in amplitude.
 
 \begin{figure}[htbp]
     \begin{center}
@@ -34,8 +34,7 @@ In order to make a reasonable determination of the Fermi surface of a material, 
     \end{center}
 \end{figure}
 
-\TODO{Self heating effects}
-
+In general, runs were performed with an excitation voltage of \unit{1}{\volt}. To ensure that there was no self heating effects, runs were also performed with an excitations voltage of \unit{0.5}{\volt} and \unit{2}{\volt} at $T\approx$\unit{0.6}{\kelvin} (where we expect the \ac{LK} curve to be steep) and no change in oscillation amplitude due to heating was observed.
 
 The magnetic field was alternatively ramped up and then down meaning subsequent measurements were generally performed with the magnetic field ramping in opposite directions. Although in theory this should not affect the results in any way, subsequent \ac{FFT} peaks appeared to alternately be shifted by up to $\sim\pm$\unit{21}{\tesla} with the magnitude of the shifts being roughly proportional to frequency. Assuming that the shifts were an artefact of the measurements, a linear correction determined by visual inspection was applied of $F_{\textrm{corr.}} = 3 + \frac{10}{8000} F_{\textrm{meas.}}$ for the sweep in the $[100]$ direction and $F_{\textrm{corr.}} = 0 + \frac{21}{8000}  F_{\textrm{meas.}}$ and  $F_{\textrm{corr.}} = 0 + \frac{18}{8000} F_{\textrm{meas.}}$ for the two sets of measurements performed to complete the sweep in the $[110]$ direction. Figure~\ref{Fig:ResD:HysteresisCorrection} shows an example of these hysteric shifts and the subsequent correction applied.
 
