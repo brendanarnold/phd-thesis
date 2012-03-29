@@ -2,6 +2,16 @@
 \section{Density functional theory}
 \label{Sec:Theo:Dft}
 
-Density functional theory (DFT) is an ab-initio technique for calculating the electron density of a material. Coupled with the Hohenberg-Kohn theorem, this means that the physical system at zero temperature can be completely determined from its ground state electron density.
+The interpretation of the \ac{dHvA} measurements presented later in this thesis rely to some extent on the ab-initio calculation of the energy bands of \BaFeP and the technique used to find these energy dispersions are based on a \ac{DFT} scheme. The theory of \ac{DFT} itself has been shown to be mathematically rigourous and comprises of two principle theorems developed by Hohenberg, Kohn and Sham and are as follows,
+\begin{enumerate}
+    \item (Hohenberg-Kohn) All observables of a system at zero temperature can be determined by the ground states density, $n(\vec{r})$, alone,
+    \item (Kohn-Sham) The ground state density of an interacting system can be determined from a non-interacting counterpart
+\end{enumerate}
+The formal proof of the Hohenberg-Kohn theorem begins by showing that there is a one-to-one mapping between $n(\vec{r})$ and the system external potential~\cite{Hohenberg1964}. Since the many-body wave-function depends on the potential via the Schr\"odinger equation then we can express the many body wavefunction as a functional\footnote{A function maps a series of scalars or vectors onto a single scalar or vector, by contrast a funtional maps a \textit{function} onto a single vector or scalar by integrating for example. Functionals are commonly expressed with the function parameter in square brackets.} of $n$, that is $\Psi[n](\vec{r_1}, \vec{r_2}, \ldots \vec{r_N})$. We can then obtain any observable also as a functional of $n$ by the following,
+\begin{equation}
+    A[n] = \langle \Psi[n]\mid\hat{A}\mid\Psi[n]\rangle
+\end{equation}
+although in general
 
-DFT is an exact formulation of the ground state electron density,  Hamiltonian as follows,
+
+
