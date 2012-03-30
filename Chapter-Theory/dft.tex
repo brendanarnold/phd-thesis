@@ -2,16 +2,38 @@
 \section{Density functional theory}
 \label{Sec:Theo:Dft}
 
-The interpretation of the \ac{dHvA} measurements presented later in this thesis rely to some extent on the ab-initio calculation of the energy bands of \BaFeP and the technique used to find these energy dispersions are based on a \ac{DFT} scheme. The theory of \ac{DFT} itself has been shown to be mathematically rigourous and comprises of two principle theorems developed by Hohenberg, Kohn and Sham and are as follows,
+The interpretation of the \ac{dHvA} measurements presented later in this thesis rely to some extent on the ab-initio calculation of the energy bands of \BaFeP --- the technique used to find these energy dispersions are based on a \ac{DFT} scheme. The following is broad overview of \ac{DFT} which is drawn from notes from a series of summer school lectures by M. L\"uders~\cite{Luders2010} and the `ABC of DFT' by K. Burke~\cite{Burke2003}.
+
+ Although implementations of \ac{DFT} rely on various approximations, the theory of \ac{DFT} itself has been shown to be exact and mathematically rigourous. It comprises of a set of theorems developed by Hohenberg and Kohn and a methedology for solving to obtain the ground state energies developed by Kohn and Sham.
+
+\subsection{Hohenberg-Kohn theorems}
+
 \begin{enumerate}
-    \item (Hohenberg-Kohn) All observables of a system at zero temperature can be determined by the ground states density, $n(\vec{r})$, alone,
-    \item (Kohn-Sham) The ground state density of an interacting system can be determined from a non-interacting counterpart
+    \item The ground state potential, $v_0(\vec{r})$, can be determined by the ground state density, $n(\vec{r})$, alone~\cite{Hohenberg1964, Levy1979}
+    \item The ground state potential completely determines the system --- other terms in the Hamiltonian are universal between systems~\cite{Hohenberg1964}
+    \item The ground state mimimisation condition can be expressed as an Euler-Lagrange equation~\cite{Hohenberg1964}
 \end{enumerate}
-The formal proof of the Hohenberg-Kohn theorem begins by showing that there is a one-to-one mapping between $n(\vec{r})$ and the system external potential~\cite{Hohenberg1964}. Since the many-body wave-function depends on the potential via the Schr\"odinger equation then we can express the many body wavefunction as a functional\footnote{A function maps a series of scalars or vectors onto a single scalar or vector, by contrast a funtional maps a \textit{function} onto a single vector or scalar by integrating for example. Functionals are commonly expressed with the function parameter in square brackets.} of $n$, that is $\Psi[n](\vec{r_1}, \vec{r_2}, \ldots \vec{r_N})$. We can then obtain any observable also as a functional of $n$ by the following,
+
+Since the many-body wave-function depends entirely on the potential via the Schr\"odinger equation (the second theorem), then we can express the many body wavefunction as a functional\footnote{A function maps a series of scalars or vectors onto a single scalar or vector, by contrast a funtion\emph{al} maps a function onto a single vector or scalar, typically by integrating. Functionals are commonly expressed with the function parameter in square brackets.} of $n$, that is $\Psi[n](\vec{r_1}, \vec{r_2}, \ldots \vec{r_N})$. One of the fundamental tenets of quantum mehcanics states that we can obtain any observable from the wavefunction by applying the relevant Hermitian operator. If we apply the Hamiltonian, we obtain the following functional for $E_0$, the ground state energy,
+\begin{align}
+    E_0[n] &= \langle \Psi[n]|\hat{H}|\Psi[n]\rangle \\
+           &= \langle \Psi[n]|\hat{T} + \hat{V}_{\textrm{ee}} + \hat{V}_{\textrm{ext}}|\Psi[n] \rangle \\
+           &= \underbrace{\langle \Psi[n]|\hat{T} + \hat{V}_{\textrm{ee}}|\Psi[n]\rangle}_{=F[n]} + \int d^3rn(\vec{r})v_0(\vec{r})
+\end{align}
+In this case we are considering a system of electrons and so the external potential, $V_{\textrm{ext}}$, encompasses the lattice potential as well as any other externally applied potentials. The kinetic, $\hat{T}$, and correlation, $\hat{V}_{\textrm{ee}}$, terms have been grouped into the `universal' functional, $F[n]$, so called as it does not depend on the configuration of atoms and is therefore universal to all systems --- this again stems from the second theorem. To minimise the ground state energy whilst keeping the number of particles fixed, we determine an Euler-Lagrange equation as follows,
 \begin{equation}
-    A[n] = \langle \Psi[n]\mid\hat{A}\mid\Psi[n]\rangle
+\frac{\partial F[n]}{\partial n(\vec{r})} + v_0(\vec{r}) = \mu,
 \end{equation}
-although in general
+with $\mu$ being a constant to determine the correct number of particles\footnote{$\mu$ is also the chemical potential}. The numerical solution of this equation forms the basis of the \ac{DFT} calculation, however the \ac{HK} theorems do not provide an appropriate approximation for the universal functional, for this we turn to the equations developed by Kohn and Sham.
+
+\subsection{Kohn-Sham functional}
+
+    % \item (Kohn-Sham) The ground state density of an interacting system can be determined from a non-interacting counterpart
+
+Kohn and Sham observed that the \ac{HK} theorem also mandates an abstract, non-interacting system\footnote{That is purely a mathematical abstraction with no correlation term, $V_{\textrm{ee}}[n] = 0$} which has the same ground state density as the interacting system.
 
 
+The many-body wavefunction for this system can be assumed to be a calculable Slater determinant of single particle wavefunctions and thus the minimisation 
 
+
+An expression for the potential $v_s(\vec{r}$ can be found for this system as follows,
