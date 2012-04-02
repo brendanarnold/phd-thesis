@@ -4,36 +4,42 @@
 
 The interpretation of the \ac{dHvA} measurements presented later in this thesis rely to some extent on the ab-initio calculation of the energy bands of \BaFeP --- the technique used to find these energy dispersions are based on a \ac{DFT} scheme. The following is broad overview of \ac{DFT} which is drawn from notes from a series of summer school lectures by M. L\"uders~\cite{Luders2010} and the `ABC of DFT' by K. Burke~\cite{Burke2003}.
 
- Although implementations of \ac{DFT} rely on various approximations, the theory of \ac{DFT} itself has been shown to be exact and mathematically rigourous. It comprises of a set of theorems developed by Hohenberg and Kohn and a methedology for solving to obtain the ground state energies developed by Kohn and Sham.
-
-\subsection{Hohenberg-Kohn theorems}
-
-\begin{enumerate}
-    \item The ground state potential, $v_0(\vec{r})$, can be determined by the ground state density, $n(\vec{r})$, alone~\cite{Hohenberg1964, Levy1979}
-    \item The ground state potential completely determines the system --- other terms in the Hamiltonian are universal between systems~\cite{Hohenberg1964}
-    \item The ground state mimimisation condition can be expressed as an Euler-Lagrange equation~\cite{Hohenberg1964}
-\end{enumerate}
-
-Since the many-body wave-function depends entirely on the potential via the Schr\"odinger equation (the second theorem), then we can express the many body wavefunction as a functional\footnote{A function maps a series of scalars or vectors onto a single scalar or vector, by contrast a funtion\emph{al} maps a function onto a single vector or scalar, typically by integrating. Functionals are commonly expressed with the function parameter in square brackets.} of $n$, that is $\Psi[n](\vec{r_1}, \vec{r_2}, \ldots \vec{r_N})$. One of the fundamental tenets of quantum mehcanics states that we can obtain any observable from the wavefunction by applying the relevant Hermitian operator. If we apply the Hamiltonian, we obtain the following functional for $E_0$, the ground state energy,
-\begin{align}
-    E_0[n] &= \langle \Psi[n]|\hat{H}|\Psi[n]\rangle \\
-           &= \langle \Psi[n]|\hat{T} + \hat{V}_{\textrm{ee}} + \hat{V}_{\textrm{ext}}|\Psi[n] \rangle \\
-           &= \underbrace{\langle \Psi[n]|\hat{T} + \hat{V}_{\textrm{ee}}|\Psi[n]\rangle}_{=F[n]} + \int d^3rn(\vec{r})v_0(\vec{r})
-\end{align}
-In this case we are considering a system of electrons and so the external potential, $V_{\textrm{ext}}$, encompasses the lattice potential as well as any other externally applied potentials. The kinetic, $\hat{T}$, and correlation, $\hat{V}_{\textrm{ee}}$, terms have been grouped into the `universal' functional, $F[n]$, so called as it does not depend on the configuration of atoms and is therefore universal to all systems --- this again stems from the second theorem. To minimise the ground state energy whilst keeping the number of particles fixed, we determine an Euler-Lagrange equation as follows,
+ Although implementations of \ac{DFT} rely on various approximations, the theory of \ac{DFT} itself has been shown to be exact and mathematically rigourous. It comprises of a set of theorems developed and proven by Hohenberg, Kohn and Levy~\cite{Hohenberg1964, Levy1979} and a methedology for solving to obtain the ground state energies developed by Kohn and Sham. The principle theorem outlined by \ac{HK} shows that the the ground state external potential, $v_{\textrm{ext}}(\vec{r})$, of a system can be determined by the ground state density, $n(\vec{r})$, alone and vice-versa. A second \ac{HK} theorem outlines a minimisation condition which expresses the ground state energy as follows,
 \begin{equation}
-\frac{\partial F[n]}{\partial n(\vec{r})} + v_0(\vec{r}) = \mu,
+\label{Eqn:Theo:HKMinimisation}
+\frac{\partial F[n]}{\partial n(\vec{r})} + v_{\textrm{ext}}(\vec{r}) = \mu,
 \end{equation}
-with $\mu$ being a constant to determine the correct number of particles\footnote{$\mu$ is also the chemical potential}. The numerical solution of this equation forms the basis of the \ac{DFT} calculation, however the \ac{HK} theorems do not provide an appropriate approximation for the universal functional, for this we turn to the equations developed by Kohn and Sham.
+where,
+\begin{equation}
+F[n] = T[n] + V_{\textrm{ee}}[n]
+\end{equation}
+$F[n]$ is the `universal' functional\footnote{A funtional maps a function onto a single vector or scalar --- typically by integrating over the function --- and is commonly denoted with the function parameter in square brackets. Compare this with the definition of a function which maps a series of scalars onto a single scalar or vector.} and $T[n]$ and $V_{\textrm{ee}}[n]$ are the kinetic and correlation functionals respectively. $\mu$ is the chemical potential which is introduced as a normalisation term that ensures that there are an appropriate number of electrons in the charge density. The universal functional is so called because the system is competely defined in the external potential term alone and so $F[n]$ is common to all systems, nonetheless it still requires approximation. For this reason as well as the fact that there are no clues from the \ac{HK} theorems as to a good starting form for $n$, still means the problem is intractable.
 
-\subsection{Kohn-Sham functional}
+Kohn-Sham developed a method to find a good starting form for $n$ by showing that there exists a pseudo-potential, $v_{\textrm{KS}}$, that satisfies the above equation for a \emph{non-interacting} system, i.e. $F[n] = T[n]$, which shares the same $n$ as the original interacting system. This abstract potential, which takes the place of $v_{\textrm{ext}}$ in the above equation, has no strict physical meaning but it allows us to build a common expression for $n$ in terms of a sum of single particle wavefunctions. It is given as follows,
+\begin{equation}
+\label{Eqn:Theo:KohnShamPotential}
+v_{\textrm{KS}} = v_{\textrm{ext}}(\vec{r}) + \int d^3r^\prime\frac{n(\vec{r})}{|\vec{r}-\vec{r}^{\hspace{2px}\prime}|} + \frac{\partial E_{\textrm{xc}}}{\partial n(\vec{r})}
+\end{equation}
+where $E_{\textrm{xc}}$ is the combined particle correlation and exchange energy terms which is approximated according to the type of problem to be solved\footnote{Note that in principle, these two terms should be separate but most approximations tend to combine them into a single term.}.  Once an approximate form for the exchange term has been chosen, the above can be used to find the ground state energy by running a self consistency cycle that forms the heart of most \ac{DFT} codes,
+\begin{enumerate}
+    \item Guess an initial $n_{i=0}$
+    \item Calculate $v_{\textrm{KS}}$ from $n_{i}$ using eqn.~\ref{Eqn:Theo:KohnShamPotential}
+    \item Minimise the non-interacting (Kohn-Sham) form of eqn.~\ref{Eqn:Theo:HKMinimisation}
+    \item Calculate the new $n_{i+1}$
+    \item Repeat from step 2 with $n_i$ being adjusted by $n_{i+1}$ until $n_{i} - n_{i+1} < \textrm{some tolerance}$
+\end{enumerate}
+Simply replacing $n_{i}$ with $n_{i+1}$ can cause the calculation to rapidly diverge and so instead a mixing scheme is used. Typically this incorporates a small fraction of $n_{i+1}$ with the rest made up of the old $n_{i}$. A more copmlex mixing scheme can be employed to ensure more rapid convergence, the Broyden mixing scheme for example uses a Newton-Raphson style root finding mechanism on the Jacobian of the $n_{i} - n_{i+1}$~\cite{Broyden1965}.
 
-    % \item (Kohn-Sham) The ground state density of an interacting system can be determined from a non-interacting counterpart
 
-Kohn and Sham observed that the \ac{HK} theorem also mandates an abstract, non-interacting system\footnote{That is purely a mathematical abstraction with no correlation term, $V_{\textrm{ee}}[n] = 0$} which has the same ground state density as the interacting system.
+\subsection{The generalised gradient approximation}
 
+The correlation term represents the most significant approximation in the calculation of \ac{DFT}. For the \ac{DFT} presented in this thesis, the \ac{GGA} was used which is part of the family of \acp{LDA}. The simplest (i.e. lowest order) \ac{LDA} takes the effects of the electron-electron correlations at point $\vec{r}$ to be constant throughout the system with the magnitude based on the charge density at $\vec{r}$. This works particularly well for free-electron-like systems with lots of itinerent valence electrons since the electrons are evenly spread throughout --- however it does not work so well for highly localised Hubbard-like systems where there is a high density of electrons at atomic sites, but very little density just off the sites. A step towards improving this comes by raising the order of the approximation so that it modifies the constatnt local density with the rate of change of the local density as you move off the site (i.e. the local charge density gradient). It turns out however that incorporating the gradient results in less accuracy than the simple \ac{LDA} due to the \ac{LDA} `acidentally' cancelling a series of so called sum rules. The \ac{GGA} builds on the higher order gradient approximation by incorporating the the cancelling of the sum rules to obtain a reasonably accurate approximation to the correlation potential. 
 
-The many-body wavefunction for this system can be assumed to be a calculable Slater determinant of single particle wavefunctions and thus the minimisation 
+The precise way to express the \ac{GGA} however is still a matter of debate though with there being multiple implementations~\cite{Perdew1996, Perdew1986}, each of which may give slightly different results\footnote{See for example table 1 in ref.~\cite{Perdew1996}}. Nontheless \acp{GGA} tends to perform better than zeroth order \ac{LDA} with inhomogenous electron densities.
 
+\subsection{Single particle wavefunction bases}
 
-An expression for the potential $v_s(\vec{r}$ can be found for this system as follows,
+Typically, close to the atom, electrons tends to have a radial symmetry whereas itinternt valence electrons are more planewave-like. Matching each of these to an appropriate single particle basis set dramatically reduces the amount of calculation time. The \ac{APW} method defines a series of `muffin-tin spheres' which are centred on each of our atoms. Those well inside are described in terms of radial basis orbitals, those well outside are described in terms of plane waves.
+
+Andersen further simplified the radial basis portion of the \ac{APW} method by approximating the wavefunctions by a first order Taylor expansion with respect to energy~\cite{Andersen1975}. The result is known as \ac{LAPW}.
+
