@@ -3,6 +3,7 @@
 \sethlcolor{Highlight}
 \newcommand{\TODO}[1]{\hl{TODO: (#1)}}
 \newcommand{\unitspacing}{\;}
+\newcommand{\code}[1]{\lstinline!#1!} % n.b. this will fail if code snippet has delimiter character in it
 % Materials
 \newcommand{\BaFeP}{BaFe$_{2}$\-P$_{2}$\hspace{4px}}
 \newcommand{\SrFeP}{SrFe$_{2}$\-P$_{2}$\hspace{4px}}
@@ -21,19 +22,15 @@
 \newcommand{\WIEN}{WIEN2k\hspace{4px}}
 \newcommand{\etal}{\textit{et al.}\hspace{4px}}
 % Various notation
-\newcommand{\kx}{\ensuremath{k_x}\hspace{4px}}
-\newcommand{\ky}{\ensuremath{k_y}\hspace{4px}}
-\newcommand{\kz}{\ensuremath{k_z}\hspace{4px}}
 \newcommand{\Tc}{\ensuremath{T_{c}}\hspace{4px}}
 % \newcommand{\degree}{\ensuremath{^\circ}\hspace{4px}}
 \newcommand{\highTc}{high--\Tc\hspace{4px}}
 \newcommand{\Real}{\ensuremath{\operatorname{Re}}}
 \newcommand{\Imag}{\ensuremath{\operatorname{Im}}}
 \newcommand{\ten}[1]{\ensuremath{\times 10^{#1}}}
-% Some contentious notations
-\newcommand{\vect}[1]{\boldsymbol{#1}} % Bold vectors
-\newcommand{\code}[1]{\lstinline!#1!} % n.b. this will fail if code snippet has delmiter character in it
-% \newcommand{\vect}[1]{\vec{#1}}        % Arrows over vectors
+% Some contentious notation
+% \newcommand{\vect}[1]{\vec{#1}}      % Arrows over vectors
+\newcommand{\vect}[1]{\boldsymbol{#1}}   % Bold vectors
 \newcommand{\op}[1]{\boldsymbol{\hat{#1}}}
 
 % Define new command for typesetting mathematical units in mathmode - see 

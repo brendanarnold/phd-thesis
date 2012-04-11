@@ -73,30 +73,30 @@ The resistance across the piezo-electric lever is read by driving an AC current 
 
 Ideally the temperature chosen should be on the steep part of the \ac{LK} temperature curve (eq.~\ref{Eqn:Theo:TemperatureTerm}) so that even small changes in temperature manifest in obervable changes in the oscillation amplitude.
 
-\subsubsection{Field hysteresis correction}
-
-Although the direction in which the field sweep occurs should not affect the oscillations, it was apparent that there was a slight shifting of the \ac{FFT} frequencies of the peaks in the down sweeps in comparison to the upsweeps. The shifts were larger at higher frequencies and generally would be of the order of \unit{0-40}{\tesla}. Since the effect was clear yet was of the order of the expected reolution at high fields, we simply applied a linear correction to the data set in order to bring the peaks into line. The corrections listed in table~\ref{Table:Exp:HysteresisCorrection} were either subtracted or added depending on the sweep direction.
-\begin{table}
-    \begin{center}
-           \caption{Correction factors linearly applied to the \ac{FFT} peaks due to hysteresis in the sweep direction.}
-        \begin{tabular}[htbp]{lll}
-\toprule
-Sweeps $B \to[110]$ & Corrn. at \unit{0}{\tesla}  & Corrn. at \unit{8000}{\tesla}\\
-\midrule
-$-31\degree$ to $-24\degree$  & 1 & 18 \\
-$-24\degree$ to $-13\degree$ & 9 & 20 \\
-$-13\degree$ to $100\degree$ & 1 & 21 \\
-\bottomrule
-& & \\
-\toprule
-Sweeps $B \to[100]$ & Corrn. at \unit{0}{\tesla}  & Corrn. at \unit{8000}{\tesla}\\
-\midrule
-$-31\degree$ to $100\degree$ & 3 & 13 \\
-\bottomrule
-        \label{Table:Exp:HysteresisCorrection}
-        \end{tabular}
-    \end{center}
-\end{table}
+% \subsubsection{Field hysteresis correction}
+% 
+% Although the direction in which the field sweep occurs should not affect the oscillations, it was apparent that there was a slight shifting of the \ac{FFT} frequencies of the peaks in the down sweeps in comparison to the upsweeps. The shifts were larger at higher frequencies and generally would be of the order of \unit{0-40}{\tesla}. Since the effect was clear yet was of the order of the expected reolution at high fields, we simply applied a linear correction to the data set in order to bring the peaks into line. The corrections listed in table~\ref{Table:Exp:HysteresisCorrection} were either subtracted or added depending on the sweep direction.
+% \begin{table}
+%     \begin{center}
+%            \caption{Correction factors linearly applied to the \ac{FFT} peaks due to hysteresis in the sweep direction.}
+%         \begin{tabular}[htbp]{lll}
+% \toprule
+% Sweeps $B \to[110]$ & Corrn. at \unit{0}{\tesla}  & Corrn. at \unit{8000}{\tesla}\\
+% \midrule
+% $-31\degree$ to $-24\degree$  & 1 & 18 \\
+% $-24\degree$ to $-13\degree$ & 9 & 20 \\
+% $-13\degree$ to $100\degree$ & 1 & 21 \\
+% \bottomrule
+% & & \\
+% \toprule
+% Sweeps $B \to[100]$ & Corrn. at \unit{0}{\tesla}  & Corrn. at \unit{8000}{\tesla}\\
+% \midrule
+% $-31\degree$ to $100\degree$ & 3 & 13 \\
+% \bottomrule
+%         \label{Table:Exp:HysteresisCorrection}
+%         \end{tabular}
+%     \end{center}
+% \end{table}
 
 \subsubsection{Attenuation due to torque}
 
