@@ -1,0 +1,52 @@
+
+\section{Spin density waves}
+
+\subsection{Lindhard susceptibility}
+\label{Sec:Theo:Susceptibility}
+
+To understand when the \ac{SDW} state occurs we first consider the response of a gas of non-interacting Fermions subject to a perturbing magnetic field --- the Lindhard susceptibilty. This models electron-hole scattering across the Fermi energy and is often quoted as\footnote{See pg 81 ff. of Dressel \cite{Dressel2002} for a full derivation.},
+\begin{equation}
+    \chi_0(q, \omega) = \lim_{\delta \to 0} \sum_{k}\sum_{l,l^\prime}\frac{f(\epsilon_{k+q,l^\prime}) - f(\epsilon_{k,l})}{\epsilon_{k+q,l^\prime} - \epsilon_{k,l} - \hbar\omega - i\delta}D
+    \label{Eqn:Intro:Lindhard}
+\end{equation}
+where,
+\begin{equation}
+    D = |\langle k+q,l^\prime|V|k,l \rangle|^2
+\end{equation}
+and is the matrix transition element for the scattering process. The numerator term contains two Fermi functions --- the same as eqn.~\ref{Eqn:Theo:FermiFunction} --- which ensure that the susceptibilty is finite for states which scatter across the Fermi energy and zero if they do not. They also smear the calculations as a function of temperature. The third term in the denominator corresponds to the excitation energy of the perturbing field with $\omega$ corresponding to the temporal frequency of the field. The final term in the denominator is an artefact of the adiabatic approximation used to calculate the perturbation with the completed approximation taking the limit of $\delta \to 0$. $\epsilon$ stands for the state energies. The first sum in the Lindhard function is over all $k$ states in the first \ac{BZ}, the second sum combines each energy band. The real and imaginary parts of equation \ref{Eqn:Intro:Lindhard} are,
+\begin{align}
+\Real\{\chi_0(q, \omega)\} &= \lim_{\delta \to 0} \sum_{k}\sum_{l, l^\prime}\frac{(\epsilon_{k+q,l^\prime} - \epsilon_{k,l} - \hbar\omega) (f(\epsilon_{k+q,l^\prime}) - f(\epsilon_{k,l}))}{(\epsilon_{k+q,l^\prime} - \epsilon_{k,l} - \hbar\omega)^2 + \delta^2}D \\
+\Imag\{\chi_0(q, \omega)\} &= \lim_{\delta \to 0} \sum_{k}\sum_{l, l^\prime}\frac{-\delta (f(\epsilon_{k+q,l^\prime}) - f(\epsilon_{k,l}))}{(\epsilon_{k+q,l^\prime} - \epsilon_{k,l} - \hbar\omega)^2 + \delta^2}D\\
+\end{align}
+respectively.
+
+The Lindhard function is a simple linear response for a particular static charge configuration. As soon as the charge configuration shifts due to the pertubing field the potential changes and so does the response. To compensate we consider the perturbing field to be adjusted by the pertubring field plus an induced field due to the changing charge and calculate the linear reponse in terms of that new combined field. This new form is the \emph{first renormalisation}. This is still not perfect however since now the charge density changes again in a different way due to this new combined potential and so a second induced potential has to be considered giving the \emph{second renormalisation} and so-on. This process or renormalisation forms the basis of linear response theory. In practice the \ac{RPA}\footnote{So called because it is considered that the charge densities in the higher renormalisations are from electron wavefunctions which have randomly shifted phases and so cancel each other out.} is generally invoked where corrections beyond the first renormalisation are ignored. The \ac{RPA} response of the Lindhard susceptibility is as follows,
+\begin{equation}
+    \chi(\vect{q},\omega) = \frac{\chi_0(\vect{q}, \omega)}{1 - \frac{4\pi e^2}{q^2} \chi_0(\vect{q}, \omega)}
+\end{equation}
+
+
+Peaks in this function correspond to scattering of states which cross the Fermi energy yet remain close to the Fermi energy.  We can derive this function by modelling an oscillatory perturbing field on a system. To solve to get an expression for the second order perturbation, we make the adiabatic limit approximation (i.e. the perturbing potential is gradually increase from zero at $t=\infty$ to $v$ at $t=0$).
+
+
+Although knowledge of the susceptibility is useful to model, for example, neutron scattering measurements, for our purposes we will use it to demonstrate the strength of particular nesting vectors in our example materials. For this reason we make the assumption that the transition matrix elements are unity. This assumption greatly simplifies the calculations at the cost of some structure and as such should be borne in mind that the results are somewhat broad and qualitative.
+
+
+% \TODO{How does susceptibility tie in with nesting?}
+
+% \TODO{imaginary factor corresponds to the decay rate of the state}
+
+% \TODO{energy(susceptibility) is broadened by the decay rate}
+
+
+\subsection{Nesting and the spin desnity wave state}
+
+To first An approximate expression for the \ac{SDW} state to occur follows from considering the Lindhard susceptibility 
+
+\subsection{Notes on practical calculation}
+
+ which results in an expression for the imaginary part of Lindhard susceptibility, $\Imag(\chi_0)\propto \delta(\epsilon_{k+q,l^\prime} - \epsilon{k,l} - \hbar\omega)$ which, in a continuous calculation, results in resonances at excitations which match the difference in energies between states. However, in this thesis, the energy dispersions used to determine nesting conditions are not continuous and instead are based on discrete energies obtained from DFT calculations. As such $\delta$ will have to remain finite in order to broaden the delta function into a Lorentzian with width comparable to the energy differences between the discrete points -- the net result of this will be loss of some fine structure.
+
+The DFT calculations do not provide values for all $k$ states, instead a fairly coarse mesh evenly distributed over the \ac{BZ} is used. 
+
+In practice only bands that lie close (within the adiabatic or temeprature broadening) to the Fermi energy need to be included in the calculations.
