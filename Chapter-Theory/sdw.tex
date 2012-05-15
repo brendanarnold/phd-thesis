@@ -1,10 +1,20 @@
 
 \section{Spin density wave instability}
 
+Section~\ref{Sec:Intro:Nesting} discussed the possibility of \highTc pairing being due to fluctuations in close proximity to a \ac{SDW} state. Here we briefly describe the \ac{SDW} state and some of the theory behind it.
+
+Broadly speaking a \ac{SDW} is a magnetic state just as \ac{FM} and \ac{AFM} are magnetic states. In its most general sense, a \ac{SDW} is a periodic modulation of magnetic spins in both space and time hence it being a `wave of spin density'. \ac{AFM} is actually a special case of a \ac{SDW} which does not vary in time, i.e. is static, and also varies spatially with the periodicity being some multiple of the real-space lattice vector, i.e. is commensurate with the lattice. \ac{FM} can be thought of as a \ac{SDW} state with wavevector $\vect{q}=0$ i.e. it has no periodic variation and so is not really a `wave'.
+
+Using the mean field \ac{HFA} the following expression gives the stability condition for the \ac{SDW} state\cite{Moriya1985},
+\begin{equation}
+2I\chi_0(\vect{q}) > 1,
+\end{equation}
+where $I$ is the exchange energy between electron bands and $\chi_0$ is the Lindhard susceptibility. The greater the Lindhard susceptibility, the more stable the state.
+
 \subsection{Lindhard susceptibility}
 \label{Sec:Theo:Susceptibility}
 
-To understand when the \ac{SDW} state occurs we start with a Fermi liquid i.e. a Pauli excluded but otherwise non-interacting gas of free electrons. We calculate\footnote{Not presented here but pg 81 ff. of Dressel \cite{Dressel2002} has a full derivation.} the first order perturbative linear response of this gas to to a magnetic field given by $\vect{B}=\exp{(\vect{q}.\vect{r} - \omega.t})$. The resulting equation is known as the Lindhard susceptibilty and is often quoted as,
+The Lindhard suceptibility models the Stoner excitations (i.e. electron-hole scattering) of a nearly free electron system. To derive the Lindhard susceptibility, we begin with a Fermi liquid i.e. a Pauli excluded but otherwise non-interacting gas of free electrons. We calculate\footnote{Not presented here but pg 81 ff. of Dressel \cite{Dressel2002} has a full derivation.} the first order perturbative linear response of this gas to to a magnetic field given by $\vect{B}=\exp{(\vect{q}.\vect{r} - \omega.t})$. The resulting equation is often quoted as,
 \begin{equation}
     \chi_0(q, \omega) = \lim_{\delta \to 0} \sum_{k}\sum_{l,l^\prime}\frac{f(\epsilon_{k+q,l^\prime}) - f(\epsilon_{k,l})}{\epsilon_{k+q,l^\prime} - \epsilon_{k,l} - \hbar\omega - i\delta}D
     \label{Eqn:Intro:Lindhard}
@@ -29,19 +39,8 @@ The Lindhard function is a simple linear response for a particular static charge
 Peaks in this function correspond to scattering of states which cross the Fermi energy yet remain close to the Fermi energy.  We can derive this function by modelling an oscillatory perturbing field on a system. To solve to get an expression for the second order perturbation, we make the adiabatic limit approximation (i.e. the perturbing potential is gradually increase from zero at $t=\infty$ to $v$ at $t=0$).
 
 
-Although knowledge of the susceptibility is useful to model, for example, neutron scattering measurements, for our purposes we will use it to demonstrate the strength of particular nesting vectors in our example materials. For this reason we make the assumption that the transition matrix elements are unity. This assumption greatly simplifies the calculations at the cost of some structure and as such should be borne in mind that the results are somewhat broad and qualitative.
+Although knowledge of the susceptibility is useful to model, for example, neutron scattering measurements, for our purposes we will use it as an indicator of possible \ac{SDW} instability vectors in our example materials. For this reason we make the assumption that the transition matrix elements are unity. This assumption greatly simplifies the calculations at the cost of some structure and as such should be borne in mind that the results are somewhat broad and qualitative.
 
-
-% \TODO{How does susceptibility tie in with nesting?}
-
-% \TODO{imaginary factor corresponds to the decay rate of the state}
-
-% \TODO{energy(susceptibility) is broadened by the decay rate}
-
-
-\subsection{Nesting and the spin density wave state}
-
-To first An approximate expression for the \ac{SDW} state to occur follows from considering the Lindhard susceptibility 
 
 \subsection{Notes on practical calculation}
 
