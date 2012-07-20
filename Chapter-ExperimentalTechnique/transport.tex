@@ -23,6 +23,7 @@ With the four voltage legs a variety of configurations can be achieved. Measurin
 
 Because the connections may not be exactly aligned and because the silver paint in practice tends to whet over the edge of the sample, magnetoresistance contributions may be found in the Hall configuration and vise-versa. For this reason it is generally advised to sweep both with a positive field to obtain $R_{\textrm{pos}}$ and a negative field to obtain $R_{\textrm{neg}}$ where $R$ is the resistance and separate the two out using the technique described in the analysis section.
 
+Later as the samples has been measured many times and thermal cycling had caused the silver pain ot become brittle, it was necessary to attach short, $\sim\unit{2}{\milli\metre}$, secondary gold wires to each of the contact pads using silver paint and then attach the probe flying leads to the end of these wires. When removing the samples from the probe, this allowed the joins to be immersed in solvent held in the tip of a pair of metal tweezers at a safe distance from the sample ensemble meaning the connection could be dissolved without flexing the contact pads unecessarily. This was done for the later measurements in the Polo magnet where the minimisation of wire loops was not so important.
 
 \subsubsection{Polo magnet}
 
@@ -58,11 +59,11 @@ The magnet is superconducting and has a limit of \unit{14}{\tesla} or \unit{16}{
 
 To access the normal state of the higher \Tc materials we require fields larger than the \unit{13}{\tesla} available in the Polo magnet at Bristol. The \ac{HFML} facility in Nijmegen has available a continuous field Bitter magnet which can reach \unit{33}{\tesla}. Data from Nijmegen in this thesis was taken in May 2010 by Dr. X. Xu, I. Mouzoupoulou, Dr. P. Rourke and Dr. A. McCollam.
 
-The magnet used at the \ac{HFML} sweeps at a rate of typically \unit{3}{\tesla\per\minute} meaning the temperature can drift significantly. The necessary heating supply for temperature control was alternated between a Lakeshore 340 temperature controller which uses input from a Cernox thermometer and a PID algorithm to supply an appropriate current or a Keithley current source which supplies a fixed current. The current source was selected on a sweep-by-sweep basis depending on which gave more stable temperatures.  The analysis compensates for small drift using a simple correction described later. Since the sweep rate is much lower, the excitation frequency is set to one of the `magic' frequencies\footnote{Frequencies that do not fall near common sources of noise or their harmonics e.g. \unit{50}{\hertz} from mains supply} which in this case were \unit{33}{\hertz}, \unit{77}{\hertz}, \unit{113}{\hertz} and \unit{123}{\hertz}.
+The magnet used at the \ac{HFML} sweeps at a rate of typically \unit{3}{\tesla\per\minute} meaning the temperature can drift significantly. The necessary heating supply for temperature control was alternated between a Lakeshore 340 temperature controller which uses input from a Cernox thermometer and a PID algorithm to supply an appropriate current or a Keithley current source which supplies a fixed current. The current source was selected on a sweep-by-sweep basis depending on which gave more stable temperatures.  The analysis compensates for small drift using a simple correction described later. 
 
-The samples were measured using Stanford SR830 lock-in amplifiers which were supplying via \unit{1}{\kilo\ohm} resistors with a \unit{10}{\ohm} shunt resistor. A \unit{1}{\volt} excitation voltage was used for all samples except for B00KOD1a and B16KOD1a where \unit{2}{\volt} excitation was used instead.
+The samples were measured using Stanford SR830 lock-in amplifiers which were supplying via \unit{1}{\kilo\ohm} resistors with a \unit{10}{\ohm} shunt resistor. A \unit{1}{\volt} excitation voltage was used for all samples except for B00KOD1a and B16KOD1a where \unit{2}{\volt} excitation was used instead. The excitation frequency is set to one of the `magic' frequencies\footnote{Frequencies that do not fall near common sources of noise or their harmonics e.g. \unit{50}{\hertz} from mains supply} which in this case were \unit{33}{\hertz}, \unit{77}{\hertz}, \unit{113}{\hertz} and \unit{123}{\hertz}.
 
-Field is monitored using a calibrated Hall probe which is measured using another Stanford SR830 lock-in amplifier.
+Field is monitored using a calibrated Hall sensor mounted on the probe which is measured using another Stanford SR830 lock-in amplifier.
 
 \subsubsection{\ac{LNCMI} Toulouse}
 
@@ -80,17 +81,59 @@ The length and the width of the samples were determined from calibrated optical 
 
 \subsection{Data Analysis}
 
-When measuring transport in a sample, there will always be contributions from both the \ac{MR} and the Hall components due to imperfect geometry
+\subsubsection{Isolating Hall and \ac{MR} components}
 
-
-Generally, the Hall and \ac{MR} components can be separated out provided the feidl sweeps
-
+When measuring transport in a sample, there will always be contributions from both the \ac{MR} and the Hall components due to imperfect geometry of the voltage pick up points. Since the Hall component reverses sign as the polarity of the field reverses whereas the \ac{MR} component is independent of field polarity, the Hall and \ac{MR} components can be separated out using the following relations,
 \begin{align}
+\label{Eqn:Exp:HallMRExtractio}
 R_{\textrm{Hall}} &= \frac{1}{2}( R_{\textrm{pos}} - R_{\textrm{neg}} ) \\
 R_{\textrm{MR}} &= \frac{1}{2}( R_{\textrm{pos}} + R_{\textrm{neg}} )
 \end{align}
+where $R_{\textrm{pos}}$ and $R_{\textrm{neg}}$ are the resistances measured for the positive and negative field polarities. This requires data to be taken from the positive field maximum down to the negative field maximum and so for example with the Toulouse pulsed field apparatus, two pulses are required for each measurement.
+
+\subsubsection{Correcting for temperature variations}
+
+Figure~\ref{Fig:Exp:ComparisonFieldSweeps} shows a comparison of typical field sweeps for the \ac{LNCMI} and Nijmegen facilties and the Polo magnet. The \ac{LNCMI} pulse length is $\sim\unit{150}{\milli\second}$ and as such is not typically subject to slow temperature drift throughout the duration of the pulse. However the positive and negative pulses are typically taken with at least a \unit{30}{\minute} interval inbetween pulses meaning the postive and negative puses may not be at precisely the same temerpature. As such, a small offset is applied to bring the zero field data into line between positive and negative pulses.
+\begin{figure}[htbp]
+    \begin{center}
+        \includegraphics[scale=0.9]{Chapter-ExperimentalTechnique/Figures/ComparisonFieldSweeps/ComparisonFieldSweeps}
+        \caption{From left to right: Typical field sweep profiles for a pulse at the \ac{LNCMI}, Toulouse, a continuous positive sweep at the \ac{HFML}, Nijmegen and single positive upsweep for the Polo magnet, Bristol}
+        \label{Fig:Exp:ComparisonFieldSweeps}
+    \end{center}
+\end{figure}
+For the longer sweeps such as the Nijmegen data sets, an additional offset was applied to the measurement which is proprtional to the temeperature as detailed below,
+\begin{equation}
+    R_{\textrm{corr.}} = R_{\textrm{meas.}} + F(T_{\textrm{base}} - T_{\textrm{meas.}})
+\end{equation}
+where $R_{\textrm{corr.}}$ is the corrected resistance, $R_{\textrm{meas.}}$ is the measured resistance, $T_{\textrm{base}}$ is the temperature that the temperature that the resistance values are converged towards and $F$ is an empirical scaling factor that brings the upsweep and downsweep data into line. The empirical factor was determined by inspection using the following method.
+\begin{enumerate}
+\item Take data where there is a clear component that is due to the temperature drift and find the appropriate factor so that it dissappears. Take these data as reference benchmarks.
+\item Where the temperature component is not so clear, use the reference data and make an informed estimate of the factor based on resistance vs. temperature curves in zero field and \unit{13}{\tesla}
+\end{enumerate}
+The same factor is applied to both the positive and negative sweeps to avoid introducing artificialities into the Hall gradient. For the Polo data the temperature control was such that no correction was necessary.
 
 \subsubsection{Field lag correction}
 
+The Polo magnet has no sensor to measure field at the sample, with the field values being calculated from the power supply current. In the data there is evident hysteresis in all sweeps and is illustrated in figure~\ref{Fig:Exp:PoloHysteresis} which suggests that the actual field lags slightly behind the indicated field. To correct for this, the upsweeps and downsweeps were shifted towards each other until they overlapped, typically each by around \unit{0.2}{\tesla}. Any values which were corrected to less than \unit{0}{\tesla} or more than \unit{13}{\tesla} were then not used in the analysis.
+\begin{figure}[htbp]
+    \begin{center}
+        \includegraphics[scale=0.9]{Chapter-ExperimentalTechnique/Figures/PoloHysteresis/PoloHysteresis}
+        \caption{An example of the measured voltage of separate up and downsweeps which demonstrate the lag in actual field compared to the indicated field}
+        \label{Fig:Exp:PoloHysteresis}
+    \end{center}
+\end{figure}
 
+\subsubsection{Combining up and downsweeps}
+
+For all the data values there is an upsweep portion and a downsweep portion which overlap and are averaged together to reduce noise. However many portions of data have regions which drift due to changes in the out-of-phase component or anomalies such as spikes and so in these cases the regions are recorded in a configuration file and the scripts that combine the sweeps ignore the problem regions and instead use data from the counterpart sweep in isolation. Similarly, when hysteresis is encoutered in the pulsed data, by convention the upsweep is ignored since it tends to be more rapid than the downsweep which generally results in more spikes and out of phase problems.
+
+To obtain the Hall and \ac{MR} components using equation~\ref{Eqn:Exp:HallMRExtraction} we need to obtain comparable data points with shared field values. To do this one of two technique was employed. For the high-field data, this is done by binning the data and taking the average of the values in each of the bins so that they share the same field values. The data taken from the Polo magnet is linearly interpolated to a predefined set of field values.
+
+\subsubsection{Linear fits to Hall data}
+
+Hall data for all samples were fitted using a standard linear least squares fit which was performed using Python for the Polo data and Delphi for the high-field data. A cutoff is specified so that only the data above the cutoff is fitted in the region where the linear behaviour is recovered. The cutoff value is found by inspection of the Hall data with reference to the \ac{MR} component. The precise point where linear behaviour is recovered is not always clear and so two cutoffs were specified which defined the upper and lower bounds for the start of the linear region. The limits contribute to the error in the Hall gradient with the final gradient being taken as the average of the fits from the two cutoff limits.
+
+\subsubsection{Normalising the high field data}
+
+The Polo data was taken in the Hall configuration and so corresponds to the true Hall voltage, whereas the data from the first visit to the \ac{LNCMI} was on sample measured in the \ac{MR} configuration and so represent some unknown fraction of the true Hall voltage. Moreover, the rest of the high field data was taken in the diagonal configuration meaning the voltage path was over a different portion of the sample to the Hall measurement which again means the Hall voltage is scaled by some factor. For these resons the Polo magnet measurements were taken as the canonical absolute values for the Hall data, with the high field data scaled so that concurrent data at higher fields aligned, this process along with the variation between fits using the two different cutoff bounds define the error bars in the data.
 
