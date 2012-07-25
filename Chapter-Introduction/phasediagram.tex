@@ -1,7 +1,7 @@
 
 \section{The cuprate phase diagram}
 
-The phase diagrams for the \highTc materials show a remarkable consistancy across the cuprates\footnote{This is in constrast with the recently discovered pnictide materials which show significant variations in scalings and even composition}. However this universality amongst the cuprates comes with an abundance of features which provide for some complex physical interactions and fragile intermediate `crossover' phases. The tuning parameter for the cuprate phase diagram is either electron or hole doping typically performed by elemental substitution at the crystal growth stage or by oxygen incorporation through annealing. as shown in figure~\ref{Fig:Intro:ElecHolePhaseDiagram}, the two types of doping are not symmetric with hole doping generally resulting in more robust superconductivity. For this reason the literature has largely concentrated on the hole doped preogression and as a result it is far better characterised. The doping is usually expressed as a $p$ value which represents the amount of additional holes (electrons) per Cu atom.  This thesis deals with the hole doped curpate \BSCO.
+The phase diagrams for the \highTc materials show a remarkable consistancy across the cuprates\footnote{This is in constrast with the recently discovered pnictide materials which show significant variations in scalings and even composition}. However this universality amongst the cuprates comes with an abundance of features which provide for some complex physical interactions and fragile intermediate `crossover' phases. The tuning parameter for the cuprate phase diagram is either electron or hole doping typically performed by elemental substitution at the crystal growth stage or by oxygen incorporation through annealing. as shown in figure~\ref{Fig:Intro:ElecHolePhaseDiagram}, the two types of doping are not symmetric with hole doping generally resulting in more robust superconductivity. For this reason the literature has largely concentrated on the hole doped preogression and as a result it is far better characterised. The doping is usually expressed as a $p$ value which represents the amount of additional holes (electrons) per Cu atom.
 \begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.9]{Chapter-Introduction/Figures/ElecHolePhaseDiagram/ElecHolePhaseDiagram}
@@ -18,31 +18,43 @@ We find that the kinetic energy term is reduced when the ordering of the sites i
 
 \subsection{Superconducting dome}
 
-With increased doping, the antiferromagnetic state gives way to the superconducting dome at around $p=0.05$ which itself gives way to a Fermi liquid metallic state at a doping of around $p=0.3$. The maximum \Tc occurs at around $p=0.19$. Transitions from both the antiferromagnetic and the superconducting state are clearly second order thermodynamic with jumps in the heat capacity for example, however there are other regions in the phase diagram which are less well defined such as the pseudogap and the Fermi liquid crossover whose temeprature scale can depend on the particular probe used.
+With increased doping, the antiferromagnetic state gives way to the superconducting dome at around $p=0.05$ which itself gives way to a Fermi liquid metallic state at a doping of around $p=0.3$. The maximum \Tc occurs at around $p=0.19$. Transitions from both the antiferromagnetic and the superconducting state are clearly second order thermodynamic with jumps in the heat capacity for example, however there are other regions in the phase diagram which are less well defined such as the pseudogap and the Fermi liquid crossover whose temeprature scale can depend on the particular probe used and do not feature a clear order parameter.
+
+\subsection{Coherent phase}
+
+To the heavily overdoped side of the phase diagram, beyond the superocnducting dome lies the coherent region where the system bears the hallmarks of a conventional metal. The implication is that correlations between electrons are sufficently weak such that the mass enhanced quasiparticles of Landau's Fermi liquid theory are well defined, leading to conventional metal behaviour. The clearest indication of this is a dominant $T^2$ term in the resistivity. Above this region we observe an anomalous additional contribution which has been modelled both with $T^2$ plus an additional linear term or by a $T^n$ term where $1 <= n <= 2$. This additional term has been observed before and is often associated with proximity to a \ac{QCP} for example in heavy Fermion materials.
 
 \subsection{The pseudogap}
 
 Above the \ac{AFM} region and the superconudcting state is one of the most contraversial regions of the phase diagram is the so called pseudogap phase. This is a region which was first demonstrated in 1989, just a few years after the discovery of the cuprate materials, by \ac{NMR} measurements performed at Bell labs~\cite{Warren1989}. A noticeable fall in the susceptibility occured at a temperature significantly above \Tc which led to conclusion of possible spin pairing before the onset of bulk superconductivity\footnote{Unpaired electrons contribute to the magnetic susceptibility response, Cooper paired electrons in the singlet state have zero net spin hence the explanation as to the reduction in susceptibility}. The question arose as to what the exact relation of the pseudogap is to the superconducting state --- is it a precursor state, from which superconductivity arises or is it a competing phase? --- and from a materials development point of view, to obtain higher \Tc should we be finding ways to suppress the crossover to the pseudogap state or encourage it?
+\begin{figure}[htbp]
+    \begin{center}
+        \includegraphics[scale=0.9]{Chapter-Introduction/Figures/PGScenarios/PGScenarios}
+        \caption{Thre scenarios proposed for the $T^*$ temperature scale behaviour. (a.) the pseudogap as the `precursor' state, (b.) as the `competing' state, (c.) and the `transition' scenario.}
+        \label{Fig:Intro:PGScenario}
+    \end{center}
+\end{figure}
+By finding where exactly the $T^*$ energy scale meets the superconducting dome, strong evidence can be found that supports one or the other scenario. However the problem lies in the type of probe used. Select spectroscopic measurements including \ac{STM}, \ac{ARPES} and Raman on materials of camparable $T_C$ have found that the $T^*$ overreaches the superconducting dome entireley~\cite{Hufner2008}, meeting with the overdoped edge at $T=\unit{0}{\kelvin}$. This supports the precursor state theory illustrated in figure~\ref{Fig:Intro:PGScenario}(a.) where $T^*$ and $T_{\textrm{coh}}$ cross to define a region which is below both temeprature scales where the carrier are both paired and coherent quasiparticles leading to the superconducting condensate.
 
-By finding where exactly the $T^*$ energy scale meets the superconducting dome, strong evidence can be found that supports one or the other scenario. However the problem lies in the type of probe used. Spectroscopic measurements such as \ac{STM} and \ac{ARPES} have found that the $T^*$ overreaches the superconducting dome entireley, meeting with the overdoped edge at $T=\unit{0}{\kelvin}$. This supports the precursor state theory where paired electrons from the pseudogap phase cross into the region where under the $T_{\textrm{coh}}$ curve which contains coherent quasiparticles. Where the two combine superconductivity arises (i.e. coherent Copper pairs).
+A second scenario is supported by measurements using bulk probes such as heat capcity, magnetic susceptibility and resistivity data have shown the $T^*$ energy scale drops into the top of the superconducting dome~\cite{Tallon2001}. This supports the scenario where the pseudogap is in competition with superconductivity for states at the Fermi surface. Once the pseudogap phase is suppressed, scattering from quantum fluctuations at zero temeprature leads to the formation of the superconducting phase at a \ac{QCP} similar to that found in heavy fermion materials. This scenario is supported by the observation of linear scaling of the resistivtity with temperature in the region above the superconducting domewhich is a hallmark of proximity of a \ac{QCP}.
 
-A second scenario from bulk thermodynamic probes such as heat capcity and magnetic susceptibility measurements have shown the $T^*$ energy scale drops into the top of the superconducting dome. This support the scenario where the pseudogap is in competition with superconductivity for states near the Fermi surface. Once the pseudogap phase is suppressed, scattering from quantum fluctuations at zero temeprature leads to the formation of the superconducting phase at a \ac{QCP} similar to that found in heavy fermion materials.
+A third scenario is one where the pseudogap simply becomes the superconducting gap. However this does not assign any particular role to the $T_{\textrm{coh}}$ energy scale nor support any theories that the author is aware of that explain the role of the pseudogap's role in superconductivity.
+
+\subsection{Motivation}
+
+Performing meaurements which would shed light onto which of the above scenarios islikely to be correct formed the original motivation for the the investigation of \ac{BSCO} through transport measurements. Previous high-field transport measurements on Sr doped LSCO~\cite{Cooper2009} gave key insights into the nature of the T-linear term as it entered the superconducting term on the overdoped side. In particular it showed that the T-linear term did not funnel down to a point (figure~\ref{Fig:Intro:CooperTLinear}) as is typical of \ac{QCP} behaviour but instead spread out into the superconudcting region. Intrigued as to this unexpected behaviour, we looked to repeat the measurements on \ac{BSCO} which can be doped far more widely without divergence in the resistivity so that we could then see how the T-linear term progressed on the underdoped side, where $T^*$ is undisputed.
+\begin{figure}[htbp]
+    \begin{center}
+        \includegraphics[scale=0.8]{Chapter-Introduction/Figures/CooperTLinear/CooperTLinear}
+        \caption{Plot of the $T^n$ term in the fitted field suppressed normal state of Sr doped LSCO. Taken from Cooper \etal~\cite{Cooper2009}}
+        \label{Fig:Intro:CooperTLinear}
+    \end{center}
+\end{figure}
+A second reason for the study of \ac{BSCO} is that it's van-Hove singularity occurs far from the doping levels that we are interested in unlike LSCO. Should similar behaviour be found then we can confidently state that the unsuaul \ac{QCP} behaviour is not due to proximity to the changeover in hole-like to electron-like Fermi surface and is likely universal to all cuprates. 
+
+During the course of the ivestigations however, it became apparent that even with field strengths of up to \unit{60}{\tesla} in pulsed fields, the upper critical field, $H_{\textrm{c2}}$ could not be reached....\TODO{SO what is going to be shown?}
 
 
-% Three conflicting pictures have emerged based on the extent to which the pseudogap region overreaches the superconducting dome. 
-% \begin{enumerate}
-% \item $T^*$ drops into the top of the superconducting dome down to a \ac{QCP} hidden by the superconductivity. Similarly the coherence temperature does the same thing but from the overdoped side.
-% \item $T^*$ overreaches the superconducting dome entirely meeting the superconducting transition at $T=\unit{0}{\kelvin}$ on the overdoped side.
-% \item $T^*$ drops into the top of the superconducting dome but stops there with the energy gap due to pairing giving way to the superconudcting energy gap.
-% \end{enumerate}
-% 
+% \section{Mott physics}
 
- in many spectroscopic probes such as \ac{STM} and \ac{ARPES} the existance of an energy gap and the possibility of Cooper pairs as evidenced by Nernst measurements. However 
-
-Figure~\ref{Fig:Intro:PhaseDiagrams} shows the phase diagram for \TODO{Give a particular example that includes electron doping} in particular that demonstrates both electron and hole doped progressions. Looking more closely at the hole doping side, which in general is where the superconductivity is more robust, we start in a Mott insulating antiferromagnetic \ac{SDW} state in the undoped parent compound, this gradually dissapates as doping is introduced along the temeprature scale, T$_N$
-
-
-
-\section{Mott physics}
-
-The Hubbard model takes the relatively simple and solvable tight-binding model and introduces an Anderson term which raises the energy for double occupancy by an amount $U$, known as the `Hubbard U'. This simple change deeply enriches the physics with one of the outcomes being the existance of the Mott insulating state which occurs when each lattice site is half filled with a single electron. The energy cost for an electron to hop to an adjacent site is so high that it locks the electrons in place, preventing effective conduction. Introducing holes (or electrons) allows once again hopping to take place and the eigenstates are no longer entireley localised.
+% The Hubbard model takes the relatively simple and solvable tight-binding model and introduces an Anderson term which raises the energy for double occupancy by an amount $U$, known as the `Hubbard U'. This simple change deeply enriches the physics with one of the outcomes being the existance of the Mott insulating state which occurs when each lattice site is half filled with a single electron. The energy cost for an electron to hop to an adjacent site is so high that it locks the electrons in place, preventing effective conduction. Introducing holes (or electrons) allows once again hopping to take place and the eigenstates are no longer entireley localised.
