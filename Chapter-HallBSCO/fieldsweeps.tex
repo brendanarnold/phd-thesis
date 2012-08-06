@@ -1,7 +1,7 @@
 
 \section{Sample growth}
 
-The samples were grown and initially characterised by Prof. Takeuchi's group in Sendai University, Japan in May 2009. \TODO{How were the Tc and compositions discovered? What technique was used for the growth?}. Stoichiometric \ac{BSCO} is overdoped. Adding La reduces the number of holes whereas adding Pb increases the number of holes. Also annealing in oxygen decreases the number of carriers depending on how much additional oxygen is absorbed. Table~\ref{Table:ExpH:SampleGrowthDetails} lists the nominal stoichiometries for the sample growth as well as the annealing conditions.
+The samples were grown and initially characterised by Prof. Takeuchi's group in Sendai University, Japan in May 2009. \TODO{How were the Tc and compositions discovered? What technique was used for the growth?}. Stoichiometric \ac{BSCO} is overdoped. Adding La reduces the number of holes whereas adding Pb increases the number of holes. Also annealing in oxygen decreases the number of carriers depending on how much additional oxygen is absorbed. Table~\ref{Table:ExpH:SampleGrowthDetails} lists the nominal stoichiometries for the sample growth as well as the annealing conditions. The dopings of the crystals range from $p=0.13$ to $p=0.29$ holes per Cu atom.
 \begin{table}
     \begin{center}
            \caption{Growth details for the \ac{BSCO} samples. OD, OP and UD stand for over, optimally and under doped respectively.}
@@ -81,9 +81,12 @@ B28KUD3B	& $16\pm3$	& $16\pm3$	& N/A		& 13.3	\\
 
 \section{Field sweeps}
 
-Figures~\ref{Fig:ExpH:HallIndividualOD}, \ref{Fig:ExpH:HallIndividualOP} and \ref{Fig:ExpH:HallIndividualUD} show the Hall coefficients extracted as described in the methods section for samples progressing from overdoped, optimally doped to underdoped respectively. Where appropriate, the data is compared to that from Ando \etal~\cite{Ando1999}. For the samples of $T_C >= \unit{28}{\kelvin}$ there are some data which did not reach sufficient field to obtain linear behaviour which are circled with a dashed line in the plots.
+Figures~\ref{Fig:ExpH:HallIndividualOD}, \ref{Fig:ExpH:HallIndividualOP} and \ref{Fig:ExpH:HallIndividualUD} show the Hall coefficients extracted as described in the methods section for samples progressing from overdoped, optimally doped to underdoped respectively. Where appropriate, the data is compared to that from Ando \etal~\cite{Ando1999}. For the samples of $T_C >= \unit{28}{\kelvin}$ there are some data which did not reach sufficient field to obtain linear behaviour which are circled with a dashed line in the plots. Examples of data where the temperature control was poor are also circled.
 
 The error bars on the data points do not include error from the thicknesses which are large and systematic across the data points. For this reason, the scalings of each set of sample data are only correct within the errors dues to thickness. For example B07KOD2 has comparable high temperature $R_H$ values to B16KOD1a when the trend is for the more overdoped samples to feature lower $R_H$. This is understandable given that the absolute values for B07KOD2 may be off by up to $~25\%$ for one of the contacts due to the exceptionally thin and flakey sample\footnote{In fact this was the case for the A contact, the maximum $R_H$ value was exceptionally high at \unit{$1.45\times10^{-3}$}{\centi\metre\cubed} approximately \unit{20}{\%} more than expected.}. Similarly, B30KUD3 also has a lower $R_H$ than the trend would suggest given that at \unit{300}{\kelvin}, $R_H$ is lower than the optimally doped sample. For the purposes of comparison, we assume that these two samples are indeed out of their natural order and adjust the thicknesses within the error by $\times0.8$ for B07KOD2 and $\times1.2$ for B30KUD3a. Since these systematic adjustments are relatively large compared to the spread in $R_H$ values between samples,  care should be taken to bear these uncertaities in mind when making quantitative statements about the trends in doping.
+
+\TODO{Include RRR figures and comment on sample purity}
+
 
 \begin{figure}[htbp]
 	\begin{center}
@@ -111,9 +114,20 @@ The error bars on the data points do not include error from the thicknesses whic
 \begin{figure}[htbp]
 	\begin{center}
 		\includegraphics[scale=0.9]{Chapter-HallBSCO/Figures/InvHallCombined/InvHallCombined}
-		\caption{Hall data in context with data from Ando \etal\cite{Ando1999}. Right panel shows the inverse hall data which relates to carrier density. Red lines are the same guides to the eye used in previous figures. B07KOD2 and B30KUD3 have both been adjusted as detailed in the main text.}
+		\caption{Hall data in context with data from Ando \etal\cite{Ando1999} (open circles). Right panel shows the inverse hall data which relates to carrier density. Red lines are the same guides to the eye used in previous figures. B07KOD2 and B30KUD3 have both been adjusted as detailed in the main text.}
 		\label{Fig:ExpH:InvHallCombined}
 	\end{center}
 \end{figure}
 
-From a qualitative point of view, we immediately notice that the doping strongly affects the shape of the doping 
+With reference to figure~\ref{Fig:ExpH:InvHallCombined} and in particular the new low temperature data points, we see that doping strongly affects the qualitative shape of the $R_H$ curves. Whilst the trend appears to be that $R_H(\unit{300}{\kelvin})$ decreases as doping increases as to be expected, the $R_H(\unit{0}{\kelvin})$ values all tend toward approximately similar values of around \unit{$0.5\times 10^{-3}$}{\centi\metre\cubed}to \unit{$1.5\times 10^{-3}$}{\centi\metre\cubed}. The most proncounced diffreence between high and low temperature values though is with the optimally doped samples which are around $\times 2.75$ greater at high temperature.
+
+There seems to be little evidence of the transition of the doping from $p$ to $1+p$ which agrees with the notion that these dopings lie beyond where the Fermi surface reconstruction is thought to take place~\cite{LeBoeuf2007}. 
+
+%Divergence in resistivity occurs beyond UD 0K\cite{Ando2000}, well
+%below our lowest nominal doping of ...
+
+% Residual resistivity of ~20\mu\Ohm cm at optimal doping is very small
+% and increases with La doping i.e. as become more underdoped
+% \cite{Ando2000}
+
+
