@@ -31,7 +31,7 @@ so for example `B00KOD2A' refers to the sample `A' taken from the crystal `B00KO
 
 \section{Thickness measurements}
 
-Thicknesses were determined for some of the samples using the \ac{FIB} or the optical microscope as described in the methods section. The results for various crystal samples used throughout this thesis are listed in table~\ref{Table:ExpH:Thicknesses}. \ac{FIB} results are given for areas as close to the two voltage contacts that were visible in the scans. As can be seen in the example scan shown in figure~\ref{Fig:ExpH:FIBExample}, there is some variation in the depth along the sample length. Measurements are therefore taken as close to the voltage legs as possible and whre appropriate suitable errors are estimated.
+Thicknesses were determined for some of the samples using the \ac{FIB} or the optical microscope as described in the methods section. The thicknesses used to calculate abolute values of $R_H$ are listed in table~\ref{Table:ExpH:Thicknesses}. Thicknesses for all measured samples are detailed in Appendix~\ref{Sec:AppSampleSizes}. \ac{FIB} results are given for areas as close to the two voltage contacts that were visible in the scans. As can be seen in the example scan shown in figure~\ref{Fig:ExpH:FIBExample}, there is some variation in the depth along the sample length. Measurements are therefore taken as close to the voltage legs as possible and whre appropriate suitable errors are estimated.
 \begin{figure}[htbp]
 	\begin{center}
 		\includegraphics[scale=0.9]{CHapter-HallBSCO/FIgures/FIBExamples/FIBExamples}
@@ -44,40 +44,52 @@ The two scans shown are of good quality, however for the purpose of estimating e
 
 The oblique view of B30KOD3 in figure~\ref{Fig:ExpH:FIBExample} shows a clear misalignment of the voltage legs to thr right of the image. This illustrates why it is necessary to take both positive and negative field sweeps in order to seperate the magnetoresistance from the Hall components.
 
-
 \begin{table}
     \begin{center}
-           \caption{Thickness measurements for the \ac{BSCO} samples as determined by \ac{FIB} and optical microscope measurements. A and B refer to each of the two contacts along one side. Thickness values only used for the highlighted samples to find absolute $R_H$ values. Measurements are in micrometres.}
-        \begin{tabular}[htbp]{lllll}
+           \caption{Sample measurements as determined by optical microscope measurements and thickness as determined by \ac{FIB}. Samples highlighted in grey were used for determining absolute values of $R_H$. A and B refer to each of the two contacts visible to the \acs{FIB} scan. Measurements are in micrometres.}
+        \begin{tabular}[htbp]{lrrrrr}
 \toprule
-Sample  & \ac{FIB} Contact A    & \ac{FIB} Contact B    & Optical	& Est. \% Err.	\\
+	& \multicolumn{3}{c}{Optical}			& \multicolumn{2}{c}{\acs{FIB}}		\\
+Sample  & Length	& Width		& Thick.	& Contact A    & Contact B    		\\
+
 \midrule
-\cellcolor[gray]{0.9}B00KOD1A	& \cellcolor[gray]{0.9}$45\pm1$	& \cellcolor[gray]{0.9}$50\pm5$	& \cellcolor[gray]{0.9}N/A		& \cellcolor[gray]{0.9}5.4	\\
-B00KOD1B	& $43\pm1.5$	& $45\pm1.5$	& $39\pm5$ 	& 2.4	\\
-B07KOD1		& N/A		& N/A		& $29\pm10$	& 34.5	\\
-\cellcolor[gray]{0.9}B07KOD2	& \cellcolor[gray]{0.9}$20\pm5$ 	& \cellcolor[gray]{0.9}$30\pm1$ 	& \cellcolor[gray]{0.9}N/A		& \cellcolor[gray]{0.9}10.2	\\
-\cellcolor[gray]{0.9}B16KOD1A	& \cellcolor[gray]{0.9}$24\pm1$ 	& \cellcolor[gray]{0.9}$24\pm1$ 	& \cellcolor[gray]{0.9}N/A		& \cellcolor[gray]{0.9}2.9	\\
-B16KOD2A	& N/A		& N/A		& $9\pm1$ 	& 11.1	\\
-B16KOD3 	& $25\pm2$ 	& $24\pm2$ 	& N/A		& 5.8	\\
-B30KUD2 	& $5 \pm1$ 	& $5 \pm1$ 	& N/A		& 14.1	\\
-B30KOD1 	& N/A		& N/A		& $21\pm2$ 	& 9.5	\\
-B30KOD2 	& $15\pm4$	& $15\pm4$	& $20\pm5$ 	& 18.9	\\
-\cellcolor[gray]{0.9}B30KOD3 	& \cellcolor[gray]{0.9}$16.5\pm1.5$	& \cellcolor[gray]{0.9}$19\pm1$	& \cellcolor[gray]{0.9}N/A		& \cellcolor[gray]{0.9}5.1	\\
-\cellcolor[gray]{0.9}B32KOP1 	& \cellcolor[gray]{0.9}$6.5\pm1.5$	& \cellcolor[gray]{0.9}$6.5\pm1.5$	& \cellcolor[gray]{0.9}N/A	& \cellcolor[gray]{0.9}16.3	\\
-B32KOP2 	& N/A		& N/A		& $10\pm1$ 	& 10.0	\\
-B32KOP3 	& $6\pm1$ 	& $6\pm1$ 	& N/A		& 11.8	\\
-B32KOP4 	& $9\pm3$ 	& $9\pm3$ 	& N/A		& 23.6	\\
-B30KUD1A	& N/A		& N/A		& $36\pm3$ 	& 8.3	\\
-B30KUD1B	& N/A		& N/A		& $35\pm3$ 	& 8.6	\\
-\cellcolor[gray]{0.9}B30KUD3 	& \cellcolor[gray]{0.9}$7\pm2$ 	& \cellcolor[gray]{0.9}$7\pm2$ 	& \cellcolor[gray]{0.9}N/A		& \cellcolor[gray]{0.9}20.2	\\
-B28KUD2A	& N/A		& N/A		& $11\pm1$ 	& 9.1	\\
-\cellcolor[gray]{0.9}B28KUD3A	& \cellcolor[gray]{0.9}$16\pm3$	& \cellcolor[gray]{0.9}$16\pm3$	& \cellcolor[gray]{0.9}N/A		& \cellcolor[gray]{0.9}13.3	\\
-B28KUD3B	& $16\pm3$	& $16\pm3$	& N/A		& 13.3	\\
+\cellcolor[gray]{0.9}B00KOD1A	& \cellcolor[gray]{0.9}$781\pm123$	& \cellcolor[gray]{0.9}$157\pm49$	& \cellcolor[gray]{0.9}N/A		& \cellcolor[gray]{0.9}$45\pm1$	& \cellcolor[gray]{0.9}$50\pm5$	\\
+B00KOD1B	& $627\pm49$	& $196\pm44$	& $39\pm5$ 	& $43\pm1.5$	& $45\pm1.5$	\\
+B07KOD1		& $1277\pm74$	& $392\pm49$	& $29\pm10$	& N/A		& N/A		\\
+\cellcolor[gray]{0.9}B07KOD2		& \cellcolor[gray]{0.9}$1061\pm69$	& \cellcolor[gray]{0.9}$333\pm74$	& \cellcolor[gray]{0.9}N/A		& \cellcolor[gray]{0.9}$20\pm5$ 	& \cellcolor[gray]{0.9}$30\pm1$ 	\\
+\cellcolor[gray]{0.9}B16KOD1A	& \cellcolor[gray]{0.9}$795\pm34$	& \cellcolor[gray]{0.9}$299\pm34$	& \cellcolor[gray]{0.9}N/A		& \cellcolor[gray]{0.9}$24\pm1$ 	& \cellcolor[gray]{0.9}$24\pm1$ 	\\
+B16KOD2A	& $358\pm29$	& $172\pm54$	& $9\pm1$ 	& N/A		& N/A		\\
+B16KOD3		& $1122\pm44$	& $368\pm83$	& N/A		& $25\pm2$ 	& $24\pm2$ 	\\
+B30KOD1	 	& $436\pm34$	& $250\pm44$	& $21\pm2$ 	& N/A		& N/A		\\
+B30KOD2		& $344\pm44$	& $137\pm29$	& $20\pm5$ 	& $15\pm4$	& $15\pm4$	\\
+\cellcolor[gray]{0.9}B30KOD3 	& \cellcolor[gray]{0.9}$255\pm49$	& \cellcolor[gray]{0.9}$98\pm25$ 	& \cellcolor[gray]{0.9}N/A		& \cellcolor[gray]{0.9}$16.5\pm1.5$	& \cellcolor[gray]{0.9}$19\pm1$	\\
+\cellcolor[gray]{0.9}B32KOP1 	& \cellcolor[gray]{0.9}$658\pm83$	& \cellcolor[gray]{0.9}$397\pm34$	& \cellcolor[gray]{0.9}N/A		& \cellcolor[gray]{0.9}$6.5\pm1.5$	& \cellcolor[gray]{0.9}$6.5\pm1.5$	\\
+B32KOP2		& $441\pm25$	& $226\pm20$	& $10\pm1$ 	& N/A		& N/A		\\
+B32KOP3		& $437\pm34$	& $118\pm20$	& N/A		& $6\pm1$ 	& $6\pm1$ 	\\
+B32KOP4 	& $427\pm74$	& $137\pm39$	& N/A		& $9\pm3$ 	& $9\pm3$ 	\\
+B30KUD1A	& $622\pm49$	& $447\pm25$	& $36\pm3$ 	& N/A		& N/A		\\
+B30KUD1B	& $828\pm34$	& $471\pm64$	& $35\pm3$ 	& N/A		& N/A		\\
+B30KUD2 	& $545\pm69$	& $152\pm39$	& N/A		& $5 \pm1$ 	& $5 \pm1$ 	\\
+\cellcolor[gray]{0.9}B30KUD3 	& \cellcolor[gray]{0.9}$476\pm49$	& \cellcolor[gray]{0.9}$118\pm34$	& \cellcolor[gray]{0.9}N/A		& \cellcolor[gray]{0.9}$7\pm2$ 	& \cellcolor[gray]{0.9}$7\pm2$ 	\\
+B28KUD2A	& $657\pm29$	& $250\pm39$	& $11\pm1$ 	& N/A		& N/A		\\
+\cellcolor[gray]{0.9}B28KUD3A	& \cellcolor[gray]{0.9}$633\pm49$	& \cellcolor[gray]{0.9}$142\pm34$	& \cellcolor[gray]{0.9}N/A		& \cellcolor[gray]{0.9}$16\pm3$	& \cellcolor[gray]{0.9}$16\pm3$	\\
+B28KUD3B	& $653\pm44$	& $216\pm49$	& N/A		& $16\pm3$	& $16\pm3$	\\
 \bottomrule
         \label{Table:ExpH:Thicknesses}
         \end{tabular}
     \end{center}
 \end{table}
+
+\section{Temeprature sweeps}
+
+Figure~\ref{Fig:ExpH:TSweeps} shows the in-plane resistivity, $\rho(T)$ for each of the samples in zero field.
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[scale=0.9]{Chapter-HallBSCO/Figures/TSweeps/TSweeps}
+		\caption{The in-plane resistivity measured in zero field for each of the samples. From overdoped to underdoped, samples are (a) B00KOD1A, (b) B07KOD2, (c) B16KOD1A, (d) B30KOD3, (e) B32KOP1, (f) B32KOP4, (g) B30KUD3, (h) B28KUD3A. Inset shows a zoomed portion of the curves at the transition temperatures.}
+		\label{Fig:ExpH:TSweeps}
+	\end{center}
+\end{figure}
 
 \section{Field sweeps}
 
