@@ -91,11 +91,32 @@ Figure~\ref{Fig:ExpH:TSweeps} shows the in-plane resistivity, $\rho(T)$ for each
 	\end{center}
 \end{figure}
 
+\begin{table}
+	\begin{center}
+       	\caption{Fits parameters to $\rho = \rho_0 + \alpha_1T + \alpha_2T^2$ for zero field resistivity data above $T_c$. Fits at low $T$ are shown in inset to figure~\ref{Fig:ExpH:TSweeps}}
+		\begin{tabular}[htbp]{lrrr}
+\toprule
+Sample		& $\rho_0 (\times10^-2)$	& $\alpha_1 (\times10^{-4})$	& $\alpha_2 (\times10^{-7})$	\\
+\midrule
+B00KOD1A	& 12.26		& 6.895		& 14.394		\\
+B07KOD2		& 9.03		& 7.740		& 8.459			\\
+B16KOD1a	& 4.25		& 4.809		& 3.610			\\
+B30KOD3		& 1.43		& 3.385		& 4.595			\\
+B32KOP1		& 1.20		& 2.596		& -0.810		\\
+B32KOP4		& 2.76		& 21.886	& -8.862		\\
+B30KUD3		& 18.80		& 38.028	& -4.385		\\
+B28KUD3a	& 2.71		& 18.447	& -6.756		\\
+\bottomrule
+		\label{Table:ExpH:TSweepFitsParams}
+		\end{tabular}
+	\end{center}
+\end{table}
+
 \section{Field sweeps}
 
 Figures~\ref{Fig:ExpH:HallIndividualOD}, \ref{Fig:ExpH:HallIndividualOP} and \ref{Fig:ExpH:HallIndividualUD} show the Hall coefficients extracted as described in the methods section for samples progressing from overdoped, optimally doped to underdoped respectively. Where appropriate, the data is compared to that from Ando \etal~\cite{Ando1999}. For the samples of $T_C >= \unit{28}{\kelvin}$ there are some data which did not reach sufficient field to obtain linear behaviour which are circled with a dashed line in the plots. Examples of data where the temperature control was poor are also circled.
 
-The error bars on the data points do not include error from the thicknesses which are large and systematic across the data points. For this reason, the scalings of each set of sample data are only correct within the errors dues to thickness. For example B07KOD2 has comparable high temperature $R_H$ values to B16KOD1a when the trend is for the more overdoped samples to feature lower $R_H$. This is understandable given that the absolute values for B07KOD2 may be off by up to $~25\%$ for one of the contacts due to the exceptionally thin and flakey sample\footnote{In fact this was the case for the A contact, the maximum $R_H$ value was exceptionally high at \unit{$1.45\times10^{-3}$}{\centi\metre\cubed} approximately \unit{20}{\%} more than expected.}. Similarly, B30KUD3 also has a lower $R_H$ than the trend would suggest given that at \unit{300}{\kelvin}, $R_H$ is lower than the optimally doped sample. For the purposes of comparison, we assume that these two samples are indeed out of their natural order and adjust the thicknesses within the error by $\times0.8$ for B07KOD2 and $\times1.2$ for B30KUD3a. Since these systematic adjustments are relatively large compared to the spread in $R_H$ values between samples,  care should be taken to bear these uncertaities in mind when making quantitative statements about the trends in doping.
+The error bars on the data points do not include error from the thicknesses which are large and systematic across the data points. The inset of figure~\ref{Fig:ExpH:InvHallCombined} shows the $R_H$ values at \unit{300}{\kelvin} for each of the samples with these error bar applied. The overall trend is downward with doping although the data points are not monotonically decreasing unless we consider the error bars. Since these are large and systematic (i.e. all points in the set will have the same offset) we adjust the data within the errors sytematically for the samples B30KUD3, B32KOP1 and B07KOD2 by $\times1.07$, $\times0.91$ and $\times0.89$ respectivaley so that the data follow the monotonic downward trend. Of course, care should be taken to bear these adjustments in mind when making quantitative statements about the trends in doping. The adjusted data sets are shown in the main panels of figure~\ref{Fig:ExpH:InvHallCombined} alongside the data from the Ando paper.
 
 \TODO{Include RRR figures and comment on sample purity}
 
@@ -125,8 +146,8 @@ The error bars on the data points do not include error from the thicknesses whic
 \end{figure}
 \begin{figure}[htbp]
 	\begin{center}
-		\includegraphics[scale=0.9]{Chapter-HallBSCO/Figures/InvHallCombined/InvHallCombined}
-		\caption{Hall data in context with data from Ando \etal\cite{Ando1999} (open circles). Right panel shows the inverse hall data which relates to carrier density. Red lines are the same guides to the eye used in previous figures. B07KOD2 and B30KUD3 have both been adjusted as detailed in the main text.}
+		\includegraphics[scale=1.1]{Chapter-HallBSCO/Figures/InvHallCombined/InvHallCombined}
+		\caption{Hall data in context with data from Ando \etal\cite{Ando1999} (open circles) which are in order of increasing $R_H$, 24KOD, 30KOD, 33KOP, 28.5KUD, 20KUD. Right panel shows the inverse hall data which relates to carrier density. Red lines are the same guides to the eye used in previous figures. Inset shows $R_H$ at \unit{300}{\kelvin} plus systematic error bars due primarily to uncertainty in thickness plus the necessary adjustments to follow the overal trend. B07KOD2, B32KOP1 and B30KUD3 have all been adjusted as detailed in the main text.}
 		\label{Fig:ExpH:InvHallCombined}
 	\end{center}
 \end{figure}
