@@ -41,20 +41,28 @@
 
 \begin{document}
 
+
+\input{Misc/title.tex}
+
+\setcounter{page}{0}
+\roman{page}
+
 % Pages from here ...
-% \input{Misc/title.tex}
-% \input{Misc/declaration.tex}
-% \input{Misc/summary.tex}
-% \input{Misc/acknowledgements.tex}
+\input{Misc/declaration.tex}
+\input{Misc/summary.tex}
+\input{Misc/acknowledgements.tex}
 \input{Misc/acronyms.tex}
-% \input{Misc/tableofcontents.tex}
-% ... to here are not numbered
+\input{Misc/tableofcontents.tex}
+% ... to here are numbered separately using Roman numerals
+
+\arabic{page}
+\setcounter{page}{0}
 
 % Main content here
-% \input{Chapter-Introduction/main.tex}
-% \input{Chapter-Theory/main.tex}
-% \input{Chapter-ExperimentalTechnique/main.tex}
-% \input{Chapter-dHvABaFe2P2/main.tex}
+\input{Chapter-Introduction/main.tex}
+\input{Chapter-Theory/main.tex}
+\input{Chapter-ExperimentalTechnique/main.tex}
+\input{Chapter-dHvABaFe2P2/main.tex}
 \input{Chapter-HallBSCO/main.tex}
 % \input{Chapter-MagnetoresistanceBSCO/main.tex}
 
@@ -63,7 +71,7 @@
 
 % Appendix here
 
-% \input{Appendices/main.tex}
+\input{Appendices/main.tex}
 
 
 \end{document}

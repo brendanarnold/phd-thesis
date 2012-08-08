@@ -1,4 +1,5 @@
- function [total_re_x0 total_im_x0] = calc_x0(fs, T, delta, omega, q_space, energy_ind_combs, out_filestem)
+function [total_re_x0 total_im_x0] = calc_x0(fs, T, delta, omega, ...
+    q_space, energy_ind_combs, out_filestem)
 
 % A function to calculate the non-interacting susceptibility according to
 % the Lindhard function. Matrix elements are assumed to be unity.
@@ -50,10 +51,11 @@ if TEST_FREE_ELECTRON
     if DIMENSIONS == 3
         [fs.cartX, fs.cartY, fs.cartZ] = meshgrid(L, L, L);        
         q_space = {[], [], []};
-        % Calulate distance each grid point is from centre in order to
-        % build the symmetry mask
+        % Calulate distance each grid point is from centre in order 
+        % to build the symmetry mask
         [x y z] = meshgrid(1:NUM_PTS, 1:NUM_PTS, 1:NUM_PTS);
-        r = hypot(hypot(x - NUM_PTS ./ 2, y - NUM_PTS ./ 2), z - NUM_PTS ./ 2);
+        r = hypot(hypot(x - NUM_PTS ./ 2, y - NUM_PTS ./ 2), ...
+            z - NUM_PTS ./ 2);
     elseif DIMENSIONS == 2
         [fs.cartX, fs.cartY, fs.cartZ] = meshgrid(L, L, 0);
         q_space = {[], [], 1};
@@ -62,13 +64,15 @@ if TEST_FREE_ELECTRON
     else
         error('Number of dimensions not supported');
     end
-    % Symmetry mask based on Fermi function, ensures that the symmetry is
-    % spherical for the non-repeating free-electron case
+    % Symmetry mask based on Fermi function, ensures that the 
+    % symmetry is spherical for the non-repeating free-electron case
     MASK_TRIM = 1.5;
     MASK_DECAY = 10;
-    sym_mask = 1 ./ (exp((r - (NUM_PTS ./ 2 - MASK_TRIM)) * MASK_DECAY) + 1);
+    sym_mask = 1 ./ (exp((r - (NUM_PTS ./ 2 - MASK_TRIM)) ...
+       * MASK_DECAY) + 1);
     fs.cartE = {};
-    fs.cartE{1} = free_electron_dispersion(fs.cartX, fs.cartY, fs.cartZ);
+    fs.cartE{1} = free_electron_dispersion(fs.cartX, fs.cartY, ...
+        fs.cartZ);
 end
 
 
@@ -143,7 +147,8 @@ K_BOLTZ = 6.3336e-6; % In Rydbergs
 total_im_x0 = zeros(num_qx, num_qy, num_qz);
 total_re_x0 = zeros(num_qx, num_qy, num_qz);
 
-% This will be 'Inf' if T=0 but will not be used later if thisis the case
+% This will be 'Inf' if T=0 but will not be used later if thisis 
+% the case
 beta = 1 ./ (K_BOLTZ .* T);
 
 for inds = energy_ind_combs'
@@ -163,25 +168,31 @@ for inds = energy_ind_combs'
                     qx = (i - 1) .* fs.dL;
                     qy = (j - 1) .* fs.dL;
                     qz = (k - 1) .* fs.dL;
-                    energies_prime = free_electron_dispersion(fs.cartX + qx, fs.cartY + qy, fs.cartZ + qz);
+                    energies_prime = free_electron_dispersion(fs.cartX ...
+                        + qx, fs.cartY + qy, fs.cartZ + qz);
                 else
-                    energies_prime = circshift(q_energies, [i - 1, j - 1, k - 1]);
+                    energies_prime = circshift(q_energies, [i - 1, ...
+                        j - 1, k - 1]);
                 end
-                % x0 (non-interacting susceptibility) is of form A / (B + iC)
+                % x0 (non-interacting susceptibility) is of form 
+                % A / (B + iC)
                 % Re(x0) is of form AB / (B^2 + C^2)
                 % Im(x0) is of form -CA / (B^2 + C^2)
 
                 % Quicker approximation for T=0 that also avoids Inf in
                 % calculation
                 if T == 0
-                    A = (energies <= fs.FermiLevel) - (energies_prime <= fs.FermiLevel);
+                    A = (energies <= fs.FermiLevel) - (energies_prime ...
+                        <= fs.FermiLevel);
                 else
-                    A = 1 ./ ( exp(beta .* (energies - fs.FermiLevel)) + 1 ) - 1 ./ ( exp(beta .* (energies_prime - fs.FermiLevel)) + 1 );
+                    A = 1 ./ ( exp(beta .* (energies - fs.FermiLevel)) ...
+                        + 1 ) - 1 ./ ( exp(beta .* (energies_prime - ...
+                        fs.FermiLevel)) + 1 );
                 end
                
                 B = energies_prime - energies - omega;
-                C = delta; % Is -delta in formula, but this is cancelled by 
-                           % a negative when finally calculating Im(x0)
+                C = delta; % Is -delta in formula, but this is cancelled 
+                           % by a negative when finally calculating Im(x0)
                 
                 D = A ./ (B.^2 + C.^2);
    
