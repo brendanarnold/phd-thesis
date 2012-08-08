@@ -22,6 +22,7 @@
 \usepackage{setspace}                   % Set linespacing
 \usepackage{amssymb}
 
+% Text should be in double or 1.5 line spacing, and font size should be chosen to ensure clarity and legibility for the main text and for any quotations and footnotes. Margins should allow for eventual hard binding.
 \singlespacing
 % \onehalfspacing
 % \doublespacing
@@ -42,36 +43,37 @@
 \begin{document}
 
 
-\input{Misc/title.tex}
+% \input{Misc/title.tex}
 
-\setcounter{page}{0}
-\roman{page}
+% \setcounter{page}{0}
+% \roman{page}
 
 % Pages from here ...
-\input{Misc/declaration.tex}
-\input{Misc/summary.tex}
-\input{Misc/acknowledgements.tex}
+% \input{Misc/summary.tex}
+% \input{Misc/acknowledgements.tex}
+% \input{Misc/declaration.tex}
 \input{Misc/acronyms.tex}
-\input{Misc/tableofcontents.tex}
+% \input{Misc/tableofcontents.tex}
 % ... to here are numbered separately using Roman numerals
 
-\arabic{page}
-\setcounter{page}{0}
+% The pages should be numbered consecutively at the bottom centre of the page.
+% \arabic{page}
+% \setcounter{page}{0}
 
 % Main content here
-\input{Chapter-Introduction/main.tex}
-\input{Chapter-Theory/main.tex}
-\input{Chapter-ExperimentalTechnique/main.tex}
-\input{Chapter-dHvABaFe2P2/main.tex}
+% \input{Chapter-Introduction/main.tex}
+% \input{Chapter-Theory/main.tex}
+% \input{Chapter-ExperimentalTechnique/main.tex}
+% \input{Chapter-dHvABaFe2P2/main.tex}
 \input{Chapter-HallBSCO/main.tex}
 % \input{Chapter-MagnetoresistanceBSCO/main.tex}
 
 % Bibliography
-\input{Misc/bibliography.tex}
+% \input{Misc/bibliography.tex}
 
 % Appendix here
 
-\input{Appendices/main.tex}
+% \input{Appendices/main.tex}
 
 
 \end{document}

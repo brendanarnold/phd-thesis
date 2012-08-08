@@ -139,3 +139,14 @@ Hall data for all samples were fitted using a standard linear least squares fit 
 
 The Polo data was taken in the Hall configuration and so corresponds to the true Hall voltage, whereas the data from the first visit to the \ac{LNCMI} was on sample measured in the \ac{MR} configuration and so represent some unknown fraction of the true Hall voltage. Moreover, the rest of the high field data was taken in the diagonal configuration meaning the voltage path was over a different portion of the sample to the Hall measurement which again means the Hall voltage is scaled by some factor. For these resons the Polo magnet measurements were taken as the canonical absolute values for the Hall data, with the high field data scaled so that concurrent data at higher fields aligned, this process along with the variation between fits using the two different cutoff bounds define the error bars in the data.
 
+
+\subsection{Determining the doping}
+
+The most simple and well known method for determining the doping of a material ustilises the so-called `universal' Tallon relation~\cite{Presland1991} which links $T_c/T_c(\textrm{max})$ to $p$ as follows,
+\begin{equation}
+\label{Eqn:ExpH:TallonRelation}
+T_c/T_c(\texrm{max}) = 1 - 8.26 (p - 0.16)^2
+\end{equation}
+This relation was established base don measurements of \ac{LSCO} and found to agree for \ac{Y123}
+Previous determinations of doping have used the technique published by Ando \etal~\cite{Ando2000} in 2000 where samples of \ac{BSCO} were compared with measurements of other cuprates where the carrier concentration is more easily determined. In particular \acf{LSCO} provides a direct relation between the Sr content and the doping. However there is some doubt as to whether it is appropriate to compare \ac{LSCO} and \ac{BSCO} measurements across the superconducting dome given that the van-Hove singularity arising from the crossover between hole-like and electron-like Fermi surfaces occurs at different dopings with \ac{LSCO} occuring at $p=0.18$ and \ac{BSCO} at $p \geq 0.2$.
+

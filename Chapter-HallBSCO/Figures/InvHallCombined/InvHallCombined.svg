@@ -126,7 +126,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -187,13 +187,13 @@
     <text
        sodipodi:linespacing="100%"
        id="text5041"
-       y="249.50505"
-       x="453.21429"
+       y="269.20303"
+       x="450.6889"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
        xml:space="preserve"><tspan
          style="font-size:8px"
-         y="249.50505"
-         x="453.21429"
+         y="269.20303"
+         x="450.6889"
          id="tspan5043"
          sodipodi:role="line">×1.12</tspan></text>
     <text
@@ -258,14 +258,14 @@
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="431.63358"
-       y="203.87355"
+       x="457.89755"
+       y="241.24919"
        id="text3068"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan3070"
-         x="431.63358"
-         y="203.87355"
+         x="457.89755"
+         y="241.24919"
          style="font-style:italic">1/R<tspan
    style="font-size:65.00091553%;font-style:italic;baseline-shift:sub"
    id="tspan3072">H</tspan> = ne</tspan></text>
@@ -578,5 +578,29 @@
        height="4.6719556"
        x="283.85287"
        y="327.95654" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="534.38123"
+       y="390.91425"
+       id="text3074-7"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3076-7"
+         x="534.38123"
+         y="390.91425"
+         style="font-size:10px">UD</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3078-9"
+       y="202.09383"
+       x="472.10791"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="font-size:10px"
+         y="202.09383"
+         x="472.10791"
+         id="tspan3080-3"
+         sodipodi:role="line">OD</tspan></text>
   </g>
 </svg>
