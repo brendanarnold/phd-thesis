@@ -3,24 +3,47 @@
 
 The samples were grown and initially characterised by Prof. Takeuchi's group in Sendai University, Japan in May 2009 using the floating zone technique. Here powders of the correct stoichiometry are compacted into a rod and fed slowly through a furnace where it becomes a viscous melt. The melt solidifies epitaxially on a seed crystal with impurities held in the melt portion of the crystal which gradually moves up, along the rod until it reaches the end of the rod and the growth is over. The end portion, containing the impurities is then removed. Similar samples have already been extensively studied through \ac{ARPES} and \ac{STM} by memebers of the Sendai group~\cite{Wise2009, Wise2008, Kondo2007, Kondo2005, Kondo2010, Kondo2009, Kondo2006, Kondo2007}.
 
-Table~\ref{Table:ExpH:SampleGrowthDetails} lists the nominal stoichiometries for the sample growth as well as the annealing conditions. The dopings of the crystals range from $p=0.13$ to $p=0.29$ holes per Cu atom and were determined by scaling $T_c$ to the \ac{TL2201} data as described in the methods section.
+Table~\ref{Tab:ExpH:SampleGrowthDetails} lists the nominal stoichiometries for the sample growth as well as the annealing conditions. Also listed are the nominal \Tc values for the source crystals which are used in the naming, the actual measured \Tc values of individual samples for the purposes of doping determination are slightly different due to different definitions of \Tc\footnote{The source crystals were defined based on the zero value \Tc, the \Tc for doping purposes is defined as the mid-point of the transition with an error based on the difference between the mid-point and the zero-point.}.
+\begin{table}
+    \begin{center}
+           \caption{Doping as determined by the Tallon relation, the Ando relation and scaling to \ac{TL2201} data as described in the method section.}
+        \begin{tabular}[htbp]{lrrrr}
+\toprule
+Sample	& \Tc ($K$)   & $p_{\textrm{Tallon}}$	& $p_{\textrm{Ando}}$	& $p_{\textrm{Tl}}$	\\
+\midrule
+B00KOD1A	& $0.0\pm1.0$	& $0.270\pm0.003$	& $0.223\pm0.002$	& $0.311\pm0.004$	\\
+B07KOD2		& $11\pm3.8$	& $0.251\pm0.014$	& $0.212\pm0.008$	& $0.271\pm0.014$	\\
+B16KOD1A	& $17\pm1.0$	& $0.234\pm0.004$	& $0.206\pm0.002$	& $0.249\pm0.004$	\\
+B30KOD3		& $29\pm0.5$	& $0.209\pm0.003$	& $0.188\pm0.002$	& $0.209\pm0.001$	\\
+B32KOP1		& $36\pm1.0$	& $0.160\pm0.035$	& $0.160\pm0.033$	& $0.160\pm0.009$	\\
+B32KOP4		& $35\pm2.0$	& $0.178\pm0.037$	& $0.170\pm0.021$	& $0.178\pm0.003$	\\
+B30KUD3		& $32\pm1.0$	& $0.123\pm0.009$	& $0.139\pm0.005$	& $0.123\pm0.001$	\\
+B28KUD3A	& $31.5\pm1.0$	& $0.121\pm0.009$	& $0.138\pm0.005$	& $0.121\pm0.001$	\\
+\bottomrule
+        \label{Tab:ExpH:Dopings}
+        \end{tabular}
+    \end{center}
+\end{table}
+Table~\ref{Tab:ExpH:Dopings} lists the samples, their \Tc and the doping by each of the three techniques outlined in the methods section. The dopings of the crystals range from $p=0.12$ to $p=0.31$ holes per Cu atom with significant discrepencies between the three methods. The Ando method gives the tightest spread of dopings, whilst comparing the \ac{TL2201} data gives the widest. The Tallon data sits between the two. For the purpose of this thesis, the Tallon method doping will be used, with the other data being considered when determining errors.
+
+
 \begin{table}
     \begin{center}
            \caption{Growth details for the \ac{BSCO} samples. OD, OP and UD stand for over, optimally and under doped respectively.}
-        {\footnotesize \begin{tabular}[htbp]{llllllllll}
+        {\footnotesize \begin{tabular}[htbp]{lllllllll}
 \toprule
 \multicolumn{6}{c}{Nominal composition} & & & \\
-Bi  & Pb  & Sr  & La  & Cu  & O   & $T_c$   & Reg.  & $p$   & Annealing conditions \\
+Bi  & Pb  & Sr  & La  & Cu  & O   & $T_c$   & Reg.  & Annealing conditions \\
 \midrule
-1.72    & 0.38  & 1.85  & 0.0   & 1.0   & 6+d   & $<$2  & OD    & 0.X   & \unit{400}{\celsius}, \unit{96}{\hour} in \unit{2.5}{\textrm{atm.}} O$_2$ \\
-1.72    & 0.38  & 1.85  & 0.0   & 1.0   & 6+d   & 7     & OD    & 0.X   & \unit{750}{\celsius}, \unit{24}{\hour} in air \\
-1.72    & 0.38  & 1.85  & 0.0   & 1.0   & 6+d   & 16    & OD    & 0.X   & \unit{550}{\celsius}, \unit{72}{\hour} in flowing N$_2$ \\
-1.35    & 0.85  & 1.47  & 0.38  & 1.0   & 6+d   & 30    & OD    & 0.X   & As grown \\
-1.35    & 0.85  & 1.47  & 0.38  & 1.0   & 6+d   & 32    & OP    & 0.X   & \unit{650}{\celsius}, \unit{72}{\hour} in flowing N$_2$ \\
-1.2     & 0.90  & 1.30  & 0.55  & 1.0   & 6+d   & 30    & UD    & 0.X   & As grown \\
-1.2     & 0.90  & 1.30  & 0.55  & 1.0   & 6+d   & 28    & UD    & 0.X   & \unit{650}{\celsius}, \unit{72}{\hour} in flowing N$_2$ \\
+1.72    & 0.38  & 1.85  & 0.0   & 1.0   & 6+d   & $<$2  & OD    & \unit{400}{\celsius}, \unit{96}{\hour} in \unit{2.5}{\textrm{atm.}} O$_2$ \\
+1.72    & 0.38  & 1.85  & 0.0   & 1.0   & 6+d   & 7     & OD    & \unit{750}{\celsius}, \unit{24}{\hour} in air \\
+1.72    & 0.38  & 1.85  & 0.0   & 1.0   & 6+d   & 16    & OD    & \unit{550}{\celsius}, \unit{72}{\hour} in flowing N$_2$ \\
+1.35    & 0.85  & 1.47  & 0.38  & 1.0   & 6+d   & 30    & OD    & As grown \\
+1.35    & 0.85  & 1.47  & 0.38  & 1.0   & 6+d   & 32    & OP    & \unit{650}{\celsius}, \unit{72}{\hour} in flowing N$_2$ \\
+1.2     & 0.90  & 1.30  & 0.55  & 1.0   & 6+d   & 30    & UD    & As grown \\
+1.2     & 0.90  & 1.30  & 0.55  & 1.0   & 6+d   & 28    & UD    & \unit{650}{\celsius}, \unit{72}{\hour} in flowing N$_2$ \\
 \bottomrule
-        \label{Table:ExpH:SampleGrowthDetails}
+        \label{Tab:ExpH:SampleGrowthDetails}
         \end{tabular}}
     \end{center}
 \end{table}
@@ -33,7 +56,7 @@ so for example `B00KOD2A' refers to the sample `A' taken from the crystal `B00KO
 
 \section{Thickness measurements}
 
-Thicknesses were determined for some of the samples using the \ac{FIB} or the optical microscope as described in the methods section. The thicknesses used to calculate abolute values of $R_H$ are listed in table~\ref{Table:ExpH:Thicknesses}. Thicknesses for all measured samples are detailed in Appendix~\ref{Sec:AppSampleSizes}. \ac{FIB} results are given for areas as close to the two voltage contacts that were visible in the scans. As can be seen in the example scan shown in figure~\ref{Fig:ExpH:FIBExample}, there is some variation in the depth along the sample length. Measurements are therefore taken as close to the voltage legs as possible and whre appropriate suitable errors are estimated.
+Thicknesses were determined for some of the samples using the \ac{FIB} or the optical microscope as described in the methods section. The thicknesses used to calculate abolute values of $R_H$ are listed in table~\ref{Tab:ExpH:Thicknesses}. Thicknesses for all measured samples are detailed in Appendix~\ref{Sec:AppSampleSizes}. \ac{FIB} results are given for areas as close to the two voltage contacts that were visible in the scans. As can be seen in the example scan shown in figure~\ref{Fig:ExpH:FIBExample}, there is some variation in the depth along the sample length. Measurements are therefore taken as close to the voltage legs as possible and whre appropriate suitable errors are estimated.
 \begin{figure}[htbp]
 	\begin{center}
 		\includegraphics[scale=0.9]{CHapter-HallBSCO/FIgures/FIBExamples/FIBExamples}
@@ -77,7 +100,7 @@ B28KUD2A	& $657\pm29$	& $250\pm39$	& $11\pm1$ 	& N/A		& N/A		\\
 \cellcolor[gray]{0.9}B28KUD3A	& \cellcolor[gray]{0.9}$633\pm49$	& \cellcolor[gray]{0.9}$142\pm34$	& \cellcolor[gray]{0.9}N/A		& \cellcolor[gray]{0.9}$16\pm3$	& \cellcolor[gray]{0.9}$16\pm3$	\\
 B28KUD3B	& $653\pm44$	& $216\pm49$	& N/A		& $16\pm3$	& $16\pm3$	\\
 \bottomrule
-        \label{Table:ExpH:Thicknesses}
+        \label{Tab:ExpH:Thicknesses}
         \end{tabular}
     \end{center}
 \end{table}

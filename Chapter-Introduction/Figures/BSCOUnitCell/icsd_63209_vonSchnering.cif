@@ -1,0 +1,91 @@
+###############################################################################
+# von Schnering, H.G.;Walz, L.;Schwarz, M.;Becker, W.;Hartweg, M.;Popp, T.;\
+# Hettich, B.;Mueller, P.;Kaempf, G. (1988)
+# Angewandte Chemie (German Edition) 100, 604-607
+# Die Strukturen der supraleitenden Oxide Bi2 (Sr1-x Cax)2 Cu8-delta und Bi2 \
+# (Sr1-y Cay)3 Cu2 O10-delta mit 0<=x<=0.3 bzw. 0.16<=y<=0.33.
+# 
+# CIF by ICSD-for-WWW,  Copyright 2003 FIZ-Karlsruhe & A.W.Hewat (hewat@ill.fr)
+# NOT TO BE PUBLISHED IN ANY FORM. See http://icsd.ill.fr/icsd/conditions.html
+###############################################################################
+
+data_63209-ICSD
+_database_code_ICSD                63209
+_audit_creation_date               1990-06-08
+_chemical_name_systematic
+'Bismuth strontium copper oxide (2/2/1/6.4)'
+_chemical_formula_structural       
+'Bi2 Sr2 Cu O6.4'
+_chemical_formula_sum              
+'Bi2 Cu1 O6.4 Sr2'
+_publ_section_title                
+'Bi2 Cu1 O6.4 Sr2'
+loop_
+_citation_id
+_citation_journal_abbrev
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Angewandte Chemie (German Edition)' 1988 100 604 607 ANCEAD
+loop_
+_publ_author_name
+von Schnering, H.G.;Walz, L.;Schwarz, M.;Becker, W.;Hartweg, M.;Popp, T.;\
+Hettich, B.;Mueller, P.;Kaempf, G.
+_cell_length_a                     5.932
+_cell_length_b                     5.934
+_cell_length_c                     24.537
+_cell_angle_alpha                  90.
+_cell_angle_beta                   90.
+_cell_angle_gamma                  90.
+_cell_volume                       863.7105
+_cell_formula_units_Z              4.000
+_symmetry_space_group_name_H-M     'A m a a'
+_symmetry_Int_Tables_number        66
+_refine_ls_R_factor_all            0.1207
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+ 1 'x,y,z'
+ 2 'x,1/2+y,1/2+z'
+ 3 'x,-y,-z'
+ 4 'x,1/2-y,1/2-z'
+ 5 '1/2+x,-y,z'
+ 6 '1/2+x,1/2-y,1/2+z'
+ 7 '1/2+x,y,-z'
+ 8 '1/2+x,1/2+y,1/2-z'
+ 9 '-x,-y,-z'
+ 10 '-x,1/2-y,1/2-z'
+ 11 '-x,y,z'
+ 12 '-x,1/2+y,1/2+z'
+ 13 '1/2-x,y,-z'
+ 14 '1/2-x,1/2+y,1/2-z'
+ 15 '1/2-x,-y,z'
+ 16 '1/2-x,1/2-y,1/2+z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Bi3+     3.
+Sr2+     2.
+Cu2+     2.8
+O2-     -2.
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+_atom_site_occupancy
+Bi1 Bi3+ 8 l 0 0.272 0.0658 0.083 1.
+Sr1 Sr2+ 8 l 0 0.755 0.1802 0.03 1.
+Cu1 Cu2+ 4 e 0 0.25 0.25 0.05 1.
+O1 O2- 8 h 0.25 0 0.245 0.04 1.
+O2 O2- 8 l 0 0.25 0.156 0.1 1.
+O3 O2- 8 h 0.25 0 0.055 0.2 1.
+O4 O2- 8 h 0.25 0.5 0.055 0.2 0.2
+#End of data_63209-ICSD
+
