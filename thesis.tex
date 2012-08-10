@@ -6,7 +6,7 @@
 \usepackage{booktabs}                   % Good looking tables
 \usepackage{url}                        % Formatting for URLs
 \usepackage{amsmath}                    % Extra math stuff
-\usepackage[sorting=none]{biblatex}     % Better bibliography control
+\usepackage[sorting=none,style=numeric-comp,url=false,isbn=false,eprint=false]{biblatex}     % Better bibliography control
 \usepackage{pdflscape}                  % Landscape
 \usepackage[cdot,mediumqspace,textstyle,squaren]{SIunits} % Unit package
 \usepackage[small,bf]{caption}          % Figure caption formatting
@@ -21,10 +21,11 @@
 \usepackage{soul}                       % Allows for wrapping with underline, highlighting etc.
 \usepackage{setspace}                   % Set linespacing
 \usepackage{amssymb}
+\usepackage{fancyhdr}
 
 % Text should be in double or 1.5 line spacing, and font size should be chosen to ensure clarity and legibility for the main text and for any quotations and footnotes. Margins should allow for eventual hard binding.
-\singlespacing
-% \onehalfspacing
+% \singlespacing
+\onehalfspacing
 % \doublespacing
 
 % Define some macros
@@ -37,43 +38,46 @@
 % Make sure footnotes use symbols instead of numbers
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
 
+% Make sure no page numbers appear on TOC
+% \AtBeginDocument{\addtocontents{toc}{\protect\thispagestyle{empty}}} 
+
 % Try the Biblatex package
 \bibliography{Bibliography/library}
 
 \begin{document}
 
 
-% \input{Misc/title.tex}
+\input{Misc/title.tex}
 
 % \setcounter{page}{0}
 % \roman{page}
 
 % Pages from here ...
-% \input{Misc/summary.tex}
-% \input{Misc/acknowledgements.tex}
-% \input{Misc/declaration.tex}
+\input{Misc/summary.tex}
+\input{Misc/acknowledgements.tex}
+\input{Misc/declaration.tex}
 \input{Misc/acronyms.tex}
-% \input{Misc/tableofcontents.tex}
+\input{Misc/tableofcontents.tex}
 % ... to here are numbered separately using Roman numerals
 
 % The pages should be numbered consecutively at the bottom centre of the page.
-% \arabic{page}
-% \setcounter{page}{0}
+\arabic{page}
+\setcounter{page}{0}
 
 % Main content here
-% \input{Chapter-Introduction/main.tex}
-% \input{Chapter-Theory/main.tex}
-% \input{Chapter-ExperimentalTechnique/main.tex}
-% \input{Chapter-dHvABaFe2P2/main.tex}
+\input{Chapter-Introduction/main.tex}
+\input{Chapter-Theory/main.tex}
+\input{Chapter-ExperimentalTechnique/main.tex}
+\input{Chapter-dHvABaFe2P2/main.tex}
 \input{Chapter-HallBSCO/main.tex}
 % \input{Chapter-MagnetoresistanceBSCO/main.tex}
 
 % Bibliography
-% \input{Misc/bibliography.tex}
+\input{Misc/bibliography.tex}
 
 % Appendix here
 
-% \input{Appendices/main.tex}
+\input{Appendices/main.tex}
 
 
 \end{document}
