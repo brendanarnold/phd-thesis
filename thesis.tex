@@ -20,8 +20,11 @@
 \usepackage{color}                      % Even more colors
 \usepackage{soul}                       % Allows for wrapping with underline, highlighting etc.
 \usepackage{setspace}                   % Set linespacing
-\usepackage{amssymb}
-\usepackage{fancyhdr}
+\usepackage{amssymb}                    % Includes more maths symbols
+\usepackage{setspace}                   % Allows switching between single, double spacing
+\usepackage{titlesec}                   % Reduce margin above chapter titles
+% \usepackage{fancyhdr}                   % Use
+
 
 % Text should be in double or 1.5 line spacing, and font size should be chosen to ensure clarity and legibility for the main text and for any quotations and footnotes. Margins should allow for eventual hard binding.
 % \singlespacing
@@ -31,6 +34,11 @@
 % Define some macros
 \input{Misc/macros.tex}
 
+% Reduce chapter heading size - need to also redefine look of chapter
+% heading
+\titlespacing*{\chapter}{0pt}{-30pt}{20pt}
+\titleformat{\chapter}[display]{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+
 % Prefix equation/figure numbers with section number
 \numberwithin{equation}{section}
 \numberwithin{figure}{section}
@@ -38,44 +46,46 @@
 % Make sure footnotes use symbols instead of numbers
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
 
-% Make sure no page numbers appear on TOC
-% \AtBeginDocument{\addtocontents{toc}{\protect\thispagestyle{empty}}} 
-
 % Try the Biblatex package
 \bibliography{Bibliography/library}
 
 \begin{document}
 
+% Predefine the acronyms (no output)
+\input{Misc/acronyms.tex}
 
-\input{Misc/title.tex}
+% Title
+% \input{Misc/title.tex}
 
 \setcounter{page}{0}
 \pagenumbering{roman}
 
 % Pages from here ...
-\input{Misc/summary.tex}
-\input{Misc/acknowledgements.tex}
-\input{Misc/declaration.tex}
-\input{Misc/acronyms.tex}
-\input{Misc/tableofcontents.tex}
+% \input{Misc/summary.tex}
+% \input{Misc/acknowledgements.tex}
+% \input{Misc/declaration.tex}
+% \input{Misc/tableofcontents.tex}
 % ... to here are numbered separately using Roman numerals
 
 % The pages should be numbered consecutively at the bottom centre of the page.
 
+% n.b. The resetting of the counter and setting to arabic numbers has to
+% be done after the 'chapter' declaration and so is included in
+% Chapter-Introduction/main.tex below
+
 % Main content here
-\input{Chapter-Introduction/main.tex}
-\input{Chapter-Theory/main.tex}
-\input{Chapter-ExperimentalTechnique/main.tex}
-\input{Chapter-dHvABaFe2P2/main.tex}
+% \input{Chapter-Introduction/main.tex}
+% \input{Chapter-Theory/main.tex}
+% \input{Chapter-ExperimentalTechnique/main.tex}
+% \input{Chapter-dHvABaFe2P2/main.tex}
 \input{Chapter-HallBSCO/main.tex}
 % \input{Chapter-MagnetoresistanceBSCO/main.tex}
 
 % Bibliography
-\input{Misc/bibliography.tex}
+% \input{Misc/bibliography.tex}
 
 % Appendix here
-
-\input{Appendices/main.tex}
+% \input{Appendices/main.tex}
 
 
 \end{document}

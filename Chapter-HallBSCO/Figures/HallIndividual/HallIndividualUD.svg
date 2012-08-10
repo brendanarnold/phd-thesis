@@ -71,7 +71,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -221,7 +221,7 @@
          x="328.57968"
          y="237.11954"
          style="font-size:10px"
-         id="tspan4466">(Feb 2010 Toulouse)</tspan></text>
+         id="tspan4466">(June 2009 Toulouse)</tspan></text>
     <rect
        style="fill:#000000;fill-opacity:1;stroke:none"
        id="rect4462"
