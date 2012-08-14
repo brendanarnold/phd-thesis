@@ -1,28 +1,21 @@
 \section{Temeprature sweeps}
 
 Figure~\ref{Fig:ExpH:TSweeps} shows the in-plane resistivity, $\rho(T)$ for each of the samples in zero field taken in the \ac{VTI} in the Polo magnet. From this plot we can characterise the \Tc of the samples and find the residual resistivity, $\rho_0$ by using simple linear fits to the data above the transition temperatures and extrapolate back to zero. Table~\ref{Tab:ExpH:TSweeps} show the fit parameters for each of the samples. 
-\begin{figure}[htbp]
-	\begin{center}
-		\includegraphics[scale=0.9]{Chapter-HallBSCO/Figures/TSweeps/TSweeps}
-		\caption{The in-plane resistivity measured in zero field for each of the samples. From overdoped to underdoped, samples are (a) B00KOD1A, (b) B07KOD2, (c) B16KOD1A, (d) B30KOD3, (e) B32KOP1, (f) B32KOP4, (g) B30KUD3, (h) B28KUD3A. Inset shows a zoomed portion of the curves at the transition temperatures.}
-		\label{Fig:ExpH:TSweeps}
-	\end{center}
-\end{figure}
 \begin{table}
 	\begin{center}
-       	\caption{Fits parameters to $\rho = \rho_0 + \rho_1T$ for zero field resistivity data above $T_c$. Fits at low $T$ are shown in inset to figure~\ref{Fig:ExpH:TSweeps}}
-		\begin{tabular}[htbp]{lrr}
+       	\caption{Fits parameters to $\rho = \rho_0 + \rho_1T$ for zero field resistivity data above $T_c$ as well as $T_c$ values determined from the same plots. Fits at low $T$ are shown in inset to figure~\ref{Fig:ExpH:TSweeps}.}
+		\begin{tabular}[htbp]{lrrrr}
 \toprule
-Sample		& $\rho_0 (\unit{\micro\ohm\centi\metre})$	& $\rho_1 (\unit{\micro\ohm\centi\metre})$	\\
+Sample		& $\rho_0 (\unit{\micro\ohm\centi\metre})$	& $\rho_1 (\unit{\micro\ohm\centi\metre})$  & $T_c$ (\unit{\kelvin})	& $T_c/T_c(\textrm{max})$	\\
 \midrule
-B00KOD1A	& 88.5		& 1.184		\\
-B07KOD2		& 69.1		& 1.069		\\
-B16KOD1a	& 34.2		& 0.603		\\
-B30KOD3		& 10.8		& 0.392		\\
-B32KOP1		& 14.9		& 0.227		\\
-B32KOP4		& 44.5		& 1.607 	\\
-B30KUD3		& 198.9		& 3.650	    \\
-B28KUD3a	& 54.3		& 1.853 	\\
+B00KOD1A	& 40.7		& 0.454     & $0\pm1.0$	    & $0.00\pm0.03$	\\
+B07KOD2		& 73.0		& 1.026     & $11\pm3.8$	& $0.31\pm0.11$	\\
+B16KOD1a	& 49.9		& 0.843     & $17\pm1.0$	& $0.47\pm0.03$	\\
+B30KOD3		& 15.9		& 0.578     & $29\pm0.5$	& $0.81\pm0.01$	\\
+B32KOP1		& 54.2		& 0.824     & $36\pm1.0$	& $1.00\pm0.03$	\\
+B32KOP4		& 55.6		& 1.904     & $35\pm2.0$	& $0.97\pm0.06$	\\
+B30KUD3		& 123.0		& 2.233     & $32\pm1.0$	& $0.89\pm0.03$ \\
+B28KUD3a	& 22.6		& 0.806     & $32\pm1.0$	& $0.89\pm0.03$	\\
 \bottomrule
 		\label{Table:ExpH:TSweepFitsParams}
 		\end{tabular}
@@ -94,7 +87,10 @@ The error bars on the data points do not include error from the thicknesses whic
 
 With reference to figure~\ref{Fig:ExpH:InvHallCombined} and in particular the new low temperature data points, we see that doping strongly affects the qualitative shape of the $R_H$ curves. Whilst the trend appears to be that $R_H(\unit{300}{\kelvin})$ decreases as doping increases as to be expected, the $R_H(\unit{0}{\kelvin})$ values all tend toward approximately similar values of around \unit{$0.5\times 10^{-3}$}{\centi\metre\cubed}to \unit{$1.5\times 10^{-3}$}{\centi\metre\cubed}. The most proncounced diffreence between high and low temperature values though is with the optimally doped samples which are around $\times 2.75$ greater at high temperature.
 
-Right down to \unit{0}{\kelvin} there is no sign change in $R_H$, despite there being evidence of sign changing behaviour in some of the Hall measurements. 
+Right down to \unit{0}{\kelvin} there is no sign change in $R_H$, which confirms that the hole pockets have higher mobility than the electron pockets across the range of dopings studied.
+
+
+
 
 There seems to be little evidence of the transition of the doping from $p$ to $1+p$ which agrees with the notion that these dopings lie beyond where the Fermi surface reconstruction is thought to take place~\cite{LeBoeuf2007}. 
 

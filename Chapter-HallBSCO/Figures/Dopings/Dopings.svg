@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.1 "
-   sodipodi:docname="New document 1">
+   sodipodi:docname="Dopings.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="413.16539"
-     inkscape:cy="853.01723"
+     inkscape:zoom="3.959798"
+     inkscape:cx="358.67613"
+     inkscape:cy="918.86655"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -205,12 +205,12 @@
        id="rect3083"
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.71839625" />
     <rect
-       y="131.60799"
-       x="343.17438"
-       height="5.0798283"
-       width="5.0798283"
+       y="131.49736"
+       x="343.00064"
+       height="5.3010769"
+       width="5.3010769"
        id="rect3085"
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.71839625" />
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.74968559" />
     <rect
        y="120.53655"
        x="366.38867"
@@ -219,38 +219,65 @@
        id="rect3087"
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.71839625" />
     <rect
-       y="142.32227"
-       x="379.60297"
-       height="5.0798283"
-       width="5.0798283"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.7653302"
+       id="rect3017"
+       width="5.4117017"
+       height="5.4117017"
+       x="379.62643"
+       y="142.472" />
+    <rect
+       y="131.61285"
+       x="374.51254"
+       height="5.4117017"
+       width="5.4117017"
        id="rect3089"
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.71839625" />
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.7653302" />
     <rect
-       y="186.25084"
-       x="393.17438"
-       height="5.0798283"
-       width="5.0798283"
+       y="186.01787"
+       x="393.19394"
+       height="5.3563895"
+       width="5.3563895"
        id="rect3091"
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.71839625" />
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.75750786" />
     <rect
-       y="208.03656"
-       x="397.81723"
-       height="5.0798283"
-       width="5.0798283"
+       y="207.79967"
+       x="397.7066"
+       height="5.3010769"
+       width="5.3010769"
        id="rect3093"
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.71839625" />
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.74968559" />
     <rect
-       y="248.03656"
-       x="406.03152"
-       height="5.0798283"
-       width="5.0798283"
+       y="248.20026"
+       x="406.03738"
+       height="5.1627965"
+       width="5.1627965"
        id="rect3095"
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.71839625" />
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.73012972" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1, 1;stroke-dashoffset:0"
        d="M 474.64286,250.93361 410.35714,166.46932"
        id="path3097"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
+    <path
+       transform="matrix(1,0,0,1.2523794,0,-34.560833)"
+       d="m 404.81864,135.01741 a 19.697975,4.9244938 0 1 1 -39.39595,0 19.697975,4.9244938 0 1 1 39.39595,0 z"
+       sodipodi:ry="4.9244938"
+       sodipodi:rx="19.697975"
+       sodipodi:cy="135.01741"
+       sodipodi:cx="385.12067"
+       id="path3015"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.5, 1.5;stroke-dashoffset:0"
+       sodipodi:type="arc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.5, 1.5;stroke-dashoffset:0"
+       id="path3013"
+       sodipodi:cx="385.12067"
+       sodipodi:cy="135.01741"
+       sodipodi:rx="19.697975"
+       sodipodi:ry="4.9244938"
+       d="m 404.81864,135.01741 a 19.697975,4.9244938 0 1 1 -39.39595,0 19.697975,4.9244938 0 1 1 39.39595,0 z"
+       transform="matrix(1,0,0,0.7670317,-45.204326,30.662905)" />
   </g>
 </svg>
