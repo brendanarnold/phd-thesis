@@ -5,14 +5,14 @@ In this section the phenomenon of \ac{dHvA} oscillations is described. It is not
 
 \subsection{Overview}
 
-For metals, the majority of the interesting physics occurs at the Fermi level and, provided Fermi liquid theory holds true, the electrons at the Fermi level can be modelled to a high degree of accuracy with the Sommerfeld model --- that is a Fermi gas of non-interacting electrons in an infinite box. When a magnetic field is applied, the electrons have their usual grid pattern distribution of plane wave k-vectors rearranged such that the electrons move around orbital and helical paths. These rearranged k-vectors form a set of concentric tubes, known as Landau tubes, whose cross-sectional area, $a$, perpedicular to the field is given by the Onsager relation:\footnote{Derivations of the Onsager relation are given in several textbooks including pg. 32 of Schoenberg\cite{Schoenberg1984} and pg. 272 of Ashcroft \& Mermin\cite{Ashcroft1976}.} 
+For metals, the majority of the interesting physics occurs at the Fermi level and, provided Fermi liquid theory holds true, the electrons at the Fermi level can be modelled to a high degree of accuracy with the Sommerfeld model --- that is a Fermi gas of non-interacting electrons in an infinite box. When a magnetic field is applied, the electrons have their usual grid pattern distribution of plane wave k-vectors rearranged such that the electrons move around orbital and helical paths. These rearranged k-vectors form a set of concentric tubes, known as Landau tubes, whose cross-sectional area, $a$, perpendicular to the field is given by the Onsager relation:\footnote{Derivations of the Onsager relation are given in several textbooks including pg. 32 of Schoenberg\cite{Schoenberg1984} and pg. 272 of Ashcroft \& Mermin\cite{Ashcroft1976}.} 
 %%
 \begin{equation}
 \label{Eqn:Theo:Onsager}
 \textit{a}_{k_{\perp}} = (r + 1/2)\frac{2\pi e B}{\hbar}
 \end{equation}
 %%
-where $r$ is a quantisation number that sets apart each tube. We can see from the relation that as $\vect{B}$ increases, so does the cross-sectional area of the tubes. As the magnetic field is ramped, successive tubes periodically pass the Fermi surface causing a spike in the \ac{DOS} at the Fermi level and also oscillations in the energy o the ssytem, $E$, which, for geometric reasons explained in the next section, are far stronger at the maximumal and minimal (extremal) areas of Fermi surface. Thermodynamic quantities such as magnetic susceptibility ($\chi = \partial E/\partial B$) and heat capacity ($C_{V} = \partial^2E/\partial T^2|_{V}$) or quantities that depend on the \ac{DOS} at the Fermi level such as electrical resistance all oscillate as the field is ramped. Oscillations in the susceptibility are known as \ac{dHvA} oscillations, oscillations in the resistivity are known as Shubnikov-de Haas oscillations.
+where $r$ is a quantisation number that sets apart each tube. We can see from the relation that as $\vect{B}$ increases, so does the cross-sectional area of the tubes. As the magnetic field is ramped, successive tubes periodically pass the Fermi surface causing a spike in the \ac{DOS} at the Fermi level and also oscillations in the energy of the system, $E$, which, for geometric reasons explained in the next section, are far stronger at the maximal and minimal (extremal) areas of Fermi surface. Thermodynamic quantities such as magnetic susceptibility ($\chi = \partial E/\partial B$) and heat capacity ($C_{V} = \partial^2E/\partial T^2|_{V}$) or quantities that depend on the \ac{DOS} at the Fermi level such as electrical resistance all oscillate as the field is ramped. Oscillations in the susceptibility are known as \ac{dHvA} oscillations, oscillations in the resistivity are known as Shubnikov-de Haas oscillations.
 
  We can relate the `frequency' $F$ (measured in $tesla$\footnote{n.b. that it is \textit{tesla} and not \textit{tesla$^{-1}$} because, as we shall see later, the oscillations are actually periodic in $1/B$ and \textit{not} $B$ so their frequency counterpart is measured in \textit{tesla}.}) that the tubes pass the Fermi surface to the extremal Fermi surface area using the following application of the Onsager relation,
 %%
@@ -65,7 +65,7 @@ which can be expanded out and finally substituted back into equation\ref{Eqn:The
 E = \frac{e^2Vdk_\perp}{4\pi^2m_0}B^2\left[R_\perp^2 + 2R_\perp + \frac{\hbar k^2}{e}\frac{1}{B}R_\perp\right]
 \end{equation}
 %%
-Key to the above relation is that, although $R_\perp$ is inversely proprtional to $B$, it remains discrete. This gives rise to the saw-tooth like function shown in figure~\ref{Fig:Theo:EnergyOscillations} for some typical experimental parameters. Also plotted is the fuction against $1/B$ where we can clearly see that the oscillations are periodic in inverse field hence the frequency being measured in tesla$^{-1}$.
+Key to the above relation is that, although $R_\perp$ is inversely proportional to $B$, it remains discrete. This gives rise to the saw-tooth like function shown in figure~\ref{Fig:Theo:EnergyOscillations} for some typical experimental parameters. Also plotted is the function against $1/B$ where we can clearly see that the oscillations are periodic in inverse field hence the frequency being measured in tesla$^{-1}$.
 %%
 \begin{figure}[htbp]
     \begin{center}
@@ -75,7 +75,7 @@ Key to the above relation is that, although $R_\perp$ is inversely proprtional t
     \end{center}
 \end{figure}
 
-The above is not a rigourous derivation but is nonetheless illustrative of the origin of the oscillation in the system energy and how any thermodynamic value which depends on the energy of the system oscillates as a function of field. To continue we need to include correction factors to the oscillation amplitude due to finite electron scattering rates ($A_D$), temperature ($A_T$), Zeeman splitting of spins ($A_s$), doping ($A_{\textrm{dop}}$), mosaicity ($A_{\textrm{mos}}$), warping of the Fermi surface ($A_{\textrm{warp}}$) as well as adjustments due to the fact that the parameter measured was torque of the sample in a field and not the energy or magnetisation directly ($A_{\Gamma}$). For this, we turn to a more solid foundation that was put forward by Lifschitz and Kosevitch and presented by Schoenberg.
+The above is not a rigorous derivation but is nonetheless illustrative of the origin of the oscillation in the system energy and how any thermodynamic value which depends on the energy of the system oscillates as a function of field. To continue we need to include correction factors to the oscillation amplitude due to finite electron scattering rates ($A_D$), temperature ($A_T$), Zeeman splitting of spins ($A_s$), doping ($A_{\textrm{dop}}$), mosaicity ($A_{\textrm{mos}}$), warping of the Fermi surface ($A_{\textrm{warp}}$) as well as adjustments due to the fact that the parameter measured was torque of the sample in a field and not the energy or magnetisation directly ($A_{\Gamma}$). For this, we turn to a more solid foundation that was put forward by Lifschitz and Kosevitch and presented by Schoenberg.
 
 \subsection{\acl{LK} equation}
 
@@ -138,7 +138,7 @@ The effective mass determined in this way is enhanced subject to the same intera
 
 \subsubsection{Attenuation due to finite quasiparticle lifetime}
 
-The \textit{Dingle factor}, $A_D$, is due to the finite lifetime, $\tau$, of the electron quasiparticles due to scattering. Because of this time scale, there is a smearing of the electron energy through the uncertainty principle with a broadening which is approximately Lorentzian in shape. If we assume $\tau$ does not change with energy\footnote{This is not the case, but at most only a few Landau levels contribute to a particular oscillation and if we assume that the energy does not vary too much between subsequent levels then the assumption is a good one}, then this can be modeled as a smearing of the Fermi level such that the broadening function is,
+The \textit{Dingle factor}, $A_D$, is due to the finite lifetime, $\tau$, of the electron quasiparticles due to scattering. Because of this time scale, there is a smearing of the electron energy through the uncertainty principle with a broadening which is approximately Lorentzian in shape. If we assume $\tau$ does not change with energy\footnote{This is not the case, but at most only a few Landau levels contribute to a particular oscillation and if we assume that the energy does not vary too much between subsequent levels then the assumption is a good one}, then this can be modelled as a smearing of the Fermi level such that the broadening function is,
 \begin{equation}
   P(\epsilon < \mu < \epsilon + d\epsilon) \propto \frac{d\epsilon}{(\epsilon - \mu)^2 + (\hbar/2\tau)^2}
 \end{equation}
@@ -152,11 +152,11 @@ The exponent in the above can be thought of as the number of orbits the electron
 
 \subsubsection{Attenuation due to spin splitting}
 
-Applying a magnetic field causes a Zeeman splitting of energy levels of amgnitude,
+Applying a magnetic field causes a Zeeman splitting of energy levels of magnitude,
 \begin{equation}
   \Delta\epsilon = \frac{g e \hbar B}{2 m_e}
 \end{equation}
-where $m_e$ is the free electron mass and $g$ is a factor that is $\approx2$ for free electrons. Rather than smearing, this can be thought of as two separate Fermi surfaces with separate Fermi energies. The attentuation is given then as,
+where $m_e$ is the free electron mass and $g$ is a factor that is $\approx2$ for free electrons. Rather than smearing, this can be thought of as two separate Fermi surfaces with separate Fermi energies. The attenuation is given then as,
 \begin{equation}
   A_s = \cos\left(\frac{\pi p g m^*_s}{2m_e}\right)
 \end{equation}
@@ -164,13 +164,13 @@ where $m^*_s$ is the \textit{spin effective mass}. This is subject to a differen
 
 \subsubsection{Other attenuating factors}
 
-Another attenuating factor due to slight misalignments in the crystal structure, ($A_{mos}$), causing a mosaic polycrystalline structure could be modeled with an appropriate broadening function. Schoenberg suggests a Lorentzian similar to the Dingle factor --- there is no solid mathematical basis for this but no other function shape has been observed in experiment. The final form would then look like the following,
+Another attenuating factor due to slight misalignments in the crystal structure, ($A_{mos}$), causing a mosaic polycrystalline structure could be modelled with an appropriate broadening function. Schoenberg suggests a Lorentzian similar to the Dingle factor --- there is no solid mathematical basis for this but no other function shape has been observed in experiment. The final form would then look like the following,
 \begin{equation}
   A_{\textrm{mos}} = e^{2\pi p \Delta F_{\textrm{mos}}/B}
 \end{equation}
 where $\Delta F_{mos}$ is a parameter that determines the degree of overall misalignment.
 
-The final attenuating factors mentioned here are $A_{\Delta B}$, the damping due to field inhomogeneity which has an effect depending on the shape of the field and $A_{\textrm{dop}}$, which is another Lorentzian-like broadening factor due to the doping inhomogeniety in the sample. Neither of which will be considered in the thesis --- the material studied is undoped, and the magnet is suitably large as to have an essentially linear field profile ---doping and so will not be explored further\footnote{If you do want to consider these factors, ref~\cite{Rourke2010b} has a passage on doping homogeneity and pg. 64 of Schoenberg discusses field inhomogeneity~\ref{Schoenberg1984}.}
+The final attenuating factors mentioned here are $A_{\Delta B}$, the damping due to field inhomogeneity which has an effect depending on the shape of the field and $A_{\textrm{dop}}$, which is another Lorentzian-like broadening factor due to the doping inhomogeneity in the sample. Neither of which will be considered in the thesis --- the material studied is undoped, and the magnet is suitably large as to have an essentially linear field profile ---doping and so will not be explored further\footnote{If you do want to consider these factors, ref~\cite{Rourke2010b} has a passage on doping homogeneity and pg. 64 of Schoenberg discusses field inhomogeneity~\ref{Schoenberg1984}.}
 
 \subsection{Zeeman-Doppler shifting of oscillations}
 
@@ -183,11 +183,11 @@ So far, three different electron masses have been defined, the thermal effective
 \begin{equation}
   m^*_b = \hbar^2 \left(\frac{d^2\epsilon}{dk^2}\right)^{-1} = \frac{\hbar^2}{2\pi}\frac{\partial a_{k_\perp}}{\partial \epsilon}
 \end{equation}
-Mass enhancement comes from any kind of interactions the electron has with its environment --- i.e. external fields, other electrons and nuclei --- resulting in the free electron mass $m_e$ becoming enhanced (renormalised). The bands mass can be determined from \ac{DFT} and the resulting enahcement is purely from the interaction of the electron with the calculated lattice potential. However \ac{DFT} calculations typically do not model correlation effects well or dynamic interactions at all. We know that both the thermal effective mass and the spin effective mass incorporate the band mass enhancements plus a unique set of interactions specified previously. Figure~\ref{Fig:Theo:EffectiveMassInheritance} lays out how the effective masses build on each other by incorporating more interactions.
+Mass enhancement comes from any kind of interactions the electron has with its environment --- i.e. external fields, other electrons and nuclei --- resulting in the free electron mass $m_e$ becoming enhanced (renormalised). The bands mass can be determined from \ac{DFT} and the resulting enhancement is purely from the interaction of the electron with the calculated lattice potential. However \ac{DFT} calculations typically do not model correlation effects well or dynamic interactions at all. We know that both the thermal effective mass and the spin effective mass incorporate the band mass enhancements plus a unique set of interactions specified previously. Figure~\ref{Fig:Theo:EffectiveMassInheritance} lays out how the effective masses build on each other by incorporating more interactions.
 \begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.9]{Chapter-Theory/Figures/EffectiveMassInheritance/EffectiveMassInheritance}
-        \caption{A diagram showing how the succeessive electron masses build on the previous interactions. Additional interaction effects are listed in italics.}
+        \caption{A diagram showing how the successive electron masses build on the previous interactions. Additional interaction effects are listed in italics.}
         \label{Fig:Theo:EffectiveMassInheritance}
     \end{center}
 \end{figure}
@@ -195,7 +195,7 @@ because of this particular hierarchy, it is sometimes possible to compare effect
 
 \subsubsection{A 2D Approximation}
 
-Although none of the attentuating factors above have an explicit angle dependence, they do vary as a function of angle through the band mass. A common approximation to simulate the dependancy in layered systems is to assume the Fermi surface is two dimensional in shape and therefore cylindrical. The cross section of a cylinder is given by,
+Although none of the attenuating factors above have an explicit angle dependence, they do vary as a function of angle through the band mass. A common approximation to simulate the dependency in layered systems is to assume the Fermi surface is two dimensional in shape and therefore cylindrical. The cross section of a cylinder is given by,
 \begin{equation}
     a = \frac{a_0}{\cos \theta},
 \end{equation}
@@ -207,9 +207,9 @@ therefore
 \begin{equation}
     m^*_b = \frac{m^*_{b0} }{\cos{\theta}}
 \end{equation}
-This means that under this approximation, any factor that includes the band mass, explicitly or implicitly\footnote{Meaning $m^*_T$ and $m^*_S$ which are both enhancements of the band mass} can be resolved using the the zero angle band mass with an angle dependence of $1/\cos{\theta}$.
+This means that under this approximation, any factor that includes the band mass, explicitly or implicitly\footnote{Meaning $m^*_T$ and $m^*_S$ which are both enhancements of the band mass} can be resolved using the zero angle band mass with an angle dependence of $1/\cos{\theta}$.
 
 \subsection{Final theoretical observations}
 
-Originally \ac{dHvA} measurements were used to measure the Fermi surfaces of elemental metals and so the initial assumption of a free-electron gas is justified based on the fact that elemental metals have a Fermi surface and are considered materials that adhere to Fermi liquid theory. The fact that oscillations have been observed in cuprates and pnictides which have demonstrated non-Fermi liquid behaviour is therefore remarkable and moreover implies the presence of a Fermi surface, at least in the prescence of a strong magnetic field.
+Originally \ac{dHvA} measurements were used to measure the Fermi surfaces of elemental metals and so the initial assumption of a free-electron gas is justified based on the fact that elemental metals have a Fermi surface and are considered materials that adhere to Fermi liquid theory. The fact that oscillations have been observed in cuprates and pnictides which have demonstrated non-Fermi liquid behaviour is therefore remarkable and moreover implies the presence of a Fermi surface, at least in the presence of a strong magnetic field.
 

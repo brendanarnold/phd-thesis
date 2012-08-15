@@ -58,7 +58,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -68,7 +68,7 @@
      id="layer1">
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 240,253.25504 c 45,-33.92858 68.92858,-69.82143 76.42858,-111.60715"
+       d="m 240,253.25504 c 45,-33.92858 64.88797,-55.17422 73.9032,-111.60715"
        id="path4389"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
