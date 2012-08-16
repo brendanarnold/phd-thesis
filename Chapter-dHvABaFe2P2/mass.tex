@@ -4,7 +4,7 @@
 
 \subsubsection{Basic \ac{LK} formula fitting}
 
-A series of field sweeps were taken with $H$ at \unit{12}{\degree}, \unit{28}{\degree} and \unit{46}{\degree} from $[001]$ in the $[110]$ direction. These were performed at a variety of temperatures from base ($\approx\unit{0.3}{\kelvin}$) to above \unit{2}{\kelvin}. Corrections were applied as detailed in section\ref{Sec:Exp:TemperatureCorrection}. Figure~\ref{Fig:ResD:SimpleLKFits} shows the Fourier amplitude of various peaks as a function of temperature along with fits to equation~\ref{Eqn:Exp:TempTermOscillationAmp}. The field range for the \ac{FFT} was was necessarily large enough that individual peaks did not overlap and also could be observed across a reasonable range of temperatures but also small enough so that the $B$ dependent Dingle factor did not play too large a role and so an average $B$ field can be assumed. The results from these fits are shown in table \ref{Tab:ResD:EffectiveMassResults} along with the fit ranges. All \acp{FFT} in the plot were taken over an interval of \unit{12-18}{\tesla} with the exception of the $\gamma_2$ fit which was taken between \unit{16-18}{\tesla} so as to attain an appreciable peak. The standard deviation as calculated by randomly varying the temperature values by the estimated error (\unit{0.06}{\tesla}) 1000 times and then taking the standard deviation of the fitted $m^*$ values.
+A series of field sweeps were taken with $H$ at \unit{12}{\degree}, \unit{28}{\degree} and \unit{46}{\degree} from $[001]$ in the $[110]$ direction. These were performed at a variety of temperatures from base ($\approx\unit{0.3}{\kelvin}$) to above \unit{2}{\kelvin}. Corrections were applied as detailed in section~\ref{Sec:Exp:TemperatureCorrection}. Figure~\ref{Fig:ResD:SimpleLKFits} shows the Fourier amplitude of various peaks as a function of temperature along with fits to equation~\ref{Eqn:Theo:TemperatureTerm}. The field range for the \ac{FFT} was was necessarily large enough that individual peaks did not overlap and also could be observed across a reasonable range of temperatures but also small enough so that the $B$ dependent Dingle factor did not play too large a role and so an average $B$ field can be assumed. The results from these fits are shown in table~\ref{Tab:ResD:EffectiveMassResults} along with the fit ranges. All \acp{FFT} in the plot were taken over an interval of \unit{12-18}{\tesla} with the exception of the $\gamma_2$ fit which was taken between \unit{16-18}{\tesla} so as to attain an appreciable peak. The standard deviation as calculated by randomly varying the temperature values by the estimated error (\unit{0.06}{\tesla}) 1000 times and then taking the standard deviation of the fitted $m^*$ values.
 \begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.9]{Chapter-dHvABaFe2P2/Figures/Mass/SimpleLKFits/SimpleLKFits}
@@ -12,11 +12,11 @@ A series of field sweeps were taken with $H$ at \unit{12}{\degree}, \unit{28}{\d
         \label{Fig:ResD:SimpleLKFits}
     \end{center}
 \end{figure}
-Table \ref{Tab:ResD:EffectiveMassResults} also shows gives a result, marked with a dagger, taken with a different field range. These fits give quite different values for the effective mass, indicating that the average field approximation is not a valid one.
+Table~\ref{Tab:ResD:EffectiveMassResults} also shows gives a result, marked with a dagger, taken with a different field range. These fits give quite different values for the effective mass, indicating that the average field approximation is not a valid one.
 
 \subsubsection{Retrofitting ansatz \ac{LK} formulae}
 
-The measurements presented in the previous section were further refined using the the ansatz \ac{LK} formulae as described in section~\ref{Sec:Exp:LKRetrofitting}. Figure~\ref{Fig:ResD:DingleTermExtractionFits} shows some sample fits used to extract the Dingle terms used in the ansatz fit functions.
+The measurements presented in the previous section were further refined using the ansatz \ac{LK} formulae as described in section~\ref{Sec:Exp:LKRetrofitting}. Figure~\ref{Fig:ResD:DingleTermExtractionFits} shows some sample fits used to extract the Dingle terms used in the ansatz fit functions.
 \begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.9]{Chapter-dHvABaFe2P2/Figures/Mass/FittingDingleTerm/FittingDingleTerm}
@@ -24,19 +24,19 @@ The measurements presented in the previous section were further refined using th
         \label{Fig:ResD:DingleTermExtractionFits}
     \end{center}
 \end{figure}
-Table\ref{Tab:ResD:EffectiveMassResults} lists the extracted Dingle terms for each peak of the Fermi surface and the subsequent results of the retrofitted calculations for the effective masses. The various field limits were chosen in order to either obtain a clearly delimited peak in the lower field cases or to obtain a signal from a weak peak in the higher field cases.
+Table~\ref{Tab:ResD:EffectiveMassResults} lists the extracted Dingle terms for each peak of the Fermi surface and the subsequent results of the retrofitted calculations for the effective masses. The various field limits were chosen in order to either obtain a clearly delimited peak in the lower field cases or to obtain a signal from a weak peak in the higher field cases.
 
 
 \subsubsection{`Microfitting' the \ac{LK} formula}
 
-A second attempt at refining the \ac{LK} fits was performed by applying the microfit technique desribed in section~\ref{Sec:Exp:LKMicrofitting}. $1.5$ oscillations were fit at a time Filtering the data beforehand is not always straightforward due to close proximity of neighbouring peaks. The stronger peaks from the $\alpha$ and $\beta$ Fermi surfaces show banding of the masses and a clear trending of the results to one of a few values which have been highlighted in yellow. Data in these regions were averaged to give the values in table \ref{Tab:ResD:EffectiveMassResults}.
+A second attempt at refining the \ac{LK} fits was performed by applying the microfit technique described in section~\ref{Sec:Exp:LKMicrofitting}. $1.5$ oscillations were fit at a time Filtering the data beforehand is not always straightforward due to close proximity of neighbouring peaks. The stronger peaks from the $\alpha$ and $\beta$ Fermi surfaces show banding of the masses and a clear trending of the results to one of a few values which have been highlighted in yellow. Data in these regions were averaged to give the values in table~\ref{Tab:ResD:EffectiveMassResults}.
 
 All filtered using function $\textit{F}_{\textrm{filt}}(x) = \textit{F}(x) \times 1/2 [\tanh{(\pi(x - x_{\textrm{low}})/w)} + \tanh{(-\pi(x - x_{\textrm{high}})/w})]$ where $\textit{F}$ is the Fourier transform of the torque data, $x$ is the dHvA frequency, $x_{\textrm{low}}$ and $x_{\textrm{high}}$ are the lower and upper limits of the filter range respectively and $w$ determines the trail off slope of the filter function. For all measurements $w=10$.
 %%
 \begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.7]{Chapter-dHvABaFe2P2/Figures/Mass/MicroFits/MicroFits}
-        \caption{Effective temperature dependant masses extracted from fits to between one and three dHvA oscillations in the measured data. See Appendix\ref{Appendix:MicroFitParams} for a full list of parameters for each set of fits.}
+        \caption{Effective temperature dependant masses extracted from fits to between one and three dHvA oscillations in the measured data. See Appendix~\ref{Appendix:MicroFitParams} for a full list of parameters for each set of fits.}
         \label{Fig:ResD:MicroFits}
     \end{center}
 \end{figure}
