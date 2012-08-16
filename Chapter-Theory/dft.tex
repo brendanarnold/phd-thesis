@@ -21,6 +21,7 @@ Kohn-Sham developed a method to find a good starting form for $n$ by showing tha
 v_{\textrm{KS}} = v_{\textrm{ext}}(\vect{r}) + \int d^3r^\prime\frac{n(\vect{r})}{|\vect{r}-\vect{r}^{\hspace{2px}\prime}|} + \frac{\partial E_{\textrm{xc}}}{\partial n(\vect{r})}
 \end{equation}
 where $E_{\textrm{xc}}$ is the combined particle correlation and exchange energy terms which is approximated according to the type of problem to be solved\footnote{Note that in principle, these two terms should be separate but most approximations tend to combine them into a single term.}.  Once an approximate form for the exchange term has been chosen, the above can be used to find the ground state energy by running a self consistency cycle that forms the heart of most \ac{DFT} codes,
+\Needspace*{5\baselineskip} % Ensure this appears on same page
 \begin{enumerate}
     \item Guess an initial $n_{i=0}$
     \item Calculate $v_{\textrm{KS}}$ from $n_{i}$ using eqn.~\ref{Eqn:Theo:KohnShamPotential}
