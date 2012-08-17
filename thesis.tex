@@ -6,7 +6,7 @@
 \usepackage{booktabs}                   % Good looking tables
 \usepackage{url}                        % Formatting for URLs
 \usepackage{amsmath}                    % Extra math stuff
-\usepackage[sorting=none,style=numeric-comp,url=false,isbn=false,eprint=false]{biblatex}     % Better bibliography control
+\usepackage[sorting=none,style=numeric-comp,url=false,eprint=true,firstinits=true]{biblatex}     % Better bibliography control
 \usepackage{pdflscape}                  % Landscape
 \usepackage[cdot,mediumqspace,textstyle,squaren]{SIunits} % Unit package
 \usepackage[small,bf]{caption}          % Figure caption formatting
@@ -48,7 +48,17 @@
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
 
 % Try the Biblatex package
-\bibliography{Bibliography/processed_library}
+\bibliography{Bibliography/processed-library.bib}
+\renewbibmacro{in:}{}                               % Remove 'In' from bibliography entries
+\DeclareFieldFormat[article]{volume}{\textbf{#1}}   % Make the volume bold
+\DeclareNameAlias{sortname}{last-first}             % Last name then initials
+% \AtEveryBibitem{%                                 % Delete ISSN
+% field for articles 
+%     \ifentrytype{article}{}{%
+%         \clearfield{issn}%
+%     }%
+% }
+
 
 \begin{document}
 
