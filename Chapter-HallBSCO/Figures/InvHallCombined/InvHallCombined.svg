@@ -108,8 +108,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="416.80587"
-     inkscape:cy="838.01216"
+     inkscape:cx="440.91765"
+     inkscape:cy="795.39305"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -126,7 +126,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -221,48 +221,6 @@
          x="327.79449"
          y="224.03711"
          style="font-size:10px">UD</tspan></text>
-    <text
-       transform="matrix(0,-1,1,0,0,0)"
-       sodipodi:linespacing="100%"
-       id="text3096"
-       y="198.28804"
-       x="-285.71207"
-       style="font-size:10.66042614px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       xml:space="preserve"><tspan
-         y="198.28804"
-         x="-285.71207"
-         id="tspan3098"
-         sodipodi:role="line">R<tspan
-   id="tspan3100"
-   style="font-size:6.92937469px;baseline-shift:sub">H</tspan> (<tspan
-   id="tspan3102"
-   style="font-style:italic">cm</tspan><tspan
-   id="tspan3104"
-   style="font-size:6.92937469px;font-style:italic;baseline-shift:super">3</tspan> ×10<tspan
-   id="tspan3106"
-   style="font-size:6.92937469px;baseline-shift:super">-3</tspan>)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:10.66042614px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="-276.6207"
-       y="389.20688"
-       id="text3082"
-       sodipodi:linespacing="100%"
-       transform="matrix(0,-1,1,0,0,0)"><tspan
-         sodipodi:role="line"
-         id="tspan3084"
-         x="-276.6207"
-         y="389.20688">1/R<tspan
-   style="font-size:6.92937469px;baseline-shift:sub"
-   id="tspan3090">H</tspan> (<tspan
-   style="font-style:italic"
-   id="tspan3092">cm<tspan
-   style="font-size:65%;baseline-shift:super"
-   id="tspan3108">-</tspan></tspan><tspan
-   style="font-size:6.92937469px;font-style:italic;baseline-shift:super"
-   id="tspan3088">3</tspan> ×10<tspan
-   style="font-size:6.92937469px;baseline-shift:super"
-   id="tspan3086">3</tspan>)</tspan></text>
     <g
        id="g3194"
        transform="translate(-131.82491,-20.960666)">
@@ -417,6 +375,13 @@
        height="5.5558391"
        x="433.60797"
        y="167.46855" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect3065"
+       width="89.651039"
+       height="49.497475"
+       x="441.05786"
+       y="115.82451" />
     <g
        id="g3070"
        transform="matrix(1.0673918,0,0,1.0673918,-32.664302,-7.399001)">
@@ -521,5 +486,49 @@
        sodipodi:ry="6.1871843"
        d="m 462.21643,139.05801 a 10.011074,6.1871843 0 1 1 -20.02215,0 10.011074,6.1871843 0 1 1 20.02215,0 z"
        transform="matrix(0.81317638,0,0,0.75616302,113.92706,34.148598)" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="-284.87851"
+       y="205.54855"
+       id="text3109"
+       sodipodi:linespacing="100%"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3111"
+         x="-284.87851"
+         y="205.54855"
+         style="font-size:10.65999985px">R<tspan
+   style="font-size:6.92909765px;baseline-shift:sub"
+   id="tspan3125">H</tspan> (×10<tspan
+   style="font-size:6.92909765px;baseline-shift:super"
+   id="tspan3127">-3</tspan><tspan
+   style="font-size:10.65999985px;font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'"
+   id="tspan3113"> cm<tspan
+   style="font-size:6.92909765px;baseline-shift:super"
+   id="tspan3129">3</tspan>.C<tspan
+   style="font-size:6.92909765px;baseline-shift:super"
+   id="tspan3131">-1</tspan></tspan>) </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="-285.86313"
+       y="389.43033"
+       id="text3135"
+       sodipodi:linespacing="100%"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3137"
+         x="-285.86313"
+         y="389.43033"
+         style="font-size:10.65999985px">1/R<tspan
+   style="font-size:6.92909765px;baseline-shift:sub"
+   id="tspan3157">H</tspan> (×10<tspan
+   style="font-size:6.92909765px;baseline-shift:super"
+   id="tspan3155">3</tspan><tspan
+   style="font-style:italic"
+   id="tspan3149"> C.cm<tspan
+   style="font-size:6.92909765px;baseline-shift:super"
+   id="tspan3151">-3</tspan></tspan> )</tspan></text>
   </g>
 </svg>

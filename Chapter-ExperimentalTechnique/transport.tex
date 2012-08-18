@@ -93,6 +93,11 @@ R_{\textrm{MR}} &= \frac{1}{2}( R_{\textrm{pos}} + R_{\textrm{neg}} )
 \end{align}
 where $R_{\textrm{pos}}$ and $R_{\textrm{neg}}$ are the resistances measured for the positive and negative field polarities. This requires data to be taken from the positive field maximum down to the negative field maximum and so for example with the Toulouse pulsed field apparatus, two pulses are required for each measurement.
 
+\subsubsection{Analysis of the Hall angle}
+
+In metals the Hall component does not vary with temperature, however high-$T_c$ materials have consistently demonstrated a distinct non-trivial temperature dependence. One way to tackle this problem was pioneered by Chien \etal~\cite{Chien1991} who studied the Hall angle, $\cot\theta_H = \rho(T) / (R_H(T) B)$, of \ac{Y123} doped with Zn impurities and found it to follow $\cot\theta_H = a T^2 + C$ where $C$ is a constant term due to impurities. The Hall angle, $\tan^{-1}(\sigma_{xy}/\sigma_{xx})$, is thought to cancel contributions from the transport scattering rate leaving the only the transverse scattering rate and so provides a way to access the `actual' Hall contribution.
+
+
 \subsubsection{Correcting for temperature variations}
 
 Figure~\ref{Fig:Exp:ComparisonFieldSweeps} shows a comparison of typical field sweeps for the \ac{LNCMI} and Nijmegen facilities and the Polo magnet. The \ac{LNCMI} pulse length is $\sim\unit{150}{\milli\second}$ and as such is not typically subject to slow temperature drift throughout the duration of the pulse. However the positive and negative pulses are typically taken with at least a \unit{30}{\minute} interval in-between pulses meaning the positive and negative pulses may not be at precisely the same temperature. As such, a small offset is applied to bring the zero field data into line between positive and negative pulses.

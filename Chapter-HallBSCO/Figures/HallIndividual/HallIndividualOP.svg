@@ -40,15 +40,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="471.19926"
-     inkscape:cy="479.71824"
+     inkscape:cx="351.69926"
+     inkscape:cy="599.71824"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1136"
      inkscape:window-height="823"
-     inkscape:window-x="-5"
-     inkscape:window-y="59"
+     inkscape:window-x="98"
+     inkscape:window-y="40"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
@@ -58,7 +58,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -113,84 +113,6 @@
          style="font-size:12px">Temperature (<tspan
    style="font-size:12px;font-style:italic"
    id="tspan3022">K</tspan>)</tspan></text>
-    <text
-       transform="matrix(0,-1,1,0,0,0)"
-       sodipodi:linespacing="100%"
-       id="text3042"
-       y="156.94835"
-       x="-695.38672"
-       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       xml:space="preserve"
-       inkscape:export-filename="C:\PhD\Publish\Thesis\Chapter-HallBSCO\Figures\InvHallCombined\path3066.png"
-       inkscape:export-xdpi="180"
-       inkscape:export-ydpi="180"><tspan
-         style="font-size:12px"
-         y="156.94835"
-         x="-695.38672"
-         id="tspan3044"
-         sodipodi:role="line">R<tspan
-   id="tspan3046"
-   style="font-size:7.80010986px;baseline-shift:sub">H</tspan> (<tspan
-   id="tspan3048"
-   style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'">cm</tspan><tspan
-   id="tspan3050"
-   style="font-size:7.80010986px;font-style:italic;baseline-shift:super;-inkscape-font-specification:'Times New Roman, Italic'">3</tspan><tspan
-   id="tspan3052"
-   style="font-style:normal;-inkscape-font-specification:'Times New Roman,'"> ×10</tspan><tspan
-   id="tspan3054"
-   style="font-size:7.80010986px;font-style:normal;baseline-shift:super;-inkscape-font-specification:'Times New Roman,'">-3</tspan>)</tspan></text>
-    <text
-       transform="matrix(0,-1,1,0,0,0)"
-       sodipodi:linespacing="100%"
-       id="text3056"
-       y="156.94835"
-       x="-496.10236"
-       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       xml:space="preserve"
-       inkscape:export-filename="C:\PhD\Publish\Thesis\Chapter-HallBSCO\Figures\InvHallCombined\path3064.png"
-       inkscape:export-xdpi="180"
-       inkscape:export-ydpi="180"><tspan
-         style="font-size:12px"
-         y="156.94835"
-         x="-496.10236"
-         id="tspan3058"
-         sodipodi:role="line">R<tspan
-   id="tspan3060"
-   style="font-size:7.80010986px;baseline-shift:sub">H</tspan> (<tspan
-   id="tspan3062"
-   style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'">cm</tspan><tspan
-   id="tspan3064"
-   style="font-size:7.80010986px;font-style:italic;baseline-shift:super;-inkscape-font-specification:'Times New Roman, Italic'">3</tspan><tspan
-   id="tspan3066"
-   style="font-style:normal;-inkscape-font-specification:'Times New Roman,'"> ×10</tspan><tspan
-   id="tspan3068"
-   style="font-size:7.80010986px;font-style:normal;baseline-shift:super;-inkscape-font-specification:'Times New Roman,'">-3</tspan>)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="-299.72668"
-       y="156.94835"
-       id="text3024"
-       sodipodi:linespacing="100%"
-       transform="matrix(0,-1,1,0,0,0)"
-       inkscape:export-filename="C:\PhD\Publish\Thesis\Chapter-HallBSCO\Figures\InvHallCombined\path3065.png"
-       inkscape:export-xdpi="180"
-       inkscape:export-ydpi="180"><tspan
-         sodipodi:role="line"
-         id="tspan3026"
-         x="-299.72668"
-         y="156.94835"
-         style="font-size:12px">R<tspan
-   style="font-size:7.80010986px;baseline-shift:sub"
-   id="tspan3040">H</tspan> (<tspan
-   style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'"
-   id="tspan3032">cm</tspan><tspan
-   style="font-size:7.80010986px;font-style:italic;baseline-shift:super;-inkscape-font-specification:'Times New Roman, Italic'"
-   id="tspan3030">3</tspan><tspan
-   style="font-style:normal;-inkscape-font-specification:'Times New Roman,'"
-   id="tspan3034"> ×10</tspan><tspan
-   style="font-size:7.80010986px;font-style:normal;baseline-shift:super;-inkscape-font-specification:'Times New Roman,'"
-   id="tspan3028">-3</tspan>)</tspan></text>
     <rect
        y="188.34877"
        x="433.42703"
@@ -628,5 +550,74 @@
        inkscape:export-filename="C:\PhD\Publish\Thesis\Chapter-HallBSCO\Figures\InvHallCombined\path3065.png"
        inkscape:export-xdpi="180"
        inkscape:export-ydpi="180" />
+    <text
+       transform="matrix(0,-1,1,0,0,0)"
+       sodipodi:linespacing="100%"
+       id="text3086"
+       y="152.33337"
+       x="-495.69971"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="font-size:10.65999985px"
+         y="152.33337"
+         x="-495.69971"
+         id="tspan3088"
+         sodipodi:role="line">R<tspan
+   id="tspan3090"
+   style="font-size:6.92909765px;baseline-shift:sub">H</tspan> (×10<tspan
+   id="tspan3092"
+   style="font-size:6.92909765px;baseline-shift:super">-3</tspan><tspan
+   id="tspan3094"
+   style="font-size:10.65999985px;font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'"> cm<tspan
+   id="tspan3096"
+   style="font-size:6.92909765px;baseline-shift:super">3</tspan>.C<tspan
+   id="tspan3098"
+   style="font-size:6.92909765px;baseline-shift:super">-1</tspan></tspan>) </tspan></text>
+    <text
+       transform="matrix(0,-1,1,0,0,0)"
+       sodipodi:linespacing="100%"
+       id="text3100"
+       y="152.33337"
+       x="-697.69971"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="font-size:10.65999985px"
+         y="152.33337"
+         x="-697.69971"
+         id="tspan3102"
+         sodipodi:role="line">R<tspan
+   id="tspan3104"
+   style="font-size:6.92909765px;baseline-shift:sub">H</tspan> (×10<tspan
+   id="tspan3106"
+   style="font-size:6.92909765px;baseline-shift:super">-3</tspan><tspan
+   id="tspan3108"
+   style="font-size:10.65999985px;font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'"> cm<tspan
+   id="tspan3110"
+   style="font-size:6.92909765px;baseline-shift:super">3</tspan>.C<tspan
+   id="tspan3112"
+   style="font-size:6.92909765px;baseline-shift:super">-1</tspan></tspan>) </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="-305.69971"
+       y="152.33337"
+       id="text3109"
+       sodipodi:linespacing="100%"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3111"
+         x="-305.69971"
+         y="152.33337"
+         style="font-size:10.65999985px">R<tspan
+   style="font-size:6.92909765px;baseline-shift:sub"
+   id="tspan3125">H</tspan> (×10<tspan
+   style="font-size:6.92909765px;baseline-shift:super"
+   id="tspan3127">-3</tspan><tspan
+   style="font-size:10.65999985px;font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'"
+   id="tspan3113"> cm<tspan
+   style="font-size:6.92909765px;baseline-shift:super"
+   id="tspan3129">3</tspan>.C<tspan
+   style="font-size:6.92909765px;baseline-shift:super"
+   id="tspan3131">-1</tspan></tspan>) </tspan></text>
   </g>
 </svg>

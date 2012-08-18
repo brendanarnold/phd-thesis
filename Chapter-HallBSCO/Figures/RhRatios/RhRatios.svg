@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.1 "
-   sodipodi:docname="New document 1">
+   sodipodi:docname="RhRatios.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="263.54657"
-     inkscape:cy="952.03298"
+     inkscape:cx="316.92448"
+     inkscape:cy="965.27368"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -54,7 +54,7 @@
      id="layer1">
     <image
        y="85.362198"
-       x="216.07143"
+       x="98.071426"
        id="image2993"
        xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-HallBSCO/Figures/RhRatios/Main.png"
        height="156.85715"
@@ -62,13 +62,13 @@
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="326.11786"
+       x="208.11786"
        y="252.49089"
        id="text2996"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan2998"
-         x="326.11786"
+         x="208.11786"
          y="252.49089"
          style="font-size:11px">Doping <tspan
    style="font-size:11px;font-style:italic"
@@ -77,19 +77,21 @@
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
        x="-198.20721"
-       y="208.4115"
+       y="90.411499"
        id="text3002"
        sodipodi:linespacing="100%"
        transform="matrix(0,-1,1,0,0,0)"><tspan
          sodipodi:role="line"
          id="tspan3004"
          x="-198.20721"
-         y="208.4115"
+         y="90.411499"
          style="font-size:11px">Ratio to <tspan
    style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'"
    id="tspan3008">R</tspan><tspan
    style="font-size:7.15010071px;font-style:italic;baseline-shift:sub;-inkscape-font-specification:'Times New Roman, Italic'"
-   id="tspan3006">H</tspan>(300K)</tspan></text>
+   id="tspan3006">H</tspan><tspan
+   style="font-style:italic"
+   id="tspan3786">(300K)</tspan></tspan></text>
     <path
        sodipodi:type="arc"
        style="fill:#000000;stroke:none"
@@ -99,7 +101,7 @@
        sodipodi:rx="3.0357144"
        sodipodi:ry="3.0357144"
        d="m 370.00001,187.89789 a 3.0357144,3.0357144 0 1 1 -6.07143,0 3.0357144,3.0357144 0 1 1 6.07143,0 z"
-       transform="matrix(0.76470589,0,0,0.76470589,82.237394,35.818409)" />
+       transform="matrix(0.76470589,0,0,0.76470589,-35.762606,35.818409)" />
     <path
        sodipodi:type="star"
        style="fill:#000000;fill-opacity:1;stroke:none"
@@ -116,60 +118,154 @@
        inkscape:randomized="0"
        d="m 336.59757,151.0955 -3.74042,6.4786 -3.74042,-6.4786 z"
        inkscape:transform-center-y="0.91468698"
-       transform="matrix(0.84711661,0,0,0.84711661,81.460175,64.123572)" />
+       transform="matrix(0.84711661,0,0,0.84711661,-36.539825,64.123572)" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        id="rect3044-1"
        width="76.428574"
        height="10"
-       x="368.42856"
+       x="250.42856"
        y="189.86218" />
     <text
        sodipodi:linespacing="100%"
        id="text3032"
        y="197.36218"
-       x="370.00009"
+       x="252.00009"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
        xml:space="preserve"><tspan
          style="font-size:9px"
          y="197.36218"
-         x="370.00009"
+         x="252.00009"
          id="tspan3034"
          sodipodi:role="line"><tspan
    id="tspan3036"
    style="font-style:italic">R</tspan><tspan
    id="tspan3038"
-   style="font-size:65.00091553%;font-style:italic;baseline-shift:sub">H</tspan>(0K)/<tspan
+   style="font-size:65.00091553%;font-style:italic;baseline-shift:sub">H</tspan><tspan
+   style="font-style:italic"
+   id="tspan3780">(0K)</tspan>/<tspan
    id="tspan3040"
    style="font-style:italic">R</tspan><tspan
    id="tspan3042"
-   style="font-size:65.00091553%;font-style:italic;baseline-shift:sub">H</tspan>(300K)</tspan></text>
+   style="font-size:65.00091553%;font-style:italic;baseline-shift:sub">H</tspan><tspan
+   style="font-style:italic"
+   id="tspan3782">(300K)</tspan></tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        id="rect3044"
        width="76.428574"
        height="10"
-       x="367.14285"
+       x="249.14285"
        y="175.21931" />
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="369.64285"
+       x="251.64285"
        y="182.71933"
        id="text3016"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan3018"
-         x="369.64285"
+         x="251.64285"
          y="182.71933"
          style="font-size:9px"><tspan
    style="font-style:italic"
    id="tspan3028">R</tspan><tspan
    style="font-size:65.00091553%;font-style:italic;baseline-shift:sub"
-   id="tspan3020">H</tspan>(Max.)/<tspan
+   id="tspan3020">H</tspan><tspan
+   style="font-style:italic"
+   id="tspan3776">(max)</tspan>/<tspan
    style="font-style:italic"
    id="tspan3024">R</tspan><tspan
    style="font-size:65.00091553%;font-style:italic;baseline-shift:sub"
-   id="tspan3022">H</tspan>(300K)</tspan></text>
+   id="tspan3022">H</tspan><tspan
+   style="font-style:italic"
+   id="tspan3778">(300K)</tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 123.07143,151.11218 214.28571,0"
+       id="path3006"
+       inkscape:connector-curvature="0" />
+    <image
+       y="85.090454"
+       x="364.60641"
+       id="image3020"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-HallBSCO/Figures/RhRatios/TRhMax.png"
+       height="157.68512"
+       width="254.58322" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="478.95184"
+       y="250.40752"
+       id="text2996-1"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan2998-7"
+         x="478.95184"
+         y="250.40752"
+         style="font-size:11px">Doping <tspan
+   style="font-size:11px;font-style:italic"
+   id="tspan3000-4">p</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="-196.48769"
+       y="361.84409"
+       id="text3047"
+       sodipodi:linespacing="100%"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3049"
+         x="-196.48769"
+         y="361.84409"
+         style="font-size:11px">Temperature (<tspan
+   style="font-size:11px;font-style:italic"
+   id="tspan3051">K</tspan>)</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect3063"
+       width="40"
+       height="7.8571424"
+       x="542.85712"
+       y="118.43361" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="546.78571"
+       y="122.36218"
+       id="text3053"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3055"
+         x="546.78571"
+         y="122.36218"
+         style="font-style:italic">T<tspan
+   style="font-size:65.00091553%;font-style:italic;baseline-shift:sub"
+   id="tspan3061" /></tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;stroke:none"
+       id="path3012-7"
+       sodipodi:cx="366.96429"
+       sodipodi:cy="187.89789"
+       sodipodi:rx="3.0357144"
+       sodipodi:ry="3.0357144"
+       d="m 370.00001,187.89789 a 3.0357144,3.0357144 0 1 1 -6.07143,0 3.0357144,3.0357144 0 1 1 6.07143,0 z"
+       transform="matrix(0.76470589,0,0,0.76470589,260.98739,-24.003015)" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.88786459px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="552.64197"
+       y="124.34834"
+       id="text3095"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3097"
+         x="552.64197"
+         y="124.34834"
+         style="font-style:italic">R<tspan
+   style="font-size:4.47717524px;font-style:italic;baseline-shift:sub"
+   id="tspan3099">H</tspan>(max)</tspan></text>
   </g>
 </svg>
