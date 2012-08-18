@@ -14,7 +14,7 @@
    height="1052.3622047"
    id="svg8950"
    version="1.1"
-   inkscape:version="0.48.1 "
+   inkscape:version="0.48.1 r9760"
    sodipodi:docname="NegativeCurvatureLSCO.svg">
   <defs
      id="defs8952">
@@ -208,16 +208,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="113.03102"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="365.2718"
      inkscape:cy="835.11901"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1218"
-     inkscape:window-height="895"
-     inkscape:window-x="44"
-     inkscape:window-y="58"
+     inkscape:window-height="756"
+     inkscape:window-x="71"
+     inkscape:window-y="99"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata8955">
@@ -227,7 +227,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -235,13 +235,6 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <image
-       y="128.96738"
-       x="322.68198"
-       id="image8977"
-       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-Theory/Figures/NegativeCurvatureLSCO/Main.PNG"
-       height="163.12148"
-       width="311.52222" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        id="rect8980"
@@ -256,34 +249,6 @@
        height="10.598288"
        x="477.78561"
        y="281.26019" />
-    <text
-       sodipodi:linespacing="100%"
-       id="text8990"
-       y="288.07669"
-       x="550.74255"
-       style="font-size:7.7413578px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       xml:space="preserve"><tspan
-         style="font-size:10.32181072px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Sans;-inkscape-font-specification:Sans Oblique"
-         y="288.07669"
-         x="550.74255"
-         id="tspan8992"
-         sodipodi:role="line">k<tspan
-   id="tspan8994"
-   style="font-size:6.70927143px;baseline-shift:sub">x</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:7.7413578px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="627.78796"
-       y="201.13094"
-       id="text8984"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan8986"
-         x="627.78796"
-         y="201.13094"
-         style="font-size:10.32181072px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Sans;-inkscape-font-specification:Sans Oblique">k<tspan
-   style="font-size:6.70927143px;baseline-shift:sub"
-   id="tspan8996">y</tspan></tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        id="rect8998"
@@ -581,5 +546,12 @@
            inkscape:connector-curvature="0" />
       </g>
     </g>
+    <image
+       y="121.11685"
+       x="475.29837"
+       id="image3132"
+       xlink:href="file:///Users/brendan/Documents/Academic/PhD/Publish/Thesis/Chapter-Theory/Figures/NegativeCurvatureLSCO/Kondo_2004.png"
+       height="163.50095"
+       width="164.24583" />
   </g>
 </svg>
