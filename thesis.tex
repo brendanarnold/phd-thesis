@@ -29,7 +29,10 @@
 \usepackage{setspace}                   % Allows switching between single, double spacing
 \usepackage{titlesec}                   % Reduce margin above chapter titles
 \usepackage{needspace}                  % Sets an amount of space required otherwise start a new page
-% \usepackage{fancyhdr}                   % Use
+\usepackage[top=3.5cm,%
+            bottom=3.5cm,% 
+            inner=3.5cm,
+            outer=2.5cm]{geometry}      % Adjust margins, 'left' and 'right'
 
 
 % Text should be in double or 1.5 line spacing, and font size should be chosen to ensure clarity and legibility for the main text and for any quotations and footnotes. Margins should allow for eventual hard binding.
@@ -44,6 +47,11 @@
 % heading
 \titlespacing*{\chapter}{0pt}{-30pt}{20pt}
 \titleformat{\chapter}[display]{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+
+% Reduce the default margin sizes
+% \addtolength{}{}
+% \setlength{\oddsidemargin}{10pt}
+% \setlength{\evensidemargin}{10pt}
 
 % Prefix equation/figure numbers with section number
 \numberwithin{equation}{section}
@@ -91,17 +99,17 @@
 
 % Main content here
 \input{Chapter-Introduction/main.tex}
-\input{Chapter-Theory/main.tex}
-\input{Chapter-ExperimentalTechnique/main.tex}
-\input{Chapter-dHvABaFe2P2/main.tex}
-\input{Chapter-HallBSCO/main.tex}
+% \input{Chapter-Theory/main.tex}
+% \input{Chapter-ExperimentalTechnique/main.tex}
+% \input{Chapter-dHvABaFe2P2/main.tex}
+% \input{Chapter-HallBSCO/main.tex}
 % \input{Chapter-MagnetoresistanceBSCO/main.tex}
 
 % Bibliography
-\input{Misc/bibliography.tex}
+% \input{Misc/bibliography.tex}
 
 % Appendix here
-\input{Appendices/main.tex}
+% \input{Appendices/main.tex}
 
 
 \end{document}
