@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg3728"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="New document 48">
+  <defs
+     id="defs3730" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.95"
+     inkscape:cx="348.57143"
+     inkscape:cy="861.42857"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1043"
+     inkscape:window-height="706"
+     inkscape:window-x="60"
+     inkscape:window-y="60"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3733">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <image
+       y="81.362198"
+       x="55.499989"
+       id="image3814"
+       xlink:href="file:///Users/brendan/Documents/Academic/PhD/Publish/Thesis/Chapter-Introduction/Figures/FSLaFePO/Main1.png"
+       height="224.85715"
+       width="237.99814" />
+    <image
+       y="129.68719"
+       x="313.52252"
+       id="image3876"
+       xlink:href="file:///Users/brendan/Documents/Academic/PhD/Publish/Thesis/Chapter-Introduction/Figures/FSLaFePO/Main2.png"
+       height="130.92104"
+       width="374.13617" />
+    <rect
+       style="fill:#ffffff;stroke:none"
+       id="rect3879"
+       width="16.686985"
+       height="20.858734"
+       x="310.77612"
+       y="127.0428"
+       ry="3.9628367" />
+    <rect
+       style="fill:#ffffff;stroke:none"
+       id="rect3881"
+       width="19.468151"
+       height="31.983391"
+       x="505.45761"
+       y="125.65222"
+       ry="3.9628367" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3887"
+       y="118.67797"
+       x="390.52634"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         y="118.67797"
+         x="390.52634"
+         id="tspan3889"
+         sodipodi:role="line"
+         style="font-size:14px">Unshifted</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Sans"
+       x="580"
+       y="116.57271"
+       id="text3883"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3885"
+         x="580"
+         y="116.57271"
+         style="font-size:14px">Shifted</tspan></text>
+  </g>
+</svg>

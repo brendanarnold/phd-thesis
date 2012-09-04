@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg3728"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="FSLaFePO.svg">
+  <defs
+     id="defs3730" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.67175144"
+     inkscape:cx="357.79002"
+     inkscape:cy="655.41812"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1043"
+     inkscape:window-height="706"
+     inkscape:window-x="60"
+     inkscape:window-y="60"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3733">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <image
+       y="81.362198"
+       x="55.499989"
+       id="image3814"
+       xlink:href="file:///Users/brendan/Documents/Academic/PhD/Publish/Thesis/Chapter-Introduction/Figures/FSLaFePO/Main1.png"
+       height="224.85715"
+       width="237.99814" />
+    <image
+       y="129.68719"
+       x="313.52252"
+       id="image3876"
+       xlink:href="file:///Users/brendan/Documents/Academic/PhD/Publish/Thesis/Chapter-Introduction/Figures/FSLaFePO/Main2.png"
+       height="130.92104"
+       width="374.13617" />
+    <rect
+       style="fill:#ffffff;stroke:none"
+       id="rect3879"
+       width="16.686985"
+       height="20.858734"
+       x="310.77612"
+       y="127.0428"
+       ry="3.9628367" />
+    <rect
+       style="fill:#ffffff;stroke:none"
+       id="rect3881"
+       width="19.468151"
+       height="31.983391"
+       x="505.45761"
+       y="125.65222"
+       ry="3.9628367" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3887"
+       y="118.67797"
+       x="390.52634"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         y="118.67797"
+         x="390.52634"
+         id="tspan3889"
+         sodipodi:role="line"
+         style="font-size:18px">Unshifted</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Sans"
+       x="580"
+       y="116.57271"
+       id="text3883"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3885"
+         x="580"
+         y="116.57271"
+         style="font-size:18px">Shifted</tspan></text>
+    <image
+       y="336.99701"
+       x="346.93475"
+       id="image3364"
+       xlink:href="file:///Users/brendan/Documents/Academic/PhD/Publish/Thesis/Chapter-Introduction/Figures/FSCaFeP/110Slice.png"
+       height="136.24182"
+       width="209.95718" />
+    <image
+       y="321.91852"
+       x="53.000832"
+       id="image3488"
+       xlink:href="file:///Users/brendan/Documents/Academic/PhD/Publish/Thesis/Chapter-Introduction/Figures/FSCaFeP/Full.png"
+       height="179.18167"
+       width="279.80585" />
+    <rect
+       style="fill:#ffffff;stroke:none"
+       id="rect3491"
+       width="118.78024"
+       height="16.284388"
+       x="47.357628"
+       y="319.58359"
+       ry="8.1421938" />
+    <g
+       id="layer1-8"
+       inkscape:label="Layer 1"
+       transform="matrix(1.0945691,0,0,1.0945691,-4.2761685,432.87484)">
+      <image
+         width="333.91306"
+         height="113.47826"
+         xlink:href="file:///Users/brendan/Documents/Academic/PhD/Publish/Thesis/Chapter-Introduction/Figures/FSSrFeP/110Slices.png"
+         id="image3617"
+         x="311.10556"
+         y="98.480209" />
+      <image
+         width="201.52174"
+         height="150"
+         xlink:href="file:///Users/brendan/Documents/Academic/PhD/Publish/Thesis/Chapter-Introduction/Figures/FSSrFeP/Main.png"
+         id="image3679"
+         x="94.071449"
+         y="80.219353" />
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Sans"
+         x="369.5632"
+         y="92.999489"
+         id="text3686"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3688"
+           x="369.5632"
+           y="92.999489"
+           style="font-size:16.44482747px">Unshifted</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3682"
+         y="92.16526"
+         x="545.41425"
+         style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Sans"
+         xml:space="preserve"><tspan
+           y="92.16526"
+           x="545.41425"
+           id="tspan3684"
+           sodipodi:role="line"
+           style="font-size:16.44482747px">Shifted</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 180.12615,308.03926 458.50292,0"
+       id="path4129"
+       inkscape:connector-curvature="0" />
+    <image
+       y="511.35239"
+       x="181.79002"
+       id="image4150"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAcwAAAABCAYAAABT2p5YAAAABHNCSVQICAgIfAhkiAAAACJJREFU
+OI1jrK+v/9/Y2MgwCkbBKBgFo2AUjALs4O/fv00AxjQHen8ntmwAAAAASUVORK5CYII=
+"
+       height="1"
+       width="460" />
+    <text
+       transform="matrix(0,-1,1,0,0,0)"
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Sans"
+       x="-621.98877"
+       y="69.691574"
+       id="text4181"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4183"
+         x="-621.98877"
+         y="69.691574"
+         style="font-size:20px">SrFe<tspan
+   id="tspan4185"
+   style="font-size:13.00018311px;baseline-shift:sub">2</tspan>P<tspan
+   id="tspan4187"
+   style="font-size:13.00018311px;baseline-shift:sub">2</tspan></tspan></text>
+    <text
+       transform="matrix(0,-1,1,0,0,0)"
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Sans"
+       x="-453.77176"
+       y="63.736992"
+       id="text4189"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4191"
+         x="-453.77176"
+         y="63.736992"
+         style="font-size:20px">CaFe<tspan
+   id="tspan4193"
+   style="font-size:13.00018311px;baseline-shift:sub">2</tspan>P<tspan
+   id="tspan4195"
+   style="font-size:13.00018311px;baseline-shift:sub">2</tspan></tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4161"
+       y="60.759701"
+       x="-200.70197"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Sans"
+       xml:space="preserve"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         style="font-size:20px"
+         y="60.759701"
+         x="-200.70197"
+         id="tspan4163"
+         sodipodi:role="line">LaFePO</tspan></text>
+  </g>
+</svg>
