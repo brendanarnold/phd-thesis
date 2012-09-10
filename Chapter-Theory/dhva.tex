@@ -12,12 +12,13 @@ For metals, the majority of the interesting physics occurs at the Fermi level an
 \textit{a}_{k_{\perp}} = (r + 1/2)\frac{2\pi e B}{\hbar}
 \end{equation}
 %%
-where $r$ is a quantisation number that sets apart each tube. We can see from the relation that as $\vect{B}$ increases, so does the cross-sectional area of the tubes. As the magnetic field is ramped, successive tubes periodically pass the Fermi surface causing a spike in the \ac{DOS} at the Fermi level and also oscillations in the energy of the system, $E$, which, for geometric reasons explained in the next section, are far stronger at the maximal and minimal (extremal) areas of Fermi surface. Thermodynamic quantities such as magnetic susceptibility ($\chi = \partial E/\partial B$) and heat capacity ($C_{V} = \partial^2E/\partial T^2|_{V}$) or quantities that depend on the \ac{DOS} at the Fermi level such as electrical resistance all oscillate as the field is ramped. Oscillations in the susceptibility are known as \ac{dHvA} oscillations, oscillations in the resistivity are known as Shubnikov-de Haas oscillations.
+where $r$ is a quantisation number that sets apart each tube. We can see from the relation that as $\vect{B}$ increases, so does the cross-sectional area of the tubes. As the magnetic field is ramped, successive tubes periodically pass the Fermi surface causing a spike in the \ac{DOS} at the Fermi level and also oscillations in the energy of the system, $E$, which, for geometric reasons explained in the next section, are far stronger at the maximal and minimal (extremal) areas of Fermi surface. Thermodynamic quantities such as magnetisation ($M = \partial E/\partial B$) and heat capacity ($C_{V} = \partial E/\partial T|_{V}$) or quantities that depend on the \ac{DOS} at the Fermi level such as electrical resistance all oscillate as the field is ramped. Oscillations in the susceptibility are known as \ac{dHvA} oscillations, oscillations in the resistivity are known as Shubnikov-de Haas oscillations.
 
- We can relate the `frequency' $F$ (measured in $tesla$\footnote{n.b. that it is \emph{tesla} and not \emph{tesla$^{-1}$} because, as we shall see later, the oscillations are actually periodic in $1/B$ and \emph{not} $B$ so their frequency counterpart is measured in \emph{tesla}.}) that the tubes pass the Fermi surface to the extremal Fermi surface area using the following application of the Onsager relation,
+ We can relate the `frequency' $F$ (measured in $Tesla$\footnote{n.b. that it is \emph{Tesla} and not \emph{Tesla$^{-1}$} because, as we shall see later, the oscillations are actually periodic in $1/B$ and \emph{not} $B$ so their frequency counterpart is measured in \emph{Tesla}.}) that the tubes pass the Fermi surface to the extremal Fermi surface area using the following application of the Onsager relation,
 %%
 \begin{equation}
 \textit{a}_{k_{\perp}} = \frac{2\pi e }{\hbar}F
+\label{Eqn:Theo:AreaFreqRelation}
 \end{equation}
 %%
 By varying the direction of the field we can obtain a series of maximal and minimal Fermi surface areas in a variety of orientations in order to build a profile of the Fermi surface topology and size. In practice, there are many possible variations that might fit the model based on areas of cross-sectional slices alone and so typically ab-initio \ac{DFT} calculations --- described in sections~\ref{Sec:Theo:Dft} and~\ref{Sec:Exp:Dft} --- are employed to provide a basis which can be tweaked based on the constraints from the measurements. 
@@ -25,6 +26,7 @@ By varying the direction of the field we can obtain a series of maximal and mini
 A more detailed analysis of this process follows, beginning with an illustrative mathematical treatment for oscillations in the magnetisation.
 
 \subsection{Exploring the origin of the oscillations}
+    \label{Sec:Theo:ToyEqn}
 
 We begin by calculating the degeneracy of the Landau tubes i.e. the number of electron states per tube. Because the states under a magnetic field are a one-to-one rearrangement of the states with no field, we can use the Sommerfeld number of states per unit k-space ($V/4\pi^3$) to determine the degeneracy. From the Onsager relation (eqn.~\ref{Eqn:Theo:Onsager}) we see that the additional area for successive tubes is $\Delta a_{k_{\perp}}  = 2\pi e B/\hbar$ which we can convert to a volume by integrating over $k_{\perp}$. This gives a degeneracy per tube therefore of,
 
@@ -65,7 +67,7 @@ which can be expanded out and finally substituted back into equation~\ref{Eqn:Th
 E = \frac{e^2Vdk_\perp}{4\pi^2m_0}B^2\left[R_\perp^2 + 2R_\perp + \frac{\hbar k^2}{e}\frac{1}{B}R_\perp\right]
 \end{equation}
 %%
-Key to the above relation is that, although $R_\perp$ is inversely proportional to $B$, it remains discrete. This gives rise to the saw-tooth like function shown in figure~\ref{Fig:Theo:EnergyOscillations} for some typical experimental parameters. Also plotted is the function against $1/B$ where we can clearly see that the oscillations are periodic in inverse field hence the frequency being measured in tesla$^{-1}$.
+Key to the above relation is that, although $R_\perp$ is inversely proportional to $B$, it remains discrete. This gives rise to the saw-tooth like function shown in figure~\ref{Fig:Theo:EnergyOscillations} for some typical experimental parameters. Also plotted is the function against $1/B$ where we can clearly see that the oscillations are periodic in inverse field hence the frequency being measured in Tesla$^{-1}$.
 %%
 \begin{figure}[htbp]
     \begin{center}
@@ -75,7 +77,7 @@ Key to the above relation is that, although $R_\perp$ is inversely proportional 
     \end{center}
 \end{figure}
 
-The above is not a rigorous derivation but is nonetheless illustrative of the origin of the oscillation in the system energy and how any thermodynamic value which depends on the energy of the system oscillates as a function of field. To continue we need to include correction factors to the oscillation amplitude due to finite electron scattering rates ($A_D$), temperature ($A_T$), Zeeman splitting of spins ($A_s$), doping ($A_{\textrm{dop}}$), mosaicity ($A_{\textrm{mos}}$), warping of the Fermi surface ($A_{\textrm{warp}}$) as well as adjustments due to the fact that the parameter measured was torque of the sample in a field and not the energy or magnetisation directly ($A_{\Gamma}$). For this, we turn to a more solid foundation that was put forward by Lifschitz and Kosevitch and presented by Schoenberg.
+The above is not a rigorous derivation but is nonetheless illustrative of the origin of the oscillation in the system energy and how any thermodynamic value which depends on the energy of the system oscillates as a function of field. To continue we need to include correction factors to the oscillation amplitude due to finite electron scattering rates ($A_D$), temperature ($A_T$), Zeeman splitting of spins ($A_s$), doping ($A_{\textrm{dop}}$), mosaicity ($A_{\textrm{mos}}$), warping of the Fermi surface ($A_{\textrm{warp}}$) as well as adjustments due to the fact that the parameter measured was torque of the sample in a field and not the energy or magnetisation directly ($A_{\Gamma}$). For this, we turn to a more solid foundation that was put forward by Lifschitz and Kosevitch.
 
 \subsection{\acl{LK} equation}
 
@@ -89,7 +91,7 @@ where,
 A_{\textrm{tot}} = A_T A_D A_s A_{\Gamma} A_{\textrm{mos}} A_{\textrm{dop}} A_{\Delta B}
 \end{equation}
 %%
-The above equation and derivatives of it are known as the \ac{LK} equation. To obatin the magnetisation the differential with respect to $b$ is taken to get,
+The above equation and derivatives of it are known as the \ac{LK} equation. To obtain the magnetisation the differential with respect to $B$ is taken to get,
 %%
 \begin{equation}
 M = \left(\frac{e}{\hbar}\right)^{\frac{3}{2}}\frac{e\hbar F V B^{\frac{1}{2}}}{m_0 \pi^\frac{5}{2}\sqrt{2}}\left| \frac{\partial^2 a_{\textrm{ext}}}{\partial k^2_\perp}\right|^{-\frac{1}{2}}\sum_{p=1}^{\infty}p^{-\frac{3}{2}}A_{\textrm{tot}}\sin\left[2\pi p\left(\frac{F}{B} - \gamma\right)\pm\frac{\pi}{4}\right]
@@ -99,21 +101,30 @@ To attain the above equations, it was necessary to perform an integral over $k_\
 
 \subsubsection{Attenuation for non-extremal orbits}
 
-Only the extremal (i.e. the largest and smallest) magnetically induced orbits contribute significantly to oscillations in the system energy. This is because $F$ represents a phase factor in the \ac{LK} equation and at the extremal points $dF/dk_\perp=0$ meaning more orbits near extrema are in phase. However it is not immediately clear how much stronger the oscillations from the extremal orbits will be in comparison to other orbits. Figure~\ref{Fig:Theo:ExtremalPhases} shows examples of the strengths of the oscillations after integrating over a distribution of phases shown in the insets.
+Quantum oscillation measurement is often described as a probe of the extremal (i.e. the largest and smallest) Fermi surface orbits perpendicular to the magnetic field. However it is not immediately clear how this comes about, nor how some hypothetical Fermi surfaces, such as a perfect cone, would appear in quantum oscillation measurements.
+
+Strictly, all cross-sectional orbits along $k_{\perp}$ contribute to the system energy as determined in the \ac{LK} equation and each of these orbits has a particular frequency, $F(k_{\perp})$, related to its orbital area by eqn.~\ref{Eqn:Theo:AreaFreqRelation}. Since all these frequencies interfere, the regions of $k_{\perp}$ where the frequencies vary the least dominate the contribution to the system energy, i.e. where $d F(k_{\perp})/dk_{\perp}$ is smallest. In other words, regions along $K_{\perp}$ where there are stationary points in $F(k_{\perp})$ contribute the most to the oscillations in the system energy.
+
+This means for a hypothetical conical Fermi surface with sharp edges, for a field along the cone axis, there would be no stationary points in $F(k_{\perp})$ and there would be no dominant frequency contributing to the oscillations in the system energy \emph{from stationary points}. However it may be possible that a conical Fermi surface can contribute a signal to the Fermi surface that is comparable to a stationary point if the wide end of the conical Fermi surface is comparable in size to the momentum spacing of the Landau tubes. This restricts the field regimes in which oscillations can occur.
+
+The above is illustrated in figure~\ref{Fig:Theo:ExtremalPhases}. The insets shows a cross-sectional slice of the described hypothetical conical Fermi surface as the dashed lines, and a parabolic Fermi surface as a solid line. Assuming field is applied along $k_z$, the parabolic Fermi surface has a stationary point at its midpoint, the conical Fermi surface has no stationary points. The main panels each show the result of numerically integrating $\int\cos{(2\pi F(k_{\perp}/B)} dk_{\perp}$ where $F(k_{\perp})$ is related to the cross-sectional area of Fermi surfaces in inset through eqn.~\ref{Eqn:Theo:AreaFreqRelation}. The maximum radii of the hypothetical Fermi surfaces increase in each panel from $k_r=\unit{0.0075}{\reciprocal\angstrom}$ in the top left panel to $k_r=\unit{0.05}{\reciprocal\angstrom}$ in the bottom right.
+
 %%
 \begin{figure}[htbp]
     \begin{center}
-        \includegraphics[scale=0.9]{Chapter-Theory/Figures/ExtremalPhases/ExtremalPhases}
-        \caption{The sum of 1000 cosines with phase dispersions shown in the insets. Dashed line represents an extremal dispersion, solid lines a spread of linear dispersions and dotted line represent a non-extremal inflection point. Top left, top right and bottom left panels have phase distributions that are scaled from $0$ to $\sim1$, $\approx10$ and $\approx100$ Landau tube `wavelengths' respectively.}
+        \includegraphics[scale=1.0]{Chapter-Theory/Figures/ExtremalPhases/ExtremalPhases}
+        \caption{Inset: hypothetical radially symmetric Fermi surface slices in the [110] plane with maximum radius $k_r$ shown: dashed line is conical, solid line is parabolic. Main panels: Results of $\int\cos{(2\pi F(k_{\perp}/B)} dk_{\perp}$ where $F(k_{\perp})$ is related to the cross-sectional area of Fermi surfaces in inset through eqn.~\ref{Eqn:Theo:AreaFreqRelation}, from top left: $k_r = 0.075, 0.01, 0.025, 0.05$ respectively.}
         \label{Fig:Theo:ExtremalPhases}
     \end{center}
 \end{figure}
 %%
-The panels each show the phases from the distributions taken over a range of scales, and it is clear that the phase cancellation is more acute for longer scales. This makes sense if we consider that the Landau tubes passing the Fermi surface are a oscillatory measurement probe like any other and so will be wavelength limited. That is, if the difference between the outermost and innermost orbits are of the order of the Landau tube spacing as is passes the Fermi surface, then the oscillations will be difficult to pick out. Interestingly this also places a limit on the maximum field that can be used to probe a Fermi surface since, according to the Onsager relation, the larger the field the larger the spacing between tubes. In practice this is simply $\Delta a_{k_\perp}$ which means that in terms of $F$, the resolutions is simply the field (i.e. $\sigma_F \sim \unit{18}{\tesla}$ for the Yellow magnet at Bristol). 
+For the cases where the sides of the conical surface are steep, then the associated oscillation is weaker than that from the comparable parabolic Fermi surface as is shown in the bottom two panels of figure~\ref{Fig:Theo:ExtremalPhases}. However, for the narrow Fermi surfaces, the top two panels show how above a particular field, where the spacing between successive Landau tubes become large in momentum, the signal from the conical and the parabolic surface become comparable. This makes sense if we consider the Landau tubes as an oscillatory probe --- the resolution is limited by wavelength and in this regime the relatively flat conical sides cannot be distinguished from a stationary point.
 
-A final point is that it is not strictly extremal points that contribute significantly to the oscillations, but also inflected stationary points as shown in the last panel of figure~\ref{Fig:Theo:ExtremalPhases} so on could imagine a pathological stepped Fermi surface that would feature several strong orbital oscillations which would not be at turning points.
+To measure the finer stationary point features on the Fermi surface (i.e. shallow corrugations or small pockets) attention needs to be paid to the rapidly oscillating low field region. As can be seen in the top two panels, the parabolic signal is much stronger than the conical signal here. However this region is often obscured by technical problems of high frequency Johnson noise, insufficient sample rates and superconductivity.
 
-Variations in the phases can also be put into practice to model the various effects on the \ac{LK} equation listed towards the end of the previous section. These can be manifest by convolving an appropriate phase distribution function with the cosine oscillatory term. It can be shown\footnote{See for example, Schoenberg pg 57--59.~\cite{Schoenberg1984}} that this convolution results in a relatively simple multiplication factor --- hence the various $A$ factors listed in the \ac{LK} equation which we expand upon below.
+The data analysis also requires sufficient oscillations for an \ac{FFT}. The top right panel of figure~\ref{Fig:Theo:ExtremalPhases} shows that in the region of \unit{6}{\tesla} and above, only half an oscillation has occurred meaning \ac{FFT} is unlikely to give a strong signal. Since data in the \ac{dHvA} experiment was taken between \unit{6}{\tesla} and \unit{18}{\tesla} we should not expect to be able to resolve pockets of radius less than \unit{$k_r\sim 0.01$}{\reciprocal\angstrom}.
+
+We move now to the other attenuating factors listed towards the end of section~\ref{Sec:Theo:ToyEqn}. The above calculation demonstrated how a distribution of frequencies can attenuate an oscillation. At infinity, interfering oscillations with a distribution of frequencies can be approximated instead as interfering oscillations with a distribution of phases. Because the oscillations we are measuring are in inverse field, once they become resolvable due to the experimental problems of noise, sample rates etc. the infinite oscillation approximation becomes valid. This means we can model each attenuating factor by convolving an appropriate phase distribution function with the cosine oscillatory term. It can be shown\footnote{See for example, Schoenberg pg 57--59.~\cite{Schoenberg1984}} that this convolution results in a relatively simple multiplication factor --- hence the various $A$ factors listed in the \ac{LK} equation which we expand upon below.
 
 \subsubsection{Attenuation due to temperature}
 
@@ -126,7 +137,7 @@ The differential of this distribution results in the broadening function (which 
 \begin{equation}
   P(\epsilon < \mu < \epsilon + d\epsilon) \propto \frac{d\epsilon}{2kT(1 + \cosh[(\epsilon - \mu)/kT])}
 \end{equation}
-This is convolved across the Fermi energy to smear it and also the phase through the parameter $F$. The details of how this is done is given in Schoenberg pg. 59ff~\cite{Schoenberg1984} with the end result is given by,
+This is convolved with the energy distribution which smears the Fermi surface. Because the Fermi surface is smeared, so is the parameter $F$ which spreads the Fourier transform peak of the oscillation in the system energy, leading to an attenuation. The final attenuation factor due to this smearing is given in Schoenberg pg. 59ff~\cite{Schoenberg1984} and is reproduced below,
 \begin{equation}
 \label{Eqn:Theo:TemperatureTerm}
   A_T = \frac{X}{\sinh(X)} \textrm{\hspace{0.3cm} where,\hspace{0.3cm}} X = \frac{2\pi^2pkT m^*_T}{e\hbar B}
@@ -134,7 +145,7 @@ This is convolved across the Fermi energy to smear it and also the phase through
 
 The above factor includes $m^*_T$, the \emph{thermal effective mass} as a term in a function of $T$. As a consequence, by studying the temperature dependence of the amplitude it is possible to get a measure of $m^*_T$ of the electrons at the extremal orbit. Techniques for doing this are discussed in section~\ref{Sec:Exp:ExtractingEffMassTemperatureDependence}.
 
-The effective mass determined in this way is enhanced subject to the same interactions as in heat capacity experiments --- i.e. electron-phonon interactions and spin symmetric correlations --- but are probed for a particular Fermi surface orbit, whereas heat capacity is bulk averaged. As we will see later the mass enhancement is is different to that from spin measurements. For more one this see Rourke \etal~\cite{Rourke2010b} and references therein.
+The effective mass determined in this way is enhanced subject to the same interactions as in heat capacity experiments --- i.e. electron-phonon interactions and spin symmetric correlations --- but are probed for a particular Fermi surface orbit, whereas heat capacity is averaged over the entire Fermi surface. As we will see later the mass enhancement is is different to that from spin measurements. For more one this see Rourke \etal~\cite{Rourke2010b} and references therein.
 
 \subsubsection{Attenuation due to finite quasiparticle lifetime}
 
@@ -154,23 +165,24 @@ The exponent in the above can be thought of as the number of orbits the electron
 
 Applying a magnetic field causes a Zeeman splitting of energy levels of magnitude,
 \begin{equation}
-  \Delta\epsilon = \frac{g e \hbar B}{2 m_e}
+  \Delta\epsilon = \frac{g \mu_B B}{2}
 \end{equation}
-where $m_e$ is the free electron mass and $g$ is a factor that is $\approx2$ for free electrons. Rather than smearing, this can be thought of as two separate Fermi surfaces with separate Fermi energies. The attenuation is given then as,
+where $\mu_B$ is the single electron magnetic moment (the Bohr magneton) and $g$ is a factor that is $\approx2$ for free electrons. Rather than smearing, this can be thought of as two separate Fermi surfaces with separate Fermi energies. The attenuation is given now as,
 \begin{equation}
-  A_s = \cos\left(\frac{\pi p g m^*_s}{2m_e}\right)
+  A_s = \cos\left(\frac{\pi p g m^*_s}{2}\right)
 \end{equation}
-where $m^*_s$ is the \emph{spin effective mass}. This is subject to a different set of interaction in comparison to the thermal effective mass -- notably both spin symmetric and antisymmetric correlations but not the electron-phonon interactions. As such, in materials with strong phonon interactions we may see a strong difference in $m^*_s$ and $m^*_T$.
+where $m^*_s$ is the \emph{spin effective mass}. This is subject to a different set of interactions in comparison to the thermal effective mass -- notably both spin symmetric and antisymmetric correlations but not the electron-phonon interactions. As such, in materials with strong phonon interactions we may see a strong difference in $m^*_s$ and $m^*_T$.
+\TODO{This is to do with what Tony was talking about on the phone - local flattening of the band at the FS vs. larger modifications of the band - also Pauli spin suceptibility}
 
 \subsubsection{Other attenuating factors}
 
-Another attenuating factor due to slight misalignments in the crystal structure, ($A_{mos}$), causing a mosaic polycrystalline structure could be modelled with an appropriate broadening function. Schoenberg suggests a Lorentzian similar to the Dingle factor --- there is no solid mathematical basis for this but no other function shape has been observed in experiment. The final form would then look like the following,
+Another attenuating factor due to slight misalignments in the crystal structure, ($A_{mos}$), causing a mosaic polycrystalline structure could be modelled with an appropriate broadening function. Schoenberg suggests a Lorentzian broadening function, which leads to an attentuation term which is similar to \ref{Eqn:Theo:DingleTerm}, although the actual distribution of misalignments could be any distribution. Given a Lorentzian broadening function, the final form would look like the following,
 \begin{equation}
   A_{\textrm{mos}} = e^{2\pi p \Delta F_{\textrm{mos}}/B}
 \end{equation}
 where $\Delta F_{mos}$ is a parameter that determines the degree of overall misalignment.
 
-The final attenuating factors mentioned here are $A_{\Delta B}$, the damping due to field inhomogeneity which has an effect depending on the shape of the field and $A_{\textrm{dop}}$, which is another Lorentzian-like broadening factor due to the doping inhomogeneity in the sample. Neither of which will be considered in the thesis --- the material studied is undoped, and the magnet is suitably large as to have an essentially linear field profile ---doping and so will not be explored further\footnote{If you do want to consider these factors, ref~\cite{Rourke2010b} has a passage on doping homogeneity and pg. 64 of Schoenberg discusses field inhomogeneity~\ref{Schoenberg1984}.}
+The final attenuating factors mentioned here are $A_{\Delta B}$, the damping due to field inhomogeneity which has an effect depending on the shape of the field and $A_{\textrm{dop}}$, which is another Lorentzian-like broadening factor due to the doping inhomogeneity in the sample. Neither of which will be considered in the thesis --- the material studied is undoped, and the magnet is suitably large as to have an essentially constant field profile --- and so will not be explored further\footnote{If you do want to consider these factors, ref~\cite{Rourke2010b} has a passage on doping homogeneity and pg. 64 of Schoenberg discusses field inhomogeneity~\ref{Schoenberg1984}.}
 
 \subsection{Zeeman-Doppler shifting of oscillations}
 
@@ -181,9 +193,9 @@ One ramification of the spin splitting is that as the field ramps there is a gra
 
 So far, three different electron masses have been defined, the thermal effective mass, the spin effective mass and the free electron mass. To tie these together a fourth mass is introduced, the \emph{band mass}. This is another effective mass resulting from the electrons being subject to the bandstructure potential as defined by \ac{DFT} calculations and is given by,
 \begin{equation}
-  m^*_b = \hbar^2 \left(\frac{d^2\epsilon}{dk^2}\right)^{-1} = \frac{\hbar^2}{2\pi}\frac{\partial a_{k_\perp}}{\partial \epsilon}
+  m^*_b = \frac{\hbar}{2\pi} \oint_{\textrm{Orbit}} \frac{d\vect{k}}{v_F(\vect{k})} = \frac{\hbar^2}{2\pi}\frac{\partial a_{k_\perp}}{\partial \epsilon}
 \end{equation}
-Mass enhancement comes from any kind of interactions the electron has with its environment --- i.e. external fields, other electrons and nuclei --- resulting in the free electron mass $m_e$ becoming enhanced (renormalised). The bands mass can be determined from \ac{DFT} and the resulting enhancement is purely from the interaction of the electron with the calculated lattice potential. However \ac{DFT} calculations typically do not model correlation effects well or dynamic interactions at all. We know that both the thermal effective mass and the spin effective mass incorporate the band mass enhancements plus a unique set of interactions specified previously. Figure~\ref{Fig:Theo:EffectiveMassInheritance} lays out how the effective masses build on each other by incorporating more interactions.
+Mass enhancement comes from any kind of interactions the electron has with its environment --- i.e. external fields, other electrons and nuclei --- resulting in the free electron mass $m_e$ becoming enhanced (renormalised). The band mass can be determined from \ac{DFT} and the resulting enhancement results from the mean-field effects of the \ac{DFT} calculation as reflected in the calculated band structure. However \ac{DFT} calculations typically do not model correlation effects well or dynamic interactions at all. We know that both the thermal effective mass and the spin effective mass incorporate the band mass enhancements plus a unique set of interactions specified previously. Figure~\ref{Fig:Theo:EffectiveMassInheritance} lays out how the effective masses build on each other by incorporating more interactions.
 \begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.9]{Chapter-Theory/Figures/EffectiveMassInheritance/EffectiveMassInheritance}
@@ -195,7 +207,7 @@ because of this particular hierarchy, it is sometimes possible to compare effect
 
 \subsubsection{A 2D Approximation}
 
-Although none of the attenuating factors above have an explicit angle dependence, they do vary as a function of angle through the band mass. A common approximation to simulate the dependency in layered systems is to assume the Fermi surface is two dimensional in shape and therefore cylindrical. The cross section of a cylinder is given by,
+Although none of the attenuating factors above have an explicit angle dependence, they do vary as a function of angle through the band mass. A common approximation to simulate the dependency in layered systems is to assume the Fermi surface is two dimensional in shape and therefore cylindrical. The cross sectional area of a cylinder is given by,
 \begin{equation}
     a = \frac{a_0}{\cos \theta},
 \end{equation}
@@ -211,5 +223,5 @@ This means that under this approximation, any factor that includes the band mass
 
 \subsection{Final theoretical observations}
 
-Originally \ac{dHvA} measurements were used to measure the Fermi surfaces of elemental metals and so the initial assumption of a free-electron gas is justified based on the fact that elemental metals have a Fermi surface and are considered materials that adhere to Fermi liquid theory. The fact that oscillations have been observed in cuprates and pnictides which have demonstrated non-Fermi liquid behaviour is therefore remarkable and moreover implies the presence of a Fermi surface, at least in the presence of a strong magnetic field.
+Originally \ac{dHvA} measurements were used to measure the Fermi surfaces of elemental metals and so the initial assumption of a free-electron gas is justified based on the fact that elemental metals have a Fermi surface and are considered materials that adhere to Fermi liquid theory. The fact that oscillations have been observed in cuprates and pnictides which have demonstrated non-Fermi liquid behaviour is therefore remarkable and moreover implies the presence of a Fermi surface, at least in the presence of a strong magnetic field. This discrepancy is usually referred to as a `generalised Fermi liquid' in that it has a Fermi surface but does not show \TODO{What is the `generalised Fermi liquid'?}
 

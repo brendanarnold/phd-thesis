@@ -17,7 +17,34 @@
    inkscape:version="0.48.1 r9760"
    sodipodi:docname="ExtremalPhases.svg">
   <defs
-     id="defs4" />
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path3918"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path3915"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,16 +52,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.88760886"
-     inkscape:cx="367.58979"
-     inkscape:cy="837.87088"
+     inkscape:zoom="1.4"
+     inkscape:cx="378.15384"
+     inkscape:cy="855.46335"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1118"
-     inkscape:window-height="737"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-width="1201"
+     inkscape:window-height="718"
+     inkscape:window-x="25"
+     inkscape:window-y="10"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
@@ -52,266 +79,341 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <image
-       y="69.094734"
-       x="118.94828"
-       id="image3473"
-       xlink:href="file:///Users/brendan/Documents/Academic/Thesis/Chapter2-ExperimentalTechnique/Figures/ExtremalPhases/main_SCALE=1.0.png"
-       height="173.43002"
-       width="260.14502" />
-    <image
-       y="69.094734"
-       x="356.66788"
-       id="image3613"
-       xlink:href="file:///Users/brendan/Documents/Academic/Thesis/Chapter2-ExperimentalTechnique/Figures/ExtremalPhases/main_SCALE=10.0.png"
-       height="173.43002"
-       width="260.14502" />
-    <image
-       y="239.77979"
-       x="118.94828"
-       id="image3707"
-       xlink:href="file:///Users/brendan/Documents/Academic/Thesis/Chapter2-ExperimentalTechnique/Figures/ExtremalPhases/main_SCALE=100.0.png"
-       height="173.43002"
-       width="260.14502" />
-    <image
-       y="239.77979"
-       x="356.66788"
-       id="image3769"
-       xlink:href="file:///Users/brendan/Documents/Academic/Thesis/Chapter2-ExperimentalTechnique/Figures/ExtremalPhases/main_order3_SCALE=100.0.png"
-       height="173.43002"
-       width="260.14502" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.42014322;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 285.09487,124.74515 c 0,0 34.96164,13.14217 35.01562,28.03328 0.0543,14.97753 -35.01562,27.86703 -35.01562,27.86703"
+       id="path3066"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.42014322;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.52085938, 2.52085938;stroke-dashoffset:0"
+       d="m 285.08226,124.72569 35.02823,56.12758 0,0 0,0"
+       id="path3068"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.42014322;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 285.0731,124.77477 c 0,0 -34.96164,13.14217 -35.01562,28.03328 -0.0543,14.97754 35.01562,27.86703 35.01562,27.86703"
+       id="path3066-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.42014322;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.52085938, 2.52085938;stroke-dashoffset:0"
+       d="m 285.08571,124.75532 -35.02823,56.12758 0,0 0,0"
+       id="path3068-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
     <rect
-       style="fill:#ffffff;stroke:none"
-       id="rect4395"
-       width="86.685707"
-       height="50.491692"
-       x="263.95505"
-       y="261.99197" />
-    <g
-       id="g4372"
-       transform="matrix(0.28412565,0,0,0.28412565,245.20806,60.449327)">
-      <image
-         width="256"
-         height="161"
-         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAChCAIAAACnJ/bOAAAAA3NCSVQICAjb4U/gAAABw0lEQVR4
-nO3TMQEAIAzAMMC/5yFjRxMFfXpn5kDV2w6ATQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0
-A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYg
-zQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoB
-SDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5Bm
-ANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCk
-GYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMA
-aQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIM
-QJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSPukngQ/JeT8dgAA
-AABJRU5ErkJggg==
+       style="fill:none;stroke:#000000;stroke-width:0.37213337;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect3866"
+       width="70.641747"
+       height="56.164871"
+       x="249.65321"
+       y="124.7579" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.42014322;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 250.0153,187.55607 0,-4.73204"
+       id="path3876"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <image
+       y="182.84564"
+       x="319.90469"
+       id="image3907"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAAcCAYAAABLam7PAAAABHNCSVQICAgIfAhkiAAAAClJREFU
+CJndxjERwDAMADG5Fwrlz88kvktRRJOmCgbB43dZzu6CqV74AC1eCwP0c5v4AAAAAElFTkSuQmCC
+
 "
-         id="image4335"
-         x="102.39388"
-         y="712.14545" />
-      <image
-         width="330"
-         height="200"
-         xlink:href="file:///Users/brendan/Documents/Academic/Thesis/Chapter2-ExperimentalTechnique/Figures/ExtremalPhases/inset_SCALE=100.0.png"
-         id="image4081"
-         x="61.717468"
-         y="692.66339" />
-    </g>
-    <rect
-       style="fill:#ffffff;stroke:none"
-       id="rect4401"
-       width="86.604523"
-       height="51.911572"
-       x="503.86169"
-       y="87.494713" />
-    <g
-       id="g4368"
-       transform="matrix(0.28768694,0,0,0.28768694,381.47749,-118.0428)">
-      <image
-         width="256"
-         height="161"
-         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAChCAYAAAAoRWGZAAAABHNCSVQICAgIfAhkiAAAAgxJREFU
-eJzt1DEVhFAQwMDPPfzrwgsSrlhkbJEZBalyzcwcoOj5bRcAewwAwgwAwgwAwgwAwgwAwgwAwgwA
-wgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwA
-wgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwA
-wgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwA
-wgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwA
-wgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwA
-wgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwA
-wgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwA
-wgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwgwAwu5z
-zn87AljxfpEjB+6Ugf0NAAAAAElFTkSuQmCC
-"
-         id="image4313"
-         x="461.29489"
-         y="724.7124" />
-      <image
-         width="330"
-         height="200"
-         xlink:href="file:///Users/brendan/Documents/Academic/Thesis/Chapter2-ExperimentalTechnique/Figures/ExtremalPhases/inset_SCALE=1.0.png"
-         id="image4159"
-         x="419.20532"
-         y="704.35236" />
-    </g>
-    <g
-       id="g4364"
-       transform="matrix(0.29961548,0,0,0.29961548,132.46647,-58.227895)">
-      <rect
-         y="498.57913"
-         x="463.30109"
-         height="160.85681"
-         width="255.52773"
-         id="rect4286"
-         style="fill:#ffffff;stroke:none" />
-      <image
-         width="330"
-         height="200"
-         xlink:href="file:///Users/brendan/Documents/Academic/Thesis/Chapter2-ExperimentalTechnique/Figures/ExtremalPhases/inset_SCALE=10.0.png"
-         id="image4221"
-         x="422.33392"
-         y="478.42828" />
-    </g>
-    <rect
-       style="fill:#ffffff;stroke:none"
-       id="rect4399"
-       width="82.428749"
-       height="52.008617"
-       x="505.49719"
-       y="260.15811" />
-    <g
-       id="g4360"
-       transform="matrix(0.28932205,0,0,0.28932205,487.10222,125.50946)">
-      <image
-         width="256"
-         height="161"
-         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAChCAIAAACnJ/bOAAAAA3NCSVQICAjb4U/gAAABw0lEQVR4
-nO3TMQEAIAzAMMC/5yFjRxMFfXpn5kDV2w6ATQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0
-A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYg
-zQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoB
-SDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5Bm
-ANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCk
-GYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMA
-aQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIM
-QJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSDMAaQYgzQCkGYA0A5BmANIMQJoBSPukngQ/JeT8dgAA
-AABJRU5ErkJggg==
-"
-         id="image4357"
-         x="82.286758"
-         y="476.72482" />
-      <image
-         width="330"
-         height="200"
-         xlink:href="file:///Users/brendan/Documents/Academic/Thesis/Chapter2-ExperimentalTechnique/Figures/ExtremalPhases/inset_order3_SCALE=100.0.png"
-         id="image4283"
-         x="40.947998"
-         y="456.27771" />
-    </g>
+       height="5.282454"
+       width="0.37731814"
+       style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.42014322;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+       d="m 251.06331,185.40621 68.05203,0"
+       id="path3910"
+       inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="484.37872"
-       y="245.14183"
-       id="text4447"
+       style="font-size:5.04171896px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Sans"
+       x="279.44009"
+       y="194.87859"
+       id="text4542"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan4449"
-         x="484.37872"
-         y="245.14183"
-         style="font-size:16px">nπ</tspan></text>
+         id="tspan4544"
+         x="279.44009"
+         y="194.87859"
+         style="font-size:10px;font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'">2k<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan6302">r</tspan></tspan></text>
+    <image
+       y="76.703705"
+       x="151.34033"
+       id="image4774"
+       xlink:href="file:///Users/brendan/Documents/Academic/PhD/Publish/Thesis/Chapter-Theory/Figures/ExtremalPhases/main_SCALE=0.0075.png"
+       height="141.51765"
+       width="212.63318" />
+    <image
+       y="76.680504"
+       x="341.82312"
+       id="image4858"
+       xlink:href="file:///Users/brendan/Documents/Academic/PhD/Publish/Thesis/Chapter-Theory/Figures/ExtremalPhases/main_SCALE=0.0100.png"
+       height="141.33945"
+       width="212.00917" />
+    <image
+       y="208.95135"
+       x="151.80579"
+       id="image4923"
+       xlink:href="file:///Users/brendan/Documents/Academic/PhD/Publish/Thesis/Chapter-Theory/Figures/ExtremalPhases/main_SCALE=0.0250.png"
+       height="141.33945"
+       width="212.00917" />
+    <image
+       y="208.95135"
+       x="342.68042"
+       id="image4988"
+       xlink:href="file:///Users/brendan/Documents/Academic/PhD/Publish/Thesis/Chapter-Theory/Figures/ExtremalPhases/main_SCALE=0.0500.png"
+       height="141.33945"
+       width="212.00917" />
     <text
        sodipodi:linespacing="125%"
-       id="text4407"
-       y="505.64594"
-       x="-118.75222"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       xml:space="preserve"
-       transform="matrix(0,-1,1,0,0,0)"><tspan
-         style="font-size:12px"
-         y="505.64594"
-         x="-118.75222"
-         id="tspan4409"
-         sodipodi:role="line">nπ</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4411"
-       y="416.117"
-       x="482.61688"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       id="text5017"
+       y="359.41785"
+       x="248.49753"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Sans"
        xml:space="preserve"><tspan
-         style="font-size:16px"
-         y="416.117"
-         x="482.61688"
-         id="tspan4413"
-         sodipodi:role="line">nπ</tspan></text>
+         y="359.41785"
+         x="248.49753"
+         id="tspan5019"
+         sodipodi:role="line">Field (<tspan
+   id="tspan5021"
+   style="font-style:italic">T</tspan>)</tspan></text>
     <text
        sodipodi:linespacing="125%"
-       id="text4415"
-       y="416.6647"
-       x="245.80298"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       id="text5023"
+       y="359.41785"
+       x="437.43668"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Sans"
        xml:space="preserve"><tspan
-         style="font-size:16px"
-         y="416.6647"
-         x="245.80298"
-         id="tspan4417"
-         sodipodi:role="line">nπ</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="242.40669"
-       y="244.1853"
-       id="text4403"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4405"
-         x="242.40669"
-         y="244.1853"
-         style="font-size:16px">nπ</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="-291.0455"
-       y="116.58279"
-       id="text4419"
-       sodipodi:linespacing="125%"
-       transform="matrix(0,-1,1,0,0,0)"><tspan
-         sodipodi:role="line"
-         id="tspan4421"
-         x="-291.0455"
-         y="116.58279">Amplitude (a.u.)</tspan></text>
+         y="359.41785"
+         x="437.43668"
+         id="tspan5025"
+         sodipodi:role="line">Field (<tspan
+   id="tspan5027"
+   style="font-style:italic">T</tspan>)</tspan></text>
     <text
        transform="matrix(0,-1,1,0,0,0)"
        sodipodi:linespacing="125%"
-       id="text4505"
-       y="258.83389"
-       x="-287.62653"
-       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       id="text5064"
+       y="150.46584"
+       x="-323.1275"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Sans"
        xml:space="preserve"><tspan
-         y="258.83389"
-         x="-287.62653"
-         id="tspan4507"
-         sodipodi:role="line">nπ</tspan></text>
-    <text
-       transform="matrix(0,-1,1,0,0,0)"
-       sodipodi:linespacing="125%"
-       id="text4509"
-       y="494.89966"
-       x="-288.97379"
-       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       xml:space="preserve"><tspan
-         y="494.89966"
-         x="-288.97379"
-         id="tspan4511"
-         sodipodi:role="line">nπ</tspan></text>
+         y="150.46584"
+         x="-323.1275"
+         id="tspan5066"
+         sodipodi:role="line">Norm. Amplitude</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="-118.37632"
-       y="259.50754"
-       id="text4501"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Sans"
+       x="-189.78738"
+       y="150.46584"
+       id="text5060"
        sodipodi:linespacing="125%"
        transform="matrix(0,-1,1,0,0,0)"><tspan
          sodipodi:role="line"
-         id="tspan4503"
-         x="-118.37632"
-         y="259.50754">nπ</tspan></text>
+         id="tspan5062"
+         x="-189.78738"
+         y="150.46584">Norm. Amplitude</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5134"
+       y="107.21932"
+       x="185"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         style="font-style:normal;-inkscape-font-specification:'Times New Roman,'"
+         y="107.21932"
+         x="185"
+         id="tspan5136"
+         sodipodi:role="line"><tspan
+   id="tspan5138"
+   style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'">k<tspan
+   id="tspan5140"
+   style="font-size:65.00091553%;baseline-shift:sub">r</tspan></tspan> = 0.075</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5142"
+       y="107.36218"
+       x="377.85715"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         style="font-style:normal;-inkscape-font-specification:'Times New Roman,'"
+         y="107.36218"
+         x="377.85715"
+         id="tspan5144"
+         sodipodi:role="line"><tspan
+   id="tspan5146"
+   style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'">k<tspan
+   id="tspan5148"
+   style="font-size:65.00091553%;baseline-shift:sub">r</tspan></tspan> = 0.010</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5150"
+       y="239.50504"
+       x="186.42857"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         style="font-style:normal;-inkscape-font-specification:'Times New Roman,'"
+         y="239.50504"
+         x="186.42857"
+         id="tspan5152"
+         sodipodi:role="line"><tspan
+   id="tspan5154"
+   style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'">k<tspan
+   id="tspan5156"
+   style="font-size:65.00091553%;baseline-shift:sub">r</tspan></tspan> = 0.025</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Sans"
+       x="378.57141"
+       y="239.50504"
+       id="text5124"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5126"
+         x="378.57141"
+         y="239.50504"
+         style="font-style:normal;-inkscape-font-specification:'Times New Roman,'"><tspan
+   style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'"
+   id="tspan5128">k<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan5130">r</tspan></tspan> = 0.050</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Sans"
+       x="-156.53055"
+       y="240.98524"
+       id="text6347"
+       sodipodi:linespacing="125%"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan6349"
+         x="-156.53055"
+         y="240.98524"
+         style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'">k<tspan
+   style="font-size:7.80010986px;baseline-shift:sub"
+   id="tspan6351">z</tspan></tspan></text>
+    <g
+       transform="translate(40.027295,-16.036171)"
+       id="g6397">
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Sans"
+         x="193.92857"
+         y="123.07647"
+         id="text6399"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan6401"
+           x="193.92857"
+           y="123.07647"
+           style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'">A<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan6403">-1</tspan></tspan></text>
+      <path
+         sodipodi:type="arc"
+         style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         id="path6405"
+         sodipodi:cx="200"
+         sodipodi:cy="112.80861"
+         sodipodi:rx="0.89285713"
+         sodipodi:ry="0.89285713"
+         d="m 200.89286,112.80861 c 0,0.49311 -0.39975,0.89286 -0.89286,0.89286 -0.49311,0 -0.89286,-0.39975 -0.89286,-0.89286 0,-0.49311 0.39975,-0.89286 0.89286,-0.89286 0.49311,0 0.89286,0.39975 0.89286,0.89286 z"
+         transform="translate(0.43110957,0.43110957)" />
+    </g>
+    <g
+       transform="translate(234.48166,-15.531095)"
+       id="g6407">
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Sans"
+         x="193.92857"
+         y="123.07647"
+         id="text6409"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan6411"
+           x="193.92857"
+           y="123.07647"
+           style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'">A<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan6413">-1</tspan></tspan></text>
+      <path
+         sodipodi:type="arc"
+         style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         id="path6415"
+         sodipodi:cx="200"
+         sodipodi:cy="112.80861"
+         sodipodi:rx="0.89285713"
+         sodipodi:ry="0.89285713"
+         d="m 200.89286,112.80861 c 0,0.49311 -0.39975,0.89286 -0.89286,0.89286 -0.49311,0 -0.89286,-0.39975 -0.89286,-0.89286 0,-0.49311 0.39975,-0.89286 0.89286,-0.89286 0.49311,0 0.89286,0.39975 0.89286,0.89286 z"
+         transform="translate(0.43110957,0.43110957)" />
+    </g>
+    <g
+       transform="translate(234.54031,116.79889)"
+       id="g6417">
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Sans"
+         x="193.92857"
+         y="123.07647"
+         id="text6419"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan6421"
+           x="193.92857"
+           y="123.07647"
+           style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'">A<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan6423">-1</tspan></tspan></text>
+      <path
+         sodipodi:type="arc"
+         style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         id="path6425"
+         sodipodi:cx="200"
+         sodipodi:cy="112.80861"
+         sodipodi:rx="0.89285713"
+         sodipodi:ry="0.89285713"
+         d="m 200.89286,112.80861 c 0,0.49311 -0.39975,0.89286 -0.89286,0.89286 -0.49311,0 -0.89286,-0.39975 -0.89286,-0.89286 0,-0.49311 0.39975,-0.89286 0.89286,-0.89286 0.49311,0 0.89286,0.39975 0.89286,0.89286 z"
+         transform="translate(0.43110957,0.43110957)" />
+    </g>
+    <g
+       id="g6365"
+       transform="translate(42.552676,116.29381)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text6357"
+         y="123.07647"
+         x="193.92857"
+         style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Sans"
+         xml:space="preserve"><tspan
+           style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'"
+           y="123.07647"
+           x="193.92857"
+           id="tspan6359"
+           sodipodi:role="line">A<tspan
+   id="tspan6361"
+   style="font-size:65.00091553%;baseline-shift:super">-1</tspan></tspan></text>
+      <path
+         transform="translate(0.43110957,0.43110957)"
+         d="m 200.89286,112.80861 c 0,0.49311 -0.39975,0.89286 -0.89286,0.89286 -0.49311,0 -0.89286,-0.39975 -0.89286,-0.89286 0,-0.49311 0.39975,-0.89286 0.89286,-0.89286 0.49311,0 0.89286,0.39975 0.89286,0.89286 z"
+         sodipodi:ry="0.89285713"
+         sodipodi:rx="0.89285713"
+         sodipodi:cy="112.80861"
+         sodipodi:cx="200"
+         id="path6363"
+         style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+    </g>
   </g>
 </svg>
