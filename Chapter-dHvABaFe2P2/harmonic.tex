@@ -2,19 +2,19 @@
 \section{Harmonic parametrisation of the Fermi surface}
     \label{Sec:ResD:TightBindingFits}
 
-An analytic form for the Fermi surface can be obtained using a harmonic expansion of sin and cosine functions as described by Bergemann \etal~\cite{Bergemann2000}. Primarily this was done so as to provide a convenient way to reconstruct the Fermi surface without necessitating \ac{DFT} calculations however the coefficients also bear some relation to the tight binding model hopping integrals. For strongly correlated systems the tight binding model is generally a poor one to use as it entirely ignores electron correlations. Nonetheless the expansion is as described as,
+An analytic form for the Fermi surface can be obtained using a harmonic expansion of sin and cosine functions as described by Bergemann \etal~\cite{Bergemann2000}. Primarily this was done so as to provide a convenient way to reconstruct the Fermi surface without necessitating \ac{DFT} calculations for future use in models. The expansion is as described as,
 \begin{equation}
 \label{Eqn:ResD:HarmonicExpansion}
 k_F(\phi, \kappa) = \sum_{\substack{\mu,\nu \geq 0 \\ \mu \textrm{even}}}
     k_{\mu\nu}\cos\nu\kappa 
     \begin{cases}
-        \cos{\mu\phi} \hspace{8pt} &(\mu\mod4 = 0) \\
-        \sin{\mu\phi} \hspace{8pt} &(\mu\mod4 = 2)
+        \cos{\mu\phi} \hspace{8pt} &(\mu\hspace{-6pt}\mod4 = 0) \\
+        \sin{\mu\phi} \hspace{8pt} &(\mu\hspace{-6pt}\mod4 = 2)
     \end{cases}
 \end{equation}
-where $k_F$ is the Fermi surface in k-space, $\kappa = ck_z/2$, $c$ is the unit cell height and $\phi$ is the polar angle.
+where $k_F$ is the Fermi surface in k-space, $\kappa = ck_z/2$, $c$ is the unit cell height and $\phi$ is the polar angle. A slightly different set of functions would be necessary to fit the electron Fermi surface in the adjacent corners due to the screw symmetry, however only one electron sheet was fitted.
 
-The two dimensional fits were performed using a least square fitting routine using MATLAB on the \ac{DFT} data shifted as described in the previous section. The number of terms for the fits were increased until the residuals ceased to change appreciably. Fit parameters are presented in table~\ref{Tab:ResD:HarmonicParams}. Due to the skewed nature of the $k_z$ dispersion of the outer hole surface $20$ terms were necessary to obtain a reasonable fit to the corrected \ac{DFT} data however electron surfaces could be fitted well with $9$ terms and the inner hole surface with $10$ terms. The final analytical function was then used to create a false energy dispersion on a discrete grid of $k$-points. Extremal orbits were then calculated as a check of how well it matches the original data. The results of this are presented in figure~\ref{Fig:ResD:TightBindingFitRotationPlot}. As you can see, although the fits were to the modified \ac{DFT} calculations, the fits are also reasonably accurate at modelling the measured data.
+The two dimensional fits were performed using a least square fitting routine using MATLAB on the \ac{DFT} data shifted as described in the previous section. The number of terms for the fits were increased until the residuals ceased to change appreciably. Fit parameters are presented in table~\ref{Tab:ResD:HarmonicParams}. Due to the skewed nature of the $k_z$ dispersion of the outer hole surface $20$ terms were necessary to obtain a reasonable fit to the corrected \ac{DFT} data however electron surfaces could be fitted well with $9$ terms and the inner hole surface with $10$ terms. The final analytical function was then used to create an energy dispersion on a discrete grid of $k$-points such that plotting an isosurface at $\epsilon = \unit{0}{\textrm{Ry}}$ correctly recreated the Fermi surface. Using this dispersion in the existing MATLAB code, extremal orbits were then calculated as a check of how well it matches the original data. The results of this are presented in figure~\ref{Fig:ResD:TightBindingFitRotationPlot}. As you can see, although the fits were to the modified \ac{DFT} calculations, the fits are also reasonably accurate at modelling the measured data.
 \begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.9]{Chapter-dHvABaFe2P2/Figures/AngleDepMeasurements/TightBindingFits/TightBindingFits}

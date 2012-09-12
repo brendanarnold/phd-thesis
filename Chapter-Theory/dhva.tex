@@ -159,7 +159,7 @@ and such that after the routine Fourier transform, the end relation is given by,
   A_D = e^{-\pi p m_b/e B\tau} = e^{-\pi p/\omega_c\tau} 
 \label{Eqn:Theo:DingleTerm}
 \end{equation}
-The exponent in the above can be thought of as the number of orbits the electron has completed (i.e. each harmonic $p$ is another successive orbit) divided by the expected number of orbits it will complete, so evidently we expect to see the higher harmonics having an exponentially lower amplitude. The term $m_b$ refers to the \emph{band mass} which will be discussed in detail later on. 
+The exponent in the above can be thought of as the number of orbits the electron has completed (i.e. each harmonic $p$ is another successive orbit) divided by the expected number of orbits it will complete, so evidently we expect to see the higher harmonics having an exponentially lower amplitude. The term $m_b$ refers to the \emph{band mass} which will be discussed in detail later on. Sometimes when discussing the Dingle term, we refer to the Dingle factor which is the factor in the exponential defined as $\alpha \equiv -\pi p m_b/(e \tau)$.
 %The mass term here is \TODO{How is it coupled as Tony described?}
 
 \subsubsection{Attenuation due to spin splitting}
@@ -193,6 +193,7 @@ One ramification of the spin splitting is that as the field ramps there is a gra
 
 So far, three different electron masses have been defined, the thermal effective mass, the spin effective mass and the free electron mass. To tie these together a fourth mass is introduced, the \emph{band mass}. This is another effective mass resulting from the electrons being subject to the bandstructure potential as defined by \ac{DFT} calculations and is given by,
 \begin{equation}
+    \label{Eqn:Theo:BandMass}
   m^*_b = \frac{\hbar}{2\pi} \oint_{\textrm{Orbit}} \frac{d\vect{k}}{v_F(\vect{k})} = \frac{\hbar^2}{2\pi}\frac{\partial a_{k_\perp}}{\partial \epsilon}
 \end{equation}
 Mass enhancement comes from any kind of interactions the electron has with its environment --- i.e. external fields, other electrons and nuclei --- resulting in the free electron mass $m_e$ becoming enhanced (renormalised). The band mass can be determined from \ac{DFT} and the resulting enhancement results from the mean-field effects of the \ac{DFT} calculation as reflected in the calculated band structure. However \ac{DFT} calculations typically do not model correlation effects well or dynamic interactions at all. We know that both the thermal effective mass and the spin effective mass incorporate the band mass enhancements plus a unique set of interactions specified previously. Figure~\ref{Fig:Theo:EffectiveMassInheritance} lays out how the effective masses build on each other by incorporating more interactions.
