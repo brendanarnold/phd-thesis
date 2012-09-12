@@ -4,6 +4,7 @@
 In this section the phenomenon of \ac{dHvA} oscillations is described. It is not immediately apparent how a ramping magnetic field could cause oscillations in such a wide range of parameters but Lifshitz and Kosevich provided an explanation through their eponymous equation based on a theoretical basis set out by Landau. This was then used to characterise the Fermi surface of many metals and establish the field of `Fermiology'. Strictly, only the oscillations in magnetisation are \ac{dHvA} oscillations and those in resistance are called Shubnikov-de Haas oscillations. Nonetheless they both originate from the same underlying phenomena of oscillations in the free energy of the system.
 
 \subsection{Overview}
+    \label{Sec:Theo:dHvAOverview}
 
 For metals, the majority of the interesting physics occurs at the Fermi level and, provided Fermi liquid theory holds true, the electrons at the Fermi level can be modelled to a high degree of accuracy with the Sommerfeld model --- that is a Fermi gas of non-interacting electrons in an infinite box. When a magnetic field is applied, the electrons have their usual grid pattern distribution of plane wave k-vectors rearranged such that the electrons move around orbital and helical paths. These rearranged k-vectors form a set of concentric tubes, known as Landau tubes, whose cross-sectional area, $a$, perpendicular to the field is given by the Onsager relation:\footnote{Derivations of the Onsager relation are given in several textbooks including pg. 32 of Schoenberg~\cite{Schoenberg1984} and pg. 272 of Ashcroft \& Mermin~\cite{Ashcroft1976}.} 
 %%
@@ -145,7 +146,7 @@ This is convolved with the energy distribution which smears the Fermi surface. B
 
 The above factor includes $m^*_T$, the \emph{thermal effective mass} as a term in a function of $T$. As a consequence, by studying the temperature dependence of the amplitude it is possible to get a measure of $m^*_T$ of the electrons at the extremal orbit. Techniques for doing this are discussed in section~\ref{Sec:Exp:ExtractingEffMassTemperatureDependence}.
 
-The effective mass determined in this way is enhanced subject to the same interactions as in heat capacity experiments --- i.e. electron-phonon interactions and spin symmetric correlations --- but are probed for a particular Fermi surface orbit, whereas heat capacity is averaged over the entire Fermi surface. As we will see later the mass enhancement is is different to that from spin measurements. For more one this see Rourke \etal~\cite{Rourke2010b} and references therein.
+The \ac{LK} equation arises from a semi-classical approach in that it considers a system of single particle Bloch functions which are manipulated using classical relations. Many-body effects such as electron-phonon and electron-electron interactions were incorporated later in the development of quantum oscillation theory and were shown to affect $A_s$ and $A_T$. In the above case, $A_T$ is modified by both electron-phonon and electron-electron effects which is manifest through changes to the effective mass term~\cite{Schoenberg1984}. The effective mass determined in this way is enhanced subject to the same interactions as in heat capacity experiments but are probed for a particular Fermi surface orbit, whereas heat capacity is averaged over the entire Fermi surface. As we will see later the thermal mass enhancement is is different to the mass enhancement from spin measurements. For more one this see Rourke \etal~\cite{Rourke2010b}, \cite{Schoenberg1984} and references therein.
 
 \subsubsection{Attenuation due to finite quasiparticle lifetime}
 
@@ -171,8 +172,7 @@ where $\mu_B$ is the single electron magnetic moment (the Bohr magneton) and $g$
 \begin{equation}
   A_s = \cos\left(\frac{\pi p g m^*_s}{2}\right)
 \end{equation}
-where $m^*_s$ is the \emph{spin effective mass}. This is subject to a different set of interactions in comparison to the thermal effective mass -- notably both spin symmetric and antisymmetric correlations but not the electron-phonon interactions. As such, in materials with strong phonon interactions we may see a strong difference in $m^*_s$ and $m^*_T$.
-\TODO{This is to do with what Tony was talking about on the phone - local flattening of the band at the FS vs. larger modifications of the band - also Pauli spin suceptibility}
+where $m^*_s$ is the \emph{spin effective mass}. This is subject to a different set of many-body interactions in comparison to the thermal effective mass -- notably only electron-electron correlations and not the electron-phonon interactions. Moreover, whilst the spin effective mass is affected by the many body effects, so is the Landau $g$ factor and even the shape of the Fermi surface. The spin mass enhancement is related to the standard Stoner enhancement factor, $S = 1/(1 - IN(E_F))$ by $m^*_s = (1 + S)m_b$.
 
 \subsubsection{Other attenuating factors}
 

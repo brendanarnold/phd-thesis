@@ -1,21 +1,51 @@
 
 \section{Hall effect}
 
-The Hall effect is a consequence of the Lorentz force on a moving charge. To first understand this
-
-\TODO{Introduction to Boltzman transport theory?}
-
-
-
-
-As an electron (hole) moves along a rectangular slab subject to a perpendicular magnetic field, the electrons (holes) are deflected to one side of the slab. Eventually the charge density one one side becomes high enough that the Coulomb repulsion force of the density on subsequent charge carriers balances the Lorentz force and an equilibrium voltage between either side of the slab is reached. This voltage is known as the Hall voltage, $V_H$ and is given by,
+The Hall effect is a consequence of the Lorentz force on a moving charge. To first understand this we look to the Boltzmann transport equation which allows us to use a semi-classical approach to incorporate the effects of magnetic field to find expressions for single electron transport and in particular the conductivity tensor $\rho$. The Boltzmann transport equation is expressed as follows,
 \begin{equation}
-    V_H = -\frac{IB_{\perp}}{ned}
+    \label{Eqn:Theo:BTE}
+     \frac{\partial f}{\partial t} + \vect{v}.\nabla_r f + \vect{F} . \nabla_k f = \left.\frac{d f}{d t}\right|_{\textrm{coll}},
+\end{equation}
+where $f = f(\vect{r}, \vect{k}, t)$ is the occupation distribution for single electrons at position $\vect{r}$, in state $\vect{k}$ at time $t$ and $\vect{v}$ is the electron velocity, $\vect{F}$ is the force on the electron and the term on the right is the rate of change of the occupation due to collisions. The Boltzmann transport equation arises from the notion that, classically, the chance of occupation of a particular state $f$ at $t$ is equivalent to the probability of occupation of a state at $f - df/dt$ at time $t-dt$. The fact that the equation employs classical dynamics with quantum mechanical Bloch waveforms makes this a semi-classical equation.
+
+The collision term on the right is generally complicated and is usually approximated by the \emph{relaxation time approximation},
+\begin{equation}
+    \left.\frac{d f}{d t}\right|_{\textrm{coll}} = \frac{f - f_0}{\tau},
+\end{equation}
+where $f_0$ is the equilibrium occupation distribution to which $f$ tends towards exponentially if the system is perturbed. The rate of the exponential convergence is determined by the relaxation time, $\tau$, with the decay rate of the discrepancy being proportional to $e^{-t/\tau}$.
+
+As discussed in section~\ref{Sec:Theo:dHvAOverview}, electrons at the Fermi surface subject to a magnetic field are confined to orbits of a particular area around the Fermi surface due to the Lorentz force. Dealing solely with the simpler case of closed orbits (c.f. open orbits), we make an approximation of a steady state and uniform distribution so the first two terms of eqn.~\ref{Eqn:Theo:BTE} are zero. We then incorporate the Lorentz force, $\vect{F} = q(\vect{E} + \vect{V}\times\vect{B})$, in the third term. Finally through some manipulations~\cite{French2009} and on assuming that $k_bT \ll E_F$ so the Fermi distribution is a step function, then we can obtain an expression for the conductivity tensor elements, $\sigma_{ij}$, as the Shockley-Chambers tube integral form of the Boltzmann equation,
+\begin{equation}
+    \sigma_{ij} = \frac{e^2}{4 \pi^3 \hbar^2}\int \partial k_B \int^{2\pi}_{0} \partial \phi \int^{\infty}_{0} \partial \phi^{\prime} v_i(\phi) v_j(\phi - \phi^{\prime})\frac{m^*}{\omega_c}e^{\phi^{\prime}/(\omega_c \tau)}
+\end{equation}
+where $\phi$ and $\phi^{\prime}$ are angular integration variables around the orbit. From this integral it is possible to determine the conductivity tensor for a variety of Fermi surface geometries, however given the shape of the \ac{BSCO} Fermi surface, we are most interested in the cylindrical Fermi surface which gives the following conductivity tensor, $\rho$ for a magnetic field applied along $z$,
+\begin{equation}
+    \rho = \left( \begin{array}{ccc}
+                \rho_{xx}   & \rho_{xy} & \rho_{xz} \\
+                \rho_{yx}   & \rho_{yy} & \rho_{yz} \\
+                \rho_{zx}   & \rho_{zy} & \rho_{zz} \end{array} \right) = \left( \begin{array}{ccc}
+                                                        1/\sigma_0  & \omega_c \tau / \sigma_0   & 0  \\
+                                                        \omega_c \tau / \sigma_0  & 1/\sigma_0  & 0  \\
+                                                        0   & 0 & 0  \end{array} \right)
+\end{equation}
+where $\omega_c$ is the cyclotron frequency and $\sigma_0$ is the Drude conductivity given by,
+\begin{equation}
+    \sigma_0 = \frac{ne^2\tau}{m^*}
+\end{equation}
+where $n$ is the carrier density and $m^*$ is the effective mass. The off-diagonal resistivity component represents the resistivity perpendicular to the current and in the case of $\rho_{xy} (=\rho_{yx})$ is also perpendicular to the field then this is known as the Hall resistivity,
+ \begin{equation}
+     \rho_{xy} = \frac{\omega_c \tau}{\sigma_0} = \left(\frac{eB}{m^*}\right)\tau\frac{m^*}{ne^2\tau} = \frac{B}{ne}
+ \end{equation}
+The Hall resistivity can be understood if we consider an electron (hole) moving along a rectangular slab subject to a perpendicular magnetic field. The electrons (holes) are deflected to one side of the slab due to the Lorentz force on the charged particle. Eventually the charge density one one side becomes high enough that the Coulomb repulsion force of the density on subsequent charge carriers balances the Lorentz force and an equilibrium voltage between either side of the slab is reached. This voltage is known as the Hall voltage, $V_H$ and is given by,
+\begin{equation}
+    V_H = -\frac{I\rho_{xy}}{d} = -\frac{IB}{ned}
 \end{equation}
 where $I$ and $B_{\perp}$ are the current and perpendicular magnetic field and $n$, $e$ and $d$ are the carrier density, charge and slab thickness respectively. $V_H$ is what is measured in our experiment. This is usually further abstracted to the Hall coefficient, $R_H$, which encapsulates the carrier density for a metal as follows,
 \begin{equation}
-    R_H = \frac{V_H d}{IB_\perp} = \frac{1}{ne}
+    R_H = \frac{V_H d}{IB} = \frac{1}{ne}
 \end{equation}
+
+Provided the magnetic field is small, meaning $\omega_c \tau \ll 1$, then scattering prevents the formation of Landau tubes described in section~\ref{Sec:Theo:dHvAOverview}. This is known as the low field limit. The high field limit leads to effects such as the quantum Hall effect and quantum oscillations.
 
 % \subsection{Temperature dependent effect of band structure}
 % 
