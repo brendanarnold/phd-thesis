@@ -25,16 +25,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="347.02965"
-     inkscape:cy="644.80152"
+     inkscape:zoom="1.4"
+     inkscape:cx="429.10404"
+     inkscape:cy="671.6871"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1033"
-     inkscape:window-height="782"
-     inkscape:window-x="132"
-     inkscape:window-y="174"
+     inkscape:window-width="1249"
+     inkscape:window-height="871"
+     inkscape:window-x="14"
+     inkscape:window-y="78"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata3090">
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -56,21 +56,21 @@
        y="369.17795"
        x="182.15352"
        id="image2993"
-       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/SusceptibilityFreeElectron/3D_FreeElectron_500x500pts_FS=0,09.png"
+       xlink:href="file:///C:\PhD\Publish\Thesis\Chapter-ExperimentalTechnique\Figures\Susceptibility\FreeElectron/3D_FreeElectron_500x500pts_FS=0,09.png"
        height="194"
        width="255.65892" />
     <image
        y="365.17795"
        x="457.25531"
        id="image3004"
-       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/SusceptibilityFreeElectron/3D_FreeElectron_500x500pts_FS=0,09_XYSlice.png"
+       xlink:href="file:///C:\PhD\Publish\Thesis\Chapter-ExperimentalTechnique\Figures\Susceptibility\FreeElectron/3D_FreeElectron_500x500pts_FS=0,09_XYSlice.png"
        height="90.095329"
        width="117.7222" />
     <image
        y="460.32065"
        x="457.38251"
        id="image3015"
-       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/SusceptibilityFreeElectron/3D_FreeElectron_500x500pts_FS=0,09_XSlice.png"
+       xlink:href="file:///C:\PhD\Publish\Thesis\Chapter-ExperimentalTechnique\Figures\Susceptibility\FreeElectron/3D_FreeElectron_500x500pts_FS=0,09_XSlice.png"
        height="90.024963"
        width="117.63026" />
     <text
@@ -226,21 +226,21 @@
        y="133.29141"
        x="190.93626"
        id="image2993-1"
-       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/SusceptibilityFreeElectron/2D_FreeElectron_500x500pts_FS=0,09.png"
+       xlink:href="file:///C:\PhD\Publish\Thesis\Chapter-ExperimentalTechnique\Figures\Susceptibility\FreeElectron/2D_FreeElectron_500x500pts_FS=0,09.png"
        height="187.4669"
        width="247.04942" />
     <image
        y="129.29143"
        x="457.42862"
        id="image3004-7"
-       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/SusceptibilityFreeElectron/2D_FreeElectron_500x500pts_FS=0,09_XYSlice.png"
+       xlink:href="file:///C:\PhD\Publish\Thesis\Chapter-ExperimentalTechnique\Figures\Susceptibility\FreeElectron/2D_FreeElectron_500x500pts_FS=0,09_XYSlice.png"
        height="90.095329"
        width="117.7222" />
     <image
        y="224.4341"
        x="457.55582"
        id="image3015-4"
-       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/SusceptibilityFreeElectron/2D_FreeElectron_500x500pts_FS=0,09_XSlice.png"
+       xlink:href="file:///C:\PhD\Publish\Thesis\Chapter-ExperimentalTechnique\Figures\Susceptibility\FreeElectron/2D_FreeElectron_500x500pts_FS=0,09_XSlice.png"
        height="90.024963"
        width="117.63026" />
     <text
@@ -417,9 +417,37 @@
          y="382.83694"
          style="font-size:22px;font-style:normal;-inkscape-font-specification:Times New Roman">3D</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.18404178;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:none;stroke:#000000;stroke-width:0.484;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 233,347.93361 315.72961,0"
        id="path3062"
        inkscape:connector-curvature="0" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3061"
+       width="111.39267"
+       height="69.814095"
+       x="463.85733"
+       y="235.4606" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3061-1"
+       width="111.39267"
+       height="69.814095"
+       x="463.58936"
+       y="140.40158" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3061-1-7"
+       width="111.39267"
+       height="69.814095"
+       x="463.50009"
+       y="376.20514" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.399;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3061-1-7-4"
+       width="111.39267"
+       height="69.343506"
+       x="463.47775"
+       y="471.56412" />
   </g>
 </svg>

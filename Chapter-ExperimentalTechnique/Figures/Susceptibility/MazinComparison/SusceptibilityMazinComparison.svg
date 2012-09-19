@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="343.35931"
-     inkscape:cy="783.42022"
+     inkscape:zoom="0.7"
+     inkscape:cx="266.96596"
+     inkscape:cy="779.69519"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -35,7 +35,9 @@
      inkscape:window-height="935"
      inkscape:window-x="22"
      inkscape:window-y="29"
-     inkscape:window-maximized="0" />
+     inkscape:window-maximized="0"
+     showguides="true"
+     inkscape:guide-bbox="true" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -56,14 +58,14 @@
        y="110.18542"
        x="381.96948"
        id="image2993"
-       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/SusceptibilityMazinComparison/MazinImX0.PNG"
+       xlink:href="file:///C:\PhD\Publish\Thesis\Chapter-ExperimentalTechnique\Figures\Susceptibility\MazinComparison/MazinImX0.PNG"
        height="162.1725"
        width="225.71994" />
     <image
        y="269.1044"
        x="387.14267"
        id="image3004"
-       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/SusceptibilityMazinComparison/MazinReX0.PNG"
+       xlink:href="file:///C:\PhD\Publish\Thesis\Chapter-ExperimentalTechnique\Figures\Susceptibility\MazinComparison/MazinReX0.PNG"
        height="118.51847"
        width="234.93008"
        transform="matrix(0.99973696,0.0229351,-0.0229351,0.99973696,0,0)" />
@@ -71,14 +73,14 @@
        y="286.55383"
        x="156.07977"
        id="image3015"
-       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/SusceptibilityMazinComparison/Re_LaFeAsOF_Exact_DELTA=5e-4_OMEGA=1e-6_T=157,88_Smoothing=0.png"
+       xlink:href="file:///C:\PhD\Publish\Thesis\Chapter-ExperimentalTechnique\Figures\Susceptibility\MazinComparison/Re_LaFeAsOF_Exact_DELTA=5e-4_OMEGA=1e-6_T=157,88_Smoothing=0.png"
        height="99.157944"
        width="205.55368" />
     <image
        y="113.93219"
        x="157.87453"
        id="image3026"
-       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter3-dHvABaFe2P2/Figures/AngleDepMeasurements/SusceptibilityMazinComparison/Im_LaFeAsOF_Exact_DELTA=5e-4_OMEGA=1e-6_T=157,88_Smoothing=5.png"
+       xlink:href="file:///C:\PhD\Publish\Thesis\Chapter-ExperimentalTechnique\Figures\Susceptibility\MazinComparison/Im_LaFeAsOF_Exact_DELTA=5e-4_OMEGA=1e-6_T=157,88_Smoothing=5.png"
        height="145.23863"
        width="205.55368" />
     <text
@@ -220,29 +222,29 @@
     <text
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="-235.80888"
-       y="131.6434"
+       x="-227.80888"
+       y="91.643402"
        id="text3077"
        sodipodi:linespacing="100%"
        transform="matrix(0,-1,1,0,0,0)"><tspan
          sodipodi:role="line"
          id="tspan3079"
-         x="-235.80888"
-         y="131.6434">Imaginary χ<tspan
+         x="-227.80888"
+         y="91.643402">Imaginary χ<tspan
    style="font-size:10.40014648px;baseline-shift:sub"
    id="tspan3085">0</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="-359.43506"
-       y="133.04694"
+       x="-351.43506"
+       y="93.046944"
        id="text3081"
        sodipodi:linespacing="100%"
        transform="matrix(0,-1,1,0,0,0)"><tspan
          sodipodi:role="line"
          id="tspan3083"
-         x="-359.43506"
-         y="133.04694">Real χ<tspan
+         x="-351.43506"
+         y="93.046944">Real χ<tspan
    style="font-size:10.40014648px;baseline-shift:sub"
    id="tspan3087">0</tspan></tspan></text>
     <text
@@ -267,5 +269,224 @@
          id="tspan3095"
          x="433.19293"
          y="124.032">Mazin et al. 2008</tspan></text>
+    <image
+       y="268.32141"
+       x="120.54131"
+       id="image3028"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-ExperimentalTechnique/Figures/Susceptibility/MazinComparison/ReColorbar.png"
+       height="117.50247"
+       width="20.546881" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.69999999000000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3055"
+       width="10.101525"
+       height="95.459419"
+       x="120.96577"
+       y="279.34296" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="110.6117"
+       y="326.59821"
+       id="text3031"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3033"
+         x="110.6117"
+         y="326.59821">1.05</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="116.17322"
+       y="307.9104"
+       id="text3035"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3037"
+         x="116.17322"
+         y="307.9104">1.1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="110.6117"
+       y="290.99033"
+       id="text3039"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3041"
+         x="110.6117"
+         y="290.99033">1.15</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="115.30897"
+       y="341.39841"
+       id="text3043"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3045"
+         x="115.30897"
+         y="341.39841">1.0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="110.6117"
+       y="356.61963"
+       id="text3047"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3049"
+         x="110.6117"
+         y="356.61963">0.95</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="115.38221"
+       y="372.56015"
+       id="text3051"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3053"
+         x="115.38221"
+         y="372.56015">0.9</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.69999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3059"
+       width="19.697975"
+       height="6.8185296"
+       x="126.52161"
+       y="266.4635" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="124.75383"
+       y="271.26175"
+       id="text3062"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3064"
+         x="124.75383"
+         y="271.26175">×10<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan3066">7</tspan></tspan></text>
+    <image
+       y="121.67419"
+       x="120.1492"
+       id="image3076"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-ExperimentalTechnique/Figures/Susceptibility/MazinComparison/ImColorbar.png"
+       height="115.70588"
+       width="21.534151" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.69999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3079"
+       width="13.214286"
+       height="116.07143"
+       x="117.5"
+       y="120.93361" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="123.30357"
+       y="237.00504"
+       id="text3082"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3084"
+         x="123.30357"
+         y="237.00504">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="113.30357"
+       y="222.27289"
+       id="text3086"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3088"
+         x="113.30357"
+         y="222.27289">100</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="113.30357"
+       y="207.09431"
+       id="text3090"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3092"
+         x="113.30357"
+         y="207.09431">200</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="113.30357"
+       y="191.73717"
+       id="text3094"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3096"
+         x="113.30357"
+         y="191.73717">300</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="113.30357"
+       y="177.36217"
+       id="text3098"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3100"
+         x="113.30357"
+         y="177.36217">400</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="113.30357"
+       y="160.48717"
+       id="text3102"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3104"
+         x="113.30357"
+         y="160.48717">500</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="113.30357"
+       y="143.79074"
+       id="text3106"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3108"
+         x="113.30357"
+         y="143.79074">600</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="113.30357"
+       y="130.04074"
+       id="text3110"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3112"
+         x="113.30357"
+         y="130.04074">700</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="113.77087"
+       y="104.22633"
+       id="text3114"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3116"
+         x="113.77087"
+         y="104.22633">Intensity </tspan><tspan
+         sodipodi:role="line"
+         x="113.77087"
+         y="114.23269"
+         id="tspan3120">(<tspan
+   style="font-style:italic"
+   id="tspan3118">a.u.</tspan>)</tspan></text>
   </g>
 </svg>

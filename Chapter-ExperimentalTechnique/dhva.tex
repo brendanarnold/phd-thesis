@@ -18,9 +18,9 @@ A highly sensitive measure of torque is required to pick up the moments experien
         \label{Fig:Exp:CantileverSchematic}
     \end{center}
 \end{figure}
-The cantilevers feature a second dummy lever alongside the principle lever where the sample was mounted. Instead of measuring the voltage across the principle lever alone, we measure the difference of the voltages between the two levers using a Wheatstone bridge. This enables some degree of correction due to vibrations and fluctuations in measurement current and also allow for correction of magnetoresistance effects within the levers. The circuit is balanced using a variable resistor and is zeroed as best as possible within the noise before each measurement run.
+The cantilevers feature a second dummy lever alongside the principle lever where the sample was mounted. Instead of measuring the voltage across the principle lever alone, we measure the difference of the voltages between the two levers using a Wheatstone bridge which is balanced using two \unit{500}{\ohm} resistors. This enables some degree of correction due to vibrations and fluctuations in measurement current and also allow for correction of magnetoresistance effects within the levers. The circuit is balanced using a variable resistor and is zeroed as best as possible within the noise before each measurement run.
 
-The voltage is supplied and measured using Stanford SR830 lock-in amplifier. The output is first amplified using an EG\&G 5113 pre-amplifier with a gain of $\times1000$ with a band pass filter which was suitably set for the lock-in amplifier excitation frequency.
+The voltage is supplied and measured using Stanford SR830 lock-in amplifier. The input supplied to the Wheatstone bridge first passes through a \unit{10}{\kilo\ohm} resistor with an excitation voltage of \unit{1}{\volt} unless otherwise stated. The output is first amplified using an EG\&G 5113 pre-amplifier with a gain of $\times1000$ with a band pass filter which was suitably set for the lock-in amplifier excitation frequency. All of the circuitry mentioned above, aside from the cantilevers and leads, is kept outside of the fridge at room temperature and is away from the field centre by approximately \unit{2-3}{\metre}.
 
 \subsubsection{Sample stage}
 
@@ -124,18 +124,18 @@ where $\theta$ is the angle from the cylinder axis (usually in the $c$ direction
 
 \subsubsection{Background removal}
 
-Previous standard practice was to remove a background polynomial fitted to the field or inverse field from the raw data before taking the \ac{FFT}. With reference to figure~\ref{Fig:Exp:RawPlotAngleDependence}, raw torque data taken over a range of angles\footnote{See section\ref{Sec:ResD:AngleDependentMeasurements} for full details} and a strong $B^2$ component can be observed as a result of the $A_{\Gamma}$ term in the \ac{LK} equation (marked `B' in the left panel). As shown in the centre and right panels, subtracting a second order polynomial fitted to the \emph{inverse} field leaves a large artificial angle-dependant oscillation in $1/B$ in the residual which may be misconstrued as a signal from a low frequency Fermi surface orbit, especially since there is an apparent angle dependence -- no such peak is seen for the flat curves at `A' and `C'. For this reason it is recommended to subtract a second order polynomial fitted to field rather than inverse field for torque measurements.
+Previous standard practice was to remove a background polynomial fitted to the field or inverse field from the raw data before taking the \ac{FFT}. With reference to figure~\ref{Fig:Exp:RawPlotAngleDependence}, raw torque data taken over a range of angles\footnote{See section\ref{Sec:ResD:AngleDependentMeasurements} for full details} and a strong $B^2$ component can be observed as a result of the $A_{\Gamma}$ term in the \ac{LK} equation at angles away from \unit{90}{\degree} and \unit{0}{\degree}. Figure~\ref{Fig:Exp:BackgroundSubtraction} shows in the centre and right panels that subtracting a second order polynomial fitted to the \emph{inverse} field leaves a large artificial angle-dependant oscillation in $1/B$ in the residual which may be misconstrued as a signal from a low frequency Fermi surface orbit, especially since there is an apparent angle dependence -- no such peak is seen for the flat curves at \unit{0}{\degree} and \unit{90}{\degree}. For this reason it is recommended to subtract a second order polynomial fitted to field rather than inverse field for torque measurements.
 \begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=1.1]{Chapter-ExperimentalTechnique/Figures/ComparisonBackgroundSubtraction/RawPlotAngleDependence}
-        \caption{The angle dependence of the raw torque data clearly showing a negative $B^2$ background at (b) and for $\theta>0\degree$ and a positive $B^2$ background for $\theta<0\degree$. The background flattens out at (a), $\theta = 0\degree$ and (c), $\theta=90\degree$.}
+        \caption{The angle dependence of the raw torque data clearly showing a negative $B^2$ background at \unit{45}{\degree} and for $\theta<\unit{90}{\degree}$ and a positive $B^2$ background for $\theta>\unit{90}{\degree}$.}
         \label{Fig:Exp:RawPlotAngleDependence}
     \end{center}
 \end{figure}
 \begin{figure}[h!]
     \begin{center}
         \includegraphics[scale=1.1]{Chapter-ExperimentalTechnique/Figures/ComparisonBackgroundSubtraction/ComparisonBackgroundSubtraction}
-        \caption{Insets show a 2nd order polynomials fitted to simulated $B^2$ background with $\sim$\unit{0.5}{\milli\volt} of noise, similar in scale to that of (b) in figure~\ref{Fig:Exp:RawPlotAngleDependence}. Upper inset is fitted to field and lower to inverse field. The main figure shows the resulting \acp{FFT}.}
+        \caption{Insets show a 2nd order polynomials fitted to simulated $B^2$ background with $\sim$\unit{0.5}{\milli\volt} of noise, similar in scale to that of \unit{45}{\degree} in figure~\ref{Fig:Exp:RawPlotAngleDependence}. Upper inset is fitted to field and lower to inverse field. The main figure shows the resulting \acp{FFT}.}
         \label{Fig:Exp:BackgroundSubtraction}
     \end{center}
 \end{figure}

@@ -56,7 +56,7 @@ plot(B, fitB, 'r', 'Linewidth', 2);
 
 xlim([6 18]);
 
-export_fig('fit_B.png', '-r150', '-transparent');
+% export_fig('fit_B.png', '-r150', '-transparent');
 
 figure
 hold on
@@ -83,7 +83,7 @@ plot(1./B, fitInvB, 'r', 'Linewidth', 2);
 
 xlim([min(1./B) max(1./B)]);
 
-export_fig('fit_invB.png', '-r150', '-transparent');
+% export_fig('fit_invB.png', '-r150', '-transparent');
 
 
 %%
@@ -161,4 +161,4 @@ set(gca, 'YTickLabel', '');
 
 % legend('Fitted to B', 'Fitted to 1/B');
 
-export_fig('fft_inset.png', '-r150', '-transparent');
+% export_fig('fft_inset.png', '-r150', '-transparent');
