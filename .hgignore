@@ -3,7 +3,11 @@ syntax: glob
 *.aux
 *.log
 *.dvi
-*.pdf
+thesis.pdf
+*-converted-to.pdf
+ch-resD.pdf
+full.pdf
+.pdf
 *.DS_Store
 thesis-blx.bib
 thesis.run.xml
