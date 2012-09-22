@@ -138,7 +138,7 @@ The differential of this distribution results in the broadening function (which 
 \begin{equation}
   P(\epsilon < \mu < \epsilon + d\epsilon) \propto \frac{d\epsilon}{2kT(1 + \cosh[(\epsilon - \mu)/kT])}
 \end{equation}
-This is convolved with the energy distribution which smears the Fermi surface. Because the Fermi surface is smeared, so is the parameter $F$ which spreads the Fourier transform peak of the oscillation in the system energy, leading to an attenuation. The final attenuation factor due to this smearing is given in Schoenberg pg. 59ff~\cite{Schoenberg1984} and is reproduced below,
+This is convolved with the energy distribution which smears the Fermi surface. Because the Fermi surface is smeared, so is the parameter $F$ which spreads the Fourier transform peak due to the oscillation in the system energy, leading to an attenuation of the Fourier amplitude. The final attenuation factor due to this smearing is given in Schoenberg pg. 59ff~\cite{Schoenberg1984} and is reproduced below,
 \begin{equation}
 \label{Eqn:Theo:TemperatureTerm}
   A_T = \frac{X}{\sinh(X)} \textrm{\hspace{0.3cm} where,\hspace{0.3cm}} X = \frac{2\pi^2pkT m^*_T}{e\hbar B}
@@ -160,7 +160,6 @@ and such that after the routine Fourier transform, the end relation is given by,
 \label{Eqn:Theo:DingleTerm}
 \end{equation}
 The exponent in the above can be thought of as the number of orbits the electron has completed (i.e. each harmonic $p$ is another successive orbit) divided by the expected number of orbits it will complete, so evidently we expect to see the higher harmonics having an exponentially lower amplitude. The term $m_b$ refers to the \emph{band mass} which will be discussed in detail later on. Sometimes when discussing the Dingle term, we refer to the Dingle factor which is the factor in the exponential defined as $\alpha \equiv -\pi p m_b/(e \tau)$.
-%The mass term here is \TODO{How is it coupled as Tony described?}
 
 \subsubsection{Attenuation due to spin splitting}
 
@@ -176,7 +175,7 @@ where $m^*_s$ is the \emph{spin effective mass}. This is subject to a different 
 
 \subsubsection{Other attenuating factors}
 
-Another attenuating factor due to slight misalignments in the crystal structure, ($A_{mos}$), causing a mosaic polycrystalline structure could be modelled with an appropriate broadening function. Schoenberg suggests a Lorentzian broadening function, which leads to an attentuation term which is similar to \ref{Eqn:Theo:DingleTerm}, although the actual distribution of misalignments could be any distribution. Given a Lorentzian broadening function, the final form would look like the following,
+Another attenuating factor due to slight misalignments in the crystal structure, ($A_{mos}$), causing a mosaic polycrystalline structure that can be modelled with an appropriate broadening function. Schoenberg suggests a Lorentzian broadening function, which leads to an attentuation term which is similar to \ref{Eqn:Theo:DingleTerm}, although the actual distribution of misalignments could be any distribution. Given a Lorentzian broadening function, the final form would look like the following,
 \begin{equation}
   A_{\textrm{mos}} = e^{2\pi p \Delta F_{\textrm{mos}}/B}
 \end{equation}

@@ -50,3 +50,9 @@ The standard \ac{LAPW} method can be made more efficient by up to an order of ma
 
 These additional wavefunctions are known as \emph{local orbitals} and allow the calculation to relax the condition that the standard \ac{APW} wavefunctions must have a continuous slope at the muffin tin boundary. The local orbit wavefunctions are used to smooth over the kinks where the plane wavefunctions and the radial wavefunctions meet. The functions are radial in nature but are $\vect{k}$ independent. Including these wavefunctions can result in up to \unit{50}{\%} fewer wavefunctions required for convergence and significantly shorter calculation times~\cite{Madsen2001}.
 
+\subsection{Code and execution details}
+
+Calculations presented in this thesis were performed using \WIEN version 07.2 (20th Feb 2007)~\cite{Blaha2001} using \ac{LAPW} without the local orbitals. Unless specified, non-spin orbit calculations are presented although spin-orbit calculations were checked and did not show significant differences. The \ac{GGA} according to Perdew-Burke-Ernzerhof~\cite{Perdew1996} was used for the exchange correlation functional.
+
+Preprocessing of the WIEN2k data into voxel form as well as the theoretical angle plots were performed using a modified version of MATLAB code written by Dr. E. Yelland. The basis for the code has been thoroughly field tested within the group over a number of years.
+
