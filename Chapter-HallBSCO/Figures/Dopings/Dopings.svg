@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="401.83572"
-     inkscape:cy="832.48824"
+     inkscape:cx="393.81904"
+     inkscape:cy="840.75942"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -52,56 +52,32 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <image
-       y="105.36965"
-       x="255.87331"
-       id="image3004"
-       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-HallBSCO/Figures/Dopings/Main.png"
-       height="166.62421"
-       width="260.85736" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 4;stroke-dashoffset:0"
-       d="M 408.04376,251.09735 C 408.04376,251.09735 373.34464,119.44456 325.57631,119.65127 307.00872,119.73162 291.54901,137.37078 279.41542,159.67655"
+       style="fill:none;stroke:#000000;stroke-width:0.89713621;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3.58854497, 3.58854497;stroke-dashoffset:0"
+       d="M 362.35957,261.79009 C 362.35957,261.79009 335.24587,127.66378 296.47608,127.66378 281.35999,127.66378 270.44507,148.33762 262.75321,173.5641"
        id="path3045-1"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csc" />
+       sodipodi:nodetypes="ccc" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2, 2;stroke-dashoffset:0"
-       d="M 372.10163,251.31121 C 372.10163,251.31121 351.56844,119.2796 325.12954,119.48631 297.11256,119.70536 283.2082,250.80614 283.2082,250.80614"
+       style="fill:none;stroke:#000000;stroke-width:0.87728167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.75456345, 1.75456345;stroke-dashoffset:0"
+       d="M 334.23924,261.52633 C 334.23924,261.52633 317.24837,127.76177 297.6863,127.9768 276.95659,128.20464 267.20449,261.00097 267.20449,261.00097"
        id="path3045"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csc" />
     <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.93821377;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.87642755, 1.87642755;stroke-dashoffset:0"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.84493613;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.68987229, 1.68987229;stroke-dashoffset:0"
        id="rect3867"
-       width="59.088844"
+       width="47.923626"
        height="30.276583"
-       x="433.8139"
-       y="128.87872" />
+       x="398.45856"
+       y="102.10968" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.71839625"
        id="rect3007"
        width="5.0798283"
        height="5.0798283"
-       x="437.15152"
-       y="161.15878" />
-    <path
-       sodipodi:type="star"
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-       id="path3009"
-       sodipodi:sides="3"
-       sodipodi:cx="417.44553"
-       sodipodi:cy="190.19698"
-       sodipodi:r1="5.986805"
-       sodipodi:r2="2.9934025"
-       sodipodi:arg1="0.52359878"
-       sodipodi:arg2="1.5707963"
-       inkscape:flatsided="true"
-       inkscape:rounded="0"
-       inkscape:randomized="0"
-       d="M 422.63025,193.19038 412.2608,193.19038 417.44553,184.21017 z"
-       inkscape:transform-center-y="-0.68764529"
-       transform="matrix(0.45943961,0,0,0.45943961,247.41762,66.590784)" />
+       x="401.79617"
+       y="134.38974" />
     <path
        sodipodi:type="arc"
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
@@ -111,87 +87,31 @@
        sodipodi:rx="2.1465743"
        sodipodi:ry="2.1465743"
        d="M 425.7793,188.30295 A 2.1465743,2.1465743 0 1 1 421.48615,188.30295 2.1465743,2.1465743 0 1 1 425.7793,188.30295 z"
-       transform="matrix(0.77823192,0,0,0.77823192,109.38195,-3.1986865)" />
-    <rect
-       y="130.49222"
-       x="449.91507"
-       height="7.0710678"
-       width="40.321766"
-       id="rect3029"
-       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.38822317;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-    <rect
-       y="140.84628"
-       x="450.42014"
-       height="7.0710678"
-       width="43.37302"
-       id="rect3031"
-       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.40264425;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-    <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.73389292;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-       id="rect3027"
-       width="54.080723"
-       height="18.840157"
-       x="445.97107"
-       y="152.77028" />
-    <text
-       xml:space="preserve"
-       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="445.79892"
-       y="136.48714"
-       id="text3013"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan3015"
-         x="445.79892"
-         y="136.48714">Ando relation</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="446.07687"
-       y="146.14958"
-       id="text3017"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan3019"
-         x="446.07687"
-         y="146.14958">Tallon relation</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="446.38388"
-       y="155.88753"
-       id="text3021"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan3023"
-         x="446.38388"
-         y="155.88753">Scaled to Tl2201<tspan
-   style="font-size:65.00091553%;baseline-shift:sub"
-   id="tspan3025" /></tspan></text>
+       transform="matrix(0.77823192,0,0,0.77823192,74.026611,-29.967729)" />
     <text
        sodipodi:linespacing="100%"
        id="text3037"
-       y="282.36218"
-       x="375.71429"
+       y="287.91803"
+       x="355.51123"
        style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
        xml:space="preserve"><tspan
          style="font-size:10px"
-         y="282.36218"
-         x="375.71429"
+         y="287.91803"
+         x="355.51123"
          id="tspan3039"
          sodipodi:role="line">Doping p</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="-206.58809"
-       y="246.96936"
+       x="-190.93073"
+       y="234.34245"
        id="text3033"
        sodipodi:linespacing="100%"
        transform="matrix(0,-1,1,0,0,0)"><tspan
          sodipodi:role="line"
          id="tspan3035"
-         x="-206.58809"
-         y="246.96936"
+         x="-190.93073"
+         y="234.34245"
          style="font-size:10px">T<tspan
    style="font-size:6.50009155px;baseline-shift:sub"
    id="tspan3043">c</tspan>/T<tspan
@@ -199,7 +119,7 @@
    id="tspan3041">c</tspan>(max)</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1, 1;stroke-dashoffset:0"
-       d="M 438.64286,250.93361 374.35714,166.46932"
+       d="M 387.37762,262.29783 338.24419,179.34877"
        id="path3097"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -212,21 +132,102 @@
        sodipodi:rx="1.875"
        sodipodi:ry="1.875"
        d="M 440.71429,134.59433 A 1.875,1.875 0 1 1 436.96429,134.59433 1.875,1.875 0 1 1 440.71429,134.59433 z"
-       transform="matrix(0.91974318,0,0,0.91974318,35.398419,10.802114)" />
+       transform="matrix(0.91974318,0,0,0.91974318,0.04308017,-15.966928)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:6.4,6.4;stroke-dashoffset:0"
+       d="M 456.08387,262.4229 C 455.07372,260.40259 379.55347,125.51847 370.22091,125.29469 362.84867,125.11791 344.96709,162.92287 344.96709,162.92287"
+       id="path3021"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 401.06863,128.53536 C 401.32117,128.47223 406.18253,128.53536 406.18253,128.53536 L 406.18253,123.674 401.28066,128.57588"
+       id="path3791"
+       inkscape:connector-curvature="0" />
+    <image
+       y="87.702156"
+       x="241.2261"
+       id="image3018"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-HallBSCO/Figures/Dopings/Main.png"
+       height="190.84752"
+       width="238.84509" />
+    <rect
+       y="103.72318"
+       x="414.55972"
+       height="7.0710678"
+       width="40.321766"
+       id="rect3029"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.38822317;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <rect
+       y="114.07724"
+       x="415.06479"
+       height="7.0710678"
+       width="43.37302"
+       id="rect3031"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.40264425;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
     <text
        xml:space="preserve"
        style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="446.07144"
-       y="166.11218"
+       x="410.72153"
+       y="119.38054"
+       id="text3017"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3019"
+         x="410.72153"
+         y="119.38054">Tallon relation</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="410.44357"
+       y="109.71809"
+       id="text3013"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3015"
+         x="410.44357"
+         y="109.71809">Ando relation</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.65320379;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3027"
+       width="54.080723"
+       height="14.925075"
+       x="410.61572"
+       y="133.73361" />
+    <rect
+       y="123.77881"
+       x="410.65878"
+       height="6.3141055"
+       width="36.431484"
+       id="rect3031-1"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.34870929;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="411.07141"
+       y="129.1479"
+       id="text3793"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3795"
+         x="411.07141"
+         y="129.1479">Kubo <tspan
+   style="font-style:italic"
+   id="tspan3797">et al.</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="410.71609"
+       y="139.34314"
        id="text3786"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan3788"
-         x="446.07144"
-         y="166.11218">Matched to </tspan><tspan
+         x="410.71609"
+         y="139.34314">Matched to </tspan><tspan
          sodipodi:role="line"
-         x="446.07144"
-         y="174.11218"
+         x="410.71609"
+         y="147.34314"
          id="tspan3790">Tl2201 Hall data</tspan></text>
   </g>
 </svg>

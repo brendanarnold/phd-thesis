@@ -29,7 +29,9 @@ With increased doping, the antiferromagnetic state gives way to the superconduct
 
 \subsection{Coherent phase}
 
-To the heavily overdoped side of the phase diagram, beyond the superconducting dome lies the coherent region where the system bears the hallmarks of a conventional metal. The implication is that correlations between electrons are sufficiently weak such that the mass enhanced quasiparticles of Landau's Fermi liquid theory are well defined, leading to conventional metal behaviour. A clear indication of this is a dominant $T^2$ term in the resistivity. Above this region we observe an anomalous additional contribution which has been modelled both with $T^2$ plus an additional linear term or by a $T^n$ term where $1 <= n <= 2$. This additional term has been observed in heavy Fermion materials and is often associated with proximity to a \ac{QCP}~\cite{Custers2003}.
+To the heavily overdoped side of the phase diagram, beyond the superconducting dome lies the coherent region delimited by $T_{\textrm{coh}}$ where the system bears the hallmarks of a `conventional' metal. More specifically this is defined as the region where $\Sigma^{\prime\prime} \propto \omega^2$ which falls in line with Landau Fermi liquid theory, the standard theory used to model conventional metals\footnote{$\Sigma^{\prime\prime}$ is the imaginary part of the self energy which relates to the quasiparticle lifetime (and scattering rate) and $\omega$ is the excitation energy which is related to $T$. For more on Landau Fermi liquids see section~\ref{Sec:Theo:FermiLiquidTheory}}. This is in contrast to the broadly funnel shaped region above and between $T_{\textrm{coh}}$ and $T^*$ where $\Sigma^{\prime\prime} \propto \omega$ and is sometimes known as the `strange metal' region.
+
+ The implication is that correlations between electrons are sufficiently weak such that the mass enhanced quasiparticles of Landau's Fermi liquid theory are well defined, leading to conventional metal behaviour. A clear indication of this is a dominant $T^2$ term in the resistivity. In the region above $T_{\textrm{coh}}$ we observe an anomalous additional $T$-linear contribution high above the Debye temperature typical for cuprates meaning that it is unlikely to be due to electron-phonon scattering. The confinement of this $T$-linear region to above the superconducting dome has been observed in heavy Fermion materials~\cite{Custers2003} and is often associated with proximity to a \ac{QCP}~\cite{Hussey2008}.
 
 \subsection{The pseudogap}
 
@@ -49,6 +51,24 @@ A second scenario is supported by measurements using bulk probes such as heat ca
 
 A third scenario is one where the pseudogap simply becomes the superconducting gap as it meets the top of the superconducting dome. However this scenario leaves hanging questions as to the roles of the pseudogap, $T_{\textrm{coh}}$ and other phenomena in the phase diagram which would need to be addressed theoretically. Moreover this picture is rendered less compelling by the observation in \ac{LSCO} of rapidly increasing, low temperature, normal state resistivity inside of the underdoped superconducting dome which implies the non-superconducting energy gap persists into this region.
 
+\subsection{Stripe order}
+
+A second contentious region occurs on the underdoped side of the superconducting dome. Stripe order --- i.e. one dimensional charge ordering --- has long been known about in this region in \ac{LSCO}~\cite{Kivelson2002}, however LeBoeuf \etal in a recent paper~\cite{LeBoeuf2011} discusses how low temperature Hall data in \ac{Y123} can be interpreted in terms of a Fermi surface reconstruction at $p=0.08$ between two different Fermi surface topologies both of which feature stripe order and how stripe order may be more general to the cuprates.
+\begin{figure}[htbp]
+    \begin{center}
+        \includegraphics[scale=0.9]{Chapter-Introduction/Figures/LifshitzReconstruction/LifshitzReconstruction}
+        \caption{Schematic representation of the reconstruction thought to occur at $p=0.08$. Shaded region are occupied. Adapted from ref.~\cite{Vojta2011}}
+        \label{Fig:Intro:LifshitzReconstruction}
+    \end{center}
+\end{figure}
+Figure~\ref{Fig:Intro:LifshitzReconstruction} illustrates the proposed reconstruction where the mobile electron pockets at the top and bottom of the plot at $p > 0.08$ undergo a so called Lifshitz transition and merge into 1D stripes at $p < 0.08$.  For $p > 0.08$, $R_H$ is found to drop from positive at high temperatures to negative at low temperatures which is attributed to the formation of the stripe phase which features highly mobile electron pockets (hence the negative $R_H$ at low $T$). For $p < 0.08$, $R_H$ still drops but remains positive for all temperatures which the author attributes to a different Fermi surface topology which no longer features the small highly mobile electron pockets. 
+
+However, as we shall see in the next section, an alternative explanation for the low temperature Hall behaviour is suggested based on the anisotropic scattering rate observed in \ac{TL2201}. 
+
+
+% the so-called `1/8$^{\textrm{th}}$ anomaly' which corresponds to around 1/8$^{\textrm{th}}$ doping or $p \approx 0.125$. $T_c$ broadly follows an inverse parabola except for a slight depression on the underdoped side illustrated in figure~\ref{Fig:Intro:ElecHolePhaseDiagram}.
+
+
 
 \subsection{Previous work by the Bristol group}
 
@@ -66,13 +86,15 @@ After performing measurements on samples of \ac{TL2201} with dopings ranging fro
         \label{Fig:Intro:AnisotropyPhase}
     \end{center}
 \end{figure}
-Here the scattering rate within the $ab$-plane, $\Gamma$, was found to be composed of two terms; an isotropic term which remained constant with doping (dotted circle) and an anisotropic component which scaled with the superconducting gap, $\Delta_g$. Moreover it was found that the superconducting gap and the anisotropic scattering rate both shared the same shape, being `d-wave'. This further ties to \ac{ARPES} measurement which show that the on the underdoped side of the superconducting dome there is a pronounced change in the Fermi surface where at the antinodal points of $\Gamma$ (and $\Delta_G$) the spectral weight disappears~\cite{Norman2010} i.e. coherent particles are lost away from the regions of strong scattering.
+Here the scattering rate within the $ab$-plane, $\Gamma$, was found to be composed of two terms; an isotropic term which remained constant with doping (dotted circle) and an anisotropic component which scaled with the superconducting gap, $\Delta_g$. Moreover it was found that the superconducting gap and the anisotropic scattering rate both shared the same shape, (`d-wave'), and orientation (aligned with the CuO bonds). This further ties to \ac{ARPES} measurement which show that the on the underdoped side of the superconducting dome there is a pronounced change in the Fermi surface where at the antinodal points of $\Gamma$ (and $\Delta_G$) the spectral weight disappears~\cite{Norman2010} i.e. coherent particles are lost away from the regions of strong scattering.
+
+The anisotropic scattering rate has been proposed as a possible explanation of the low temperature Hall behaviour described in the previous section. The anisotropic scattering scales linearly with temperature and so could explain $R_H$ increasing with temperature in the low temperature region. Through appropriately curved Fermi surfaces --- described in more detail in section~\ref{Sec:Theo:TopologyEffects} --- the anisotropic scattering can also cause $R_H$ to become negative at low $T$ even with an ostensibly large, hole-like Fermi surface similar to that observed in the overdoped regime. This could possibly explain the low $T$ Hall behaviour without requiring complicated Fermi surface reconstructions described by LeBoeuf \etal.
 
 %It changes from a single large hole band of volume $1+p$ to series of small regions of electron and hole Fermi surface of total volume $p$.
 
 \subsubsection{T-Linear behaviour in the superconducting dome}
 
-Previous high-field transport measurements on Sr doped \ac{LSCO}~\cite{Cooper2009} gave key insights into the nature of the T-linear term as it entered the superconducting term on the overdoped side. In particular it showed that the T-linear term did not funnel down to a point (figure~\ref{Fig:Intro:CooperTLinear}) as is typical of \ac{QCP} behaviour but instead spread out into the superconducting region. Intrigued as to this unexpected behaviour, we looked to repeat the measurements on \acf{BSCO} which can be doped far more widely without divergence in the resistivity so that we could then see how the T-linear term progressed on the underdoped side, where $T^*$ is undisputed.
+Previous high-field transport measurements on Sr doped \ac{LSCO}~\cite{Cooper2009} gave key insights into the nature of the T-linear term as it entered the superconducting term on the overdoped side. In particular it showed that the T-linear term did not funnel down to a point (figure~\ref{Fig:Intro:CooperTLinear}) as is typical of \ac{QCP} behaviour in for example the heavy Fermion materials~\cite{Custers2003} but instead spread out into the superconducting region in a `foot' shape.
 \begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.9]{Chapter-Introduction/Figures/CooperTLinear/CooperTLinear}
@@ -80,15 +102,7 @@ Previous high-field transport measurements on Sr doped \ac{LSCO}~\cite{Cooper200
         \label{Fig:Intro:CooperTLinear}
     \end{center}
 \end{figure}
-Performing measurements which would shed light onto which of the scenarios shown in fig~\ref{Fig:Intro:PGScenario} is most likely to be correct formed the original motivation for the investigation of \ac{BSCO} through transport measurements. 
-
-A second reason for the study of \ac{BSCO} in particular is that its van-Hove singularity occurs at a different doping --- further from optimal doping --- than \ac{LSCO}. Should similar behaviour be found then we can confidently claim that the unusual \ac{QCP} behaviour is not due to proximity to the changeover in hole-like to electron-like Fermi surface and is likely universal to all cuprates. 
-
-\ac{BSCO} also demonstrates transport behaviours which are consistent with other high-$T_c$ cuprate materials. For example, from \ac{MR} measurements it demonstrates a similar maximum in the underdoped $d\rho_{ab}/dT$ curve as underdoped YBCO~\cite{Ando1999}. On the overdoped side, \ac{BSCO} demonstrates a monotonic upward trend in $d\rho_{ab}/dT$ with increasing temperature similar to what has been observed in Tl$_{2201}$ and \ac{LSCO}~\cite{Ando1999}.
-
-During the course of the investigations however, it became apparent that even with field strengths of up to \unit{60}{\tesla} in pulsed fields, the upper critical field, $H_{\textrm{c2}}$ of many of the sample at key temperatures could not be reached. However, field strengths were generally strong enough to recover $B$-Linear behaviour in the Hall component.
-
-Previous Hall measurements have been performed on \ac{BSCO} by Ando \etal~\cite{Ando1999, Ando2000} which are shown for comparison in the results section. However these results do not go to low temperatures, being restricted by the onset of superconductivity. Our own results used high field measurements at \ac{LNCMI} and \ac{HFML} to suppress superconductivity and examine the low temperature regions in detail. Moreover our samples are focused on the overdoped region which complements the underdoped data set presented in the Ando papers.
+This behaviour is highly remarkable since it does not follow the usual expected \ac{BCS} behaviour given the `strange metal' scattering dependence or the expected \ac{QCP} behaviour since it does not funnel down to a single \ac{QCP} at $T=\unit{0}{\kelvin}$. As of yet, this highly unusual behaviour is still not fully explained but so far this has only been observed in \ac{LSCO}. \ac{LSCO} is known to be in close proximity to a van-Hove singularity\footnote{A spike in the \ac{DOS} brought about by a flat region of the bandstructure at the Fermi level} in this region at $p\approx0.18$~\cite{Hashimoto2008} and so it begs the question as to whether this is an effect due to the proximity of the singularity or something more general to the cuprates.
 
 % Motivation
 
