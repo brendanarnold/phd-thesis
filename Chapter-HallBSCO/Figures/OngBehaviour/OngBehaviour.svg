@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 "
+   sodipodi:docname="New document 1">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="316.33418"
+     inkscape:cy="932.48647"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1146"
+     inkscape:window-height="908"
+     inkscape:window-x="22"
+     inkscape:window-y="29"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <image
+       y="103.36218"
+       x="181.71429"
+       id="image2993"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-HallBSCO/Figures/OngBehaviour/VaryGamma0.png"
+       height="164.3717"
+       width="168.42027" />
+    <image
+       y="104.13334"
+       x="370.19235"
+       id="image3004"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-HallBSCO/Figures/OngBehaviour/VaryGamma1.png"
+       height="164.3717"
+       width="168.42027" />
+    <text
+       sodipodi:linespacing="100%"
+       id="text3011"
+       y="248.07646"
+       x="243.21429"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         y="248.07646"
+         x="243.21429"
+         id="tspan3013"
+         sodipodi:role="line">Γ<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan3041">0</tspan> = 1</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3015"
+       y="238.07648"
+       x="269.28571"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         y="238.07648"
+         x="269.28571"
+         id="tspan3017"
+         sodipodi:role="line">Γ<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan3039">0</tspan> = 10</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3019"
+       y="223.07646"
+       x="280.71429"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         y="223.07646"
+         x="280.71429"
+         id="tspan3021"
+         sodipodi:role="line">Γ<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan3037">0</tspan> = 100</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3023"
+       y="195.93362"
+       x="291.78571"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         y="195.93362"
+         x="291.78571"
+         id="tspan3025"
+         sodipodi:role="line">Γ<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan3035">0</tspan> = 1000</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3027"
+       y="158.79076"
+       x="298.92859"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         y="158.79076"
+         x="298.92859"
+         id="tspan3029"
+         sodipodi:role="line">Γ<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan3033">0</tspan> = 10000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="301.07141"
+       y="127.36217"
+       id="text3007"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3009"
+         x="301.07141"
+         y="127.36217">Γ<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan3031">0</tspan> = 100000</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3047"
+       y="234.39114"
+       x="466.94302"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         y="234.39114"
+         x="466.94302"
+         id="tspan3049"
+         sodipodi:role="line">Γ<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan3083">1</tspan> = 1</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3051"
+       y="218.98634"
+       x="451.28561"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         y="218.98634"
+         x="451.28561"
+         id="tspan3053"
+         sodipodi:role="line">Γ<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan3081">1</tspan> = 1000</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3055"
+       y="198.02565"
+       x="444.21454"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         y="198.02565"
+         x="444.21454"
+         id="tspan3057"
+         sodipodi:role="line">Γ<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan3079">1</tspan> = 2000</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3059"
+       y="178.3277"
+       x="437.39609"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         y="178.3277"
+         x="437.39609"
+         id="tspan3061"
+         sodipodi:role="line">Γ<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan3077">1</tspan> = 3000</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3063"
+       y="160.65001"
+       x="431.84018"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         y="160.65001"
+         x="431.84018"
+         id="tspan3065"
+         sodipodi:role="line">Γ<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan3075">1</tspan> = 4000</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3067"
+       y="146.25534"
+       x="427.04202"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         y="146.25534"
+         x="427.04202"
+         id="tspan3069"
+         sodipodi:role="line">Γ<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan3073">1</tspan> = 5000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="420.47595"
+       y="130.0929"
+       id="text3043"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3045"
+         x="420.47595"
+         y="130.0929">Γ<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan3071">1</tspan> = 6000</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3091"
+       y="276.56503"
+       x="243.44678"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         y="276.56503"
+         x="243.44678"
+         id="tspan3093"
+         sodipodi:role="line">Temperature (<tspan
+   id="tspan3095"
+   style="font-style:italic">K</tspan>)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="434.87073"
+       y="276.56503"
+       id="text3085"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3087"
+         x="434.87073"
+         y="276.56503">Temperature (<tspan
+   style="font-style:italic"
+   id="tspan3089">K</tspan>)</tspan></text>
+    <text
+       transform="matrix(0,-1,1,0,0,0)"
+       sodipodi:linespacing="100%"
+       id="text3105"
+       y="174.67902"
+       x="-206.29469"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         y="174.67902"
+         x="-206.29469"
+         id="tspan3107"
+         sodipodi:role="line">Normalised R<tspan
+   id="tspan3109"
+   style="font-size:5.20007324px;baseline-shift:sub">H</tspan> (<tspan
+   id="tspan3111"
+   style="font-style:italic">a.u.</tspan>)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="-195.6881"
+       y="369.13336"
+       id="text3097"
+       sodipodi:linespacing="100%"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3099"
+         x="-195.6881"
+         y="369.13336">R<tspan
+   style="font-size:5.20007324px;baseline-shift:sub"
+   id="tspan3101">H</tspan> (<tspan
+   style="font-style:italic"
+   id="tspan3103">a.u.</tspan>)</tspan></text>
+  </g>
+</svg>

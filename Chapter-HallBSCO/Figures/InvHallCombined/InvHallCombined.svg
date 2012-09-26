@@ -107,9 +107,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="440.91765"
-     inkscape:cy="795.39305"
+     inkscape:zoom="0.9899495"
+     inkscape:cx="383.87036"
+     inkscape:cy="694.61647"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -126,7 +126,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -359,7 +359,7 @@
          style="fill:#000000;fill-opacity:1;stroke:none" />
       <path
          transform="matrix(1.0222222,0,0,1.0222222,-37.96909,-105.34813)"
-         d="m 481.27456,250.33263 c 0,0.78453 -0.63599,1.42052 -1.42053,1.42052 -0.78453,0 -1.42052,-0.63599 -1.42052,-1.42052 0,-0.78454 0.63599,-1.42053 1.42052,-1.42053 0.78454,0 1.42053,0.63599 1.42053,1.42053 z"
+         d="M 481.27456,250.33263 C 481.27456,251.11716 480.63857,251.75315 479.85403,251.75315 479.0695,251.75315 478.43351,251.11716 478.43351,250.33263 478.43351,249.54809 479.0695,248.9121 479.85403,248.9121 480.63857,248.9121 481.27456,249.54809 481.27456,250.33263 z"
          sodipodi:ry="1.420527"
          sodipodi:rx="1.420527"
          sodipodi:cy="250.33263"
@@ -371,34 +371,34 @@
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        id="rect3076"
-       width="96.97464"
-       height="5.5558391"
-       x="433.60797"
-       y="167.46855" />
+       width="6.8185258"
+       height="18.940361"
+       x="423.50644"
+       y="132.36575" />
     <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:none"
-       id="rect3065"
-       width="89.651039"
-       height="49.497475"
-       x="441.05786"
-       y="115.82451" />
+       style="fill:#ffffff;stroke:none"
+       id="rect3068"
+       width="86.056122"
+       height="49.227867"
+       x="440.47583"
+       y="116.06265" />
     <g
-       id="g3070"
-       transform="matrix(1.0673918,0,0,1.0673918,-32.664302,-7.399001)">
+       id="g3068"
+       transform="matrix(1.027055,0,0,1.027055,-11.589646,-4.7381609)">
       <rect
-         y="115.66667"
-         x="443.26755"
-         height="46.119774"
-         width="80.622803"
-         id="rect3068"
-         style="fill:#ffffff;stroke:none" />
+         y="115.82451"
+         x="441.05786"
+         height="49.497475"
+         width="84.852814"
+         id="rect3065"
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
       <image
-         width="97.430061"
-         height="61.214287"
+         width="103.99605"
+         height="65.33963"
          xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-HallBSCO/Figures/InvHallCombined/Inset.png"
          id="image3050"
-         x="431.92859"
-         y="109.79075" />
+         x="428.37274"
+         y="109.79074" />
     </g>
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:none"
@@ -466,26 +466,6 @@
          x="472.10791"
          id="tspan3080-3"
          sodipodi:role="line">OD</tspan></text>
-    <path
-       transform="matrix(0.81317638,0,0,0.75616302,82.864873,34.401136)"
-       d="m 462.21643,139.05801 a 10.011074,6.1871843 0 1 1 -20.02215,0 10.011074,6.1871843 0 1 1 20.02215,0 z"
-       sodipodi:ry="6.1871843"
-       sodipodi:rx="10.011074"
-       sodipodi:cy="139.05801"
-       sodipodi:cx="452.20535"
-       id="path3884"
-       style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-miterlimit:4;stroke-dasharray:1.2, 1.2;stroke-dashoffset:0"
-       sodipodi:type="arc" />
-    <path
-       sodipodi:type="arc"
-       style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-miterlimit:4;stroke-dasharray:1.2, 1.2;stroke-dashoffset:0"
-       id="path3078"
-       sodipodi:cx="452.20535"
-       sodipodi:cy="139.05801"
-       sodipodi:rx="10.011074"
-       sodipodi:ry="6.1871843"
-       d="m 462.21643,139.05801 a 10.011074,6.1871843 0 1 1 -20.02215,0 10.011074,6.1871843 0 1 1 20.02215,0 z"
-       transform="matrix(0.81317638,0,0,0.75616302,113.92706,34.148598)" />
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
