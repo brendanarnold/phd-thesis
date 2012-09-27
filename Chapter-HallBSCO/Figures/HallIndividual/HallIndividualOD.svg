@@ -17,7 +17,21 @@
    inkscape:version="0.48.1 "
    sodipodi:docname="HallIndividualOD.svg">
   <defs
-     id="defs4" />
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path3855"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,16 +39,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2"
-     inkscape:cx="224.86382"
-     inkscape:cy="394.6447"
+     inkscape:zoom="1"
+     inkscape:cx="365.38571"
+     inkscape:cy="512.85439"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1136"
      inkscape:window-height="823"
-     inkscape:window-x="76"
-     inkscape:window-y="59"
+     inkscape:window-x="-267"
+     inkscape:window-y="20"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
@@ -61,43 +75,6 @@
        width="355.2963"
        inkscape:export-xdpi="180"
        inkscape:export-ydpi="180" />
-    <image
-       y="362.26495"
-       x="170.74751"
-       id="image3004"
-       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-HallBSCO/Figures/HallIndividual/B07KOD2.png"
-       height="223.45139"
-       width="355.2963"
-       inkscape:export-filename="C:\PhD\Publish\Thesis\Chapter-HallBSCO\Figures\InvHallCombined\path3791.png"
-       inkscape:export-xdpi="180"
-       inkscape:export-ydpi="180" />
-    <image
-       y="562.39398"
-       x="176.19009"
-       id="image3015"
-       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-HallBSCO/Figures/HallIndividual/B16KOD1a.png"
-       height="223.45139"
-       width="349.30334"
-       inkscape:export-filename="C:\PhD\Publish\Thesis\Chapter-HallBSCO\Figures\InvHallCombined\path3793.png"
-       inkscape:export-xdpi="180"
-       inkscape:export-ydpi="180" />
-    <text
-       xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="326.04431"
-       y="800.70654"
-       id="text3018"
-       sodipodi:linespacing="100%"
-       inkscape:export-filename="C:\PhD\Publish\Thesis\Chapter-HallBSCO\Figures\InvHallCombined\path3793.png"
-       inkscape:export-xdpi="180"
-       inkscape:export-ydpi="180"><tspan
-         sodipodi:role="line"
-         id="tspan3020"
-         x="326.04431"
-         y="800.70654"
-         style="font-size:12px">Temperature (<tspan
-   style="font-size:12px;font-style:italic"
-   id="tspan3022">K</tspan>)</tspan></text>
     <g
        id="g3047"
        transform="translate(-22,-7)"
@@ -124,35 +101,139 @@
            id="tspan3072"
            sodipodi:role="line">B00KOD1a</tspan></text>
     </g>
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 499,344.86218 C 403.0142,289.44475 360.84329,208.72912 286.37868,188.77639 269.68315,184.30284 239.34654,197.97267 223,241.36218"
+       id="path3021"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="C:\PhD\Publish\Thesis\Chapter-HallBSCO\Figures\InvHallCombined\image2993.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
     <g
        id="g3042"
-       transform="translate(-16,-42)"
-       inkscape:export-filename="C:\PhD\Publish\Thesis\Chapter-HallBSCO\Figures\InvHallCombined\path3791.png"
-       inkscape:export-xdpi="180"
-       inkscape:export-ydpi="180">
-      <rect
-         y="435.84879"
-         x="447.42703"
-         height="15.556349"
-         width="70.003571"
-         id="rect3015"
-         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1, 1;stroke-dashoffset:0" />
+       transform="translate(2.1543289,235.28575)">
+      <image
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="C:\PhD\Publish\Thesis\Chapter-HallBSCO\Figures\InvHallCombined\path3791.png"
+         width="355.2963"
+         height="223.45139"
+         xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-HallBSCO/Figures/HallIndividual/B07KOD2.png"
+         id="image3004"
+         x="170.74751"
+         y="362.26495" />
+      <g
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="C:\PhD\Publish\Thesis\Chapter-HallBSCO\Figures\InvHallCombined\path3791.png"
+         transform="translate(-16,-42)"
+         id="g3045">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1, 1;stroke-dashoffset:0"
+           id="rect3015"
+           width="70.003571"
+           height="15.556349"
+           x="447.42703"
+           y="435.84879" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           x="456"
+           y="447.86218"
+           id="text3074"
+           sodipodi:linespacing="100%"><tspan
+             style="font-size:14px"
+             sodipodi:role="line"
+             id="tspan3076"
+             x="456"
+             y="447.86218">B07KOD2</tspan></text>
+      </g>
+      <path
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         sodipodi:nodetypes="csc"
+         inkscape:connector-curvature="0"
+         id="path3791"
+         d="M 222.56186,474.47917 C 222.56186,474.47917 229.97029,391.67931 273.47354,394.5761 335.13359,398.6819 429.21382,513.54682 494.97475,552.43769"
+         style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
       <text
+         transform="matrix(0,-1,1,0,0,0)"
          sodipodi:linespacing="100%"
-         id="text3074"
-         y="447.86218"
-         x="456"
+         id="text3057"
+         y="152.33336"
+         x="-505.69971"
          style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
          xml:space="preserve"><tspan
-           y="447.86218"
-           x="456"
-           id="tspan3076"
-           sodipodi:role="line"
-           style="font-size:14px">B07KOD2</tspan></text>
+           style="font-size:10.65999985px"
+           y="152.33336"
+           x="-505.69971"
+           id="tspan3059"
+           sodipodi:role="line">R<tspan
+   id="tspan3061"
+   style="font-size:6.92909765px;baseline-shift:sub">H</tspan> (×10<tspan
+   id="tspan3063"
+   style="font-size:6.92909765px;baseline-shift:super">-3</tspan><tspan
+   id="tspan3065"
+   style="font-size:10.65999985px;font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'"> cm<tspan
+   id="tspan3067"
+   style="font-size:6.92909765px;baseline-shift:super">3</tspan>.C<tspan
+   id="tspan3069"
+   style="font-size:6.92909765px;baseline-shift:super">-1</tspan></tspan>) </tspan></text>
     </g>
+    <text
+       transform="matrix(0,-1,1,0,0,0)"
+       sodipodi:linespacing="100%"
+       id="text3043"
+       y="152.33336"
+       x="-303.69971"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="font-size:10.65999985px"
+         y="152.33336"
+         x="-303.69971"
+         id="tspan3045"
+         sodipodi:role="line">R<tspan
+   id="tspan3047"
+   style="font-size:6.92909765px;baseline-shift:sub">H</tspan> (×10<tspan
+   id="tspan3049"
+   style="font-size:6.92909765px;baseline-shift:super">-3</tspan><tspan
+   id="tspan3051"
+   style="font-size:10.65999985px;font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'"> cm<tspan
+   id="tspan3053"
+   style="font-size:6.92909765px;baseline-shift:super">3</tspan>.C<tspan
+   id="tspan3055"
+   style="font-size:6.92909765px;baseline-shift:super">-1</tspan></tspan>) </tspan></text>
+    <image
+       y="379.68686"
+       x="176.98299"
+       id="image3015"
+       xlink:href="file:///C:/PhD/Publish/Thesis/Chapter-HallBSCO/Figures/HallIndividual/B16KOD1a.png"
+       height="223.45139"
+       width="349.30334"
+       inkscape:export-filename="C:\PhD\Publish\Thesis\Chapter-HallBSCO\Figures\InvHallCombined\path3793.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="316.23062"
+       y="832.9599"
+       id="text3018"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="C:\PhD\Publish\Thesis\Chapter-HallBSCO\Figures\InvHallCombined\path3793.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"><tspan
+         sodipodi:role="line"
+         id="tspan3020"
+         x="316.23062"
+         y="832.9599"
+         style="font-size:12px">Temperature (<tspan
+   style="font-size:12px;font-style:italic"
+   id="tspan3022">K</tspan>)</tspan></text>
     <g
        id="g3037"
-       transform="translate(-23,-52)"
+       transform="translate(-22.207107,-234.70711)"
        inkscape:export-filename="C:\PhD\Publish\Thesis\Chapter-HallBSCO\Figures\InvHallCombined\path3793.png"
        inkscape:export-xdpi="180"
        inkscape:export-ydpi="180">
@@ -178,24 +259,7 @@
     </g>
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 499,344.86218 C 403.0142,289.44475 360.84329,208.72912 286.37868,188.77639 269.68315,184.30284 239.34654,197.97267 223,241.36218"
-       id="path3021"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csc"
-       inkscape:export-filename="C:\PhD\Publish\Thesis\Chapter-HallBSCO\Figures\InvHallCombined\image2993.png"
-       inkscape:export-xdpi="180"
-       inkscape:export-ydpi="180" />
-    <path
-       style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 222.56186,474.47917 c 0,0 7.40843,-82.79986 50.91168,-79.90307 61.66005,4.1058 155.74028,118.97072 221.50121,157.86159"
-       id="path3791"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csc"
-       inkscape:export-xdpi="180"
-       inkscape:export-ydpi="180" />
-    <path
-       style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 495.68185,736.99256 C 403.40441,688.55575 320.20063,614.72505 277.89297,614.30953 272.48636,614.25643 238.26896,606.96639 222.32442,698.53062"
+       d="M 496.47474,554.28545 C 404.1973,505.84864 320.99352,432.01794 278.68586,431.60242 273.27925,431.54932 239.06185,424.25928 223.11731,515.82351"
        id="path3793"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csc"
@@ -204,61 +268,15 @@
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="-505.69971"
-       y="152.33336"
-       id="text3057"
-       sodipodi:linespacing="100%"
-       transform="matrix(0,-1,1,0,0,0)"><tspan
-         sodipodi:role="line"
-         id="tspan3059"
-         x="-505.69971"
-         y="152.33336"
-         style="font-size:10.65999985px">R<tspan
-   style="font-size:6.92909765px;baseline-shift:sub"
-   id="tspan3061">H</tspan> (×10<tspan
-   style="font-size:6.92909765px;baseline-shift:super"
-   id="tspan3063">-3</tspan><tspan
-   style="font-size:10.65999985px;font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'"
-   id="tspan3065"> cm<tspan
-   style="font-size:6.92909765px;baseline-shift:super"
-   id="tspan3067">3</tspan>.C<tspan
-   style="font-size:6.92909765px;baseline-shift:super"
-   id="tspan3069">-1</tspan></tspan>) </tspan></text>
-    <text
-       transform="matrix(0,-1,1,0,0,0)"
-       sodipodi:linespacing="100%"
-       id="text3043"
-       y="152.33336"
-       x="-303.69971"
-       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       xml:space="preserve"><tspan
-         style="font-size:10.65999985px"
-         y="152.33336"
-         x="-303.69971"
-         id="tspan3045"
-         sodipodi:role="line">R<tspan
-   id="tspan3047"
-   style="font-size:6.92909765px;baseline-shift:sub">H</tspan> (×10<tspan
-   id="tspan3049"
-   style="font-size:6.92909765px;baseline-shift:super">-3</tspan><tspan
-   id="tspan3051"
-   style="font-size:10.65999985px;font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'"> cm<tspan
-   id="tspan3053"
-   style="font-size:6.92909765px;baseline-shift:super">3</tspan>.C<tspan
-   id="tspan3055"
-   style="font-size:6.92909765px;baseline-shift:super">-1</tspan></tspan>) </tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-       x="-702.69971"
-       y="152.33336"
+       x="-519.99261"
+       y="153.12625"
        id="text3109"
        sodipodi:linespacing="100%"
        transform="matrix(0,-1,1,0,0,0)"><tspan
          sodipodi:role="line"
          id="tspan3111"
-         x="-702.69971"
-         y="152.33336"
+         x="-519.99261"
+         y="153.12625"
          style="font-size:10.65999985px">R<tspan
    style="font-size:6.92909765px;baseline-shift:sub"
    id="tspan3125">H</tspan> (×10<tspan
@@ -270,5 +288,40 @@
    id="tspan3129">3</tspan>.C<tspan
    style="font-size:6.92909765px;baseline-shift:super"
    id="tspan3131">-1</tspan></tspan>) </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="535.81537"
+       y="217.54474"
+       id="text3075"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3077"
+         x="535.81537"
+         y="217.54474"
+         style="font-size:18px">OD</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="M 548.71486,227.44422 548.71486,811.23877"
+       id="path3079"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="553.04175"
+       y="828.20929"
+       id="text4293"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan4295"
+         x="553.04175"
+         y="828.20929"
+         style="font-size:12px;font-style:italic;text-align:center;text-anchor:middle;-inkscape-font-specification:'Times New Roman, Italic'">continued</tspan><tspan
+         sodipodi:role="line"
+         x="553.04175"
+         y="840.20929"
+         id="tspan4297"
+         style="font-size:12px;font-style:italic;text-align:center;text-anchor:middle;-inkscape-font-specification:'Times New Roman, Italic'">overleaf ...</tspan></text>
   </g>
 </svg>

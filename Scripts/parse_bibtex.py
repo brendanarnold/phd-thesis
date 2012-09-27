@@ -4,8 +4,8 @@ Remove unnecessary fields from entries
 '''
 import os
 
-IN_FN = os.path.join('..', 'Bibliography', 'library.bib')
-OUT_FN = os.path.join('..', 'Bibliography', 'processed-library.bib')
+IN_FN = os.path.join('Bibliography', 'library.bib')
+OUT_FN = os.path.join('Bibliography', 'processed-library.bib')
 FIELDS = {
     'book': ('author', 'isbn', 'pages', 'publisher', 'title', 'year'),
     'article': ('author', 'journal', 'volume', 'doi', 'pages', 'publisher', 'year', 'eprint'),
