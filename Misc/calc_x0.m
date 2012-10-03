@@ -11,18 +11,18 @@ function [total_re_x0 total_im_x0] = calc_x0(fs, T, delta, omega, ...
 %   delta:          Quasiparticle lifetime, if zero this will give
 %                          zero for the imaginary portion of the
 %                          susceptibility (default: zero)
-%   omega:          Pertubation frequency (default: zero)
+%   omega:          Perturbation frequency (default: zero)
 %   out_filestem:   Filestem for all the individual band combinations
 %                          Default: 'x0'
 %   q_space:        Indices of Q space to calculate passed as a cell array
 %                          of 3 vectors, first for the Qx indices, second
 %                          for the Qy indices, third for the Qz indices. An
-%                          empty cell array or an empty vector in the cell
-%                          array defaults to the full extent of grid of energy
-%                          points. N.B. Since we are dealing with indices,
-%                          not k-space values, 1 corresponds to a zero
-%                          in q-space (i.e. qx = (n-1)*dk_x where n is the 
-%                          number passed) 
+%                          empty cell array or an empty vector in the
+%                          cell array defaults to the full extent of
+%                          grid of energy points. N.B. Since we are
+%                          dealing with indices, not k-space values, 1
+%                          corresponds to a zero in q-space (i.e. 
+%                          qx = (n-1)*dk_x where n is the number passed) 
 %
 % RETURNS:
 %    re_x0:         Real values of x0
@@ -31,7 +31,7 @@ function [total_re_x0 total_im_x0] = calc_x0(fs, T, delta, omega, ...
 
 
 % Use to test the code. Generates free electron energy dispersion and
-% calcualtes a susceptibility. Actually not straightforward since free
+% calculates a susceptibility. Actually not straightforward since free
 % electron dispersion is not periodic.
 TEST_FREE_ELECTRON = false;
 DIMENSIONS = 3;

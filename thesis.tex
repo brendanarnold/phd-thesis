@@ -72,6 +72,25 @@
 %     }%
 % }
 
+% Configure how code looks using the listings package
+\definecolor{LightGrey}{RGB}{220, 220, 220}
+\lstset{
+    language=Matlab,                        % Code langugage
+    basicstyle=\ttfamily,                   % Overall look
+    keywordstyle=\bfseries,                 % Keyword style
+    commentstyle=\color{gray},              % Comments style
+    stringstyle=\em,                        % String style
+    showstringspaces=false,                 % Show spaces in strings
+    showspaces=false,                       % Make spaces invisible
+    showtabs=false,                         % Make tabs invisible
+    captionpos=b,                           % Put caption at bottom
+    frame=none,                             % No frame around code
+    tabsize=2,                              % Tab size
+    morekeywords={hypot},                   % Additional keywords
+    numbers=left,                           % where to put the line-numbers
+    numberstyle=\ttfamily\colorbox{LightGrey}, % the style that is used for the line-numbers
+}
+
 
 \begin{document}
 
