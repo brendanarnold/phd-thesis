@@ -2,7 +2,7 @@
 \section{Density functional theory}
 \label{Sec:Theo:Dft}
 
-The interpretation of the \ac{dHvA} measurements presented later in this thesis rely to some extent on the ab-initio calculation of the energy bands of \BaFeP using the WIEN2k code~\cite{Blaha2001} --- the technique used to find these energy dispersions are based on a \ac{DFT} scheme. The following is broad overview of \ac{DFT} which is drawn from notes from a series of summer school lectures by M. L\"uders~\cite{Luders2010} and the `ABC of DFT' by K. Burke~\cite{Burke2003}.
+The interpretation of the \ac{dHvA} measurements presented later in this thesis rely to some extent on the ab-initio calculation of the energy bands of \BaFeP{} using the \WIEN{} code~\cite{Blaha2001} --- the technique used to find these energy dispersions are based on a \ac{DFT} scheme. The following is broad overview of \ac{DFT} which is drawn from notes from a series of summer school lectures by M. L\"uders~\cite{Luders2010} and the `ABC of DFT' by K. Burke~\cite{Burke2003}.
 
  Although implementations of \ac{DFT} rely on various approximations, the theory of \ac{DFT} itself has been shown to be exact and mathematically rigorous. It comprises of a set of theorems developed and proven by Hohenberg, Kohn and Levy~\cite{Hohenberg1964, Levy1979} and a methodology for solving to obtain the ground state energies developed by Kohn and Sham. The principle theorem outlined by \ac{HK} shows that the ground state external potential, $v_{\textrm{ext}}(\vect{r})$, of a system can be determined by the ground state density, $n(\vect{r})$, alone and vice-versa. A second \ac{HK} theorem outlines a minimisation condition which expresses the ground state energy as follows,
 \begin{equation}
@@ -46,13 +46,13 @@ Andersen further simplified the radial basis portion of the \ac{APW} method by a
 
 \subsection{Local orbit wavefunction bases}
 
-The standard \ac{LAPW} method can be made more efficient by up to an order of magnitude if additional wavefunctions are included with the standard \ac{APW} wavefunctions which better describe the states close to the edge of the muffin tin spheres known as the \emph{semi-core states}.
+The standard \ac{LAPW} method can be made more efficient by up to an order of magnitude if additional wavefunctions are included with the standard \ac{APW} wavefunctions which better describe the states close to the edge of the muffin tin spheres known as the `semi-core states'.
 
-These additional wavefunctions are known as \emph{local orbitals} and allow the calculation to relax the condition that the standard \ac{APW} wavefunctions must have a continuous slope at the muffin tin boundary. The local orbit wavefunctions are used to smooth over the kinks where the plane wavefunctions and the radial wavefunctions meet. The functions are radial in nature but are $\vect{k}$ independent. Including these wavefunctions can result in up to \unit{50}{\%} fewer wavefunctions required for convergence and significantly shorter calculation times~\cite{Madsen2001}.
+These additional wavefunctions are known as `local orbitals' and allow the calculation to relax the condition that the standard \ac{APW} wavefunctions must have a continuous slope at the muffin tin boundary. The local orbit wavefunctions are used to smooth over the kinks where the plane wavefunctions and the radial wavefunctions meet. The functions are radial in nature but are $\vect{k}$ independent. Including these wavefunctions can result in up to \unit{50}{\%} fewer wavefunctions required for convergence and significantly shorter calculation times~\cite{Madsen2001}.
 
 \subsection{Code and execution details}
 
-Calculations presented in this thesis were performed using \WIEN version 07.2 (20th Feb 2007)~\cite{Blaha2001} using \ac{LAPW} without the local orbitals. Unless specified, non-spin orbit calculations are presented although spin-orbit calculations were checked and did not show significant differences. The \ac{GGA} according to Perdew-Burke-Ernzerhof~\cite{Perdew1996} was used for the exchange correlation functional.
+Calculations presented in this thesis were performed using \WIEN{} version 07.2 (20th Feb 2007)~\cite{Blaha2001} using \ac{LAPW} without the local orbitals. Unless specified, non-spin orbit calculations are presented although spin-orbit calculations were checked and did not show significant differences. The \ac{GGA} according to Perdew-Burke-Ernzerhof~\cite{Perdew1996} was used for the exchange correlation functional.
 
-Preprocessing of the WIEN2k data into voxel form as well as the theoretical angle plots were performed using a modified version of MATLAB code written by Dr. E. Yelland. The basis for the code has been thoroughly field tested within the group over a number of years.
+Preprocessing of the \WIEN{} data into voxel form as well as the theoretical angle plots were performed using a modified version of MATLAB code written by Dr. E. Yelland. The basis for the code has been thoroughly field tested within the group over a number of years.
 

@@ -12,14 +12,14 @@ Code to calculate the Lindhard susceptibility was written in MATLAB \footnote{Fu
 \end{figure}
 
 
-The code was adapted to accept pre-generated energy dispersions as calculated with the WIEN2k DFT software and post-processed with MATLAB code. In this case, the dispersion is periodic and energies at the scattering vector $q$ are obtained by simply `rolling' the 3D matrix of energy values. Testing on this adapted code was performed by re-creating WIEN2k calculations on LaFeAsO$_{0.1}$F$_{0.9}$ performed by Mazin et al.~\cite{Mazin2008} and then comparing our own susceptibility calculations with those in the Mazin paper. A temperature smearing of \unit{1}{\milli\textrm{Ry}} was quoted which equate to a temperature of \unit{157.88}{\kelvin}. A similar amount of points ($55\times55\times26$) was also used.
+The code was adapted to accept pre-generated energy dispersions as calculated with the WIEN2k DFT software and post-processed with MATLAB code. In this case, the dispersion is periodic and energies at the scattering vector $q$ are obtained by simply `rolling' the 3D matrix of energy values. Testing on this adapted code was performed by re-creating WIEN2k calculations on LaFeAsO$_{0.1}$F$_{0.9}$ performed by Mazin \etal~\cite{Mazin2008} and then comparing our own susceptibility calculations with those in the Mazin paper. A temperature smearing of \unit{1}{\milli\textrm{Ry}} was quoted which equate to a temperature of \unit{157.88}{\kelvin}. A similar amount of points ($55\times55\times26$) was also used.
 
 Figure~\ref{Fig:Exp:MazinX0Comparison} show comparisons of $\Real \chi_0(q,\omega)$ and $\Imag \chi_0(q,\omega)$ with the published results. For these calculations the values of $\delta=\textrm{1e-4}$ and $\omega=\textrm{1e-6}$ were determined to give the closest results from a series of trials\footnote{There is no indication in the paper as to the values of $\delta$ and $\omega$ used in their own calculations although we know that they are likely to be of the order of the temperature energy scale (\unit{1}{\milli Ry}) or less.}. The comparison shows that some of the finer structure from the Mazin paper is missing from our own calculations, for example the depression in the real part at the $\Gamma$ point, however the overall shape is very similar.
 
 \begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.9]{Chapter-ExperimentalTechnique/Figures/Susceptibility/MazinComparison/MazinComparison}
-        \caption{Right hand panels show the real and imaginary parts of Lindhard susceptibility calculations on LaFeAsO$_{0.1}$F$_{0.9}$ by Mazin et al. for $q_z=\pi/c$, right panels show the same calculation performed using our own MATLAB code.}
+        \caption{Right hand panels show the real and imaginary parts of Lindhard susceptibility calculations on LaFeAsO$_{0.1}$F$_{0.9}$ by Mazin \etal{} for $q_z=\pi/c$, right panels show the same calculation performed using our own MATLAB code.}
         \label{Fig:Exp:MazinX0Comparison}
     \end{center}
 \end{figure}

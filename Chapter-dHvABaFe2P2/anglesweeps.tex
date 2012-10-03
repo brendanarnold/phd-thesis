@@ -48,7 +48,7 @@ The magnetic field was alternatively ramped up and then down meaning subsequent 
 
 Figure~\ref{Fig:ResD:FFTExamples} shows three example \acp{FFT} which show peaks from all the principal bands identified the next section. They also show first and second harmonics\footnote{Third harmonics were also identified in other \acp{FFT}, these are shown in figure~\ref{Fig:ResD:AngleSweepMeasured}.}. The low frequency region in figure~\ref{Fig:ResD:FFTExamples} shows noise from the cantilever, but according to \ac{DFT} fits performed in the next section, this region also likely contains signal from the minimum of the inner hole band. Given that the signal from electron bands is generally small due to high scattering rate, we were not able to extract a convincing Fourier peak.
 
-Figure~\ref{Fig:ResD:AngleSweepMeasured} shows the \ac{FFT} frequency of peak data multiplied by $\cos\theta$ after having the angle determined as described in section~\ref{Sec:Exp:AngleCorrection}.  Signal can be observed up to relatively high angles with peak observed almost up to $80\degree$ in the $[110]$ direction which, along with the observation of third harmonics, and the onset of oscillations in relatively low field is testament to the high quality of the crystal.
+Figure~\ref{Fig:ResD:AngleSweepMeasured} shows the \ac{FFT} frequency of peak data multiplied by $\cos\theta$ after having the angle determined as described in section~\ref{Sec:Exp:AngleCorrection}.  Signal can be observed up to relatively high angles with peak observed almost up to \unit{80}{\degree} in the $[110]$ direction which, along with the observation of third harmonics, and the onset of oscillations in relatively low field is testament to the high quality of the crystal.
 
 \begin{figure}[htbp]
     \begin{center}
@@ -58,7 +58,7 @@ Figure~\ref{Fig:ResD:AngleSweepMeasured} shows the \ac{FFT} frequency of peak da
     \end{center}
 \end{figure}
 
-The left panel in figure~\ref{Fig:ResD:IdentifyingBands} shows the measured rotation data (circles) for the plots towards the $[100]$ direction and in addition the data from the $x=0.63$ data in the \BaFePAs series multiplied by amounts commensurate to the expected shifts in the Shishido paper~\cite{Shishido2010} (black squares). We can see that while the size of the areas changes between the two values, the overall shape of the $x=0.63$ data matches reasonably well with the data for $x=1$ for bands 2, 3 and 4 at least. Assuming that nothing exotic happens in the intermediary, we can extrapolate the shape of these Fermi surfaces across the range by applying the known electron Fermi surface areas and the compensation condition. This is explored further in the next section.
+The left panel in figure~\ref{Fig:ResD:IdentifyingBands} shows the measured rotation data (circles) for the plots towards the $[100]$ direction and in addition the data from the $x=0.63$ data in the \BaFeAsP{} series multiplied by amounts commensurate to the expected shifts in the Shishido paper~\cite{Shishido2010} (black squares). We can see that while the size of the areas changes between the two values, the overall shape of the $x=0.63$ data matches reasonably well with the data for $x=1$ for bands 2, 3 and 4 at least. Assuming that nothing exotic happens in the intermediary, we can extrapolate the shape of these Fermi surfaces across the range by applying the known electron Fermi surface areas and the compensation condition. This is explored further in the next section.
 
 \begin{figure}[htbp]
     \begin{center}
@@ -73,7 +73,7 @@ The left panel in figure~\ref{Fig:ResD:IdentifyingBands} shows the measured rota
 \subsubsection{Rigidly shifting the calculated \ac{DFT} energies}
     \label{Sec:ResD:DFTShifts}
 
-The right panel of figure~\ref{Fig:ResD:IdentifyingBands} shows the \ac{DFT} calculations performed using the augmented plane wave method plus local orbits method method as implemented in the WIEN2k package~\cite{Blaha2001}. The unit cell used was that measured by Mewis et al. which are listed in table~\ref{Table:ResD:LatticeParams} and the subsequent \ac{DFT} calculations were processed into rotation plots using MATLAB code. Results are shown superimposed over the measured data. By factoring the frequency with $\cos{\theta}$ it becomes clearer which of the orbits is a maximal extrema and which is a minimal extrema. Using this knowledge as well as clues from the Fourier amplitude of the measured data, it was possible to separate out individual bands which have been colour coded and labelled --- according to literature convention --- as specified in table~\ref{Tab:ResD:BandNaming}. Minimal extrema are sub-labelled $1$, maxima are sub-labelled $2$. The points marked in grey are the harmonics which were identified by overlaying the measured data on itself after doubling and tripling of the frequency.
+The right panel of figure~\ref{Fig:ResD:IdentifyingBands} shows the \ac{DFT} calculations performed using the augmented plane wave method plus local orbits method method as implemented in the \WIEN{} package~\cite{Blaha2001}. The unit cell used was that measured by Mewis \etal{} which are listed in table~\ref{Table:ResD:LatticeParams} and the subsequent \ac{DFT} calculations were processed into rotation plots using MATLAB code. Results are shown superimposed over the measured data. By factoring the frequency with $\cos{\theta}$ it becomes clearer which of the orbits is a maximal extrema and which is a minimal extrema. Using this knowledge as well as clues from the Fourier amplitude of the measured data, it was possible to separate out individual bands which have been colour coded and labelled --- according to literature convention --- as specified in table~\ref{Tab:ResD:BandNaming}. Minimal extrema are sub-labelled $1$, maxima are sub-labelled $2$. The points marked in grey are the harmonics which were identified by overlaying the measured data on itself after doubling and tripling of the frequency.
 
 \begin{table}
     \begin{center}
@@ -92,7 +92,7 @@ Band Num.  & Label & Colour    & Type \\
     \end{center}
 \end{table}
 
-As with previous \ac{DFT} calculations in the \BaFePAs series, the calculated values are consistently higher than the measured values~\cite{Shishido2010}. The exception in this case is $\gamma_2$ which is not much different from the calculated values.
+As with previous \ac{DFT} calculations in the \BaFeAsP{} series, the calculated values are consistently higher than the measured values~\cite{Shishido2010}. The exception in this case is $\gamma_2$ which is not much different from the calculated values.
 
 As is shown in the right panel of figure~\ref{Fig:ResD:IdentifyingBands}, the rotation plots from the \ac{DFT} calculations match up qualitatively with the data but do not match up quantitatively -- the electron bands overestimating the size of the measured extremal orbits. 
 
@@ -134,13 +134,13 @@ Band $2$ in this case has two separate shifts specified in two different regions
 \end{figure}
 For the $[100]$ direction it became apparent from the fact that the \ac{DFT} and the measured curves were qualitatively different that the field was not perfectly aligned with the $[100]$ axis of the sample. Figure~\ref{Fig:ResD:BaselMisalignment} shows how the measured data (circles) does not align well with the plots calculated for rotations towards $[100]$ (solid) but does align well with plots towards an axis which is rotated \unit{10}{\degree} within the $ab$-plane from the $[100]$ direction. A \unit{10}{\degree} misalignment is within the estimated basel alignment error for the microscope images. The data will continue to be labelled as in the $[100]$ plane however for convenience.
 
-In the first place, these shifts were applied as they conveniently and effectively corrected the Fermi surface energies, however the question arises as to whether there is any physical significance to be attached to them. The technique of rigid energy corrections has been applied to previous measurements on LaFePO~\cite{Carrington2009} and SrFe$_2$P$_2$~\cite{Analytis2009} both of which are highly two dimensional systems that exhibit relatively strong nesting characteristics. This is in contrast with measurements on CaFe$_2$P$_2$~\cite{Coldea2009} which has a highly three dimensional Fermi surface and no nesting vector. Furthermore the bulbous area of the three dimensional hole surface in \BaFeP which does not nest requires no shifting of the Fermi surface to match \ac{DFT} calculations, whereas the nested neck portion does require a shift. This correlation between nesting and shifts in calculated energy make the spin-density-wave fluctuations that are associated with the nesting phenomena an obvious candidate for the cause of the discrepancy between \ac{DFT} calculation and experiment.
+In the first place, these shifts were applied as they conveniently and effectively corrected the Fermi surface energies, however the question arises as to whether there is any physical significance to be attached to them. The technique of rigid energy corrections has been applied to previous measurements on LaFePO~\cite{Carrington2009} and SrFe$_2$P$_2$~\cite{Analytis2009} both of which are highly two dimensional systems that exhibit relatively strong nesting characteristics. This is in contrast with measurements on CaFe$_2$P$_2$~\cite{Coldea2009} which has a highly three dimensional Fermi surface and no nesting vector. Furthermore the bulbous area of the three dimensional hole surface in \BaFeP{} which does not nest requires no shifting of the Fermi surface to match \ac{DFT} calculations, whereas the nested neck portion does require a shift. This correlation between nesting and shifts in calculated energy make the spin-density-wave fluctuations that are associated with the nesting phenomena an obvious candidate for the cause of the discrepancy between \ac{DFT} calculation and experiment.
 
 
 \subsubsection{Shifting the \ac{DFT} calculations proportional to orbital character}
 \label{Sec:ResD:ShiftingDFTPropToOrbitalCharacter}
 
-The \WIEN package can output weighted contributions to the energy values at a particular $k$ site in the \ac{BZ} broken down to the sub-orbit level, thus defining the orbital character at that site. Figure~\ref{Fig:ResD:Band2DCharacterVsKz} shows the orbital character for for each of the bands along the path of Fermi surface contour in a $[110]$ slice through the \BaFeP \ac{BZ} as a function of $k_z$. The top row of plots show the character broke down by atomic contribution, the middle row is broken down by the $s$, $p$, $d$ and $f$ contributions to the iron contribution and the bottom row breaks down the iron $d$ character into its sub orbitals.
+The \WIEN{} package can output weighted contributions to the energy values at a particular $k$ site in the \ac{BZ} broken down to the sub-orbit level, thus defining the orbital character at that site. Figure~\ref{Fig:ResD:Band2DCharacterVsKz} shows the orbital character for for each of the bands along the path of Fermi surface contour in a $[110]$ slice through the \BaFeP{} \ac{BZ} as a function of $k_z$. The top row of plots show the character broke down by atomic contribution, the middle row is broken down by the $s$, $p$, $d$ and $f$ contributions to the iron contribution and the bottom row breaks down the iron $d$ character into its sub orbitals.
 \begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=1.15]{Chapter-dHvABaFe2P2/Figures/AngleDepMeasurements/BandCharacterVsKz/AllBandCharacterVsKz}
@@ -153,7 +153,7 @@ The interstitial regions account for about \unit{20--32}{\%} of the electron ban
 
 We can see the vast majority of Fermi surface character is due to the iron atomic contributions with some phosphor for bands 2 and 3 which corresponds well to the notion of FeP conducting planes. For all the bands, the overwhelming majority of the contribution from the iron atoms is from the $d$ orbitals and so other contributions are ignored.
 
-Band $2$ has very little basel-plane \Dxy and \DxTwoyTwo character close to the Fermi level but shows a significant amount of \DzTwo character at the wide region of the Fermi surface and \DxzDyz character at the narrow region. Evidently, energy shifts could be applied which are scaled to either the \DzTwo and \DxzDyz orbital character in order that we obtain a smooth energy shift transition between the narrow and wide regions discussed previously. 
+Band $2$ has very little basel-plane \Dxy{} and \DxTwoyTwo{} character close to the Fermi level but shows a significant amount of \DzTwo{} character at the wide region of the Fermi surface and \DxzDyz{} character at the narrow region. Evidently, energy shifts could be applied which are scaled to either the \DzTwo{} and \DxzDyz{} orbital character in order that we obtain a smooth energy shift transition between the narrow and wide regions discussed previously. 
 
 Energy shifts were applied across the full three dimensional \ac{BZ} for band $2$ using the following two scalings which were determined by trial and error fitting of the data,
 %%
@@ -167,17 +167,17 @@ Note that these scalings ensure that the energy shift applied varies between \un
 \begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.8]{Chapter-dHvABaFe2P2/Figures/AngleDepMeasurements/BandCharacterRotPlot/Band2_110_RotPlot_Comparison}
-        \caption{dHvA frequencies for band 2 multiplied by the cosine of the angle of the $H$ field. $H$ field directed along $[001]\rightarrow[110]$. Open circles are measured data, solid lines represent (a) rigidly shifted \ac{DFT} calculations, (b) \ac{DFT} calculations shifted proportional to \DzTwo orbital character, (c) \ac{DFT} calculations shifted proportional to \DxzDyz orbital character.}
+        \caption{dHvA frequencies for band 2 multiplied by the cosine of the angle of the $H$ field. $H$ field directed along $[001]\rightarrow[110]$. Open circles are measured data, solid lines represent (a) rigidly shifted \ac{DFT} calculations, (b) \ac{DFT} calculations shifted proportional to \DzTwo{} orbital character, (c) \ac{DFT} calculations shifted proportional to \DxzDyz{} orbital character.}
         \label{Fig:ResD:Band2DCharacterRigidComparison}
     \end{center}
 \end{figure}
 
-The second and third panels of figure~\ref{Fig:ResD:Band2DCharacterRigidComparison} show the rotation plots calculated with the energy shifts applied proportional to \DzTwo and \DxzDyz orbital character respectively. We observe a much better alignment of the measured and calculated data for all angles. Figure~\ref{Fig:ResD:BandCharacterFSShiftComparison} shows the Fermi surfaces before and after shifting using the rigid energy shifts for bands $1$, $3$ and $4$ and using shifts scaled to \DzTwo orbital character for band $2$. Figure~\ref{Fig:ResD:FullBandCharacterFermiSurface} shows the assembled unit cell for \BaFeP from the corrected \ac{DFT} calculations and figure~\ref{Fig:ResD:ShiftedBandStructure} shows the shifted band structure for the bands that cross the Fermi level.
+The second and third panels of figure~\ref{Fig:ResD:Band2DCharacterRigidComparison} show the rotation plots calculated with the energy shifts applied proportional to \DzTwo{} and \DxzDyz{} orbital character respectively. We observe a much better alignment of the measured and calculated data for all angles. Figure~\ref{Fig:ResD:BandCharacterFSShiftComparison} shows the Fermi surfaces before and after shifting using the rigid energy shifts for bands $1$, $3$ and $4$ and using shifts scaled to \DzTwo{} orbital character for band $2$. Figure~\ref{Fig:ResD:FullBandCharacterFermiSurface} shows the assembled unit cell for \BaFeP{} from the corrected \ac{DFT} calculations and figure~\ref{Fig:ResD:ShiftedBandStructure} shows the shifted band structure for the bands that cross the Fermi level.
 %%
 \begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.8]{Chapter-dHvABaFe2P2/Figures/AngleDepMeasurements/BandCharacterFermiSurface/BandCharacterFermiSurfaceShiftComparison}
-        \caption{Comparison of Fermi surfaces according to \ac{DFT} calculations both before and after shift corrections are applied. Rigid shifts are applied to bands 1, 3, 4 and shifts proportional to \DzTwo character are applied to band 2.}
+        \caption{Comparison of Fermi surfaces according to \ac{DFT} calculations both before and after shift corrections are applied. Rigid shifts are applied to bands 1, 3, 4 and shifts proportional to \DzTwo{} character are applied to band 2.}
         \label{Fig:ResD:BandCharacterFSShiftComparison}
     \end{center}
 \end{figure}
@@ -185,7 +185,7 @@ The second and third panels of figure~\ref{Fig:ResD:Band2DCharacterRigidComparis
 \begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.7]{Chapter-dHvABaFe2P2/Figures/AngleDepMeasurements/BandCharacterFermiSurface/FullBandCharacterFermiSurface}
-        \caption{Fully assembled Fermi surface in the first \ac{BZ} of \BaFeP as determined by \ac{DFT} calculations corrected by either rigid energy shifts (bands 1, 3, 4) or shifts proportional to \DzTwo character (band 2)}
+        \caption{Fully assembled Fermi surface in the first \ac{BZ} of \BaFeP{} as determined by \ac{DFT} calculations corrected by either rigid energy shifts (bands 1, 3, 4) or shifts proportional to \DzTwo{} character (band 2)}
         \label{Fig:ResD:FullBandCharacterFermiSurface}
     \end{center}
 \end{figure}
@@ -197,7 +197,7 @@ The final corrections show the \ac{DFT} calculations being adjusted in size only
            \caption{Volumes of the shifted and unshifted Fermi surfaces as a percentage of \ac{BZ} volume.}
         \begin{tabular}[htbp]{lrrr}
 \toprule
-Band    & Unshifted    & Shifted \DzTwo    & Shifted \DxzDyz \\
+Band    & Unshifted    & Shifted \DzTwo{}    & Shifted \DxzDyz{} \\
 \midrule
 1  & 5.54\%    & 2.28\%    & 2.28\%    \\
 2  & 10.37\%   & 9.74\%    & 9.64\%    \\
@@ -210,11 +210,11 @@ Total & -0.065\%    & -0.352\%  & -0.450\%  \\
         \end{tabular}
     \end{center}
 \end{table}
-The volumes compensate better before the shifts by a small amount ($\sim$\unit{0.4}{\%}) with the shifts proportional to \DxzDyz being slightly closer to the unshifted volume.
+The volumes compensate better before the shifts by a small amount ($\sim$\unit{0.4}{\%}) with the shifts proportional to \DxzDyz{} being slightly closer to the unshifted volume.
 
-\section{Obtaining the Fermi surface for members of the \BaFePAs series}
+\section{Obtaining the Fermi surface for members of the \BaFeAsP{} series}
 
-We can use existing literature measurements of the Fermi surface at $x=0.38$ from Yoshida \etal~\cite{Yoshida2010}, $x=0.63$ from Analytis \etal~\cite{Analytis2010c} and a range between $0.4 < x < 1.0$ from Shishido \etal~\cite{Shishido2010} to obtain an approximate relation for the size of Fermi surface orbits across the \BaFePAs series. Figure~\ref{Fig:ResD:SeriesRecipe} shows the maximum and minimum orbit sizes with the field along the $c$-axis from these papers along with data presented in this thesis.
+We can use existing literature measurements of the Fermi surface at $x=0.38$ from Yoshida \etal~\cite{Yoshida2010}, $x=0.63$ from Analytis \etal~\cite{Analytis2010c} and a range between $0.4 < x < 1.0$ from Shishido \etal~\cite{Shishido2010} to obtain an approximate relation for the size of Fermi surface orbits across the \BaFeAsP{} series. Figure~\ref{Fig:ResD:SeriesRecipe} shows the maximum and minimum orbit sizes with the field along the $c$-axis from these papers along with data presented in this thesis.
 \begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=1.3]{Chapter-dHvABaFe2P2/Figures/AngleDepMeasurements/SeriesRecipe/SeriesRecipe}
@@ -224,13 +224,24 @@ We can use existing literature measurements of the Fermi surface at $x=0.38$ fro
 \end{figure}
 It may be possible to apply a linear scaling to determine the intermediate orbit sizes however there are a number of assumptions that need to be made. 
 
-Firstly we cannot apply Vegard's law beyond a structural transition in the series meaning we cannot extrapolate to the orthorhombic antiferromagnetic state at the low $x$ end of the phase diagram. The \ac{ARPES} measurement by Yoshida et al. at $x=0.38$ roughly coincides with the edge of the orthorhombic transition as shown in figure~\ref{Fig:Intro:PhaseDiagram} but was found to be tetragonal and so we can use to to define the lower limit for the extrapolation at low temperatures. 
+Firstly we cannot apply Vegard's law beyond a structural transition in the series meaning we cannot extrapolate to the orthorhombic antiferromagnetic state at the low $x$ end of the phase diagram. The \ac{ARPES} measurement by Yoshida \etal{} at $x=0.38$ roughly coincides with the edge of the orthorhombic transition as shown in figure~\ref{Fig:Intro:PhaseDiagram} but was found to be tetragonal and so we can use to to define the lower limit for the extrapolation at low temperatures. 
 
-%There is also a so called `collapsed tetragonal phase' which occurs in the \BaFeAs at a pressure \unit{27}{\giga\pascal}~\cite{Mittal2011} at \unit{33}{\kelvin} which could present a problem as we apply chemical pressure. The optimal \Tc of \BaFeAs under pressure is $\sim$\unit{5}{\giga\pascal}~\cite{Colombier2009} and optimal \Tc for the \BaFePAs series is $x\sim0.3$, and so we can very approximately place $x=1$ corresponding to $\sim$\unit{7}{\giga\pascal} which is about half of that required for the collapsed phase transition. Moreover the author is not aware of any reports of the collapsed phase being observed in the \BaFePAs series at atmospheric pressure and so we assume that this is the case. 
+%There is also a so called `collapsed tetragonal phase' which occurs in
+%the \BaFeAs{} at a pressure \unit{27}{\giga\pascal}~\cite{Mittal2011} at
+%\unit{33}{\kelvin} which could present a problem as we apply chemical
+%pressure. The optimal $T_c$ of \BaFeAs{} under pressure is
+%$\sim$\unit{5}{\giga\pascal}~\cite{Colombier2009} and optimal $T_c$ for
+%the \BaFeAsP{} series is $x\sim0.3$, and so we can very approximately
+%place $x=1$ corresponding to $\sim$\unit{7}{\giga\pascal} which is
+%about half of that required for the collapsed phase transition.
+%Moreover the author is not aware of any reports of the collapsed phase
+%being observed in the \BaFeAsP{} series at atmospheric pressure and so we assume that this is the case. 
 
 There is also the problem of the third hole surface around the $\Gamma$ point which appears in \ac{DFT} calculations. Although it has not been observed in any of the measurements, this is to be expected since hole surfaces generally scatter more and so have a weaker signal to electron pockets and also it may be close in size and shape to other hole surfaces making it difficult to pick out with current \ac{ARPES} resolution.
 
-% Looking at figure~\ref{Fig:ResD:SeriesRecipe} we see some inconsistencies which may also throw some doubt onto such a linear fit. Key points from Yoshida \etal are measured from \ac{ARPES} and not \ac{dHvA}. As they were measured at \unit{10}{\kelvin}, this means that the Fermi surface is measured in the superconducting state and not the field suppressed normal state which is the case for the \ac{dHvA} data. \TODO{Include something here on the generlised fermi liquid}
+% Looking at figure~\ref{Fig:ResD:SeriesRecipe} we see some
+% inconsistencies which may also throw some doubt onto such a linear
+% fit. Key points from Yoshida \etal{} are measured from \ac{ARPES} and not \ac{dHvA}. As they were measured at \unit{10}{\kelvin}, this means that the Fermi surface is measured in the superconducting state and not the field suppressed normal state which is the case for the \ac{dHvA} data. \TODO{Include something here on the generlised fermi liquid}
 
  It also should be noted that a linear extrapolation of $\delta$ suggests that it will become more three dimensional as it goes below $x=0.38$, however this does not appear to be supported by the \ac{DFT} results which show it remaining quasi-two dimensional. 
 
