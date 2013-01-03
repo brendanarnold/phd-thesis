@@ -14,16 +14,16 @@ k_F(\phi, \kappa) = \sum_{\substack{\mu,\nu \geq 0 \\ \mu \textrm{even}}}
 \end{equation}
 where $k_F$ is the Fermi surface in k-space, $\kappa = ck_z/2$, $c$ is the unit cell height and $\phi$ is the polar angle. A slightly different set of functions would be necessary to fit the electron Fermi surface in the adjacent corners due to the screw symmetry, however only one electron sheet was fitted.
 
-The two dimensional fits were performed using a least square fitting routine using MATLAB on the \ac{DFT} data shifted as described in the previous section. The number of terms for the fits were increased until the residuals ceased to change appreciably. Fit parameters are presented in table~\ref{Tab:ResD:HarmonicParams}. Due to the skewed nature of the $k_z$ dispersion of the outer hole surface $20$ terms were necessary to obtain a reasonable fit to the corrected \ac{DFT} data however electron surfaces could be fitted well with $9$ terms and the inner hole surface with $10$ terms. The final analytical function was then used to create an energy dispersion on a discrete grid of $k$-points such that plotting an isosurface at $\epsilon = \unit{0}{\textrm{Ry}}$ correctly recreated the Fermi surface. Using this dispersion in the existing MATLAB code, extremal orbits were then calculated as a check of how well it matches the original data. The results of this are presented in figure~\ref{Fig:ResD:TightBindingFitRotationPlot}. As you can see, although the fits were to the modified \ac{DFT} calculations, the fits are also reasonably accurate at modelling the measured data.
+The two dimensional fits were performed using a least square fitting routine using MATLAB on the \ac{DFT} data shifted as described in the previous section. The number of terms for the fits were increased until the residuals ceased to change appreciably. Fit parameters are presented in table~\ref{Tab:ResD:HarmonicParams}. Due to the skewed nature of the $k_z$ dispersion of the outer hole surface $20$ terms were necessary to obtain a reasonable fit to the corrected \ac{DFT} data however electron surfaces could be fitted well with $9$ terms and the inner hole surface with $10$ terms.  The final analytical function was then used to create an `energy dispersion' on a discrete grid of $k$-points such that plotting an isosurface at $\epsilon = \unit{0}{\textrm{Ry}}$ correctly recreated the Fermi surface\footnote{The resulting dispersion was not physical and simply served as a computational structure to pass the shape of the Fermi surface to the MATLAB code, energy values at $k$-point away from the Fermi surface are somewhat arbitrary.}. Using this dispersion in the existing MATLAB code, extremal orbits were then calculated as a check of how well it matches the original data. The results of this are presented in figure~\ref{Fig:ResD:TightBindingFitRotationPlot}. As you can see, although the fits were to the modified \ac{DFT} calculations, the fits are also reasonably accurate at modelling the measured data.
 \begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.9]{Chapter-dHvABaFe2P2/Figures/AngleDepMeasurements/TightBindingFits/TightBindingFits}
-        \caption{Rotation plots for the tight-binding fits calculated from the c-axis down towards $[100]$.}
+        \caption{Rotation plots for the harmonic fits calculated from the c-axis down towards $[100]$.}
         \label{Fig:ResD:TightBindingFitRotationPlot}
     \end{center}
 \end{figure}
 \begin{table}
-    \caption{Harmonic expansion fit parameters performed on the shifted \ac{DFT} Fermi surfaces}
+    \caption{Harmonic expansion fit parameters performed on the shifted \ac{DFT} Fermi surfaces.}
     \label{Tab:ResD:HarmonicParams}
     \begin{center}
 {\small

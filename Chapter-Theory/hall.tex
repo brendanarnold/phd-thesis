@@ -14,7 +14,7 @@ The collision term on the right is generally complicated and is usually approxim
 \end{equation}
 where $f_0$ is the equilibrium occupation distribution to which $f$ tends towards exponentially if the system is perturbed. The rate of the exponential convergence is determined by the relaxation time, $\tau$, with the decay rate of the discrepancy being proportional to $e^{-t/\tau}$.
 
-As discussed in section~\ref{Sec:Theo:dHvAOverview}, electrons at the Fermi surface subject to a magnetic field are confined to orbits of a particular area around the Fermi surface due to the Lorentz force. Dealing solely with the simpler case of closed orbits (c.f. open orbits), we make an approximation of a steady state and uniform distribution so the first two terms of eqn.~\ref{Eqn:Theo:BTE} are zero. We then incorporate the Lorentz force, $\vect{F} = q(\vect{E} + \vect{V}\times\vect{B})$, in the third term. Finally through some manipulations~\cite{French2009} and on assuming that $k_bT \ll E_F$ so the Fermi distribution is a step function, then we can obtain an expression for the conductivity tensor elements, $\sigma_{ij}$, as the Shockley-Chambers tube integral form of the Boltzmann equation,
+As discussed in section~\ref{Sec:Theo:dHvAOverview}, electrons at the Fermi surface subject to a magnetic field are confined to orbits of a particular area around the Fermi surface due to the Lorentz force. Dealing solely with the simpler case of closed orbits (c.f. open orbits), we make an approximation of a steady state and uniform distribution so the first two terms of equation~\ref{Eqn:Theo:BTE} are zero. We then incorporate the Lorentz force, $\vect{F} = q(\vect{E} + \vect{V}\times\vect{B})$, in the third term. Finally through some manipulations~\cite{French2009} and on assuming that $k_bT \ll E_F$ so the Fermi distribution is a step function, then we can obtain an expression for the conductivity tensor elements, $\sigma_{ij}$, as the Shockley-Chambers tube integral form of the Boltzmann equation,
 \begin{equation}
     \sigma_{ij} = \frac{e^2}{4 \pi^3 \hbar^2}\int \partial k_B \int^{2\pi}_{0} \partial \phi \int^{\infty}_{0} \partial \phi^{\prime} v_i(\phi) v_j(\phi - \phi^{\prime})\frac{m^*}{\omega_c}e^{\phi^{\prime}/(\omega_c \tau)}
 \end{equation}
@@ -64,7 +64,7 @@ For a 2D metal in the weak field semiclassical limit, Ong determined that the tr
         \label{Fig:Theo:NegativeCurvatureLSCO}
     \end{center}
 \end{figure}
-Narduzzo \etal{} argues that this illustrated scenario is close to what we find in \ac{LSCO} at high doping. Here the mean free path is affected by the anisotropic scattering rate detailed in the introduction section and the proximity of the van-Hove singularity leads to negative curvature in the long flat sides of the Fermi surface as it changes between hole-like and electron-like, as shown for \ac{BSCO} in the right side panel of figure~\ref{Fig:Theo:NegativeCurvatureLSCO}, adapted from ref~\cite{Kondo2004}.
+Narduzzo \etal{} argues that this illustrated scenario is close to what we find in \ac{LSCO} at high doping. Here the mean free path is affected by the anisotropic scattering rate detailed in the introduction section and the proximity of the van-Hove singularity leads to negative curvature in the long flat sides of the Fermi surface as it changes between hole-like and electron-like, as shown for \ac{BSCO} in the right side panel of figure~\ref{Fig:Theo:NegativeCurvatureLSCO}, adapted from ref.~\cite{Kondo2004}.
 
 The form of the equations set out originally by Ong~\cite{Ong1991} for a 2D metal derives a relation for the transverse conductivity, $\sigma_{xy}$ from the Boltzmann model are as follows,
 \begin{equation}
@@ -72,7 +72,7 @@ The form of the equations set out originally by Ong~\cite{Ong1991} for a 2D meta
 \end{equation}
 where $A_l$ is the `Stokes' area traced in the centre panel of figure~\ref{Fig:Theo:NegativeCurvatureLSCO} and $\phi$ is the flux through the Stokes area and $\phi_0 = h/e$ is the flux quantum. The Hall coefficient $R_H$ is given by,
 \begin{equation}
-    R_H = \frac{\sigma_{xy}}{\sigma_{xx}\sigma_{yy}}
+    R_HB = \rho_{xy} = \frac{\sigma_{xy}}{\sigma_{xx}\sigma_{yy}}
 \end{equation}
 where, assuming symmetric scattering along the $x$ and $y$ directions of the conductivity tensor then,
 \begin{equation}

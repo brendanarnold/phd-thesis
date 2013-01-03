@@ -2,6 +2,8 @@
 \section{Angle dependent measurements}
     \label{Sec:ResD:AngleDependentMeasurements}
 
+The angle dependent measurements were performed by the author at Bristol in the Yellow magnet.
+
 \subsection{Determining experimental parameters}
 
 Preliminary measurements showed very strong \ac{dHvA} oscillations in comparison to other samples which begin at relatively low field with an example of the raw data shown in figure~\ref{Fig:ResD:RawOscillations}. Since it is not clear from the raw torque data where the oscillations begin, Fourier transforms were taken with small (\unit{1}{\tesla}) field intervals --- the interval where a clear signal is present marks the onset of oscillations. An \ac{FFT} of the data for the ranges \unit{4-5}{\tesla}, \unit{5-6}{\tesla} and \unit{6-7}{\tesla} are shown in the insets of the figure. The range \unit{6-7}{\tesla} clearly shows the strong peaks at around \unit{1500}{\tesla} and \unit{2450}{\tesla}, with the higher frequency peak disappearing in the \unit{5-6}{\tesla} range and both peaks disappearing in the \unit{4-5}{\tesla} range. Further refinement suggests the onset of appreciable oscillations is around \unit{5.6}{\tesla} for the strongest peak. The field was ramped between \unit{6}{\tesla} and the safe maximum of \unit{18}{\tesla} for the vast majority of measurements bar some sweeps where the magnet was ramped to or from \unit{0}{\tesla} following or preceding shut-down of the magnet.
@@ -73,7 +75,7 @@ The left panel in figure~\ref{Fig:ResD:IdentifyingBands} shows the measured rota
 \subsubsection{Rigidly shifting the calculated \ac{DFT} energies}
     \label{Sec:ResD:DFTShifts}
 
-The right panel of figure~\ref{Fig:ResD:IdentifyingBands} shows the \ac{DFT} calculations performed using the augmented plane wave method plus local orbits method method as implemented in the \WIEN{} package~\cite{Blaha2001}. The unit cell used was that measured by Mewis \etal{} which are listed in table~\ref{Table:ResD:LatticeParams} and the subsequent \ac{DFT} calculations were processed into rotation plots using MATLAB code. Results are shown superimposed over the measured data. By factoring the frequency with $\cos{\theta}$ it becomes clearer which of the orbits is a maximal extrema and which is a minimal extrema. Using this knowledge as well as clues from the Fourier amplitude of the measured data, it was possible to separate out individual bands which have been colour coded and labelled --- according to literature convention --- as specified in table~\ref{Tab:ResD:BandNaming}. Minimal extrema are sub-labelled $1$, maxima are sub-labelled $2$. The points marked in grey are the harmonics which were identified by overlaying the measured data on itself after doubling and tripling of the frequency.
+The right panel of figure~\ref{Fig:ResD:IdentifyingBands} shows the \ac{DFT} calculations performed using the augmented plane wave method plus local orbits method method as implemented in the \WIEN{} package~\cite{Blaha2001}. The calculations in the thesis was from based on calculations originally performed by Prof. T. Carrington and recalculated by the author. The unit cell used was that measured by Mewis \etal{} which are listed in table~\ref{Table:ResD:LatticeParams} and the subsequent \ac{DFT} calculations were processed into rotation plots using MATLAB code. Results are shown superimposed over the measured data. By factoring the frequency with $\cos{\theta}$ it becomes clearer which of the orbits is a maximal extrema and which is a minimal extrema. Using this knowledge as well as clues from the Fourier amplitude of the measured data, it was possible to separate out individual bands which have been colour coded and labelled --- according to literature convention --- as specified in table~\ref{Tab:ResD:BandNaming}. Minimal extrema are sub-labelled $1$, maxima are sub-labelled $2$. The points marked in grey are the harmonics which were identified by overlaying the measured data on itself after doubling and tripling of the frequency.
 
 \begin{table}
     \begin{center}
@@ -185,7 +187,7 @@ The second and third panels of figure~\ref{Fig:ResD:Band2DCharacterRigidComparis
 \begin{figure}[htbp]
     \begin{center}
         \includegraphics[scale=0.7]{Chapter-dHvABaFe2P2/Figures/AngleDepMeasurements/BandCharacterFermiSurface/FullBandCharacterFermiSurface}
-        \caption{Fully assembled Fermi surface in the first \ac{BZ} of \BaFeP{} as determined by \ac{DFT} calculations corrected by either rigid energy shifts (bands 1, 3, 4) or shifts proportional to \DzTwo{} character (band 2)}
+        \caption{Fully assembled Fermi surface in the first \ac{BZ} of \BaFeP{} as determined by \ac{DFT} calculations corrected by either rigid energy shifts (bands 1, 3, 4) or shifts proportional to \DzTwo{} character (band 2).}
         \label{Fig:ResD:FullBandCharacterFermiSurface}
     \end{center}
 \end{figure}
@@ -214,6 +216,8 @@ The volumes compensate better before the shifts by a small amount ($\sim$\unit{0
 
 \section{Obtaining the Fermi surface for members of the \BaFeAsP{} series}
 
+Although \ac{dHvA} measurements were taken by the author on other members of the \BaFeAsP{} series as mentioned at the start of this chapter, clear oscillations were not consistently found for all the electron pockets and no oscillations were found for the hole pockets as was the original aim. For this reason we refer to previous results which have shown convincing menasurement of both the hole and electron pockets.
+
 We can use existing literature measurements of the Fermi surface at $x=0.38$ from Yoshida \etal~\cite{Yoshida2010}, $x=0.63$ from Analytis \etal~\cite{Analytis2010c} and a range between $0.4 < x < 1.0$ from Shishido \etal~\cite{Shishido2010} to obtain an approximate relation for the size of Fermi surface orbits across the \BaFeAsP{} series. Figure~\ref{Fig:ResD:SeriesRecipe} shows the maximum and minimum orbit sizes with the field along the $c$-axis from these papers along with data presented in this thesis.
 \begin{figure}[htbp]
     \begin{center}
@@ -237,7 +241,7 @@ Firstly we cannot apply Vegard's law beyond a structural transition in the serie
 %Moreover the author is not aware of any reports of the collapsed phase
 %being observed in the \BaFeAsP{} series at atmospheric pressure and so we assume that this is the case. 
 
-There is also the problem of the third hole surface around the $\Gamma$ point which appears in \ac{DFT} calculations. Although it has not been observed in any of the measurements, this is to be expected since hole surfaces generally scatter more and so have a weaker signal to electron pockets and also it may be close in size and shape to other hole surfaces making it difficult to pick out with current \ac{ARPES} resolution.
+There is also the problem of the third hole surface around the $\Gamma$ point which appears in \ac{DFT} calculations. Although it has not been observed in any of the measurements, this is to be expected since hole surfaces generally have a higher scattering rate and so have a weaker signal to electron pockets and also it may be close in size and shape to other hole surfaces making it difficult to pick out with current \ac{ARPES} resolution.
 
 % Looking at figure~\ref{Fig:ResD:SeriesRecipe} we see some
 % inconsistencies which may also throw some doubt onto such a linear
