@@ -14,7 +14,7 @@ The collision term on the right is generally complicated and is usually approxim
 \end{equation}
 where $f_0$ is the equilibrium occupation distribution to which $f$ tends towards exponentially if the system is perturbed. The rate of the exponential convergence is determined by the relaxation time, $\tau$, with the decay rate of the discrepancy being proportional to $e^{-t/\tau}$.
 
-As discussed in section~\ref{Sec:Theo:dHvAOverview}, electrons at the Fermi surface subject to a magnetic field are confined to orbits of a particular area around the Fermi surface due to the Lorentz force. Dealing solely with the simpler case of closed orbits (c.f. open orbits), we make an approximation of a steady state and uniform distribution so the first two terms of equation~\ref{Eqn:Theo:BTE} are zero. We then incorporate the Lorentz force, $\vect{F} = q(\vect{E} + \vect{V}\times\vect{B})$, in the third term. Finally through some manipulations~\cite{French2009} and on assuming that $k_bT \ll E_F$ so the Fermi distribution is a step function, then we can obtain an expression for the conductivity tensor elements, $\sigma_{ij}$, as the Shockley-Chambers tube integral form of the Boltzmann equation,
+As discussed in section~\ref{Sec:Theo:dHvAOverview}, electrons at the Fermi surface subject to a magnetic field are confined to orbits of a particular area around the Fermi surface due to the Lorentz force. Dealing solely with the simpler case of closed orbits we make an approximation of a steady state and uniform distribution so the first two terms of equation~\ref{Eqn:Theo:BTE} are zero. We then incorporate the Lorentz force, $\vect{F} = q(\vect{E} + \vect{V}\times\vect{B})$, in the third term. Finally through some manipulations~\cite{French2009} and on assuming that $k_bT \ll E_F$ so the Fermi distribution is a step function, then we can obtain an expression for the conductivity tensor elements, $\sigma_{ij}$, as the Shockley-Chambers tube integral form of the Boltzmann equation,
 \begin{equation}
     \sigma_{ij} = \frac{e^2}{4 \pi^3 \hbar^2}\int \partial k_B \int^{2\pi}_{0} \partial \phi \int^{\infty}_{0} \partial \phi^{\prime} v_i(\phi) v_j(\phi - \phi^{\prime})\frac{m^*}{\omega_c}e^{\phi^{\prime}/(\omega_c \tau)}
 \end{equation}
@@ -36,7 +36,7 @@ where $n$ is the carrier density and $m^*$ is the effective mass. The off-diagon
  \begin{equation}
      \rho_{xy} = \frac{\omega_c \tau}{\sigma_0} = \left(\frac{eB}{m^*}\right)\tau\frac{m^*}{ne^2\tau} = \frac{B}{ne}
  \end{equation}
-The Hall resistivity can be understood if we consider an electron (hole) moving along a rectangular slab subject to a perpendicular magnetic field. The electrons (holes) are deflected to one side of the slab due to the Lorentz force on the charged particle. Eventually the charge density one one side becomes high enough that the Coulomb repulsion force of the density on subsequent charge carriers balances the Lorentz force and an equilibrium voltage between either side of the slab is reached. This voltage is known as the Hall voltage, $V_H$ and is given by,
+The Hall resistivity can be understood if we consider an electron (hole) moving along a rectangular slab subject to a perpendicular magnetic field. The electrons (holes) are deflected to one side of the slab due to the Lorentz force on the charged particle. Eventually the charge density on one side becomes high enough that the Coulomb repulsion force of the density on subsequent charge carriers balances the Lorentz force and an equilibrium voltage between either side of the slab is reached. This voltage is known as the Hall voltage, $V_H$ and is given by,
 \begin{equation}
     V_H = -\frac{I\rho_{xy}}{d} = -\frac{IB}{ned}
 \end{equation}
@@ -64,7 +64,7 @@ For a 2D metal in the weak field semiclassical limit, Ong determined that the tr
         \label{Fig:Theo:NegativeCurvatureLSCO}
     \end{center}
 \end{figure}
-Narduzzo \etal{} argues that this illustrated scenario is close to what we find in \ac{LSCO} at high doping. Here the mean free path is affected by the anisotropic scattering rate detailed in the introduction section and the proximity of the van-Hove singularity leads to negative curvature in the long flat sides of the Fermi surface as it changes between hole-like and electron-like, as shown for \ac{BSCO} in the right side panel of figure~\ref{Fig:Theo:NegativeCurvatureLSCO}, adapted from ref.~\cite{Kondo2004}.
+Narduzzo \etal{} argues that this illustrated scenario is close to what we find in \ac{LSCO} at high doping~\cite{Narduzzo2008}. Here the mean free path is affected by the anisotropic scattering rate detailed in the introduction section and the proximity of the van-Hove singularity leads to negative curvature in the long flat sides of the Fermi surface as it changes between hole-like and electron-like, as shown for \ac{BSCO} in the right side panel of figure~\ref{Fig:Theo:NegativeCurvatureLSCO}, adapted from ref.~\cite{Kondo2004}.
 
 The form of the equations set out originally by Ong~\cite{Ong1991} for a 2D metal derives a relation for the transverse conductivity, $\sigma_{xy}$ from the Boltzmann model are as follows,
 \begin{equation}
