@@ -95,6 +95,7 @@ A_{\textrm{tot}} = A_T A_D A_s A_{\Gamma} A_{\textrm{mos}} A_{\textrm{dop}} A_{\
 The above equation and derivatives of it are known as the \ac{LK} equation. To obtain the magnetisation the differential with respect to $B$ is taken to get,
 %%
 \begin{equation}
+    \label{Eqn:Theo:LKM}
 M = \left(\frac{e}{\hbar}\right)^{\frac{3}{2}}\frac{e\hbar F V B^{\frac{1}{2}}}{m_0 \pi^\frac{5}{2}\sqrt{2}}\left| \frac{\partial^2 a_{\textrm{ext}}}{\partial k^2_\perp}\right|^{-\frac{1}{2}}\sum_{p=1}^{\infty}p^{-\frac{3}{2}}A_{\textrm{tot}}\sin\left[2\pi p\left(\frac{F}{B} - \gamma\right)\pm\frac{\pi}{4}\right]
 \end{equation}
 %%
@@ -125,6 +126,8 @@ To measure the finer stationary point features on the Fermi surface (i.e. shallo
 
 The data analysis also requires sufficient oscillations for a \ac{FFT}. The top right panel of figure~\ref{Fig:Theo:ExtremalPhases} shows that in the region of \unit{6}{\tesla} and above, only half an oscillation has occurred meaning \ac{FFT} is unlikely to give a strong signal. Since data in the \ac{dHvA} experiment was taken between \unit{6}{\tesla} and \unit{18}{\tesla} we should not expect to be able to resolve pockets of radius less than \unit{$k_r\sim 0.01$}{\reciprocal\angstrom} without resorting to analysis of beating effects~\cite{Carrington2005}.
 
+The rate of change of the gradient of the energy dispersion along the electron orbit therefore affects the oscillation amplitude and is accounted for in the second derivative term in equation~\ref{Eqn:Theo:LKM}. The flatter the dispersion, the larger this term will be. In the limiting case where the dispersion in $k_\perp$ is effectively flat close to the orbit then we get the `Yamaji condition'~\cite{Yamaji1989}, and the oscillations are greatly enhanced.
+
 We move now to the other attenuating factors listed towards the end of section~\ref{Sec:Theo:ToyEqn}. The above calculation demonstrated how a distribution of frequencies can attenuate an oscillation. At infinity, interfering oscillations with a distribution of frequencies can be approximated instead as interfering oscillations with a distribution of phases. Because the oscillations we are measuring are in inverse field, once they become resolvable due to the experimental problems of noise, sample rates etc. the infinite oscillation approximation becomes valid. This means we can model each attenuating factor by convolving an appropriate phase distribution function with the cosine oscillatory term. It can be shown\footnote{See for example, Shoenberg pg 57--59.~\cite{Schoenberg1984}.} that this convolution results in a relatively simple multiplication factor --- hence the various $A$ factors listed in the \ac{LK} equation which we expand upon below.
 
 \subsubsection{Attenuation due to temperature}
@@ -149,6 +152,7 @@ The above factor includes $m^*_T$, the `thermal effective mass' as a term in a f
 The \ac{LK} equation arises from a semi-classical approach in that it considers a system of single particle Bloch functions which are manipulated using classical relations. Many-body effects such as electron-phonon and electron-electron interactions were incorporated later in the development of quantum oscillation theory and were shown to affect $A_s$ and $A_T$. In the above case, $A_T$ is modified by both electron-phonon and electron-electron effects which is manifest through changes to the effective mass term~\cite{Schoenberg1984}. The effective mass determined in this way is enhanced subject to the same interactions as in heat capacity experiments but are probed for a particular Fermi surface orbit, whereas heat capacity is averaged over the entire Fermi surface. As we will see later the thermal mass enhancement is different to the mass enhancement from spin measurements. For more one this see Rourke \etal~\cite{Rourke2010b}, \cite{Schoenberg1984} and references therein.
 
 \subsubsection{Attenuation due to finite quasiparticle lifetime}
+    \label{Sec:Theo:Dingle}
 
 The `Dingle factor', $A_D$, is due to the finite lifetime, $\tau$, of the electron quasiparticles due to scattering. Because of this time scale, there is a smearing of the electron energy through the uncertainty principle with a broadening which is approximately Lorentzian in shape. If we assume $\tau$ does not change with energy\footnote{This is not the case, but at most only a few Landau levels contribute to a particular oscillation and if we assume that the energy does not vary too much between subsequent levels then the assumption is a good one.}, then this can be modelled as a smearing of the Fermi level such that the broadening function is,
 \begin{equation}
@@ -159,7 +163,7 @@ and such that after the routine Fourier transform, the end relation is given by,
   A_D = e^{-\pi p m_b/e B\tau} = e^{-\pi p/\omega_c\tau} 
 \label{Eqn:Theo:DingleTerm}
 \end{equation}
-The exponent in the above can be thought of as the number of orbits the electron has completed (i.e. each harmonic $p$ is another successive orbit) divided by the expected number of orbits it will complete, so evidently we expect to see the higher harmonics having an exponentially lower amplitude. The term $m_b$ refers to the `band mass' which will be discussed in detail later on. Sometimes when discussing the Dingle term, we refer to the Dingle factor which is the factor in the exponential defined as $\alpha \equiv -\pi p m_b/(e \tau)$.
+The exponent in the above can be thought of as the number of orbits the electron has completed (i.e. each harmonic $p$ is another successive orbit) divided by the expected number of orbits it will complete, so evidently we expect to see the higher harmonics having an exponentially lower amplitude. We also expect the tighter, smaller orbits to have a stronger amplitude. The term $m_b$ refers to the `band mass' which will be discussed in detail later on. Sometimes when discussing the Dingle term, we refer to the Dingle factor which is the factor in the exponential defined as $\alpha \equiv -\pi p m_b/(e \tau)$.
 
 \subsubsection{Attenuation due to spin splitting}
 
@@ -224,6 +228,7 @@ therefore
 This means that under this approximation, any factor that includes the band mass, explicitly or implicitly\footnote{Meaning $m^*_T$ and $m^*_S$ which are both enhancements of the band mass.} can be resolved using the zero angle band mass with an angle dependence of $1/\cos{\theta}$.
 
 \subsection{Final theoretical observations}
+    \label{Sec:Theo:TheoreticalObservations}
 
 Originally \ac{dHvA} measurements were performed on elemental metals which, by definition, have a Fermi surface and aside from the $d$ and $f$ electron metals are well modelled by Fermi liquid theory. The fact that oscillations have been observed in cuprates and pnictides which have demonstrated distinctly non-Fermi liquid behaviour is therefore remarkable and moreover implies the presence of coherent quasi-particles at a Fermi surface, at least in the presence of a strong magnetic field. States in which these conditions co-incide are usually referred to as `generalised Fermi liquids' which demonstrates some of the hallmarks of Fermi liquid such as a Fermi surface but not others such as an energy squared dependence of the imaginary self energy. For more details see refs.~\cite{Wasserman1991} and \cite{Wasserman1996}.
 
