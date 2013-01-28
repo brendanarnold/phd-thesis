@@ -2,23 +2,13 @@
 \section{Spin density wave instability}
 \label{Sec:Theo:SpinDensityWave}
 
-\begin{figure}[htbp]
-    \begin{center}
-        \includegraphics[scale=0.8]{Chapter-Introduction/Figures/SpinFluctuationPairing/SpinFluctuationPairing}
-        \caption{A schematic illustration of the mechanism of spin fluctuation mediated pairing. Two itinerant electrons (filled circles) are bound via exchange interactions, $J$, to electrons in the electron gas coupled by an antiferromagnetic spin fluctuation (large dotted line) over a wavevector $q$. Adapted from ref.~\cite{Cox1995}}
-        \label{Fig:Intro:SpinFluctuationPairing}
-    \end{center}
-\end{figure}
-
-The schematic mechanism of spin fluctuation mediated pairing is illustrated in figure~\ref{Fig:Intro:SpinFluctuationPairing}. The first itinerant electron, $e_1$, couples to an electron in the background electronic continuum, $e_2$, which is subject to an antiferromagnetic fluctuation. They couple via the exchange interaction, $J$, and the spin of $e_2$ flips so that it is opposite to $e_1$. The spin flip propagates through the background electron gas to another electron, $e_3$, via the spin fluctuation interaction, which makes the location in close proximity favourable to an electron of opposite spin thus drawing in $e_4$ via the exchange interaction. The end result is a Cooper bound state of two itinerant electrons ($e_1$ and $e_4$) via an antiferromagnetic interaction in the background electron continuum.
-
-
 Section~\ref{Sec:Intro:Nesting} discussed the possibility of high-$T_c$ pairing being due to fluctuations in close proximity to a \ac{SDW} state. Here we briefly describe the \ac{SDW} state and some of the theory behind it.
 
 Broadly speaking a \ac{SDW} is a magnetic state just as ferromagnetism and antiferromagnetism are magnetic states. In its most general sense, a \ac{SDW} is a periodic modulation of magnetic spins in both space and time hence it being a `wave of spin density'. \ac{AFM} is actually a special case of a \ac{SDW} which does not vary in time, i.e. is static, and also varies spatially with the periodicity being some multiple of the real-space lattice vector, i.e. is commensurate with the lattice. Ferromagnetism can be thought of as a \ac{SDW} state with wavevector $\vect{q}=0$ i.e. it has no periodic variation and so is not really a `wave'.
 
 Using the mean field \ac{HFA} the following expression gives the stability condition for the \ac{SDW} state~\cite{Moriya1985},
 \begin{equation}
+    \label{Eqn:Theo:SDWCondition}
 2I\chi_0(\vect{q}) > 1,
 \end{equation}
 where $I$ is the exchange energy between electron bands and $\chi_0$ is the Lindhard susceptibility. The greater the Lindhard susceptibility, the more stable the state.
@@ -44,18 +34,67 @@ and is the matrix transition element for the scattering process. The numerator t
 \end{align}
 respectively. The real part is important in the context of instabilities in metals, the imaginary part gives the resonance modes for bosonic excitations such as e.g. plasmons, spin density waves, charge density waves, phonons etc. of energy $\hbar\omega$.
 
-The Lindhard function is a simple linear response for a particular static charge configuration. As soon as the charge configuration shifts due to the perturbing field the potential changes and so does the response. To compensate we consider the perturbing field to be adjusted by considering an additional induced field due to the changing charge along with the perturbing field and calculate the linear response in terms of that new combined field. This new form is the `first renormalisation'. This is still not perfect however since now the charge density changes again in a different way due to this new combined potential and so a second induced potential has to be considered giving the `second renormalisation' and so-on. This process of renormalisation forms the basis of linear response theory. In practice the \ac{RPA}\footnote{So called because it is considered that the charge densities in the higher renormalisations are from electron wavefunctions which have randomly shifted phases and so cancel each other out.} is generally invoked where corrections beyond the first renormalisation are ignored. The \ac{RPA} response of the Lindhard susceptibility is as follows,
+% The Lindhard function is a simple linear response for a particular static charge configuration. As soon as the charge configuration shifts due to the perturbing field the potential changes and so does the response. To compensate we consider the perturbing field to be adjusted by considering an additional induced field due to the changing charge along with the perturbing field and calculate the linear response in terms of that new combined field. This new form is the `first renormalisation'. This is still not perfect however since now the charge density changes again in a different way due to this new combined potential and so a second induced potential has to be considered giving the `second renormalisation' and so-on. This process of renormalisation forms the basis of linear response theory. In practice the \ac{RPA}\footnote{So called because it is considered that the charge densities in the higher renormalisations are from electron wavefunctions which have randomly shifted phases and so cancel each other out.} is generally invoked where corrections beyond the first renormalisation are ignored. The \ac{RPA} response of the Lindhard susceptibility is as follows,
+% \begin{equation}
+%     \chi(\vect{q},\omega) = \frac{\chi_0(\vect{q}, \omega)}{1 - \frac{4\pi e^2}{q^2} \chi_0(\vect{q}, \omega)}
+% \end{equation}
+% 
+% The renormalised susceptibility is not therefore necessarily at a maximum when the Lindhard, linear response, susceptibility becomes singular, rather the renormalised \ac{RPA} susceptibility tends to $\pm1$. Peaks in the Lindhard susceptibility function correspond to scattering of states which cross the Fermi energy yet remain close to the Fermi energy.  We can derive this function by modelling an oscillatory perturbing field on a system. To solve to get an expression for the second order perturbation, we make the adiabatic limit approximation (i.e. the perturbing potential is gradually increase from zero at $t=\infty$ to $v$ at $t=0$).
+
+\begin{figure}[htbp]
+    \begin{center}
+        \includegraphics[scale=0.9]{Chapter-Theory/Figures/LindhardFreeElectron/LindhardFreeElectron}
+        \caption{The analytically solved Lindhard susceptibility as a function of $q$ for the one, two and three dimensional cases for a free electron dispersion. Plotted from formulae derived in ref.~\cite{Dressel2002}.}
+        \label{Fig:Theo:LindhardFreeElectron}
+    \end{center}
+\end{figure}
+
+For the case of a free electron gas subject to a perturbing stationary wave (i.e. $\omega=0$), the Lindhard susceptibility can be resolved analytically. Figure~\ref{Fig:Theo:LindhardFreeElectron} shows the susceptibility as a function of $q$ for the one, two and three dimensional cases obtained from ref.~\cite{Dressel2002}. We can see that for the one dimensional case that there is a singularity at $q=2k_F$ which, according to equation~\ref{Eqn:Theo:SDWCondition}, would imply a \ac{SDW} state at that wavevector. For the three dimensional case however the susceptibility peaks at $q=0$ which implies a ferromagnetic instability. In the non-free electron case, a \ac{SDW} state can occur in a three dimensional material when a particular bandstructure condition known as `nesting' is met.
+
+\subsection{Band structure nesting}
+
+The nesting condition can be expressed in mathematical terms as follows~\cite{Majlis2007},
 \begin{equation}
-    \chi(\vect{q},\omega) = \frac{\chi_0(\vect{q}, \omega)}{1 - \frac{4\pi e^2}{q^2} \chi_0(\vect{q}, \omega)}
+    \label{Eqn:Theo:Nesting}
+    \epsilon_{\vect{k}} = \epsilon_{\vect{k} + \vect{Q}} \quad \textrm{for} \quad \epsilon_{\vect{k}} = \epsilon_F
 \end{equation}
+where $Q$ is the `nesting wavevector' and is characteristic of the particular nesting condition and $\epsilon_F$ is the Fermi energy. In geometric terms this corresponds to a mapping, across $Q$ in the \ac{BZ}, of a section of Fermi surface onto another section of similar size and shape. 
 
-The renormalised susceptibility is not therefore necessarily at a maximum when the Lindhard, linear response, susceptibility becomes singular, rather the renormalised \ac{RPA} susceptibility tends to $\pm1$. Peaks in the Lindhard susceptibility function correspond to scattering of states which cross the Fermi energy yet remain close to the Fermi energy.  We can derive this function by modelling an oscillatory perturbing field on a system. To solve to get an expression for the second order perturbation, we make the adiabatic limit approximation (i.e. the perturbing potential is gradually increase from zero at $t=\infty$ to $v$ at $t=0$).
+Majlis explores a hypothetical nesting case with a band dispersion of form $\epsilon_k = -\epsilon_0(\cos k_x a + \cos k_y a + \cos k_z a)$ which results in a nesting vector of $Q=(\frac{\pi}{a}, \frac{\pi}{a}, \frac{\pi}{a})$ resulting in a `perfect' nesting condition, (see ref.~\cite{Majlis2007} pg. 214). In practice, nesting may only be partial as perhaps only small regions of the Fermi surface satisfy or come close to satisfying the above condition, leading to only modest enhancements of the Lindhard function. It is these regions of nesting however that are of key interest to contemporary research into high-$T_c$ superconductivity, since it is in these regions we find the antiferromagnetic fluctuations that are thought to underlie the pairing mechanism.
 
-Although knowledge of the susceptibility is useful to model, for example, neutron scattering measurements, for our purposes we will use it as an indicator of possible \ac{SDW} instability vectors in our example materials. For this reason we make the assumption that the transition matrix elements are unity. This assumption greatly simplifies the calculations at the cost of some structure and as such should be borne in mind that the results are somewhat broad and qualitative.
+\subsection{Spin density wave fluctuations}
 
+The left panel of figure~\ref{Fig:Theo:PairingPotential1D} illustrates the pairing potential, $V$,  due to the retarded response of the ionic lattice to a passing quasiparticle, $e$. This mechanism underlies conventional, i.e. \ac{BCS} model, superconductivity and overcomes the Coulomb repulsion by a combination of ionic shielding of the quasiparticle charge and crucially a separation of the bound electrons in time as well as space.
+\begin{figure}[htbp]
+    \begin{center}
+        \includegraphics[scale=0.9]{Chapter-Theory/Figures/PairingPotential1D/PairingPotential1D}
+        \caption{Schematic plots of the pairing potential in real-space. Left: the potential due to a retarded response of the ion lattice to a passing electron as captured in the \ac{BCS} model. Right: the potential due to a spin fluctuation. Inset: the real-space locations of the attractive potentials (filled circles) and repulsive potentials (empty circles). Adapted from ref.~\cite{Monthoux2007}.}
+        \label{Fig:Theo:PairingPotential1D}
+    \end{center}
+\end{figure}
+
+The right panel of figure~\ref{Fig:Theo:PairingPotential1D} shows the pairing potential due to an antiferromagnetic spin fluctuation --- a precursor to the magnetic ordering that is found in the fully formed \ac{SDW} state. Here the Coulomb potential is overcome by separating the bound quasiparticles over space by a wavevector $Q$. The inset to figure~\ref{Fig:Theo:PairingPotential1D} illustrates a 2D representation of the pairing potential at neighbouring sites and shows how in some regions the pairing potential is attractive and in some regions the pairing potential is repulsive. 
+
+Cox \etal{} offers an explanation of how the potential due to the spin density fluctuation can be understood in terms of the nascent \ac{SDW} order propagating spin alignment in the background electronic medium~\cite{Cox1995}. An electron moving through an electronic background couples via correlation to an electron in the background with wavevector $\vect{k}$ causing the spin of the background electron to anti-align. Another electron in the background at wavevector $\vect{k} + \vect{Q}$ also flips due to an antiferromagnetic spin fluctuation\footnote{Presumably this is less likely in a fully formed \ac{SDW} state due to the stiffness of the state and the energy cost in creating long lived spin excitations.}. Because of the polarised nature of the background electron at $\vect{k} + \vect{Q}$, correlation makes the conditions favourable to spins of opposite alignment, hence the attractive potential for the quasiparticle necessary to create a bound singlet state.
+
+% \begin{figure}[htbp]
+%     \begin{center}
+%         \includegraphics[scale=0.8]{Chapter-Introduction/Figures/SpinFluctuationPairing/SpinFluctuationPairing}
+%         \caption{A schematic illustration of the mechanism of spin fluctuation mediated pairing. Two itinerant electrons (filled circles) are bound via exchange interactions, $J$, to electrons in the electron gas coupled by an antiferromagnetic spin fluctuation (large dotted line) over a wavevector $q$. Adapted from ref.~\cite{Cox1995}}
+%         \label{Fig:Intro:SpinFluctuationPairing}
+%     \end{center}
+% \end{figure}
+% 
+% The schematic mechanism of spin fluctuation mediated pairing is illustrated in figure~\ref{Fig:Intro:SpinFluctuationPairing}. The first itinerant electron, $e_1$, couples to an electron in the background electronic continuum, $e_2$, which is subject to an antiferromagnetic fluctuation. They couple via the exchange interaction, $J$, and the spin of $e_2$ flips so that it is opposite to $e_1$. The spin flip propagates through the background electron gas to another electron, $e_3$, via the spin fluctuation interaction, which makes the location in close proximity favourable to an electron of opposite spin thus drawing in $e_4$ via the exchange interaction. The end result is a Cooper bound state of two itinerant electrons ($e_1$ and $e_4$) via an antiferromagnetic interaction in the background electron continuum.
+% 
+% 
+% 
 
 \subsection{Notes on practical calculation}
 
 Taking the limits of $\delta \to 0$ of equation~\ref{Eqn:Theo:ImLindhard} which is effectively an ever narrowing Lorentzian distribution, results in an expression for the imaginary part of Lindhard susceptibility, $\Imag(\chi_0)\propto \delta(\epsilon_{k+q,l^\prime} - \epsilon{k,l} - \hbar\omega)$ where $\delta$ here is the Dirac delta function. In a calculation on a continuous energy dispersion, this results in resonances at excitations which match the difference in energies between states. However, in this thesis, the energy dispersions used to determine nesting conditions are not continuous and instead are based on discrete energies obtained from \ac{DFT} calculations. As such $\delta$ will have to remain finite in order to broaden the delta function into a Lorentzian with width comparable to the energy differences between the discrete points -- the net result of this will be loss of some fine structure.
 
 Secondly, only bands that lie close to the Fermi energy contribute significantly to the susceptibility. Since the calculations are computationally costly, only bands which are close (within the adiabatic or temperature broadening) to the Fermi energy are input into the calculations.
+
+Finally, we make the assumption that the transition matrix elements are unity. This assumption greatly simplifies the calculations at the cost of some structure and as such should be borne in mind when that the resulting calculations are somewhat broad and should only be used to make qualitative statements about the nesting condition.
+
